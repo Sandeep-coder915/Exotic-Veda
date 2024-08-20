@@ -1,21 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import  img3 from './fevicon 48 by 48-01.png'
 const Header = () => {
   return (
 <>
 <div className='header'>
-    <div className='logo'>
-    <Link to='/about'>Logo</Link>
-
-    </div>
+  
 
     <div className='Menu1'>
         <ul>
         <li><Link to='/'>Home</Link></li>
-      <li>Hair care</li> 
-        <li>Skin care  </li>
-        <li>Diet </li>
+      <li>Treatment & Tips </li> 
+        <li>Products </li>
+        <li>Serch By Category </li>
         </ul>
+    </div>
+    <div className='logo'>
+    <Link to='/about'><img src={img3} style={{height:"40px", borderRadius:"50%"}}></img></Link>
+
     </div>
     <div className='Menu1'>
         <ul>

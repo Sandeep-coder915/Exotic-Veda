@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Aboutus from './Components/AboutUs/Aboutus';
 import Product from './Components/products/Product';
 import Contactus from './Components/Contactus/Contactus';
+import Footer from './Components/Footer/Footer';
  
  function App() {
    
@@ -17,6 +18,7 @@ import Contactus from './Components/Contactus/Contactus';
         <Route path="/products" element={<Product/>} />
         <Route path="/contactus" element={<Contactus/>} />
         </Routes>
+<Footer/>
 </BrowserRouter>
      );
  }

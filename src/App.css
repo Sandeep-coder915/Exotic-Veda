@@ -1,11 +1,16 @@
- .header{
+.header {
+  position: fixed; /* Fixes the header at the top */
+  top: 0; /* Positions it at the top of the page */
+  width: 100%; /* Ensures the header spans the entire width of the page */
+  z-index: 1000; /* Keeps the header above other elements */
   display: flex;
   justify-content: space-around;
   gap: 10px;
   align-items: center;
   background-color: #f0f0f0;
-  
- }
+  padding: 10px 0; /* Optional: adds some padding for better spacing */
+}
+
  .header .Menu1 ul{
   list-style: none;
   text-decoration: none;
@@ -28,6 +33,7 @@
   position: relative;
   max-width: 100%;
   overflow: hidden;
+  margin-top: 5rem;
 }
 .carousel__btn {
   position: absolute;
@@ -115,4 +121,86 @@
   background-color: #350f0f;
   color: white;
   cursor: pointer;
+}
+
+
+
+
+/* ------------------------==Contact-==-------------- */
+
+.contact{
+  margin: 4rem;
+  padding: 4rem;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.contact  p{
+  letter-spacing: 0px;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+ 
+
+.contact input{
+width: 100%;
+padding:1.5rem 0.5rem;
+border-bottom: 1px solid #ccc;
+margin-bottom: 1rem;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.contact .btn:hover{
+  color: #f0f0f0;
+}
+
+.button{
+  display: flex;
+  gap: 30px;
+}
+ 
+@media only screen and (max-width: 600px) {
+  .button{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+  }
+  .contact input{
+    width: 130%;
+    padding:1.5rem 0.5rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+    .btn{
+      padding: 10px 10px;
+      text-align: center
+       
+    }
+}
+
+@media only screen and (max-width: 600px){
+  .Container .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .Container1{
+
+  }
+  .Container1 .row{
+    display: grid;
+ grid-template-columns: 1fr 1fr ;    width:80%;
+ /* grid-template-rows: 1fr 1fr; */
+  }
+  .carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 6.3rem;
+  }
 }

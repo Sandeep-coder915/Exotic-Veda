@@ -1,5 +1,5 @@
 import React from 'react'
-import img1  from './Untitled design (67).png'
+import img1  from './Assets/4000.png'
 
 const Product = () => {
   return (

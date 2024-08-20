@@ -2,7 +2,7 @@ import React from 'react'
 
 const Aboutus = () => {
   return (
-    <div>
+    <div style={{margin:'5rem'}}>
       about Us  
     </div>
   )
