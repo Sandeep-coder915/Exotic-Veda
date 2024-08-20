@@ -10,8 +10,8 @@ const Header = () => {
     <div className='Menu1'>
         <ul>
         <li><Link to='/'>Home</Link></li>
-      <li>Treatment & Tips </li> 
-        <li>Products </li>
+        <li><Link to='/treatments&tips'>Treatment & Tips </Link></li> 
+        <li><Link to='/products'>Products</Link></li>
         <li>Serch By Category </li>
         </ul>
     </div>

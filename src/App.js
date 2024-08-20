@@ -6,6 +6,7 @@ import Aboutus from './Components/AboutUs/Aboutus';
 import Product from './Components/products/Product';
 import Contactus from './Components/Contactus/Contactus';
 import Footer from './Components/Footer/Footer';
+import Treatment from './Components/Product treatments/Treatment';
  
  function App() {
    
@@ -17,6 +18,7 @@ import Footer from './Components/Footer/Footer';
       <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/products" element={<Product/>} />
         <Route path="/contactus" element={<Contactus/>} />
+        <Route path='/treatments&tips' element={<Treatment/>}></Route>
         </Routes>
 <Footer/>
 </BrowserRouter>
