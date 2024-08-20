@@ -7,8 +7,7 @@
   justify-content: space-around;
   gap: 10px;
   align-items: center;
-  background: linear-gradient(90deg, #34593A, #D0A82A);
-
+  background-color: #f0f0f0;
  
   padding: 10px 0; /* Optional: adds some padding for better spacing */
 }
