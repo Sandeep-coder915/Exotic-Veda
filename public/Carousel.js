@@ -23,7 +23,7 @@ const Carousel = ({ images }) => {
         className="carousel__img"
       />
       <button onClick={nextSlide} className="carousel__btn carousel__btn--next">
-        
+        &gt;
       </button>
     </div>
   );
