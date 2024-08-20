@@ -2,7 +2,38 @@ import React from 'react'
 
 const Aboutus = () => {
   return (
-    <div style={{margin:'5rem'}}>
+    <div className='about'>
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
+      about Us  
       about Us  
     </div>
   )

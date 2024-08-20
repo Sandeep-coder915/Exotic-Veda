@@ -21,7 +21,7 @@ const Home = () => {
      <Carousel images={images} />
      <Cateogry/>
      <Product/>
- <Aboutus/>
+ {/* <Aboutus/> */}
      <Contactus/>
 
      

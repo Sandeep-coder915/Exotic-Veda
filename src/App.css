@@ -7,7 +7,9 @@
   justify-content: space-around;
   gap: 10px;
   align-items: center;
-  background-color: #f0f0f0;
+  background: linear-gradient(90deg, #34593A, #D0A82A);
+
+ 
   padding: 10px 0; /* Optional: adds some padding for better spacing */
 }
 
@@ -30,10 +32,12 @@
 
  /* src/Carousel.css */
 .carousel {
+ 
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  margin-top: 5rem;
+  margin-top: 4.8rem;
+ 
 }
 .carousel__btn {
   position: absolute;
@@ -106,9 +110,6 @@
   transition:  box-shadow .6s ease-in;
   
 }
-
- 
-
 
 .btn{
   background-color:#f0f0f0;
@@ -203,4 +204,12 @@ border-right: none;
     overflow: hidden;
     margin-top: 6.3rem;
   }
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.1rem;
+  padding: 3rem;
+ 
 }

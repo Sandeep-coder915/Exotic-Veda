@@ -14,7 +14,7 @@ import Footer from './Components/Footer/Footer';
 <Header/>
 <Routes>
         <Route index element={<Home />} />
-        <Route path="/about" element={<Aboutus/>} />
+      <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/products" element={<Product/>} />
         <Route path="/contactus" element={<Contactus/>} />
         </Routes>

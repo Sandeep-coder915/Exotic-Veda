@@ -21,7 +21,7 @@ const Header = () => {
     </div>
     <div className='Menu1'>
         <ul>
-        <li><Link to='/aboout'>About Us </Link> </li>
+        <li><Link to='/aboutus'>About Us </Link> </li>
         <li><Link to='/contactus'>Contact Us</Link> </li>
         <a href='https://www.revaais.shop/collections/exotic-veda'><li style={{fontWeight:'bold'}}>Our Shop</li></a>
         </ul>
