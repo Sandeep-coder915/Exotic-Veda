@@ -14,7 +14,7 @@ const Home = () => {
       ];
   return (
      <>
-     <Header/>
+    
      <Carousel images={images} />
      <Cateogry/>
      <Product/>
