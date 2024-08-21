@@ -38,13 +38,12 @@ a:hover{
     display: flex;
     flex-direction: column;
   }
-  /* .Container1{
-
-  } */
+ 
   .Container1 .row{
     display: grid;
- grid-template-columns: 1fr 1fr ;    width:80%;
- /* grid-template-rows: 1fr 1fr; */
+ grid-template-columns: 1fr 1fr ;   
+  width:80%;
+ 
   }
   .carousel {
     position: relative;
@@ -74,7 +73,6 @@ a:hover{
 .Social-media{
   border-bottom: 4px solid gray;
 }  make this  css code responsive  use media query for mobile screens  off  diffrent diffreent 
-
 
 
 .carousel {
@@ -135,8 +133,8 @@ a:hover{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  justify-content: center;
-  align-items: center;
+  
+ 
   background-color: #f0f0f0;
 }
 
@@ -251,7 +249,8 @@ a:hover{
 
 @media only screen and (max-width: 600px) {
   .header {
-    flex-direction: column;
+ flex-direction: row;
+ height: 50px;
     padding: 20px 0;
   }
 
@@ -260,7 +259,7 @@ a:hover{
   }
 
   .carousel {
-    margin-top: 7rem;
+    margin-top: 30rem;
   }
 
   .carousel__btn {
@@ -273,15 +272,14 @@ a:hover{
   }
 
   .Container1 {
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+     
   }
    .Container1 .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-column-gap: 30px;
-row-gap: 30px;
+ 
   }
 
   .col-md-4 {
@@ -302,9 +300,12 @@ row-gap: 30px;
     padding: 1rem;
  
   }
-  .Container-Section img{
-width: 100%;
-  }
+ 
+.rr{
+  width: 100%;
+}
+
+
 }
 
 

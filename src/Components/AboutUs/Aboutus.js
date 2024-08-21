@@ -2,7 +2,7 @@ import React from 'react'
 import './Aboutus.css'
 import img from './About-assets/Exotic veda enlarged-01.png'
 import Header from '../Header/Header'
-import video  from './About-assets/WhatsApp Video 2024-08-07 at 16.07.54_c25b0265.mp4'
+import video3  from './About-assets/WhatsApp Video 2024-08-07 at 16.07.54_c25b0265.mp4'
 const Aboutus = () => {
   return (<> 
   <Header/>
@@ -12,7 +12,7 @@ const Aboutus = () => {
         <p>In the heart of a vibrant forest, there was a secret place known only to the wisest nature guardians. This place, full of life and ancient knowledge, was where the Exotic Veda brand began. The logo of Exotic Veda captures the spirit and history of this magical place, showing a deep connection with nature and timeless wisdom for well-being.</p>
 
         <h2>The Birth of the Design</h2>
-        <video src={video} autoPlay loop ></video>
+        <video src={video3} autoPlay  ></video>
         <p>Long ago, a group of wise people found this special place while searching for a peaceful spot to meditate. They were amazed by the beauty and calm of the forest and were inspired by the patterns in nature. They created a symbol to represent the balance and unity of the natural world. Over time, this symbol became the logo of Exotic Veda.</p>
 
         <h2>Elements of the Logo</h2>

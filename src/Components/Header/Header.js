@@ -3,6 +3,16 @@ import { Link } from 'react-router-dom'
 import  img3 from './Assets-Header/fevicon 48 by 48-01.png'
 import './header.css'
 const Header = () => {
+  window.addEventListener('scroll', function() {
+    const body = document.body;
+    const scrollTop = window.scrollY;
+    
+    if (scrollTop > 0) {
+      body.classList.add('scrolled');
+    } else {
+      body.classList.remove('scrolled');
+    }
+  });
   return (
 <>
 <div className='header'>
@@ -16,7 +26,7 @@ const Header = () => {
         </ul>
     </div>
     <div className='logo'>
-    <Link to='/about'><img src={img3} style={{height:"50px", borderRadius:"50%",width:'50px'}}></img></Link>
+    <Link to='/'><img src={img3} style={{height:"50px", borderRadius:"50%",width:'50px'}}></img></Link>
 
     </div>
     <div className='Menu1'>

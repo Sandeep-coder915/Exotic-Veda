@@ -8,8 +8,8 @@ const Cateogry = () => {
        
 <div className='row'>
     <div className='col-md-4'>
-        <div className='card'>
-            <img src={img}  style={{borderRadius:"50%"}} alt='img'></img>
+        <div className='card1'>
+            <img src={img}  style={{borderRadius:"50%"}} alt='img' height={'300px'}></img>
             <div className='card-body'>
                 <h5 className='card-title'>Skin Care </h5>
                 <p className='card-text'>Reveal Your Natural Beauty</p>
@@ -20,8 +20,8 @@ const Cateogry = () => {
 
     </div>
     <div className='col-md-4'>
-        <div className='card'>
-        <img src={img}  alt='img'   style={{borderRadius:"50%"}} ></img>   
+        <div className='card1'>
+        <img src={img}  alt='img'   style={{borderRadius:"50%"} }  height={'300px'} ></img>   
          <div className='card-body'>
                 <h5 className='card-title'>Dietary Use </h5>
                 <p className='card-text'>Healthy Choices, Happy You</p>
@@ -30,8 +30,8 @@ const Cateogry = () => {
         </div>
     </div>
     <div className='col-md-4'>
-        <div className='card'>
-        <img src={img}  alt='img'   style={{borderRadius:"50%"}} ></img>
+        <div className='card1'>
+        <img src={img}  alt='img'   style={{borderRadius:"50%"}}   height={'300px'}></img>
                     <div className='card-body'>
                 <h5 className='card-title'>hair Care </h5>
                 <p className='card-text'>Revive Your Hair's Natural Beauty</p>

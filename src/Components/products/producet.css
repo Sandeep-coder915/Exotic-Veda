@@ -1,15 +1,15 @@
 
-
+/* 
 .Container{
  
     width: 100%;
-   gap:20px;
+  
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
   
-  }
+  } */
   .Container1{
    
     width: 100%;
@@ -23,7 +23,7 @@
   
   }
   .row{
-   
+    
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -33,7 +33,7 @@
      box-sizing: border-box;
      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
   .col-md-4:hover{
     box-shadow: 1px 8px 20px grey;
@@ -52,4 +52,12 @@
     background-color: #350f0f;
     color: white;
     cursor: pointer;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
   }
