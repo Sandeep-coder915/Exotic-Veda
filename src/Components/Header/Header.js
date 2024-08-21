@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import  img3 from './fevicon 48 by 48-01.png'
+import  img3 from './Assets-Header/fevicon 48 by 48-01.png'
+import './header.css'
 const Header = () => {
   return (
 <>
 <div className='header'>
   
-
     <div className='Menu1'>
         <ul>
         <li><Link to='/'>Home</Link></li>

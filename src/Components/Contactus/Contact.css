@@ -1,0 +1,33 @@
+
+.contact{
+    margin: 4rem;
+    padding: 4rem;
+    /* border-bottom: 1px solid #ccc; */
+  }
+  
+  .contact  p{
+    letter-spacing: 0px;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  
+   
+  
+  .contact input{
+  width: 100%;
+  padding:1.5rem 0.5rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  }
+  
+  .contact .btn:hover{
+    color: #f0f0f0;
+  }
+  
+  .button{
+    display: flex;
+    gap: 30px;
+  }

@@ -1,0 +1,29 @@
+
+.header {
+    position: fixed; /* Fixes the header at the top */
+    top: 0; /* Positions it at the top of the page */
+    width: 100%; /* Ensures the header spans the entire width of the page */
+    z-index: 1000; /* Keeps the header above other elements */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    background-color: #D0A82A;
+   
+    padding: 10px 0; /* Optional: adds some padding for better spacing */
+  }
+  
+   .header .Menu1 ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+   }
+  
+   .header .Menu1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  
+   }
+  

@@ -1,4 +1,5 @@
 import React from 'react'
+import './producet.css'
 import img1  from './Assets/exe.png'
 import img2  from './Assets/Untitled design (66).png'
 
