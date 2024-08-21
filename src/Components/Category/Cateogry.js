@@ -1,5 +1,6 @@
 import React from 'react'
 import  img from './Untitled design (65).png'
+import  img2 from './Untitled design (65).png'
 const Cateogry = () => {
   return (
     <div> <h1 style={{textAlign:"center"}}>Our Categories</h1>

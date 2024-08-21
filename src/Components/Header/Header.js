@@ -10,13 +10,13 @@ const Header = () => {
     <div className='Menu1'>
         <ul>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/treatments&tips'>Treatment & Tips </Link></li> 
+        <li><Link to='/treatments&tips'>Reciepe & Tips </Link></li> 
         <li><Link to='/products'>Products</Link></li>
         <li>Serch By Category </li>
         </ul>
     </div>
     <div className='logo'>
-    <Link to='/about'><img src={img3} style={{height:"40px", borderRadius:"50%"}}></img></Link>
+    <Link to='/about'><img src={img3} style={{height:"50px", borderRadius:"50%",width:'50px'}}></img></Link>
 
     </div>
     <div className='Menu1'>
