@@ -1,0 +1,42 @@
+.header {
+  position: fixed; /* Fixes the header at the top */
+  top: 0; /* Positions it at the top of the page */
+  width: 100%; /* Ensures the header spans the entire width of the page */
+  z-index: 1000; /* Keeps the header above other elements */
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  background-color: #D0A82A;
+  padding: 10px 0;
+   /* Adds padding for better spacing */
+}
+
+/* Add padding-top to body to ensure content starts below the header */
+body {
+  padding-top: 60px; /* Adjust this value according to the height of your header */
+  margin: 0;
+}
+
+.header .Menu1 ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 24px;
+}
+
+.header .Menu1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Content blur effect when scrolling */
+.content {
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+/* When content is behind the header, apply the blur */
+body.scrolled .content {
+  filter: blur(5px); /* Adjust the blur level as needed */
+}

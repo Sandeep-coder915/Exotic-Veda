@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import './Contact.css'
 const Contactus = () =>  {
     const [name, setName] = useState('');
     const [num, setNum] = useState();
@@ -64,18 +65,15 @@ const Contactus = () =>  {
     return (
         <div className="contact">
             <h1>Contact Us</h1>
-            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-            <p className="catering_test">Catering Service, 42nd Living St, 43043 New York, NY</p>
+            <h2>Get in Touch with Us Today – We're Here to Help!</h2>
+            <p>At Exotic Veda, your satisfaction is our top priority. Whether you have a question about our products, need assistance with an order, or just want to share your feedback, we’re here to help. Please fill out the form below, and one of our team members will get back to you as soon as possible. We look forward to hearing from you and assisting with anything you need!</p>
+            <p className="catering_test">Adress-1001 S MAIN ST STE 500 KALISPELL, MT 59901</p>
             <form>
-                <input onChange={handleChange} value={name} placeholder="name" type="test" />
-                {name}
+                <input onChange={handleChange} value={name} placeholder="name"   />
+                <input   placeholder="Message " type="test" />
+               
                 <br />
-                <input onChange={handleNumChange} value={num} placeholder="How many people" />
-                {num}
-                <br />
-                <input onChange={hadleDate} value={date} placeholder="Date" type="datetime-local" />
-                {date}
-                <br />
+             
                 <input onChange={handleMesChange} value={message} placeholder="Message \ Special requirements" type="test" />
                 {message}
                 <div className="button ">
