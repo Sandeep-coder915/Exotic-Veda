@@ -8,6 +8,7 @@ const Cateogry = () => {
             <div className='Container'>
                 <div className='row'>
                     <div className='col-md-4'>
+                       s
                         <div className='card1'>
                             <img src={img} style={{ borderRadius: "50%" }} alt='img' height={'300px'}></img>
                             <div className='card-body'>
