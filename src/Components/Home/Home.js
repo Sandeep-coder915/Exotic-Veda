@@ -56,7 +56,7 @@ const Home = () => {
             <Carousel images={images} />
             <Cateogry />
 
-            {/* <Product /> */}
+            <Product />
             <Container />
             <Aboutus />
             <Contactus />
