@@ -322,34 +322,33 @@ a:hover{
 
 
 /* Ensure the images are stacked on top of each other */
-.card {
+/* .card {
   position: relative;
-  overflow: hidden; /* Ensures content stays within the card bounds */
-}
+  overflow: hidden;  
+} */
 
-.card img {
+/* .card img {
   width: 100%;
   height: auto;
   display: block;
-  transition: opacity 0.3s ease-in-out; /* Smooth transition for the hover effect */
-}
+  transition: opacity 0.3s ease-in-out;   */
 
 /* Hide the second image initially */
-.card img:nth-child(2) {
+/* .card img:nth-child(2) {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-}
+} */
 
 /* On hover, hide the first image and show the second */
-.card:hover img:nth-child(1) {
+/* .card:hover img:nth-child(1) {
   opacity: 0;
 }
 
 .card:hover img:nth-child(2) {
   opacity: 1;
-}
+} */
 
 /* Button styling */
 /* .card .btn-primary {

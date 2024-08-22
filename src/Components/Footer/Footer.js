@@ -14,7 +14,7 @@ const Footer = () => {
         </ul>
         <div><Link to="/"><img src={img3} style={{ height: "40px", width: "40px" }} /></Link></div>
 
-        <div>Contact-<span><a href="tel:555-666-7777">3126679634</a></span></div>
+        {/* <div>Contact-<span><a href="tel:555-666-7777">3126679634</a></span></div> */}
       </div>
           
 <div className='Footer-ul'>
