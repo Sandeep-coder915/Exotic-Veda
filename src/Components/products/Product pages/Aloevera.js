@@ -43,8 +43,8 @@ const Aloevera = () => {
           </ul>
         </div>
         <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
-        <button className='btn2'  > <a>Buy Now</a> </button>
-        <button className='btn2'  > <a> Vist Our Store</a> </button>
+        <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785'> <button className='btn2'  > Buy Now</button></a> 
+        <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
         </div>
    
       </div>

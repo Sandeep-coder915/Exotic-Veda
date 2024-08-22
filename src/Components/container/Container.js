@@ -1,18 +1,22 @@
-import React from 'react'
-import './container.css'
- 
-import banner1 from  "./Con-assets/finalise bannner 4 hair-01.png"
+import React from 'react';
+import './container.css';
+import img from './banner-1571858_1920.jpg'
 const Container = () => {
-  return (<div className='rr'>
-     <img src= '' width={'480px'} height={"44%"}></img>
-    <div className='Container-Section' style={{width:'50%'}}>
-      <p>Crafted by nature enthusiasts who were inspired by the rich traditions of Ayurveda, Exotic Veda was born out of a desire to create natural products that truly honor the beauty of your skin and hair. Frustrated by synthetic options that lacked authenticity, we turned to ancient wisdom to develop pure, effective solutions for holistic well-being</p>
+  return (
+    <div className='rr2'>
+      <div>
+        <img src={img} style={{maxWidth:'100%'}} ></img>
+      </div>
+      <div className='Container-Section'  >
+        <p>
+          Crafted by nature enthusiasts who were inspired by the rich traditions of Ayurveda, Exotic Veda was born out of a desire to create natural products that truly honor the beauty of your skin and hair. Frustrated by synthetic options that lacked authenticity, we turned to ancient wisdom to develop pure, effective solutions for holistic well-being.
+        </p>
+        <button className='btn'>Explore Our Store</button>
+      </div>
 
-      <button className='btn'>Explore Our Store  </button>
+    
     </div>
-   
-    </div>
-  )
-}
+  );
+};
 
-export default Container
+export default Container;

@@ -2,12 +2,15 @@
   position: fixed; /* Fixes the header at the top */
   top: 0; /* Positions it at the top of the page */
   width: 100%; /* Ensures the header spans the entire width of the page */
-  z-index: 1000; /* Keeps the header above other elements */
+   /* Keeps the header above other elements */
   display: flex;
   justify-content: space-around;
   gap: 10px;
   align-items: center;
-  background-color: #D0A82A;
+  /* background-color: #D0A82A; */
+  background:transparent;
+  background-color: #FBF5B7;
+  backdrop-filter: blur(15px);
   padding: 10px 0;
    /* Adds padding for better spacing */
 }

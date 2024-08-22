@@ -5,7 +5,7 @@ import img3 from "./fevicon 48 by 48-01.png"
 const Footer = () => {
   return (
     <div className='footer' style={{borderBottom:"4px solid grey"}} >
-      <div className='Social-media' style={{ display: 'flex', alignItems: 'center', gap: '20px', justifyContent: 'space-around' }}>
+      <div className='Social-media' >
         <ul style={{ display: "flex", gap: "30px", listStyle: "none" }}>
           <a href='https://www.facebook.com/profile.php?id=61552173721446'><li>facebook</li></a>
           <a href='https://www.instagram.com/revaais_us/'> <li>Instagram </li></a>
@@ -46,6 +46,7 @@ const Footer = () => {
     <li><Link to="/terms">Terms</Link></li>
     <li><Link to="/policy">Policy</Link></li>
   </ul>
+   
    
 </div>
 <div>

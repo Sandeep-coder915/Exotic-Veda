@@ -25,7 +25,7 @@ const Product = () => {
                    <h2 className='card-title' >Aloevera Powder for Men & Women</h2> 
                     <p className='card-text'>Welcome To exotic veda  l</p>
                     <p className='card-text'><small className='text-muted'>Last updated 3 mins ago</small></p>
-                    <a href='https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g'> <button className='btn btn-primary'>Buy Now</button></a>
+                    <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785'> <button className='btn btn-primary'>Buy Now</button></a>
                 </div>
     
             </div>
@@ -75,7 +75,7 @@ const Product = () => {
   
             </div>
  
-    {/* <div className='row'>
+    <div className='row'>
    
     <div className='col-md-4'>
             <div className='card'>
@@ -135,7 +135,7 @@ const Product = () => {
   
             </div>
  
-    <div className='row'>
+    {/* <div className='row'>
    
     <div className='col-md-4'>
             <div className='card'>

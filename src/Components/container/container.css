@@ -1,26 +1,58 @@
-
-
 /* -------Container-Section----- */
-.Container-Section{
-    display: flex;
-    flex-direction: column;
-     text-align: center;
-     line-height: 2rem;
-     background-color:beige;
-     width: 100%;
-     height: 400px;
-     gap: 20px;
-     
-     justify-content: center;
-     align-items: center;  background-image: url("C:\Users\PARI\Downloads\Social-Media-Links-main\Story\exotic veda\exoticveda\src\Components\container\Con-assets\Untitled design (69).png");
+.Container-Section {
+  text-align: center;
+  height: 450px;
+  width: 80%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ /* Optional: Uncomment if you want a border */
+}
+
+.rr2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.Container-Section p {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 5rem;
+  margin: 0;
+  padding: 0 1rem; /* Added padding for better text alignment */
+}
+
+/* Responsive Design for Small Screens */
+@media only screen and (max-width: 600px) {
+  .Container-Section {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+  
   }
-  .rr{
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem;
-  
+  .rr2 img{
+    height: 300px;
   }
-  
+
+  .rr2 {
+    width: 100%;
+    height: 100%;
+   
+    flex-direction: column;
+  }
+
+  .Container-Section p {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 2rem;
+   
+    padding: 0 1rem; /* Added padding for smaller screens */
+  }
+}
