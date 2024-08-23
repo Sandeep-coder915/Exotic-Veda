@@ -10,9 +10,12 @@ import Cateogry from '../Category/Cateogry.js';
 import Product from '../products/Product.js';
 import Aboutus from '../AboutUs/Aboutus.js';
 import Container from '../container/Container.js'
+import Treatment from "../Product treatments/Treatment.js";
+import  img from './Home-Assets/banner for amzon store.png'
+import  img5 from './Home-Assets/BANNER FOR MENU BEST SELLERS EXOTIC VEDA.png'
 
 const Home = () => {
-    const images = [img2,
+    const images = [img,img5,img2,
         img4, img3, img1,
 
     ];
@@ -52,12 +55,13 @@ const Home = () => {
 
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Carousel images={images} />
             <Cateogry />
 
             <Product />
             <Container />
+            <Treatment/>
             <Aboutus />
             <Contactus />
 

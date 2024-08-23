@@ -1,47 +1,53 @@
-import React from 'react'
+import React, { Component } from 'react';
+import Hamburger from 'hamburger-react'
+
 import { Link } from 'react-router-dom'
-import  img3 from './Assets-Header/fevicon 48 by 48-01.png'
+import img3 from './Assets-Header/fevicon 48 by 48-01.png'
 import './header.css'
-const Header = () => {
-  window.addEventListener('scroll', function() {
-    const body = document.body;
-    const scrollTop = window.scrollY;
-    
-    if (scrollTop > 0) {
-      body.classList.add('scrolled');
-    } else {
-      body.classList.remove('scrolled');
-    }
-  });
-  return (
-<>
-<div className='header'>
-  
-    <div className='Menu1'>
-        <ul>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/treatments&tips'>Reciepe & Tips </Link></li> 
-        <li><Link to='/products'>Products</Link></li>
-        <li>Serch By Category </li>
-        </ul>
-    </div>
-    <div className='logo'>
-    <Link to='/'><img src={img3} style={{height:"50px", borderRadius:"50%",width:'50px'}}></img></Link>
+class Navbar extends Component {
+  state = { clicked: false };
 
-    </div>
-    <div className='Menu1'>
-        <ul>
-        <li><Link to='/aboutus'>About Us </Link> </li>
-        <li><Link to='/contactus'>Contact Us</Link> </li>
-        <a href='https://www.revaais.shop/collections/exotic-veda'><li style={{fontWeight:'bold'}}>Our Shop</li></a>
-        </ul>
-    </div>
+  // Define the HandleClick function here
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  }
+
+  render() {
+    return (
+      <>
+        <nav>
+          <div>
+            <Link to='/'><img src={img3} style={{ borderRadius: '50%', height: '50px', width: '50px;' }}></img></Link>
+          </div>
+
+          <ul  id='ulnav' >
+            {/* <li ClassName='active'><Link to='./' >Home</Link></li> */}
+            <li>Home</li>
+            <li>Receipe &Tips</li>
+            <li>Products </li>
 
 
+          </ul >
+          <div >
 
-</div>
-</>
-  )
+            <ul id='navbar1' className={this.state.clicked ? "active" : ""} >
+              <li>AboutUS</li>
+              <Link to='/contactus'></Link>   <li>Contact US</li>
+              <li>Shop by Categories</li>
+              <a href='www.revaais.shop'> <li>Our Shop</li> </a>
+
+            </ul>
+          </div>
+
+          <div id='resposive' onClick={this.handleClick} >
+            <Hamburger toggled={this.state.clicked} toggle={this.handleClick} />
+
+          </div>
+        </nav>
+      </>
+    );
+  }
 }
 
-export default Header
+
+export default Navbar;

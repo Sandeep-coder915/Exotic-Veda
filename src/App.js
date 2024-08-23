@@ -7,6 +7,9 @@ import Product from './Components/products/Product';
 import Contactus from './Components/Contactus/Contactus';
 import Footer from './Components/Footer/Footer';
 import Treatment from './Components/Product treatments/Treatment';
+import Aloevera from './Components/products/Product pages/Aloevera';
+import Skincare from './Components/Category/Pages/Skincare.js'
+import Sandalwood from './Components/products/Product pages/Sandalwood.js';
  
  function App() {
    
@@ -19,6 +22,9 @@ import Treatment from './Components/Product treatments/Treatment';
         <Route path="/products" element={<Product/>} />
         <Route path="/contactus" element={<Contactus/>} />
         <Route path='/treatments&tips' element={<Treatment/>}></Route>
+        <Route path='/products/thriphala' element={<Aloevera/>}></Route>
+        <Route path='/category/skincare' element={<Skincare/>}></Route>
+        <Route path='/category/sandalwood' element={<Sandalwood/>}></Route>
         </Routes>
 <Footer/>
 </BrowserRouter>

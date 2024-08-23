@@ -1,11 +1,11 @@
 
 .carousel {
+ width: 100%;
  
-    position: relative;
     max-width: 100%;
     overflow: hidden;
-    margin: 0;
-    /* margin-top: 4.5rem; */
+    
+    margin-top: 4rem;
    
   }
   .carousel__btn {
