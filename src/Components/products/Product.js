@@ -8,6 +8,12 @@ import img12  from './Assets/sandalwood front 2 300.png'
 import img2  from './Assets/Untitled design (66).png'
 import triphala2 from './Assets/Triphala  2nd img  .png'
 import triphala1 from './Assets/Untitled design (70).png'
+
+
+
+
+
+
 const products = [
   {
     id: 1,

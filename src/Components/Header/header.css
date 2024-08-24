@@ -133,3 +133,50 @@ nav{
  }
 }
     
+
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative; /* Position relative to the parent li */
+}
+
+.dropdown-menu {
+  margin-top: 10px;
+  display: none; /* Initially hide the dropdown */
+  position: absolute; /* Position dropdown absolutely under parent */
+  top: 100%; /* Align the dropdown below the parent */
+  left: 0; /* Align to the left */
+  background-color: #fff; /* Background color */
+  padding: 10px 0; /* Padding for dropdown items */
+  list-style: none; /* Remove default list styling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
+  border-radius: 4px; /* Rounded corners */
+  z-index: 9999; /* Ensure dropdown is above other elements */
+  width: 200px; /* Set a fixed width for the dropdown */
+}
+
+/* Display dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown on hover */
+}
+
+/* Style dropdown menu items */
+.dropdown-menu li {
+  padding: 10px 15px; /* Padding for dropdown items */
+  color: #333; /* Text color */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1; /* Change background on hover */
+}
+
+.dropdown-menu a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Text color */
+  display: block; /* Make the link a block element */
+}
+
+.dropdown-menu a:hover {
+  color: #ff5e62; /* Hover color for links */
+}
