@@ -12,6 +12,7 @@ import Skincare from './Components/Category/Pages/Skincare.js'
 import Sandalwood from './Components/products/Product pages/Sandalwood.js';
 import TermsAndConditions from './Components/Footer/Policies/TermsAndConditions.js';
 import FAQ from './Components/FAQ/FAQ.js';
+import ReviewPage from './Components/Footer/Review/Review.js';
  
  function App() {
    
@@ -21,6 +22,7 @@ import FAQ from './Components/FAQ/FAQ.js';
 <Routes>
         <Route index element={<Home />} />
       <Route path="/aboutus" element={<Aboutus />} />
+      <Route path="/review" element={<ReviewPage/>} />
         <Route path="/products" element={<Product/>} />
         <Route path="/contactus" element={<Contactus/>} />
         <Route path='/treatments&tips' element={<Treatment/>}></Route>

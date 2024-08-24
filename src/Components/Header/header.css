@@ -141,7 +141,7 @@ nav{
 }
 
 .dropdown-menu {
-  margin-top: 10px;
+  
   display: none; /* Initially hide the dropdown */
   position: absolute; /* Position dropdown absolutely under parent */
   top: 100%; /* Align the dropdown below the parent */
