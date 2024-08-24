@@ -10,6 +10,8 @@ import Treatment from './Components/Product treatments/Treatment';
 import Aloevera from './Components/products/Product pages/Aloevera';
 import Skincare from './Components/Category/Pages/Skincare.js'
 import Sandalwood from './Components/products/Product pages/Sandalwood.js';
+import TermsAndConditions from './Components/Footer/Policies/TermsAndConditions.js';
+import FAQ from './Components/FAQ/FAQ.js';
  
  function App() {
    
@@ -25,6 +27,13 @@ import Sandalwood from './Components/products/Product pages/Sandalwood.js';
         <Route path='/products/thriphala' element={<Aloevera/>}></Route>
         <Route path='/category/skincare' element={<Skincare/>}></Route>
         <Route path='/category/sandalwood' element={<Sandalwood/>}></Route>
+        <Route path='/terms' element={<TermsAndConditions/>}></Route>
+        <Route path='/faq' element={<FAQ/>}></Route>
+        
+
+
+        {/* =======fOOTER rOUTES====== */}
+
         </Routes>
 <Footer/>
 </BrowserRouter>

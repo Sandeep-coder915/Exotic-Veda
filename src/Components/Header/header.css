@@ -30,8 +30,8 @@ nav{
   position: fixed;
   top: 0;
   backdrop-filter: blur(15px);
-  
-  background: linear-gradient(255,255,255,0.6);
+  background-color: beigeee;
+  /* background: linear-gradient(255,255,255,0.6); */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 #navbar1 {
@@ -75,7 +75,7 @@ nav{
   display: none;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1024px) {
   #navbar1 {
     display: none; /* Hide the navbar on smaller screens by default */
     flex-direction: column;
@@ -85,7 +85,7 @@ nav{
     right: 0;
     width: 100%;
     height: 50vh;
-   top: 4.5%; 
+   top: 70%; 
     backdrop-filter: blur(15px);
     background-color: white;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
