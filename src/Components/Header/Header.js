@@ -32,7 +32,7 @@ class Navbar extends Component {
 
           <ul id='ulnav'>
             <Link to='/'><li>Home</li></Link>
-            <Link to='/treatments&tips'><li>Recipe & Tips</li></Link>
+            <Link to='/reciepe'><li>Recipe & Tips</li></Link>
             <Link to='/products'><li>Products</li></Link>
           </ul>
 

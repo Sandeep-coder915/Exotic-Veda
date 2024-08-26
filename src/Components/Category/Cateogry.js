@@ -48,9 +48,9 @@ const Cateogry = () => {
                 </div>
             </div>
             <div>
-                <img src={imglogo} style={{maxWidth:'100%', marginTop:'10px'}}></img>
-                <img src={img23} style={{maxWidth:'100%'}}></img>
-                <img src={img22} style={{maxWidth:'100%'}}></img>
+                <img src={imglogo} style={{maxWidth:'100%', marginTop:'10px',minWidth:'100%'}}></img>
+                <img src={img23} style={{maxWidth:'100%',minWidth:'100%'}}></img>
+                <img src={img22} style={{maxWidth:'100%',minWidth:'100%'}}></img>
   
             </div> 
             </div>
