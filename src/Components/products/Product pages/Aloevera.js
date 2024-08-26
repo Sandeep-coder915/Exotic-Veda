@@ -6,6 +6,28 @@ import aloe4 from './81GeyCtVdFL._AC_SX679_.jpg'
 
 import './Aloe.css'
 const Aloevera = () => {
+  const products = [
+    {
+      id: 1,
+      img: 'https://via.placeholder.com/300x300', // Replace with your image URL
+      title: 'Product 1',
+      description: 'This is a description for Product 1. It has many great features that you will love.',
+    },
+    {
+      id: 2,
+      img: 'https://via.placeholder.com/300x300', // Replace with your image URL
+      title: 'Product 2',
+      description: 'This is a description for Product 2. It is designed to make your life easier and more enjoyable.',
+    },
+    {
+      id: 3,
+      img: 'https://via.placeholder.com/300x300', // Replace with your image URL
+      title: 'Product 3',
+      description: 'This is a description for Product 3. A must-have item that is both functional and stylish.',
+    }
+  ];
+  
+  
   return (
     <>
       <div className='Aloevera '>
@@ -48,6 +70,19 @@ const Aloevera = () => {
         </div>
    
       </div>
+      {/* <div className="product-card-container">
+      {products.map((product) => (
+        <div className="product-card" key={product.id}>
+          <div className="image-container">
+            <img src={product.img} alt={product.title} />
+          </div>
+          <div className="text-container">
+            <h2 className="product-title">{product.title}</h2>
+            <p className="product-description">{product.description}</p>
+          </div>
+        </div>
+      ))}
+    </div> */}
 
 
     </>

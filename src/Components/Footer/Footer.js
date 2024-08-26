@@ -1,65 +1,64 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import img3 from "./fevicon 48 by 48-01.png"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import img3 from "./fevicon 48 by 48-01.png";
 
 const Footer = () => {
+  // Array of social media links
+  const socialLinks = [
+    { href: 'https://www.facebook.com/profile.php?id=61552173721446', name: 'Facebook' },
+    { href: 'https://www.instagram.com/revaais_us/', name: 'Instagram' },
+    { href: 'https://www.youtube.com/@RevaaaisUS', name: 'YouTube' }
+  ];
+
+  // Array of footer links
+  const footerLinks = [
+    { to: '/aboutus', name: 'About' },
+    { to: '/contactus', name: 'Contact' },
+    { to: '/FAQ', name: 'FAQ' },
+    { to: '/terms', name: 'Terms' },
+    { to: '/policy', name: 'Policy' ,
+      to: '/review',name:'Review'
+    }
+  ];
+
   return (
-    <div className='footer' style={{borderBottom:"4px solid grey"}} >
-      <div className='Social-media' >
+    <div className='footer' style={{ borderBottom: "4px solid grey" }}>
+      {/* Social Media Section */}
+      <div className='Social-media'>
         <ul style={{ display: "flex", gap: "30px", listStyle: "none" }}>
-          <a href='https://www.facebook.com/profile.php?id=61552173721446'><li>facebook</li></a>
-          <a href='https://www.instagram.com/revaais_us/'> <li>Instagram </li></a>
-          <a href='https://www.youtube.com/@RevaaaisUS'><li>Youtube</li></a>
-
+          {socialLinks.map((link, index) => (
+            <a href={link.href} key={index}>
+              <li>{link.name}</li>
+            </a>
+          ))}
         </ul>
-        <div><Link to="/"><img src={img3} style={{ height: "40px", width: "40px" }} /></Link></div>
-
-        {/* <div>Contact-<span><a href="tel:555-666-7777">3126679634</a></span></div> */}
+        <div>
+          <Link to="/">
+            <img src={img3} style={{ height: "40px", width: "40px" }} alt="Logo" />
+          </Link>
+        </div>
       </div>
-          
-<div className='Footer-ul'>
-  <ul>
-    <li><Link to="/aboutus">About</Link></li>
-    <li><Link to="/contactus">Contact</Link></li>
-    <li><Link to="/FAQ">FAQ</Link></li>
-    <li><Link to="/terms">Terms</Link></li>
-    <li><Link to="/policy">Policy</Link></li>
-  </ul>
-  <ul>
-    <li><Link to="/aboutus">About</Link></li>
-    <li><Link to="/contactus">Contact</Link></li>
-    <li><Link to="/FAQ">FAQ </Link></li>
-    <li><Link to="/terms">Terms</Link></li>
-    <li><Link to="/policy">Policy</Link></li>
-  </ul>
-  <ul>
-    <li><Link to="/aboutus">About</Link></li>
-    <li><Link to="/contactus">Contact</Link></li>
-    <li><Link to="/FAQ">FAQ</Link></li>
-    <li><Link to="/terms">Terms</Link></li>
-    <li><Link to="/policy">Policy</Link></li>
-  </ul>
-  <ul>
-    <li><Link to="/aboutus">About</Link></li>
-    <li><Link to="/contactus">Contact</Link></li>
-    <li><Link to="/FAQ">FAQ</Link></li>
-    <li><Link to="/terms">Terms</Link></li>
-    <li><Link to="/policy">Policy</Link></li>
-  </ul>
-   
-   
-</div>
-<div>
-  <p style={{ fontSize: "14px", textAlign:'center',fontWeight:'bold' }}>Copyright 2024,</p>
-  <p style={{ fontSize: "14px", textAlign:'center',fontWeight:'bold' }}>
-    All Rights Reserved
-  </p>
 
+      {/* Footer Links Section */}
+      <div className='Footer-ul'>
+        {Array.from({ length: 4 }).map((_, i) => (
+          <ul key={i}>
+            {footerLinks.map((link, index) => (
+              <li key={index}>
+                <Link to={link.to}>{link.name}</Link>
+              </li>
+            ))}
+          </ul>
+        ))}
+      </div>
 
-
-</div>
+      {/* Copyright Section */}
+      <div>
+        <p style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold' }}>Copyright 2024,</p>
+        <p style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold' }}>All Rights Reserved</p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
