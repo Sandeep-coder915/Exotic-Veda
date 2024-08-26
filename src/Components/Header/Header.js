@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState,Component } from 'react';
 import Hamburger from 'hamburger-react'
 
 import { Link } from 'react-router-dom'
@@ -21,19 +21,20 @@ class Navbar extends Component {
           </div>
 
           <ul  id='ulnav' >
-            {/* <li ClassName='active'><Link to='./' >Home</Link></li> */}
-            <li>Home</li>
-            <li>Receipe &Tips</li>
-            <li>Products </li>
+       
+            <Link to='/'><li>Home</li></Link>
+            <Link to='/treatments&tips'><li>Receipe &Tips</li></Link>
+          <Link to='/products'>  <li>Products </li></Link>
+    
 
 
           </ul >
           <div >
 
             <ul id='navbar1' className={this.state.clicked ? "active" : ""} >
-              <li>AboutUS</li>
-              <Link to='/contactus'></Link>   <li>Contact US</li>
-              <li>Shop by Categories</li>
+             <Link to='/aboutus'><li>AboutUS</li></Link> 
+              <Link to='/contactus'><li>Contact US</li></Link>
+              <Link to=''></Link> <li>Shop by Categories</li>
               <a href='www.revaais.shop'> <li>Our Shop</li> </a>
 
             </ul>

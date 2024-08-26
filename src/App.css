@@ -1,41 +1,24 @@
-a{
+a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  
+
 }
-a:hover{
+
+a:hover {
   color: #007bff;
   font-weight: 20px;
 }
- 
 
 
-.about{
+.about {
   display: flex;
   flex-direction: column;
-   
+
   padding: 3rem;
- 
+
 }
 
-.footer{
-  background-color:beige;
-  padding: 2rem;
-  margin-top: 5rem;
- 
-  /* border: 4px solid  black; */
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0)
-}
-.Social-media{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 30px;
-  border-bottom: 4px solid gray;
-}
 
 
 .carousel {
@@ -96,8 +79,8 @@ a:hover{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
- 
+
+
   background-color: #f0f0f0;
 }
 
@@ -135,18 +118,18 @@ a:hover{
 }
 
 /* Contact Section */
-.contact {
+/* .contact {
   margin: 4rem;
   padding: 4rem;
-}
+} */
 
-.contact p {
+/* .contact p {
   letter-spacing: 0px;
   font-size: 15px;
   padding-bottom: 20px;
-}
+} */
 
-.contact input {
+/* .contact input {
   width: 100%;
   padding: 1.5rem 0.5rem;
   border-bottom: 1px solid #ccc;
@@ -154,11 +137,11 @@ a:hover{
   border-top: none;
   border-left: none;
   border-right: none;
-}
+} */
 
-.contact .btn:hover {
+/* .contact .btn:hover {
   color: #f0f0f0;
-}
+} */
 
 .button {
   display: flex;
@@ -166,18 +149,99 @@ a:hover{
 }
 
 /* Media Queries for Responsive Design */
+
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card a:hover {
+  color: blue;
+  z-index: 9;
+}
+
+.Footer-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid gray;
+
+
+}
+
+
+/* =================Footer============= */
+
+.footer {
+  background-color: beige;
+  padding: 2rem;
+  margin-top: 5rem;
+
+  /* border: 4px solid  black; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0)
+}
+
+.Social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 4px solid gray;
+}
+
+
+.Footer-ul li {
+  list-style: none;
+}
+
+.Footer-ul li a:hover {
+  color: #D0A82A;
+}
+
+/* ==============Footer End ============== */
+
+
+
+/* ==================SCrollBar ================= */
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #FBF5B7;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(58, 204, 248);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(201, 189, 169);
+  /* creates padding around scroll thumb */
+}
+
+/* ============End ScollBar ============= */
+
+
 @media only screen and (max-width: 900px) {
-  
-  
+
+
   .carousel__btn {
     font-size: 1.2rem;
     padding: 0.8rem;
   }
-  
+
   .btn {
     padding: 10px 40px;
     font-size: 18px;
   }
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -185,21 +249,21 @@ a:hover{
     margin-top: 6rem;
   }
 
-  .contact {
+  /* .contact {
     margin: 2rem;
     padding: 2rem;
-  }
-  
+  } */
+
   .Container .row {
     flex-direction: column;
   }
-  
+
   .Container1 .row {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
   }
-  
+
   .col-md-4 {
     width: 100%;
     margin-bottom: 20px;
@@ -210,10 +274,14 @@ a:hover{
   }
 }
 
+ 
+
 @media only screen and (max-width: 600px) {
+
+
   .header {
- flex-direction: row;
- height: 50px;
+    flex-direction: row;
+    height: 50px;
     padding: 20px 0;
   }
 
@@ -222,7 +290,7 @@ a:hover{
   }
 
   .carousel {
-margin-top: 300px;
+    margin-top: 300px;
   }
 
   .carousel__btn {
@@ -236,21 +304,24 @@ margin-top: 300px;
 
   .Container1 {
     width: 100%;
-     
+
   }
-   .Container1 .row{
+
+  .Container1 .row {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
- 
+
   }
-  .Container1 .row{
+
+  .Container1 .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-column-gap: 30px;
-row-gap: 30px;
+    column-gap: 30px;
+    row-gap: 30px;
   }
+
   .col-md-4 {
     padding: 5px;
   }
@@ -259,28 +330,45 @@ row-gap: 30px;
     padding: 10px 20px;
     font-size: 16px;
   }
-  
-  .contact input {
-    width: 100%;
-  }
+
+  /* .contact input {
+       width: 100%;
+     } */
 
   .footer {
     margin-top: 3rem;
     padding: 1rem;
- 
-  }
- 
- 
 
-}
-@media only screen and (max-width: 600px) {
-  .button{
+  }
+
+
+  .Container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Container1 .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+
+  }
+
+  .carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+
+  }
+
+  .button {
     display: flex;
     flex-direction: column;
     gap: 30px;
- 
+
   }
-  .contact input{
+
+  /* .contact input{
     width: 130%;
     padding:1.5rem 0.5rem;
     border-bottom: 1px solid #ccc;
@@ -288,114 +376,40 @@ row-gap: 30px;
     border-top: none;
     border-left: none;
     border-right: none;
-    }
-    .btn{
-      padding: 10px 10px;
-      text-align: center
-       
-    }
+    } */
+  .btn {
+    padding: 10px 10px;
+    text-align: center
+  }
 }
 
-@media only screen and (max-width: 600px){
-  .Container .row{
+/* ============Category =============== */
+@media only screen and (max-width: 768px) {
+  .Container {
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scrolling for iOS */
+  }
+
+  .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    /* Ensure the row takes full width */
   }
- 
-  .Container1 .row{
-    display: grid;
- grid-template-columns: 1fr  ;   
-  width:80%;
- 
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    min-width: 70%;
+    /* Show about two cards at a time on smaller screens */
   }
-  .carousel {
-    position: relative;
+
+  .card1 {
     max-width: 100%;
-    overflow: hidden;
- 
+    /* Ensure cards do not exceed the container width */
   }
 }
 
-/* Ensure the images are stacked on top of each other */
-/* .card {
-  position: relative;
-  overflow: hidden;  
-} */
-
-/* .card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: opacity 0.3s ease-in-out;   */
-
-/* Hide the second image initially */
-/* .card img:nth-child(2) {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-} */
-
-/* On hover, hide the first image and show the second */
-/* .card:hover img:nth-child(1) {
-  opacity: 0;
-}
-
-.card:hover img:nth-child(2) {
-  opacity: 1;
-} */
-
-/* Button styling */
-/* .card .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.card .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #004085;
-} */
-
-.card a{
-text-decoration: none;
-color: black;
-}
-.card a:hover{
-  color: blue;
-  z-index: 9;
-}
-
-.Footer-ul{
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  border-bottom: 3px solid  gray;
-  
-  
-}
-
-.Footer-ul li{
-  list-style: none;
-}
-.Footer-ul li a:hover{
-  color: #D0A82A;
-}
-
-
-
-
-/* -----sCRILLBAR------- */
-
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background: #FBF5B7;        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(58, 204, 248);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid rgb(201, 189, 169);  /* creates padding around scroll thumb */
-}
+/* ================end============ */
