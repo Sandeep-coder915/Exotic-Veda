@@ -2,7 +2,7 @@
   /* border: 4px solid black; */
   padding: 4rem;
   margin: 0 auto;
-  max-width: 800px;
+  max-width:100%;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
 }
 
 .contact input, .contact textarea {
-  width: 100%;
+  width: 70%;
   padding: 1rem 0.5rem;
   border: 1px solid #ccc;
   margin-bottom: 1rem;
@@ -58,10 +58,16 @@
   .contact {
     padding: 2rem;
   }
-
   .contact input, .contact textarea {
-    font-size: 0.9rem;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: none; /* Prevent resizing of the textarea */
   }
+  
 
   .button {
     justify-content: center; /* Center buttons on smaller screens */

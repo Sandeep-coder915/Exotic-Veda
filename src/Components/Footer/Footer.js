@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'; // Import social media icons
 import img3 from "./fevicon 48 by 48-01.png";
-import  './footer.css'
+import './footer.css';
+
 const Footer = () => {
-  // Array of social media links
+  // Array of social media links with icons
   const socialLinks = [
-    { href: 'https://www.facebook.com/profile.php?id=61552173721446', name: 'Facebook' },
-    { href: 'https://www.instagram.com/revaais_us/', name: 'Instagram' },
-    { href: 'https://www.youtube.com/@RevaaaisUS', name: 'YouTube' }
+    { href: 'https://www.facebook.com/profile.php?id=61552173721446', icon: <FaFacebook />, name: 'Facebook' },
+    { href: 'https://www.instagram.com/revaais_us/', icon: <FaInstagram />, name: 'Instagram' },
+    { href: 'https://www.youtube.com/@RevaaaisUS', icon: <FaYoutube />, name: 'YouTube' }
   ];
 
   // Array of footer links
@@ -16,9 +18,8 @@ const Footer = () => {
     { to: '/contactus', name: 'Contact' },
     { to: '/FAQ', name: 'FAQ' },
     { to: '/terms', name: 'Terms' },
-    { to: '/policy', name: 'Policy' ,
-      to: '/review',name:'Review'
-    }
+    { to: '/policy', name: 'Policy' },
+    { to: '/review', name: 'Review' }
   ];
 
   return (
@@ -27,19 +28,16 @@ const Footer = () => {
       <div className='Social-media'>
         <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
           {socialLinks.map((link, index) => (
-            <a href={link.href} key={index}>
-              <li>{link.name}</li>
+            <a href={link.href} key={index} target="_blank" rel="noopener noreferrer">
+              <li style={{ fontSize: '24px' }}>{link.icon}</li> {/* Display the icon */}
             </a>
           ))}
         </ul>
         <div>
           <Link to="/">
-            <img src={img3} style={{height: "40px",width: "40px" }} alt="Logo" />
+            <img src={img3} style={{ height: "40px", width: "40px" }} alt="Logo" />
           </Link>
         </div>
-        {/* <div style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold',marginRight:'20px' }}>
-          contact-9876754562
-        </div> */}
       </div>
 
       {/* Footer Links Section */}
