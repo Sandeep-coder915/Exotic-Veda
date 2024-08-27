@@ -1,33 +1,9 @@
 import React ,{useState} from 'react'
-import aloe from './aloe ver banner stretch_Vegan Circle Green copy (1).png'
-import aloe2 from './banner.png'
-import aloe3 from './81SiXSMhYIL._AC_SX679_.jpg'
-import aloe4 from './81GeyCtVdFL._AC_SX679_.jpg'
-import roswater from './81GeyCtVdFL._AC_SX679_.jpg'
- 
+import { assets } from '../Assets/prodimg/assets'
 
 import './Aloe.css'
 const Aloevera = () => {
-  const products = [
-    {
-      id: 1,
-      img: 'https://via.placeholder.com/300x300', // Replace with your image URL
-      title: 'Product 1',
-      description: 'This is a description for Product 1. It has many great features that you will love.',
-    },
-    {
-      id: 2,
-      img: 'https://via.placeholder.com/300x300', // Replace with your image URL
-      title: 'Product 2',
-      description: 'This is a description for Product 2. It is designed to make your life easier and more enjoyable.',
-    },
-    {
-      id: 3,
-      img: 'https://via.placeholder.com/300x300', // Replace with your image URL
-      title: 'Product 3',
-      description: 'This is a description for Product 3. A must-have item that is both functional and stylish.',
-    }
-  ];
+  
   const recipes = [
     {
       id: 1,
@@ -47,7 +23,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This face pack helps control excess oil, reduce acne, and soothe inflammation, thanks to the anti-inflammatory and antibacterial properties of aloe vera and tea tree oil.',
-        img: roswater,
+        img: assets.roswater,
     },
     {
       id: 2,
@@ -66,7 +42,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
-        img:aloe4,},
+        img:assets.aloe4,},
     {
       id: 3,
       title: 'Aloe Vera and Cucumber Cooling Mask',
@@ -84,7 +60,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask helps balance the skin, providing hydration to dry areas while cooling and soothing oily parts.',
-        img:aloe4,},
+        img:assets.aloe4,},
     {
       id: 4,
       title: 'Aloe Vera and Vitamin E Anti-Aging Mask',
@@ -102,7 +78,7 @@ const Aloevera = () => {
         'Rinse off with lukewarm water and pat dry.',
       ],
       benefits:
-        'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.',
+        'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.',img:assets.aloe4
     },
     {
       id: 5,
@@ -121,7 +97,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask brightens the skin, reduces the appearance of dark spots, and revitalizes tired-looking skin.',
-        img:aloe4, },
+        img:assets.aloe4, },
     {
       id: 6,
       title: 'Aloe Vera and Rosewater Refreshing Mask',
@@ -139,7 +115,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-        img:aloe4, },
+        img:assets.aloe4, },
   ];
   const hairCareRecipes = [
     {
@@ -159,7 +135,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask deeply moisturizes and nourishes dry, frizzy hair, leaving it soft, smooth, and manageable.',
-      image: roswater ,
+      image: assets.roswater ,
     },
     {
       id: 2,
@@ -178,7 +154,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This hair pack helps control excess oil, cleanses the scalp, and adds volume to oily hair.',
-      image:roswater ,
+      image:assets.roswater ,
     },
     {
       id: 3,
@@ -197,7 +173,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask helps reduce dandruff, soothes an itchy scalp, and promotes a healthier scalp environment.',
-      image: roswater ,
+      image: assets.roswater ,
     },
     {
       id: 4,
@@ -217,7 +193,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask strengthens hair roots, reduces hair fall, and promotes healthy hair growth.',
-      image: roswater ,
+      image: assets.roswater ,
     },
     {
       id: 5,
@@ -236,7 +212,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-      image:roswater ,
+      image:assets.roswater ,
     },
     {
       id: 6,
@@ -255,7 +231,7 @@ const Aloevera = () => {
       ],
       benefits:
         'This mask repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-      image:roswater ,
+      image:assets.roswater ,
     },
   ];
 const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
@@ -266,15 +242,15 @@ const [activeTab, setActiveTab] = useState('skinCare'); // State to track the ac
       <div className='Aloevera '>
         <div >
           <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-          <img src={aloe} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+          <img src={assets.aloebanner1} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
         </div>
         <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
           <h1 style={{ textAlign: 'center' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
 
           <div ><a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
               
-              <div className='img-aloe'><img src={aloe4} alt='hel' style={{ maxWidth: '50%' }}/>
-              <img src={aloe3} alt='hel' style={{ maxWidth: '50%' }}/></div> </a>
+              <div className='img-aloe'><img src={assets.aloe4} alt='hel' style={{ maxWidth: '50%' }}/>
+              <img src={assets.aloe3} alt='hel' style={{ maxWidth: '50%' }}/></div> </a>
          
             </div>
             <ul>
@@ -284,8 +260,8 @@ const [activeTab, setActiveTab] = useState('skinCare'); // State to track the ac
             
           <div style={{display:'flex',maxWidth:'100%'}}>
           <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-            <img src={aloe2} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
-            {/* <img src={aloe2} alt='aloevera ' style={{ maxWidth: '100%' }} /> */}
+            <img src={assets.aloebanner2} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+            {/* <img src={assets.aloe2} alt='aloevera ' style={{ maxWidth: '100%' }} /> */}
             </div>
 
           <h2 style={{textAlign:'start'}}>About this item</h2>
