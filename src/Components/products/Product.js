@@ -27,7 +27,7 @@ const products = [
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-    route: '/products/sandalwood'
+    route: '/products/sandalwood-powder'
   },
   {
     id: 3,
