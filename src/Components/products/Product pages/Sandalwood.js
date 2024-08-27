@@ -6,8 +6,7 @@ const Sandalwood = () => {
     <>
     <div className='Aloevera '>
       <div >
-        <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-        <img src={sandal1} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+      <img src={sandal1} alt='aloevera ' style={{ maxWidth: '100%' }} /> 
       </div>
       <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
         <h1 style={{ textAlign: 'center' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>

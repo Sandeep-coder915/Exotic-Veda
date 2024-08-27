@@ -1,5 +1,5 @@
 import React from 'react'
-import Aloevera from ''
+import Aloevera from '../Assets/Aloe Vera  1 img  .png'
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel component
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Link } from 'react-router-dom'

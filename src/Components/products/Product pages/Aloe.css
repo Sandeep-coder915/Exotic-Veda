@@ -124,17 +124,19 @@
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
+ 
    justify-content: center;
  }
  
  .recipe-card {
+min-width: 100%;
    display: flex;
    flex-direction: row;
    background-color: #fff;
    border: 1px solid #ddd;
    border-radius: 8px;
    padding: 20px;
-   width: calc(100% - 40px); /* Full width for now, adjust with media queries */
+   /* Full width for now, adjust with media queries */
    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
  }
  

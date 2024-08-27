@@ -11,126 +11,136 @@ import sandalwoood from './Assets/sadalwood2.jpg';
 const products = [
   {
     id: 1,
-    link: '/products/thriphala',
+    link: '/products/aloevera-powder',
     img: img111,
-    title: 'Aloevera Powder for Men & Women',
+    title: 'Pure Aloe Vera Powder by Exotic Veda: Your Natural Solution for Skin and Hair Care',
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-    route: '/products/thriphala'
+    route: '/products/aloevera-powder'
   },
   {
     id: 2,
-    link: '/products/sandalwood',
+    link: '/products/sandalwood-powder',
     img: sandalwoood,
-    title: 'Aloevera Powder for Men & Women',
+    title: 'Pure Sandalwood Powder by Exotic Veda: Refresh, Rejuvenate, and Nourish Your Skin Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Click me to See Recipes',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/sandalwood'
   },
   {
     id: 3,
-    link: '/products/thriphala',
+    link: '/products/multani-mitti',
     img: img111,
-    title: 'Aloevera Powder for Men & Women',
+    title: ' Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin Exotic Veda Multani Mitti Powder',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/recipe-aloe-vera'
   },
   {
     id: 4,
-    link: '/products/thriphala',
+    link: '/products/heena-powder',
     img: img111,
-    title: 'Aloevera Powder for Men & Women',
+    title: 'Pure Henna Powder by Exotic Veda: Nourish, Strengthen, and Color Your Hair Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/recipe-aloe-vera'
   },
   {
     id: 5,
-    link: '/products/triphala',
+    link: '/products/curry-leaf-powder',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'TCurry Leaf Powder by Exotic Veda: Strengthen Roots and Reduce Hair Loss Naturally',
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Last updated 3 mins ago',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 6,
+    link: '/products/moringa-leaf',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'Moringa Leaf Powder by Exotic Veda: Natural Detox and Wellness Support for Vibrant Health',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 7,
+    link: '/products/beetroot-powder',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'Pure Beetroot Powder by Exotic Veda: Add Natural Color and Nutrients to Your Smoothies',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 8,
+    link: '/products/shikhakhai-powder',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'Pure Shikakai Powder by Exotic Veda: Promote Hair Growth and Scalp Health Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 9,
+    link: '/products/lemongras-powder',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'Lemongrass Powder by Exotic Veda: Boost Your Recipes with Fresh, Zesty Taste',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 10,
+    link: '/products/triphala-powder',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'Triphala Powder by Exotic Veda: Natural Detox and Wellness Support for Vibrant Health',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 11,
+    link: '/products/jaamun-seed',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'amun Seed Powder by Exotic Veda: Promote Wellness with Natural Antioxidants and Nutrients',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
   
   {
-    id: 5,
-    link: '/products/triphala',
+    id: 12,
+    link: '/products/alum-bar',
     img: img11,
-    title: 'Triphala Powder for Men & Women',
+    title: 'Alum Bar Powder by Exotic Veda: Minimize Pores and Soothe Skin Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Last updated 3 mins ago',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
-  // More products here...
+  {
+    id: 12,
+    link: '/products/amla-powder',
+    img: img11,
+    title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
+    description: 'Welcome To Exotic Veda',
+    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/recipe-aloe-vera'
+  },
+ 
 ];
 
 const Product = () => {
@@ -183,7 +193,7 @@ const Product = () => {
             </Link>
             <div className="card-body">
               <h2 className="card-title">{product.title}</h2>
-              <p className="card-text">{product.description}</p>
+              {/* <p className="card-text">{product.description}</p> */}
               <p className="card-text" style={{ textAlign: 'center' }}>
                 <small className="text-muted">
                   <Link to={product.route}>{product.updateInfo}</Link>
