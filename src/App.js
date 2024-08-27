@@ -13,6 +13,7 @@ import Sandalwood from './Components/products/Product pages/Sandalwood.js';
 import TermsAndConditions from './Components/Footer/Policies/TermsAndConditions.js';
 import FAQ from './Components/FAQ/FAQ.js';
 import ReviewPage from './Components/Footer/Review/Review.js';
+import Recepie from './Components/Receipe/Recepie.js';
  
  function App() {
    
@@ -31,6 +32,8 @@ import ReviewPage from './Components/Footer/Review/Review.js';
         <Route path='/category/sandalwood' element={<Sandalwood/>}></Route>
         <Route path='/terms' element={<TermsAndConditions/>}></Route>
         <Route path='/faq' element={<FAQ/>}></Route>
+        <Route path='/reciepe' element={<Recepie/>}></Route>
+       
         
 
 

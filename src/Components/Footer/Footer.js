@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img3 from "./fevicon 48 by 48-01.png";
-
+import  './footer.css'
 const Footer = () => {
   // Array of social media links
   const socialLinks = [
@@ -25,7 +25,7 @@ const Footer = () => {
     <div className='footer' style={{ borderBottom: "4px solid grey" }}>
       {/* Social Media Section */}
       <div className='Social-media'>
-        <ul style={{ display: "flex", gap: "30px", listStyle: "none" }}>
+        <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
           {socialLinks.map((link, index) => (
             <a href={link.href} key={index}>
               <li>{link.name}</li>
@@ -34,9 +34,12 @@ const Footer = () => {
         </ul>
         <div>
           <Link to="/">
-            <img src={img3} style={{ height: "40px", width: "40px" }} alt="Logo" />
+            <img src={img3} style={{height: "40px",width: "40px" }} alt="Logo" />
           </Link>
         </div>
+        {/* <div style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold',marginRight:'20px' }}>
+          contact-9876754562
+        </div> */}
       </div>
 
       {/* Footer Links Section */}

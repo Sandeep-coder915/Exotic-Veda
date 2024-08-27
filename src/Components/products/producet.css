@@ -99,3 +99,13 @@
     width: 90%;
   }
 }
+
+.product-card .card-text small a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product-card .card-text small a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

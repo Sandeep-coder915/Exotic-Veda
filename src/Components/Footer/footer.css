@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 3rem;
+    padding: 1rem;
+  
+  }
+  .footer {
+    background-color: beige;
+    padding: 2rem;
+    margin-top: 5rem;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0)
+  } 
+  
+   .Social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 4px solid gray;
+  } 
+  
+  .Footer-ul li {
+    list-style: none;
+  } 
+  .Footer-ul li a:hover {
+    color: #D0A82A;
+  }
