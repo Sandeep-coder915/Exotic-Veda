@@ -29,7 +29,7 @@ import Dietryuse from './Components/Category/Pages/Dietryuse.js';
         <Route path="/contactus" element={<Contactus/>} />
         <Route path='/treatments&tips' element={<Treatment/>}></Route>
         <Route path='/products/aloevera-powder' element={<Aloevera/>}></Route>
-        <Route path='/products/sandalwood' element={<Sandalwood/>}></Route>
+        <Route path='/products/sandalwood-powder' element={<Sandalwood/>}></Route>
         <Route path='/category/skincare' element={<Skincare/>}></Route>
         <Route path='/category/dietary' element={<Dietryuse/>}></Route>
         <Route path='/category/sandalwood' element={<Sandalwood/>}></Route>
