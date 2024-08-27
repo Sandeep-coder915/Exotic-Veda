@@ -14,6 +14,7 @@ import TermsAndConditions from './Components/Footer/Policies/TermsAndConditions.
 import FAQ from './Components/FAQ/FAQ.js';
 import ReviewPage from './Components/Footer/Review/Review.js';
 import Recepie from './Components/Receipe/Recepie.js';
+import Dietryuse from './Components/Category/Pages/Dietryuse.js';
  
  function App() {
    
@@ -28,11 +29,14 @@ import Recepie from './Components/Receipe/Recepie.js';
         <Route path="/contactus" element={<Contactus/>} />
         <Route path='/treatments&tips' element={<Treatment/>}></Route>
         <Route path='/products/thriphala' element={<Aloevera/>}></Route>
+        <Route path='/products/sandalwood' element={<Sandalwood/>}></Route>
         <Route path='/category/skincare' element={<Skincare/>}></Route>
+        <Route path='/category/dietary' element={<Dietryuse/>}></Route>
         <Route path='/category/sandalwood' element={<Sandalwood/>}></Route>
         <Route path='/terms' element={<TermsAndConditions/>}></Route>
         <Route path='/faq' element={<FAQ/>}></Route>
         <Route path='/reciepe' element={<Recepie/>}></Route>
+         
        
         
 

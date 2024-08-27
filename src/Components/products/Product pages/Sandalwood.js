@@ -1,5 +1,6 @@
 import React from 'react'
 import sandal1 from  '../Assets/Sandalwood 2 banner (1).png'
+import sandalwood2 from '../Assets/sandalwood front 2 300.png'
 const Sandalwood = () => {
   return (
     <>

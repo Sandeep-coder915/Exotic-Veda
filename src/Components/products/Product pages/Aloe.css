@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 .Aloevera{
    margin-top: 5.1rem;
+   font-family: 'New Amsterdam', sans-serif;
 }
-
+.img-aloe{
+ display: flex;
+ 
+}
 @media only screen and (max-width: 600px){
     .Aloevera{
         margin-top: 4.4rem;
@@ -101,11 +106,273 @@
    color: black;
    
 }
+
+
+.product-detail-page {
+   padding: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
  
+ h1 {
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 2rem;
+ }
+ 
+ .recipes-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+ }
+ 
+ .recipe-card {
+   display: flex;
+   flex-direction: row;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   padding: 20px;
+   width: calc(100% - 40px); /* Full width for now, adjust with media queries */
+   box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .recipe-image {
+   flex: 1;
+   margin-right: 20px;
+ }
+ 
+ .recipe-image img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+ }
+ 
+ .recipe-details {
+   flex: 2;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .recipe-card h2 {
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+   color: #333;
+ }
+ 
+ .recipe-card h4 {
+   font-size: 1.2rem;
+   margin-bottom: 10px;
+   color: #666;
+ }
+ 
+ .ingredients,
+ .instructions {
+   margin-bottom: 10px;
+ }
+ 
+ .ingredients ul,
+ .instructions ul {
+   padding-left: 20px;
+ }
+ 
+ .recipe-card p {
+   font-size: 1rem;
+   color: #555;
+   margin-top: 10px;
+ }
+ 
+ /* Media Queries for Responsiveness */
+ @media (max-width: 768px) {
+   .recipe-card {
+     flex-direction: column;
+     width: calc(50% - 20px); /* Two cards per row */
+   }
+ 
+   .recipe-image {
+     margin-right: 0;
+     margin-bottom: 20px;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .recipe-card {
+     width: 100%; /* Full width for mobile devices */
+   }
+ 
+   h1 {
+     font-size: 1.5rem;
+   }
+ 
+   .recipe-card h2 {
+     font-size: 1.3rem;
+   }
+ 
+   .recipe-card h4 {
+     font-size: 1.1rem;
+   }
+ 
+   .recipe-card p {
+     font-size: 0.9rem;
+   }
+ }
 
 
 
 
 
  
+ /* ============HAir tips =========== */
+
+ .hair-care-detail-page {
+   padding: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
  
+ h1 {
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 2rem;
+ }
+ 
+ .haircare-recipes-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+ }
+ 
+ .haircare-recipe-card {
+   display: flex;
+   flex-direction: row;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   padding: 20px;
+   width: calc(100% - 40px); /* Full width for now, adjust with media queries */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .haircare-recipe-image {
+   flex: 1;
+   margin-right: 20px;
+ }
+ 
+ .haircare-recipe-image img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+ }
+ 
+ .haircare-recipe-details {
+   flex: 2;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .haircare-recipe-card h2 {
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+   color: #333;
+ }
+ 
+ .haircare-recipe-card h4 {
+   font-size: 1.2rem;
+   margin-bottom: 10px;
+   color: #666;
+ }
+ 
+ .ingredients,
+ .instructions {
+   margin-bottom: 10px;
+ }
+ 
+ .ingredients ul,
+ .instructions ul {
+   padding-left: 20px;
+ }
+ 
+ .haircare-recipe-card p {
+   font-size: 1rem;
+   color: #555;
+   margin-top: 10px;
+ }
+ 
+ /* Media Queries for Responsiveness */
+ @media (max-width: 768px) {
+   .haircare-recipe-card {
+     flex-direction: column;
+     width: calc(50% - 20px); /* Two cards per row */
+   }
+ 
+   .haircare-recipe-image {
+     margin-right: 0;
+     margin-bottom: 20px;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .haircare-recipe-card {
+     width: 100%; /* Full width for mobile devices */
+   }
+ 
+   h1 {
+     font-size: 1.5rem;
+   }
+ 
+   .haircare-recipe-card h2 {
+     font-size: 1.3rem;
+   }
+ 
+   .haircare-recipe-card h4 {
+     font-size: 1.1rem;
+   }
+ 
+   .haircare-recipe-card p {
+     font-size: 0.9rem;
+   }
+ }
+
+
+ /* ======tab switch -======== */
+
+/* Tab Container */
+.tabs {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+   gap: 10px;
+ }
+ 
+ /* Tab Button */
+ .tabs button {
+ border:4px solid rgb(153, 187, 153);
+   padding: 20px 20px;
+   /* border: none; */
+   cursor: pointer;
+   background-color: #f0f0f0;
+   
+   font-size: 1rem;
+   margin: 0 10px;
+   border-radius:10px; /* Only top-left and top-right corners are rounded */
+   transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for background color, text color, and border-bottom */
+   /* No bottom border for inactive tabs */
+ }
+ 
+ /* Active Tab Button */
+ .tabs button.active {
+   background-color: blue; /* Active tab background color */
+   color: white;
+   border-bottom: 4px solid green; /* Green bottom border for active tab */
+   border-radius: 5px 5px 0 0; /* Only top corners are rounded */
+   transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for active state */
+ }
+ 
+ /* Hover Effect */
+ .tabs button:hover {
+   background-color: #0056b3;
+   color: white;
+   border: none;
+ }
