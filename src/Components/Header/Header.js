@@ -1,9 +1,5 @@
- 
-import React, { useState,Component } from 'react';
+import React, {Component } from 'react';
 import Hamburger from 'hamburger-react'
- 
- 
- 
 import { Link } from 'react-router-dom';
 import img3 from './Assets-Header/fevicon 48 by 48-01.png';
 import './header.css';

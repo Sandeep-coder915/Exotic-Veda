@@ -3,7 +3,7 @@ import Aloevera from '../Assets/Aloe Vera  1 img  .png'
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel component
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Link } from 'react-router-dom'
-import img111 from '../Assets/Aloe Vera  1 img  .png'
+ 
 const Dietryuse = () => {
   const products = [
     {

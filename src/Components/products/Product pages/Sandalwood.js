@@ -1,12 +1,13 @@
 import React from 'react'
 import { assets } from '../Assets/prodimg/assets'
+ 
 
 const Sandalwood = () => {
   return (
     <>
       <div className='Aloevera '>
-        <div >
-          <img src={assets.sandal1} alt='aloevera ' style={{ maxWidth: '100%' }} />
+       <div >
+        <img src={assets.sandal1} alt='aloevera ' style={{ maxWidth: '100%' }} />
         </div>
         <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
           <h1 style={{ textAlign: 'center' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Carousel from '../Carousel.js';
-import Header from '../Header/Header.js'
+ 
 import img1 from './Home-Assets/Untitled design (61).png'
 import img2 from './Home-Assets/Sandalwood 2 banner.png'
 import img3 from './Home-Assets/Exotic Veda (1).png'
