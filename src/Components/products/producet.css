@@ -85,47 +85,71 @@ grid-template-columns: 1fr 1fr 1fr;
     display: block; /* Show the carousel on mobile */
   }
 
+  .carousel {
+    position: relative;
+    overflow: hidden; /* Hide any overflow */
+  }
+
   .carousel .slide {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Adjust to stack items vertically */
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px; /* Add some padding for spacing */
   }
 
   .carousel .slide img {
-    width: auto;
-    max-height: 200px;
+    width:auto; /* Ensure image takes full width of the slide */
+    max-height: 200px; /* Keep height constraint */
+    object-fit: cover; /* Crop image to fit container */
   }
-  
 
   /* Style carousel dots */
   .carousel .control-dots {
-    position: relative; /* Set to relative to move below card */
-    margin-top: 20px; /* Space between card and dots */
-    bottom: -520px; /* Adjust to move dots below the card */
-  }
-
-  /* Style arrows */
-  .carousel .control-arrow {
-    position: relative; /* Absolute positioning for custom placement */
-    top:10px; /* Position below the card */
-    transform: translateY(-50%); /* Center arrows vertically relative to the dots */
-  }
-
-  .carousel .control-arrow.control-prev {
-    left: 20px; /* Adjust for spacing */
-  }
-
-  .carousel .control-arrow.control-next {
-    right: 20px; /* Adjust for spacing */
+    position: absolute;
+    bottom: -10px; /* Place dots just above the bottom edge */
+    width: 100%; /* Make dots span the full width */
+    text-align: center;
   }
 
   .carousel .control-dots .dot {
     background: #007bff; /* Customize dot color */
-    width: 12px;
-    height: 12px;
-    margin: 0 8px;
+    border-radius: 50%; /* Make dots round */
+    width: 10px; /* Adjust size */
+    height: 10px;
+    margin: 0 5px; /* Adjust spacing between dots */
+    display: inline-block;
+    transition: background 0.3s; /* Smooth transition for active dot */
+  }
+
+  .carousel .control-dots .dot.active {
+    background: #0056b3; /* Customize active dot color */
+  }
+
+  /* Style arrows */
+  .carousel .control-arrow {
+    position: absolute; /* Absolute positioning for custom placement */
+    top: 10%; /* Center arrows vertically */
+    transform: translateY(-50%); /* Center arrows vertically */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border: none;
+    color: white;
+ 
+    font-size: 24px; /* Adjust arrow size */
+    padding: 10px;
+    z-index: 10; /* Ensure arrows are above other elements */
+  }
+
+  .carousel .control-arrow.control-prev {
+    left: 10px; /* Adjust for spacing */
+  }
+
+  .carousel .control-arrow.control-next {
+    right: 10px; /* Adjust for spacing */
   }
 }
+
 
 @media (max-width: 480px) {
   h1 {
@@ -145,7 +169,7 @@ grid-template-columns: 1fr 1fr 1fr;
  
 
   .carousel .control-dots {
-    margin-top: 15px;
+    margin-top:15px;
   }
 }
 
