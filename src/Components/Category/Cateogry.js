@@ -1,6 +1,6 @@
 import React from 'react'
 import skincare from './Assets/Untitled design (65).png'
-import img2 from './Assets/Untitled design (65).png'
+// import img2 from './Assets/Untitled design (65).png'
 import  imglogo from './Assets/logo-banner-3 (1).png'
 import  img22 from './Assets/BANNER FOR MENU BEST SELLERS EXOTIC VEDA.png'
 import  img23 from './Assets/banner for amzon store.png'
