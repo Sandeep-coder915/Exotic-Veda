@@ -3,7 +3,20 @@ import React from 'react'
 const Haircare = () => {
   return (
     <div>
-      SkinCare
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
+     <h2>fefefefe</h2>
     </div>
   )
 }
