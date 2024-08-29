@@ -26,7 +26,7 @@ const products = [
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-    route:'/products/sandalwood-powder',
+    route: '/products/sandalwood-powder',
   },
   {
     id: 3,
@@ -41,12 +41,12 @@ const products = [
   {
     id: 4,
     link: '/products/henna-powder',
-    img:assets.henna ,
+    img: assets.henna,
     title: 'Pure Henna Powder by Exotic Veda: Nourish, Strengthen, and Color Your Hair Naturally',
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-    route:'/products/henna-powder',
+    route: '/products/henna-powder',
   },
   {
     id: 5,
@@ -66,12 +66,12 @@ const products = [
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    route:'/products/moringa-leaf-powder'
+    route: '/products/moringa-leaf-powder'
   },
   {
     id: 7,
     link: '/products/beetroot-powder',
-    img:  assets.beetroot,
+    img: assets.beetroot,
     title: 'Pure Beetroot Powder by Exotic Veda: Add Natural Color and Nutrients to Your Smoothies',
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
@@ -111,23 +111,23 @@ const products = [
   {
     id: 11,
     link: '/products/jaamun-seed',
-    img:  assets.jamuseed,
+    img: assets.jamuseed,
     title: 'amun Seed Powder by Exotic Veda: Promote Wellness with Natural Antioxidants and Nutrients',
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    route:  '/products/jaamun-seed',
+    route: '/products/jaamun-seed',
   },
-  
+
   {
     id: 12,
     link: '/products/alum-bar',
-    img:  assets.amla,
+    img: assets.amla,
     title: 'Alum Bar Powder by Exotic Veda: Minimize Pores and Soothe Skin Naturally',
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    route:  '/products/alum-bar',
+    route: '/products/alum-bar',
   },
   {
     id: 12,
@@ -137,51 +137,51 @@ const products = [
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Learn Our Recipes to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    route:'/products/amla-powder',
+    route: '/products/amla-powder',
   },
- 
+
 ];
 
-const Product = ({assets}) => {
+const Product = ({ assets }) => {
   return (
     <div className="product-container">
       <h1>Explore Our Products</h1>
-      
-      {/* Carousel component for mobile view */}
-      
 
-<div className="mobile-carousel">
-  <Carousel
-    showArrows={true}
-    infiniteLoop={true}
-    showThumbs={true}
-    showStatus={true}
-    autoPlay={false}
-    swipeable={true}
-    emulateTouch={true}
-    interval={5000}
-  >
-    {products.map((product) => (
-      <div className="product-card" key={product.id}>
-        <Link to={product.link}>
-          <img src={product.img} alt={product.title} />
-        </Link>
-        <div className="card-body">
-          <h2 className="card-title">{product.title}</h2>
-          <p className="card-text">{product.description}</p>
-          <p className="card-text" style={{ textAlign: 'center' }}>
-            <small className="text-muted">
-              <Link to={product.route}>{product.updateInfo}</Link>
-            </small>
-          </p>
-          <a href={product.buyLink}>
-            <button className="btn btn-primary">Buy Now</button>
-          </a>
-        </div>
+      {/* Carousel component for mobile view */}
+
+
+      <div className="mobile-carousel">
+        <Carousel
+          showArrows={true}
+          infiniteLoop={true}
+          showThumbs={true}
+          showStatus={true}
+          autoPlay={false}
+          swipeable={true}
+          emulateTouch={true}
+          interval={5000}
+        >
+          {products.map((product) => (
+            <div className="product-card" key={product.id}>
+              <Link to={product.link}>
+                <img src={product.img} alt={product.title} />
+              </Link>
+              <div className="card-body">
+                <h2 className="card-title">{product.title}</h2>
+                <p className="card-text">{product.description}</p>
+                <p className="card-text" style={{ textAlign: 'center' }}>
+                  <small className="text-muted">
+                    <Link to={product.route}>{product.updateInfo}</Link>
+                  </small>
+                </p>
+                <a href={product.buyLink}>
+                  <button className="btn btn-primary">Buy Now</button>
+                </a>
+              </div>
+            </div>
+          ))}
+        </Carousel>
       </div>
-    ))}
-  </Carousel>
-</div>
 
       {/* Grid display for desktop view */}
       <div className="product-grid">
@@ -205,11 +205,12 @@ const Product = ({assets}) => {
           </div>
         ))}
       </div>
+
+
     </div>
   );
 };
- 
+
 
 
 export default Product;
-  
