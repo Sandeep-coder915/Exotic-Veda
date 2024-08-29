@@ -47,9 +47,9 @@ class Navbar extends Component {
                 Shop by Categories
                 {this.state.dropdownOpen && (
                   <ul className="dropdown-menu">
-                    <Link to='/categories/hair-care'><li>Hair Care</li></Link>
-                    <Link to='/categories/skin-care'><li>Skin Care</li></Link>
-                    <Link to='/categories/dietary'><li>Dietary</li></Link>
+                    <Link to='/category/haircare'><li>Hair Care</li></Link>
+                    <Link to='/category/skincare'><li>Skin Care</li></Link>
+                    <Link to='/category/dietary'><li>Dietary</li></Link>
                   </ul>
                 )}
               </li>

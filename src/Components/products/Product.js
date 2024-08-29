@@ -150,46 +150,47 @@ const Product = ({ assets }) => {
       {/* Carousel component for mobile view */}
 
 
-      <div className="mobile-carousel">
-        <Carousel
-          showArrows={true}
-          infiniteLoop={true}
-          showThumbs={true}
-          showStatus={true}
-          autoPlay={false}
-          swipeable={true}
-          emulateTouch={true}
-          interval={5000}
-        >
-          {products.map((product) => (
-            <div className="product-card" key={product.id}>
-              <Link to={product.link}>
-                <img src={product.img} alt={product.title} />
-              </Link>
-              <div className="card-body">
-                <h2 className="card-title">{product.title}</h2>
-                <p className="card-text">{product.description}</p>
-                <p className="card-text" style={{ textAlign: 'center' }}>
-                  <small className="text-muted">
-                    <Link to={product.route}>{product.updateInfo}</Link>
-                  </small>
-                </p>
-                <a href={product.buyLink}>
-                  <button className="btn btn-primary">Buy Now</button>
-                </a>
-              </div>
-            </div>
-          ))}
-        </Carousel>
+<div className="mobile-carousel">
+  <Carousel
+    showArrows={true}
+    infiniteLoop={true}
+    showThumbs={true}
+    showStatus={true}
+    autoPlay={false}
+    swipeable={true}
+    emulateTouch={true}
+    interval={5000}
+  >
+    {products.map((product) => (
+      <div className="product-card" key={product.id}>
+        <Link to={product.link}>
+          <img src={product.img} alt={product.title} />
+        </Link>
+        <div className="card-body">
+          <h2 className="card-title">{product.title}</h2>
+          <p className="card-text">{product.description}</p>
+          <p className="card-text" style={{ textAlign: 'center' }}>
+            <small className="text-muted">
+              <Link to={product.route}>{product.updateInfo}</Link>
+            </small>
+          </p>
+          <a href={product.buyLink}>
+            <button className="btn btn-primary">Buy Now</button>
+          </a>
+        </div>
       </div>
+    ))}
+  </Carousel>
+</div>
 
       {/* Grid display for desktop view */}
       <div className="product-grid">
         {products.map((product) => (
-          <div className="product-card" key={product.id}>
             <Link to={product.link}>
+          <div className="product-card" key={product.id}>
+      
               <img src={product.img} alt={product.title} />
-            </Link>
+            
             <div className="card-body">
               <h2 className="card-title">{product.title}</h2>
               {/* <p className="card-text">{product.description}</p> */}
@@ -202,7 +203,7 @@ const Product = ({ assets }) => {
                 <button className="btn btn-primary">Buy Now</button>
               </a>
             </div>
-          </div>
+          </div></Link>
         ))}
       </div>
 
