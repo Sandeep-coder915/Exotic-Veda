@@ -76,7 +76,7 @@ const products = [
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    route: '/recipe-aloe-vera'
+    route:'/products/beetroot-powder'
   },
   {
     id: 8,
@@ -96,7 +96,7 @@ const products = [
     description: 'Welcome To Exotic Veda',
     updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    route: '/recipe-aloe-vera'
+    route: '/products/lemongras-powder'
   },
   {
     id: 10,

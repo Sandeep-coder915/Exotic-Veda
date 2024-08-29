@@ -234,142 +234,164 @@ const Lemongrass = () => {
 const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
 
   return (
-<>
-<div className='Aloevera '>
-        <div >
-          <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-          <img src={assets.aloebanner1} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
-        </div>
-        <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-          <h1 style={{ textAlign: 'center' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
+    <>
+    <div className='Aloevera '>
+      <div style={{ position: 'relative', maxWidth: '100%' }}>
+        <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'>
+          <img src={assets.aloebanner1} alt='aloevera ' style={{ maxWidth: '100%', maxHeight: '100%', minHeight: '200px' }} />
+          <div className='right-container'>
+            <h2>Dont miss Out </h2>
+            <p style={{ textAlign: 'center' }}>grab the oppurtuniites</p>
+            <button>Buy Now</button>
+          </div>
 
-          <div ><a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-              
-              <div className='img-aloe'><img src={assets.aloe4} alt='hel' style={{ maxWidth: '50%' }}/>
-              <img src={assets.aloe3} alt='hel' style={{ maxWidth: '50%' }}/></div> </a>
-         
-            </div>
-            <ul>
-            <li>
-              Organic Aloe vera Powder : Say goodbye to chemical-filled beauty products and say yes to our Organic Aloe Vera Powder. Follow a beauty regimen that's pure, unadulterated, and rooted in nature's goodness. It is power-packed with antioxidants, vitamins, minerals, and anti-inflammatory compounds to help rejuvenate your skin and leave your hair silky.</li>
-              </ul>
-            
-          <div style={{display:'flex',maxWidth:'100%'}}>
-          <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-            <img src={assets.aloebanner2} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
-            {/* <img src={assets.aloe2} alt='aloevera ' style={{ maxWidth: '100%' }} /> */}
-            </div>
-
-          <h2 style={{textAlign:'start'}}>About this item</h2>
-          <ul>
-                       <li> 100% Natural ,GMO Free: Our product is 100% natural, organic, GMO-free, and manufactured under GMP-compliant facilities. Sourced from the finest aloe vera plants from organic farms, you're receiving a package of unadulterated Aloe Vera Powder. It is delivered straight from the source, so you get the best.</li>
-            <li> Promotoes Hair Growth: Aloe Vera is packed with a whole bunch of goodness—proteolytic enzymes, vitamins, minerals, polysaccharides, amino acids, antioxidants, and more! They work synergistically to help nourish the scalp, boost growth, strengthen the hair follicles, and condition them. The results? Your hair won't just grow; it'll be softer, silkier, and healthier!</li>
-            <li> KEEPS SKIN SOFT & SUPPLE: Discover the dual action of our Natural Aloe Vera Powder. While its polysaccharides and amino acids lock in moisture to make your skin soft and supple, its anti-inflammatory compounds like gibberellins and auxins soothe irritation to fight skin dryness, sunburns, rashes, and cuts.</li>
-            <li> DIY ALOE FACE MASK: Give your skin the glow it deserves with a soothing and cooling aloe vera face pack. Mix a small amount of the powder with either water or rose water to make a smooth paste. Clean your face with a good face wash, and then apply the pack evenly on all sides. Leave it for 15-20 minutes and rinse off with lukewarm water.</li>
-            <li> DIY ALOE HAIR PACK: Mix the powder with fresh onion juice to make a smooth paste. Apply the paste to your hair and roots while gently massaging it. Make sure to cover every strand. Let it sit for 30 minutes for those powerful nutrients to soak in, then rinse it with water. With regular use, you will get silky, nourished locks.</li>
-
-          </ul>
-        </div>
-        {/* <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
-        <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785'> <button className='btn2'  > Buy Now</button></a> 
-        <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
-        </div> */}
-   
+        </a>
       </div>
-      
-      <div className="tabs">
 
-          <button
-            className={setActiveTab& activeTab === 'skinCare' ? 'active' : ''}
-            onClick={() => setActiveTab('skinCare')}
-          >
-          Receipe For Skin Care
-          </button>
-          <button
-            className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
-            onClick={() => setActiveTab('hairCare')}
-          >
-             Receipe For Hair Care
-          </button>
+      <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+        <h1 style={{ textAlign: 'center' }}> Organic Amla Powder Herbal Supplement Indian Gooseberry or Emblica Officinalis Helps Detoxify, Boost Immunity, Hair Growth & Long Hairs, Promotes Eye Health, 100% Natural, Non-GMO (100g)</h1>
+
+        <div >
+          <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'>
+
+            <div className='img-aloe'>
+              <img src={assets.Amla1} alt='hel' style={{ maxWidth: '50%' }} />
+              <img src={assets.Amla2} alt='hel' style={{ maxWidth: '50%' }} />
+            </div>
+          </a>
+
+        </div>
+        <ul>
+          <li>
+          ORGANIC AMLA POWDER: We all want that one health ingredient that does it all. Well, our Amla Powder (or Indian Gooseberry) might be what you're looking for. This isn't just a supplement; it's a game-changer for your locks and overall well-being. Rich in antioxidants, it boosts immunity and hair growth and powers up your health like nothing else.    </li>
+        </ul>
+
+        <div style={{ display: 'flex', maxWidth: '100%' }}>
+          <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'>
+            <img src={assets.amlaposter} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+
         </div>
 
-        {/* Content based on active tab */}
-        <div className="tab-content">
-          {activeTab === 'skinCare' && (
-            <div className="product-detail-page">
-              <h1>Aloe Vera Powder Uses for Different Skin Types</h1>
-              <div className="recipes-container">
-                {recipes.map((recipe) => (
-                  <div className="recipe-card" key={recipe.id}>
-                    <div className="recipe-image">
-                      <img src={recipe.img} alt={recipe.title} style={{ maxWidth: '100%' }} />
-                    </div>
-                    <div className="recipe-details">
-                      <h2>{recipe.title}</h2>
-                      <h4>{recipe.skinType}</h4>
-                      <div className="ingredients">
-                        <h5>Ingredients:</h5>
-                        <ul>
-                          {recipe.ingredients.map((ingredient, index) => (
-                            <li key={index}>{ingredient}</li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div className="instructions">
-                        <h5>Instructions:</h5>
-                        <ul>
-                          {recipe.instructions.map((instruction, index) => (
-                            <li key={index}>{instruction}</li>
-                          ))}
-                        </ul>
-                      </div>
-                      <p><strong>Benefits:</strong> {recipe.benefits}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+        <h2 style={{ textAlign: 'center' }}>About this item</h2>
+        <ul>
+          <li> HELPS IN DETOXIFICATION, BOOSTS IMMUNITY: Looking for a natural boost that feels like a fresh start for your body? Then our Amla Powder is all. This isn’t just any supplement; it’s a Vitamin C powerhouse with ellagic acid, antioxidants, and flavonoids that help keep your immune system in top shape and your body detoxed.</li>
 
-          {activeTab === 'hairCare' && (
-            <div className="hair-care-detail-page">
-              <h1>Aloe Vera Powder Uses for Different Hair Types</h1>
-              <div className="haircare-recipes-container">
-                {hairCareRecipes.map((recipe) => (
-                  <div className="haircare-recipe-card" key={recipe.id}>
-                    <div className="haircare-recipe-image">
-                      <img src={recipe.image} alt={recipe.title} />
-                    </div>
-                    <div className="haircare-recipe-details">
-                      <h2>{recipe.title}</h2>
-                      <h4>{recipe.hairType}</h4>
-                      <div className="ingredients">
-                        <h5>Ingredients:</h5>
-                        <ul>
-                          {recipe.ingredients.map((ingredient, index) => (
-                            <li key={index}>{ingredient}</li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div className="instructions">
-                        <h5>Instructions:</h5>
-                        <ul>
-                          {recipe.instructions.map((instruction, index) => (
-                            <li key={index}>{instruction}</li>
-                          ))}
-                        </ul>
-                      </div>
-                      <p><strong>Benefits:</strong> {recipe.benefits}</p>
-                    </div>
+          <li> AIDS IN EYE HEALTH: Our product isn't just any fruit powder; it's a vision superhero. Loaded with Vitamin C and essential antioxidants like beta-carotene, Amla helps maintain eye moisture, protect against age-related conditions, and even improve your ability to see in the dark. These compounds also aid in combating oxidative stress and keeping one's vision crystal clear.</li>
+
+          <li> SBOOSTS HAIR GROWTH: Amla berry, packed with antioxidants and polyphenols, helps boost scalp health and hair growth, while its natural oils coat each strand in shine. It’s like a spa treatment in a powder, targeting hair health at its source. So, if you’re looking for that glow-up, Amla’s got your back (and your hair)!</li>
+          <li>EASY TO USE: To make a face mask, mix a little amla powder with honey or yogurt and apply it to your face and neck. Leave it for 15-20 minutes, then wash it off for glowing skin. To make a hair pack, mix the amla powder with yogurt. Apply it to your hair and rinse after 30 minutes. For dietary use, mix 1 tablespoon of amla powder in a glass of water and drink it once a day.</li>
+
+        </ul>
+      </div>
+     
+
+    </div>
+
+    <div className="tabs">
+
+      <button
+        className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
+        onClick={() => setActiveTab('skinCare')}
+      >
+        Receipe For Skin Care
+      </button>
+      <button
+      className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
+      onClick={() => setActiveTab('hairCare')}
+    >
+      Receipe For Hair Care
+    </button>
+    </div>
+
+    {/* Content based on active tab */}
+    <div className="tab-content">
+      {activeTab === 'skinCare' && (
+        <div className="product-detail-page">
+          <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Amla Powder  Uses for Different Skin Types</h1>
+          <div className="recipes-container">
+            {recipes.map((recipe) => (
+              <div className="recipe-card" key={recipe.id}>
+                <div className="recipe-image">
+                  <img src={recipe.img} alt={recipe.title} style={{ maxWidth: '100%' }} />
+                </div>
+                <div className="recipe-details">
+                  <h2>{recipe.title}</h2>
+                  <h4>{recipe.skinType}</h4>
+                  <div className="ingredients">
+                    <h5>Ingredients:</h5>
+                    <ul>
+                      {recipe.ingredients.map((ingredient, index) => (
+                        <li key={index}>{ingredient}</li>
+                      ))}
+                    </ul>
                   </div>
-                ))}
+                  <div className="instructions">
+                    <h5>Instructions:</h5>
+                    <ul>
+                      {recipe.instructions.map((instruction, index) => (
+                        <li key={index}>{instruction}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <p><strong>Benefits:</strong> {recipe.benefits}</p>
+                </div>
               </div>
-            </div>
-          )}
+            ))}
+          </div>
         </div>
+      )}
+
+     {activeTab === 'hairCare' &&  (
+      <div className="hair-care-detail-page" >
+        <div style={{marginLeft:'10px'}}>
+          <img src={assets.Amla5} style={{maxWidth:'100%',minWidth:'100%'}} ></img>
+        </div>
+        
+        <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Amla Powder  Uses for Different-Diffrent Hair</h1>
+        <div className="haircare-recipes-container">
+          {hairCareRecipes.map((recipe) => (
+            <div className="haircare-recipe-card" key={recipe.id}>
+              <div className="haircare-recipe-image">
+                <img src={recipe.img} alt={recipe.title} />
+              </div>
+              <div className="haircare-recipe-details">
+                <h2 >{recipe.title}</h2>
+                <h4>{recipe.hairType}</h4>
+                <div className="ingredients">
+                  <h5>Ingredients:</h5>
+                  <ul>
+                    {recipe.ingredients.map((ingredient, index) => (
+                      <li key={index}>{ingredient}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="instructions">
+                  <h5>Instructions:</h5>
+                  <ul>
+                    {recipe.instructions.map((instruction, index) => (
+                      <li key={index}>{instruction}</li>
+                    ))}
+                  </ul>
+                </div>
+                <p><strong>Benefits:</strong> {recipe.benefits}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )} 
+
+      <p className='disclaimer'><span>Disclaimer:</span>Use Amla Powder  externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
+
+      <div className='Aloevera-btn' style={{ display: 'flex', justifyContent: 'center', gap: '10px' }} >
+        <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'> <button className='btn2'  > Buy Now</button></a>
+        <a href='https://www.revaais.shop/'><button className='btn2'>Vist Our Store</button></a>
+      </div>
+
+    </div>
 
 
-</>
+  </>
   )
 }
 

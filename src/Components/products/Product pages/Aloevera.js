@@ -247,12 +247,17 @@ const [activeTab, setActiveTab] = useState('skinCare'); // State to track the ac
         <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
           <h1 style={{ textAlign: 'center' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
 
-          <div ><a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-              
-              <div className='img-aloe'><img src={assets.aloe4} alt='hel' style={{ maxWidth: '50%' }}/>
-              <img src={assets.aloe3} alt='hel' style={{ maxWidth: '50%' }}/></div> </a>
-         
+       
+          <div >
+          <a href='https://revaais.com/products/pure-aloe-vera-powder?_pos=1&_psq=aloe&_ss=e&_v=1.0'>
+
+            <div className='img-aloe'>
+              <img src={assets.aloe4} alt='hel' style={{ maxWidth: '50%' }} />
+              <img src={assets.aloe3} alt='hel' style={{ maxWidth: '50%' }} />
             </div>
+          </a>
+
+        </div>
             <ul>
             <li>
               Organic Aloe vera Powder : Say goodbye to chemical-filled beauty products and say yes to our Organic Aloe Vera Powder. Follow a beauty regimen that's pure, unadulterated, and rooted in nature's goodness. It is power-packed with antioxidants, vitamins, minerals, and anti-inflammatory compounds to help rejuvenate your skin and leave your hair silky.</li>
@@ -367,9 +372,9 @@ const [activeTab, setActiveTab] = useState('skinCare'); // State to track the ac
               </div>
             </div>
           )}
-           <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
+          <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
         <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785'> <button className='btn2'  > Buy Now</button></a> 
-        <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
+        <a href='https://www.revaais.shop/'><button className='btn2'> Vist Our Store</button></a> 
         </div>
         </div>
 

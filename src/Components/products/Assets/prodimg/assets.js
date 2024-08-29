@@ -26,10 +26,22 @@ import multaniposter from './Multani-mitti-banner.png'
 import sandaal2img from './sandal2img.jpg'
 import sandaal3img from './sandalwood.jpg'
 import sandalcertification from './sandalwwod-certifiation-banner.png'
+import Amla1 from './Amla _02.jpg'
+import Amla2 from './Amla _03.jpg'
+import Amla3 from './Amla _06.jpg'
+import Amla4 from './Amla _05.jpg'
+import Amla5 from './Amla powder (1).png'
+import amlback from './Amla _Back.jpg'
+
+import beetback from  './Beetroot Back.jpg' 
+import beet1 from  './BP_02.jpg' 
 
 
 export const assets={
-
+    Amla1,
+    Amla2,
+    Amla3,
+    Amla4,Amla5,amlback,beetback ,beet1,
 aloe,
 amla,
 beetroot,
