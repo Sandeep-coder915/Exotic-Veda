@@ -19,11 +19,17 @@ import aloebanner2 from './banner.png'
 import aloe3 from './81SiXSMhYIL._AC_SX679_.jpg'
 import aloe4 from './81GeyCtVdFL._AC_SX679_.jpg'
 import roswater from './81GeyCtVdFL._AC_SX679_.jpg'
+import indheal from './81N-NjFH-+L._SX466_.jpg'
 import multanipic from './multaniphoto.jpg'
 import multanipic2 from './Multanimittihpto2.jpg'
 import multaniposter from './Multani-mitti-banner.png'
+import sandaal2img from './sandal2img.jpg'
+import sandaal3img from './sandalwood.jpg'
+import sandalcertification from './sandalwwod-certifiation-banner.png'
+
 
 export const assets={
+
 aloe,
 amla,
 beetroot,
@@ -41,6 +47,10 @@ aloebanner1,
 aloebanner2,
 aloe3,
 aloe4,roswater,
+indheal,
+sandaal2img,
+sandaal3img ,
+sandalcertification,
 
 multanibanner1,curryleafposter ,amlaposter,
 multanipic2,multanipic, multaniposter 

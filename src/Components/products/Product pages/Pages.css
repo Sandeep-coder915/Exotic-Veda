@@ -23,6 +23,39 @@
      
 }
 
+.right-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 20%;
+  height: 250px;
+  position: absolute; /* Allows positioning relative to the parent div */
+  top:48%; /* Centers vertically */
+  right: 100px; /* Positions it 20px from the right side */
+  transform: translateY(-50%); /* Adjusts the vertical alignment */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+  padding: 20px; /* Adds some spacing inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for visual separation */
+  text-align: center; /* Centers the text inside the container */
+}
+
+
+.right-container 
+button {
+  border-radius: 10px;
+  padding: 10px 20px; /* Button padding */
+  font-size: 16px; /* Button text size */
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Removes border */
+  cursor: pointer; /* Changes cursor on hover */
+}
+
+.right-container button:hover {
+  background-color: #0056b3; /* Button hover effect */
+}
+
 
 /* General Styles for the Product Description List */
 .Aloevera-Description ul {
@@ -59,6 +92,23 @@
 
 /* Media Query for Responsiveness */
 @media screen and (max-width: 768px) {
+   
+  .right-container  p{
+    font-size: 12px;
+  }
+  .right-container {
+    width: 25%;
+    height: 140px;
+    border-radius: 10px;
+    position: absolute; /* Allows positioning relative to the parent div */
+    top:48%; /* Centers vertically */
+    right: 0px; /* Positions it 20px from the right side */
+    transform: translateY(-50%); /* Adjusts the vertical alignment */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+    padding: 20px; /* Adds some spacing inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for visual separation */
+    text-align: center; /* Centers the text inside the container */
+  }
    .Aloevera-Description ul {
        padding: 0 10px;
    }
@@ -247,15 +297,15 @@ min-width: 100%;
  }
  
  .haircare-recipe-card {
-   display: flex;
-   flex-direction: row;
-   background-color: #fff;
-   border: 1px solid #ddd;
-   border-radius: 8px;
-   padding: 20px;
-   width: calc(100% - 40px); /* Full width for now, adjust with media queries */
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- }
+  min-width: 100%;
+     display: flex;
+     flex-direction: row;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 20px;
+     /* Full width for now, adjust with media queries */
+     box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);}
  
  .haircare-recipe-image {
    flex: 1;
@@ -308,6 +358,7 @@ min-width: 100%;
      flex-direction: column;
      width: 100%; /* Two cards per row */
    }
+   
  
    .haircare-recipe-image {
      margin-right: 0;
@@ -335,6 +386,7 @@ min-width: 100%;
    .haircare-recipe-card p {
      font-size: 0.9rem;
    }
+ 
  }
 
 
@@ -377,4 +429,17 @@ min-width: 100%;
    background-color: #0056b3;
    color: white;
    border: none;
+ }
+
+
+ .disclaimer {
+  text-align: center;
+  font-size:20px;
+  color: rgb(184, 39, 39);
+ }
+ .disclaimer span{
+  color: black;
+  font-weight: 900;
+  font-size: 22px;
+  
  }

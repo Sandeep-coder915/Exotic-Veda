@@ -1,7 +1,7 @@
 import React ,{useState} from 'react'
 import { assets } from '../Assets/prodimg/assets'
 
-import './Aloe.css'
+import './Pages.css'
 const Aloevera = () => {
   
   const recipes = [

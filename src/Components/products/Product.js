@@ -163,12 +163,18 @@ const Product = ({ assets }) => {
   >
     {products.map((product) => (
       <div className="product-card" key={product.id}>
+
         <Link to={product.link}>
           <img src={product.img} alt={product.title} />
         </Link>
+
         <div className="card-body">
-          <h2 className="card-title">{product.title}</h2>
-          <p className="card-text">{product.description}</p>
+        <Link to={product.route}>
+        <h2 className="card-title">{product.title}</h2>
+   
+
+          <p className="card-text">{product.description}</p>     </Link>
+
           <p className="card-text" style={{ textAlign: 'center' }}>
             <small className="text-muted">
               <Link to={product.route}>{product.updateInfo}</Link>

@@ -4,254 +4,255 @@ const Multanimitti = () => {
   const recipes = [
     {
       id: 1,
-      title: 'Aloe Vera and Tea Tree Oil Face Pack',
+      title: 'Multani Mitti and Lemon Oil-Control Face Pack',
       skinType: 'Oily and Acne-Prone Skin',
       ingredients: [
-        '1 tablespoon aloe vera powder',
-        '2-3 drops tea tree oil',
-        'Water or rose water',
+        '2 tablespoons Multani Mitti',
+        '1 tablespoon lemon juice',
+        '1 tablespoon rose water',
       ],
       instructions: [
-        'Mix aloe vera powder with enough water or rose water to form a smooth paste.',
-        'Add 2-3 drops of tea tree oil and mix well.',
-        'Apply the paste evenly to your face, focusing on acne-prone areas.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse off with lukewarm water and pat dry.',
+        'Mix Multani Mitti with lemon juice and rose water to form a smooth paste.',
+        'Apply the paste evenly to your face, focusing on oily and acne-prone areas.',
+        'Leave it on for 15-20 minutes until it dries completely.',
+        'Rinse off with lukewarm water and pat your skin dry.',
       ],
-      benefits:
-        'This face pack helps control excess oil, reduce acne, and soothe inflammation, thanks to the anti-inflammatory and antibacterial properties of aloe vera and tea tree oil.',
-      img: assets.roswater,
+      benefits: 'Controls excess oil, reduces acne, tightens pores, and deeply cleanses the skin.',
+      img: assets.sandaal2img,
     },
     {
       id: 2,
-      title: 'Aloe Vera and Honey Hydrating Mask',
+      title: 'Multani Mitti and Milk Hydrating Face Mask',
       skinType: 'Dry and Sensitive Skin',
       ingredients: [
-        '1 tablespoon aloe vera powder',
-        '1 tablespoon honey',
-        '1 tablespoon yogurt',
-      ],
-      instructions: [
-        'Mix aloe vera powder with honey and yogurt to create a smooth paste.',
-        'Apply the mask to your face, focusing on dry and sensitive areas.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse off with lukewarm water and gently pat dry.',
-      ],
-      benefits:
-        'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
-      img: assets.aloe4,
-    },
-    {
-      id: 3,
-      title: 'Aloe Vera and Cucumber Cooling Mask',
-      skinType: 'Combination Skin',
-      ingredients: [
-        '1 tablespoon aloe vera powder',
-        '2 tablespoons cucumber juice',
-        '1 teaspoon yogurt',
-      ],
-      instructions: [
-        'Mix aloe vera powder with cucumber juice and yogurt to form a smooth paste.',
-        'Apply the mask to your face, focusing on both oily and dry areas.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse off with lukewarm water and pat dry.',
-      ],
-      benefits:
-        'This mask helps balance the skin, providing hydration to dry areas while cooling and soothing oily parts.',
-      img: assets.aloe4,
-    },
-    {
-      id: 4,
-      title: 'Aloe Vera and Vitamin E Anti-Aging Mask',
-      skinType: 'Aging Skin',
-      ingredients: [
-        '1 tablespoon aloe vera powder',
-        '1 capsule of vitamin E (or 1 teaspoon vitamin E oil)',
-        'Water',
-      ],
-      instructions: [
-        'Mix aloe vera powder with water to create a smooth paste.',
-        'Add the contents of a vitamin E capsule or vitamin E oil to the paste and mix well.',
-        'Apply the mask to your face, focusing on areas prone to fine lines and wrinkles.',
-        'Leave it on for 20-30 minutes.',
-        'Rinse off with lukewarm water and pat dry.',
-      ],
-      benefits:
-        'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.', img: assets.aloe4
-    },
-    {
-      id: 5,
-      title: 'Aloe Vera and Lemon Brightening Mask',
-      skinType: 'Dull and Tired Skin',
-      ingredients: [
-        '1 tablespoon aloe vera powder',
-        '1 teaspoon lemon juice',
-        'Water or rose water',
-      ],
-      instructions: [
-        'Mix aloe vera powder with lemon juice and enough water or rose water to form a smooth paste.',
-        'Apply the mask to your face, focusing on areas that appear dull or tired.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse off with lukewarm water and gently pat dry.',
-      ],
-      benefits:
-        'This mask brightens the skin, reduces the appearance of dark spots, and revitalizes tired-looking skin.',
-      img: assets.aloe4,
-    },
-    {
-      id: 6,
-      title: 'Aloe Vera and Rosewater Refreshing Mask',
-      skinType: 'Normal Skin',
-      ingredients: [
-        '1 tablespoon aloe vera powder',
-        '1 tablespoon rosewater',
+        '2 tablespoons Multani Mitti',
+        '2-3 tablespoons milk',
         '1 teaspoon honey (optional)',
       ],
       instructions: [
-        'Mix aloe vera powder with rosewater (and honey, if desired) to create a smooth paste.',
-        'Apply the mask to your face, covering all areas evenly.',
-        'Leave it on for 15-20 minutes.',
+        'Mix Multani Mitti with milk (and honey if desired) to create a smooth, creamy paste.',
+        'Apply the mixture to your face, avoiding the eye area.',
+        'Leave it on for 10-15 minutes, ensuring it doesn’t dry completely.',
         'Rinse off with lukewarm water and gently pat dry.',
       ],
-      benefits:
-        'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-      img: assets.aloe4,
-    },
-  ];
-  const hairCareRecipes = [
-    {
-      id: 1,
-      title: 'Aloe Vera and Coconut Oil Hair Mask',
-      hairType: 'Dry and Frizzy Hair',
-      ingredients: [
-        '2 tablespoons aloe vera powder',
-        '3-4 tablespoons coconut oil',
-        '1 tablespoon honey',
-      ],
-      instructions: [
-        'Mix aloe vera powder with coconut oil and honey to form a smooth paste.',
-        'Apply the mixture to your scalp and hair, focusing on the ends where dryness is most apparent.',
-        'Leave it on for 30-60 minutes.',
-        'Rinse thoroughly with lukewarm water and shampoo as usual.',
-      ],
-      benefits:
-        'This mask deeply moisturizes and nourishes dry, frizzy hair, leaving it soft, smooth, and manageable.',
-      image: assets.roswater,
-    },
-    {
-      id: 2,
-      title: 'Aloe Vera and Lemon Juice Hair Pack',
-      hairType: 'Oily Hair',
-      ingredients: [
-        '2 tablespoons aloe vera powder',
-        '1 tablespoon lemon juice',
-        'Water or yogurt to make a paste',
-      ],
-      instructions: [
-        'Mix aloe vera powder with lemon juice and enough water or yogurt to create a smooth paste.',
-        'Apply the paste to your scalp, focusing on the roots where oil tends to build up.',
-        'Leave it on for 20-30 minutes.',
-        'Rinse thoroughly with lukewarm water and follow with a mild shampoo.',
-      ],
-      benefits:
-        'This hair pack helps control excess oil, cleanses the scalp, and adds volume to oily hair.',
-      image: assets.roswater,
+      benefits: 'Hydrates and nourishes dry skin, providing moisture and soothing irritation without over-drying.',
+      img: assets.indheal,
     },
     {
       id: 3,
-      title: 'Aloe Vera and Neem Powder Mask',
+      title: 'Multani Mitti and Aloe Vera Balancing Face Mask',
+      skinType: 'Combination Skin',
+      ingredients: [
+        '2 tablespoons Multani Mitti',
+        '1 tablespoon aloe vera gel',
+        '1 tablespoon rose water',
+      ],
+      instructions: [
+        'Mix Multani Mitti with aloe vera gel and rose water to form a smooth paste.',
+        'Apply the mask to your face, focusing on oily areas like the T-zone and avoiding drier areas.',
+        'Leave it on for 15-20 minutes until it starts to dry.',
+        'Rinse off with lukewarm water and pat dry.',
+      ],
+      benefits: 'Balances oil production, hydrates dry areas, and maintains an even complexion.',
+      img: assets.indheal,
+    },
+    {
+      id: 4,
+      title: 'Multani Mitti and Papaya Anti-Aging Mask',
+      skinType: 'Aging Skin',
+      ingredients: [
+        '2 tablespoons Multani Mitti',
+        '2 tablespoons mashed ripe papaya',
+        '1 teaspoon honey',
+      ],
+      instructions: [
+        'Mash the ripe papaya and mix it with Multani Mitti and honey to create a smooth paste.',
+        'Apply the mask to your face, focusing on areas with fine lines and wrinkles.',
+        'Leave it on for 15-20 minutes until it begins to tighten.',
+        'Rinse off with lukewarm water and pat dry.',
+      ],
+      benefits: 'Reduces fine lines, tightens the skin, and improves elasticity for a youthful appearance.',
+      img: assets.indheal,
+    },
+    {
+      id: 5,
+      title: 'Multani Mitti and Turmeric Brightening Mask',
+      skinType: 'Dull and Uneven Skin Tone',
+      ingredients: [
+        '2 tablespoons Multani Mitti',
+        '1/2 teaspoon turmeric powder',
+        '2-3 tablespoons yogurt',
+      ],
+      instructions: [
+        'Mix Multani Mitti with turmeric powder and yogurt to form a smooth paste.',
+        'Apply the mask to your face, focusing on areas that appear dull or have uneven skin tone.',
+        'Leave it on for 15-20 minutes.',
+        'Rinse off with lukewarm water and gently pat dry.',
+      ],
+      benefits: 'Brightens the skin, reduces dark spots, and revitalizes dull, tired-looking skin.',
+      img: assets.indheal,
+    },
+    {
+      id: 6,
+      title: 'Multani Mitti and Sandalwood Refreshing Face Mask',
+      skinType: 'Normal Skin',
+      ingredients: [
+        '2 tablespoons Multani Mitti',
+        '1 tablespoon sandalwood powder',
+        '2-3 tablespoons rose water or plain water',
+      ],
+      instructions: [
+        'Mix Multani Mitti with sandalwood powder and rose water to form a smooth paste.',
+        'Apply the mask evenly to your face.',
+        'Leave it on for 15-20 minutes.',
+        'Rinse off with lukewarm water and gently pat dry.',
+      ],
+      benefits: 'Cleanses and refreshes the skin, maintaining a natural balance and smooth texture.',
+      img: assets.indheal,
+    },
+  ];
+  
+  const hairCareRecipes = [
+    {
+      id: 1,
+      title: 'Multani Mitti and Lemon Juice Hair Mask',
+      hairType: 'Oily Scalp and Hair',
+      ingredients: [
+        '3 tablespoons Multani Mitti',
+        '2 tablespoons lemon juice',
+        'Water or rose water to make a paste',
+      ],
+      instructions: [
+        'Mix Multani Mitti with lemon juice and enough water or rose water to create a smooth paste.',
+        'Apply the mixture to your scalp and hair, focusing on the roots where oil tends to build up.',
+        'Leave it on for 20-30 minutes until it dries.',
+        'Rinse thoroughly with lukewarm water and follow with a mild shampoo.',
+      ],
+      benefits: 'Absorbs excess oil, cleanses the scalp, and leaves hair feeling fresh and light.',
+      image:assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    },
+    {
+      id: 2,
+      title: 'Multani Mitti, Aloe Vera Gel, and Honey Hair Mask',
+      hairType: 'Dry and Frizzy Hair',
+      ingredients: [
+        '3 tablespoons Multani Mitti',
+        '2 tablespoons aloe vera gel',
+        '1 tablespoon honey',
+        'Water to make a paste',
+      ],
+      instructions: [
+        'Mix Multani Mitti with aloe vera gel, honey, and enough water to form a smooth paste.',
+        'Apply the mixture to your scalp and hair, focusing on the ends where frizz is most common.',
+        'Leave it on for 30 minutes.',
+        'Rinse thoroughly with lukewarm water and shampoo as usual.',
+      ],
+      benefits: 'Hydrates and nourishes dry hair, making it softer, smoother, and more manageable.',
+      image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    },
+    {
+      id: 3,
+      title: 'Multani Mitti and Neem Powder Mask',
       hairType: 'Dandruff and Itchy Scalp',
       ingredients: [
-        '2 tablespoons aloe vera powder',
+        '3 tablespoons Multani Mitti',
         '2 tablespoons neem powder',
         'Water to make a paste',
       ],
       instructions: [
-        'Mix aloe vera powder with neem powder and water to form a thick paste.',
-        'Apply the paste to your scalp, focusing on areas affected by dandruff and itchiness.',
+        'Mix Multani Mitti with neem powder and enough water to create a thick paste.',
+        'Apply the paste to your scalp, focusing on areas with dandruff and itchiness.',
         'Leave it on for 20-30 minutes.',
         'Rinse thoroughly with lukewarm water and shampoo as usual.',
       ],
-      benefits:
-        'This mask helps reduce dandruff, soothes an itchy scalp, and promotes a healthier scalp environment.',
-      image: assets.roswater,
+      benefits: 'Reduces dandruff, soothes the scalp, and promotes a healthier scalp environment.',
+      image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
     },
     {
       id: 4,
-      title: 'Aloe Vera and Fenugreek (Methi) Hair Mask',
+      title: 'Multani Mitti, Egg, and Olive Oil Hair Mask',
       hairType: 'Hair Growth and Strengthening',
       ingredients: [
-        '2 tablespoons aloe vera powder',
-        '2 tablespoons fenugreek powder',
+        '3 tablespoons Multani Mitti',
+        '1 egg (beaten)',
+        '1 tablespoon olive oil',
         'Water to make a paste',
       ],
       instructions: [
-        'Soak fenugreek powder in water overnight to create a paste.',
-        'Mix the fenugreek paste with aloe vera powder.',
-        'Apply the mixture to your scalp, massaging gently to stimulate the hair follicles.',
-        'Leave it on for 30-45 minutes.',
-        'Rinse thoroughly with lukewarm water and shampoo as usual.',
+        'Beat the egg and mix it with Multani Mitti and olive oil to form a smooth paste.',
+        'Apply the mask to your scalp and hair, massaging it in to stimulate the hair follicles.',
+        'Leave it on for 20-30 minutes.',
+        'Rinse thoroughly with cold or lukewarm water (not hot, to avoid cooking the egg) and shampoo as usual.',
       ],
-      benefits:
-        'This mask strengthens hair roots, reduces hair fall, and promotes healthy hair growth.',
-      image: assets.roswater,
+      benefits: 'Strengthens hair roots, promotes hair growth, and adds volume and shine to your hair.',
+      image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
     },
     {
       id: 5,
-      title: 'Aloe Vera and Hibiscus Hair Mask',
-      hairType: 'Normal Hair',
+      title: 'Multani Mitti, Yogurt, and Olive Oil Hair Mask',
+      hairType: 'Dull and Damaged Hair',
       ingredients: [
-        '2 tablespoons aloe vera powder',
-        '2 tablespoons hibiscus powder',
-        'Water or yogurt to make a paste',
+        '3 tablespoons Multani Mitti',
+        '2 tablespoons yogurt',
+        '1 tablespoon olive oil',
+        'Water to make a paste',
       ],
       instructions: [
-        'Mix aloe vera powder with hibiscus powder and water or yogurt to form a smooth paste.',
-        'Apply the mask to your scalp and hair, ensuring even coverage.',
-        'Leave it on for 30-45 minutes.',
+        'Mix Multani Mitti with yogurt and olive oil to create a smooth paste.',
+        'Apply the mixture to your scalp and hair, focusing on damaged areas.',
+        'Leave it on for 30-40 minutes.',
         'Rinse thoroughly with lukewarm water and shampoo as usual.',
       ],
-      benefits:
-        'This mask maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-      image: assets.roswater,
+      benefits: 'Repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
+      image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
     },
     {
       id: 6,
-      title: 'Aloe Vera and Olive Oil Repair Mask',
-      hairType: 'Dull and Damaged Hair',
+      title: 'Multani Mitti and Rose Water Hair Mask',
+      hairType: 'Normal Hair',
       ingredients: [
-        '2 tablespoons aloe vera powder',
-        '2 tablespoons olive oil',
-        '1 tablespoon honey',
+        '3 tablespoons Multani Mitti',
+        '2 tablespoons rose water',
+        '1 tablespoon honey (optional)',
       ],
       instructions: [
-        'Mix aloe vera powder with olive oil and honey to create a nourishing paste.',
-        'Apply the mixture to your scalp and hair, focusing on damaged areas.',
-        'Leave it on for 30-60 minutes.',
+        'Mix Multani Mitti with rose water (and honey, if desired) to create a smooth paste.',
+        'Apply the mask evenly to your scalp and hair.',
+        'Leave it on for 20-30 minutes.',
         'Rinse thoroughly with lukewarm water and shampoo as usual.',
       ],
-      benefits:
-        'This mask repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-      image: assets.roswater,
-    },
+      benefits: 'Cleanses the scalp, balances oil production, and keeps hair soft and manageable.',
+      image: assets.indheal,  // Replace 'roswater' with the correct image path or import
+    },
   ];
   const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
 
   return (
     <>
       <div className='Aloevera '>
-        <div >
-          <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-            <img src={assets.multanibanner1} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+        <div style={{position:'relative' ,maxWidth:'100%'}}>
+          <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
+            <img src={assets.multanibanner1} alt='aloevera ' style={{ maxWidth: '100%' ,maxHeight:'100%',minHeight:'200px'}} />
+            <div className='right-container'>
+              <h2>Dont miss Out </h2>
+        <p style={{textAlign:'center'}}>Explor  the oppurtuniites</p>
+              <button>Buy Now</button>
+            </div>
+            
+            </a>
         </div>
         <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
           <h1 style={{ textAlign: 'center' }}> 
             Multani Mitti Powder Fullers Earth Clay - 100% Pure Natural Indian Clay for Skin Cleansing - Suitable for All Skin Ideal for Face Masks and Body Scrubs | 100% Natural, Non-GMO (100g)</h1>
 
-          <div ><a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
+          <div >
+            <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
 
-            <div className='img-aloe'><img src={assets.multanipic} alt='hel' style={{ maxWidth: '50%' }} />
-              <img src={assets.multanipic2} alt='hel' style={{ maxWidth: '50%' }} /></div> </a>
+            <div className='img-aloe'>
+              <img src={assets.multanipic} alt='hel' style={{ maxWidth: '50%' }} />
+              <img src={assets.multanipic2} alt='hel' style={{ maxWidth: '50%' }} />
+              </div> 
+              </a>
 
           </div>
           <ul>
@@ -261,7 +262,7 @@ const Multanimitti = () => {
           </ul>
 
           <div style={{ display: 'flex', maxWidth: '100%' }}>
-            <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
+            <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
               <img src={assets.multaniposter } alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
          
           </div>
@@ -307,7 +308,7 @@ const Multanimitti = () => {
       <div className="tab-content">
         {activeTab === 'skinCare' && (
           <div className="product-detail-page">
-            <h1>Aloe Vera Powder Uses for Different Skin Types</h1>
+            <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Multani Mitti Powder Uses for Different Skin Types</h1>
             <div className="recipes-container">
               {recipes.map((recipe) => (
                 <div className="recipe-card" key={recipe.id}>
@@ -342,8 +343,8 @@ const Multanimitti = () => {
         )}
 
         {activeTab === 'hairCare' && (
-          <div className="hair-care-detail-page">
-            <h1>Aloe Vera Powder Uses for Different Hair Types</h1>
+          <div className="hair-care-detail-page" >
+            <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Multani Mitti Powder Uses for Different-Diffrent Hair</h1>
             <div className="haircare-recipes-container">
               {hairCareRecipes.map((recipe) => (
                 <div className="haircare-recipe-card" key={recipe.id}>
@@ -351,7 +352,7 @@ const Multanimitti = () => {
                     <img src={recipe.image} alt={recipe.title} />
                   </div>
                   <div className="haircare-recipe-details">
-                    <h2>{recipe.title}</h2>
+                    <h2 >{recipe.title}</h2>
                     <h4>{recipe.hairType}</h4>
                     <div className="ingredients">
                       <h5>Ingredients:</h5>
@@ -376,6 +377,8 @@ const Multanimitti = () => {
             </div>
           </div>
         )}
+
+        <p className='disclaimer'><span>Disclaimer:</span>Use Multani Mitti Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
       </div>
 
 
