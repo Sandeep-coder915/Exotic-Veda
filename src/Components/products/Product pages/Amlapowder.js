@@ -1,6 +1,25 @@
-import React, { useState } from 'react'
+ 
 import { assets } from '../Assets/prodimg/assets'
+import { useState,useEffect } from 'react';
+import Loader from '../../loader/Loader';
+   
+
+
 const Amlapowder = () => {
+
+    // State to manage loading
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Simulate content loading with useEffect
+    const handleTabChange = (tab) => {
+      setIsLoading(true); // Show loader
+      setActiveTab(tab); // Set active tab
+
+      // Simulate a delay (e.g., fetching content for the tab)
+      setTimeout(() => {
+          setIsLoading(false); // Hide loader after content is "loaded"
+      }, 1000); // Adjust the delay as needed (1000ms = 1 second)
+  };
   const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
   const recipes = [
     {
@@ -407,154 +426,159 @@ const Amlapowder = () => {
       </div>
 
       <div className="tabs">
-  
-        <button
-          className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
-          onClick={() => setActiveTab('skinCare')}
-        >
-          Tips For Skin Care
+                <button
+                    className={activeTab === 'skinCare' ? 'active' : ''}
+                    onClick={() => handleTabChange('skinCare')}
+                >
+                    Tips For Skin Care
+                </button>
+                <button
+                    className={activeTab === 'hairCare' ? 'active' : ''}
+                    onClick={() => handleTabChange('hairCare')}
+                >
+                    Tips For Hair Care
+                </button>
+                <button
+                    className={activeTab === 'diet' ? 'active' : ''}
+                    onClick={() => handleTabChange('diet')}
+                >
+                    Tips For Dietary Use
+                </button>
+            </div>
 
-        </button>
-        <button
-        className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
-        onClick={() => setActiveTab('hairCare')}
-      >
-        Tips For Hair Care
-      </button>
-    <button
-        className={setActiveTab & activeTab === 'diet' ? 'active' : ''}
-        onClick={() => setActiveTab('Diet')}
-      >
-      Tips For Dietary  Use
-      </button>
-      </div> 
+            {/* Show Loader or Content */}
+            {isLoading ? (
+                <Loader />
+            ) : (
+              <div className="tab-content">
+              {activeTab === 'skinCare' && (
+                <div className="product-detail-page">
+                  <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Amla Powder  Uses for Different Skin Types</h1>
+                  <div className="recipes-container">
+                    {recipes.map((recipe) => (
+                      <div className="recipe-card" key={recipe.id}>
+                        <div className="recipe-image">
+                          <img src={recipe.img} alt={recipe.title} style={{ maxWidth: '100%' }} />
+                        </div>
+                        <div className="recipe-details">
+                          <h2>{recipe.title}</h2>
+                          <h4>{recipe.skinType}</h4>
+                          <div className="ingredients">
+                            <h5>Ingredients:</h5>
+                            <ul>
+                              {recipe.ingredients.map((ingredient, index) => (
+                                <li key={index}>{ingredient}</li>
+                              ))}
+                            </ul>
+                          </div>
+                          <div className="instructions">
+                            <h5>Instructions:</h5>
+                            <ul>
+                              {recipe.instructions.map((instruction, index) => (
+                                <li key={index}>{instruction}</li>
+                              ))}
+                            </ul>
+                          </div>
+                          <p><strong>Benefits:</strong> {recipe.benefits}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+      
+             {activeTab === 'hairCare' &&  (
+              <div className="hair-care-detail-page" >
+                <div style={{marginLeft:'10px'}}>
+                  <img src={assets.Amla5} style={{maxWidth:'100%',minWidth:'100%'}} ></img>
+                </div>
+                
+                <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Amla Powder  Uses for Different-Diffrent Hair</h1>
+                <div className="haircare-recipes-container">
+                  {hairCareRecipes.map((recipe) => (
+                    <div className="haircare-recipe-card" key={recipe.id}>
+                      <div className="haircare-recipe-image">
+                        <img src={recipe.img} alt={recipe.title} />
+                      </div>
+                      <div className="haircare-recipe-details">
+                        <h2 >{recipe.title}</h2>
+                        <h4>{recipe.hairType}</h4>
+                        <div className="ingredients">
+                          <h5>Ingredients:</h5>
+                          <ul>
+                            {recipe.ingredients.map((ingredient, index) => (
+                              <li key={index}>{ingredient}</li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="instructions">
+                          <h5>Instructions:</h5>
+                          <ul>
+                            {recipe.instructions.map((instruction, index) => (
+                              <li key={index}>{instruction}</li>
+                            ))}
+                          </ul>
+                        </div>
+                        <p><strong>Benefits:</strong> {recipe.benefits}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )} 
+             {activeTab === 'diet' &&  (
+              <div className="hair-care-detail-page" >
+                {/* <div style={{marginLeft:'10px'}}>
+                  <img src={assets.Amla5} style={{maxWidth:'100%',minWidth:'100%'}} ></img>
+                </div> */}
+                
+                <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Amla Powder  Uses for Dieatary Purpose</h1>
+                <div className="haircare-recipes-container">
+                  {amlaDietRecipes.map((recipe) => (
+                    <div className="haircare-recipe-card" key={recipe.id}>
+                      <div className="haircare-recipe-image">
+                        <img src={recipe.img} alt={recipe.title} />
+                      </div>
+                      <div className="haircare-recipe-details">
+                        <h2 >{recipe.title}</h2>
+                        <h4>{recipe.hairType}</h4>
+                        <div className="ingredients">
+                          <h5>Ingredients:</h5>
+                          <ul>
+                            {recipe.ingredients.map((ingredient, index) => (
+                              <li key={index}>{ingredient}</li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="instructions">
+                          <h5>Instructions:</h5>
+                          <ul>
+                            {recipe.instructions.map((instruction, index) => (
+                              <li key={index}>{instruction}</li>
+                            ))}
+                          </ul>
+                        </div>
+                        <p><strong>Benefits:</strong> {recipe.benefits}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )} 
+      
+              <p className='disclaimer'><span>Disclaimer:</span>Use Amla Powder  externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
+      
+              <div className='Aloevera-btn' style={{ display: 'flex', justifyContent: 'center', gap: '10px' }} >
+                <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'> <button className='btn2'  > Buy Now</button></a>
+                <a href='https://www.revaais.shop/'><button className='btn2'>Vist Our Store</button></a>
+              </div>
+      
+            </div>
+            )}
  
 
       {/* Content based on active tab */}
-      <div className="tab-content">
-        {activeTab === 'skinCare' && (
-          <div className="product-detail-page">
-            <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Amla Powder  Uses for Different Skin Types</h1>
-            <div className="recipes-container">
-              {recipes.map((recipe) => (
-                <div className="recipe-card" key={recipe.id}>
-                  <div className="recipe-image">
-                    <img src={recipe.img} alt={recipe.title} style={{ maxWidth: '100%' }} />
-                  </div>
-                  <div className="recipe-details">
-                    <h2>{recipe.title}</h2>
-                    <h4>{recipe.skinType}</h4>
-                    <div className="ingredients">
-                      <h5>Ingredients:</h5>
-                      <ul>
-                        {recipe.ingredients.map((ingredient, index) => (
-                          <li key={index}>{ingredient}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="instructions">
-                      <h5>Instructions:</h5>
-                      <ul>
-                        {recipe.instructions.map((instruction, index) => (
-                          <li key={index}>{instruction}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <p><strong>Benefits:</strong> {recipe.benefits}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-       {activeTab === 'hairCare' &&  (
-        <div className="hair-care-detail-page" >
-          <div style={{marginLeft:'10px'}}>
-            <img src={assets.Amla5} style={{maxWidth:'100%',minWidth:'100%'}} ></img>
-          </div>
-          
-          <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Amla Powder  Uses for Different-Diffrent Hair</h1>
-          <div className="haircare-recipes-container">
-            {hairCareRecipes.map((recipe) => (
-              <div className="haircare-recipe-card" key={recipe.id}>
-                <div className="haircare-recipe-image">
-                  <img src={recipe.img} alt={recipe.title} />
-                </div>
-                <div className="haircare-recipe-details">
-                  <h2 >{recipe.title}</h2>
-                  <h4>{recipe.hairType}</h4>
-                  <div className="ingredients">
-                    <h5>Ingredients:</h5>
-                    <ul>
-                      {recipe.ingredients.map((ingredient, index) => (
-                        <li key={index}>{ingredient}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="instructions">
-                    <h5>Instructions:</h5>
-                    <ul>
-                      {recipe.instructions.map((instruction, index) => (
-                        <li key={index}>{instruction}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p><strong>Benefits:</strong> {recipe.benefits}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )} 
-       {activeTab === 'Diet' &&  (
-        <div className="hair-care-detail-page" >
-          {/* <div style={{marginLeft:'10px'}}>
-            <img src={assets.Amla5} style={{maxWidth:'100%',minWidth:'100%'}} ></img>
-          </div> */}
-          
-          <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Amla Powder  Uses for Dieatary Purpose</h1>
-          <div className="haircare-recipes-container">
-            {amlaDietRecipes.map((recipe) => (
-              <div className="haircare-recipe-card" key={recipe.id}>
-                <div className="haircare-recipe-image">
-                  <img src={recipe.img} alt={recipe.title} />
-                </div>
-                <div className="haircare-recipe-details">
-                  <h2 >{recipe.title}</h2>
-                  <h4>{recipe.hairType}</h4>
-                  <div className="ingredients">
-                    <h5>Ingredients:</h5>
-                    <ul>
-                      {recipe.ingredients.map((ingredient, index) => (
-                        <li key={index}>{ingredient}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="instructions">
-                    <h5>Instructions:</h5>
-                    <ul>
-                      {recipe.instructions.map((instruction, index) => (
-                        <li key={index}>{instruction}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p><strong>Benefits:</strong> {recipe.benefits}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )} 
-
-        <p className='disclaimer'><span>Disclaimer:</span>Use Amla Powder  externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
-
-        <div className='Aloevera-btn' style={{ display: 'flex', justifyContent: 'center', gap: '10px' }} >
-          <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'> <button className='btn2'  > Buy Now</button></a>
-          <a href='https://www.revaais.shop/'><button className='btn2'>Vist Our Store</button></a>
-        </div>
-
-      </div>
+     
 
 
     </>
