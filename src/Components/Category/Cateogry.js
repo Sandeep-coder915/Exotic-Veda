@@ -51,12 +51,12 @@ const Cateogry = () => {
                       <div className='col-md-4' key={category.id}>
                         <Link to={category.link}>
                           <div className='card1' style={{ padding: '10px' }}>
-                            <img src={category.img} style={{ borderRadius: "50%" }} alt={category.title} height={'300px'} />
+                            <img src={category.img} style={{ borderRadius: "50%" }} alt={category.title} height={'200px'} />
                             <div className='card-body'>
                               <h5 className='card-title'>{category.title}</h5>
-                              <p className='card-text'>{category.text}</p>
-                              <p className='card-text'>
-                                <small className='text-muted'>{category.lastUpdated}</small>
+                              <p className='card-text' style={{textAlign:'center'}}>{category.text}</p>
+                              <p className='card-text' style={{textAlign:'center'}}>
+                                <small className='text-muted' >{category.lastUpdated}</small>
                               </p>
                             </div>
                             <button className='btn'>Explore Now</button>

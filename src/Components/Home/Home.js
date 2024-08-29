@@ -13,6 +13,7 @@ import Container from '../container/Container.js'
 import Treatment from "../Product treatments/Treatment.js";
 import  img from './Home-Assets/banner for amzon store.png'
 import  img5 from './Home-Assets/BANNER FOR MENU BEST SELLERS EXOTIC VEDA.png'
+import NewsletterSignup from "./NewsLetter.js";
 
 const Home = () => {
     const images = [img,img5,img2,
@@ -62,6 +63,7 @@ const Home = () => {
             <Product />
             <Container />
             <Treatment/>
+            <NewsletterSignup/>
             <Aboutus />
             <Contactus />
 

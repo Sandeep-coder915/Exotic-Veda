@@ -161,17 +161,18 @@ const Product = ({assets}) => {
     emulateTouch={true}
     interval={5000}
   >
-    {products.map((product) => (
+    {products.map((product) => (    
       <div className="product-card" key={product.id}>
-        <Link to={product.link}>
-          <img src={product.img} alt={product.title} />
-        </Link>
-        <div className="card-body">
-          <h2 className="card-title">{product.title}</h2>
-          <p className="card-text">{product.description}</p>
+    <Link to={product.link}>
+          <img src={product.img} alt={product.title} /></Link>
+        
+
+           <div className="card-body">
+                 <Link to={product.link}>   <h2 className="card-title">{product.title}</h2></Link>
+                 <Link to={product.link}><p className="card-text" style={{ textAlign: 'center' }}>{product.description}</p> </Link>
           <p className="card-text" style={{ textAlign: 'center' }}>
             <small className="text-muted">
-              <Link to={product.route}>{product.updateInfo}</Link>
+              <Link to={product.link}>{product.updateInfo}</Link>
             </small>
           </p>
           <a href={product.buyLink}>
@@ -186,10 +187,11 @@ const Product = ({assets}) => {
       {/* Grid display for desktop view */}
       <div className="product-grid">
         {products.map((product) => (
-          <div className="product-card" key={product.id}>
             <Link to={product.link}>
+          <div className="product-card" key={product.id}>
+      
               <img src={product.img} alt={product.title} />
-            </Link>
+            
             <div className="card-body">
               <h2 className="card-title">{product.title}</h2>
               {/* <p className="card-text">{product.description}</p> */}
@@ -202,7 +204,7 @@ const Product = ({assets}) => {
                 <button className="btn btn-primary">Buy Now</button>
               </a>
             </div>
-          </div>
+          </div></Link>
         ))}
       </div>
     </div>
