@@ -18,7 +18,7 @@ const Multanimitti = () => {
         'Rinse off with lukewarm water and pat your skin dry.',
       ],
       benefits: 'Controls excess oil, reduces acne, tightens pores, and deeply cleanses the skin.',
-      img: assets.sandaal2img,
+      img: assets.sandaal3img,
     },
     {
       id: 2,
@@ -379,6 +379,10 @@ const Multanimitti = () => {
         )}
 
         <p className='disclaimer'><span>Disclaimer:</span>Use Multani Mitti Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
+         <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
+        <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=f298fe79f&_ss=r?variant=48956872098113'> <button className='btn2'  > Buy Now</button></a> 
+        <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
+        </div>
       </div>
 
 

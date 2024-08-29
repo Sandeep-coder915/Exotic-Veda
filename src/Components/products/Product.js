@@ -14,7 +14,7 @@ const products = [
     img: assets.aloe,
     title: 'Pure Aloe Vera Powder by Exotic Veda: Your Natural Solution for Skin and Hair Care',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/aloevera-powder',
   },
@@ -24,7 +24,7 @@ const products = [
     img: assets.sandalwood,
     title: 'Pure Sandalwood Powder by Exotic Veda: Refresh, Rejuvenate, and Nourish Your Skin Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/sandalwood-powder',
   },
@@ -34,7 +34,7 @@ const products = [
     img: assets.multani,
     title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/multani-mitti',
   },
@@ -44,7 +44,7 @@ const products = [
     img: assets.henna,
     title: 'Pure Henna Powder by Exotic Veda: Nourish, Strengthen, and Color Your Hair Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/henna-powder',
   },
@@ -54,7 +54,7 @@ const products = [
     img: assets.curryleaf,
     title: 'Curry Leaf Powder by Exotic Veda: Strengthen Roots and Reduce Hair Loss Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/curry-leaf-powder'
   },
@@ -64,7 +64,7 @@ const products = [
     img: assets.moringa,
     title: 'Moringa Leaf Powder by Exotic Veda: Natural Detox and Wellness Support for Vibrant Health',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/moringa-leaf-powder'
   },
@@ -74,7 +74,7 @@ const products = [
     img: assets.beetroot,
     title: 'Pure Beetroot Powder by Exotic Veda: Add Natural Color and Nutrients to Your Smoothies',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
@@ -84,7 +84,7 @@ const products = [
     img: assets.shikhakhai,
     title: 'Pure Shikakai Powder by Exotic Veda: Promote Hair Growth and Scalp Health Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
@@ -94,7 +94,7 @@ const products = [
     img: assets.lemongrass,
     title: 'Lemongrass Powder by Exotic Veda: Boost Your Recipes with Fresh, Zesty Taste',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
@@ -104,7 +104,7 @@ const products = [
     img: assets.triphala,
     title: 'Triphala Powder by Exotic Veda: Natural Detox and Wellness Support for Vibrant Health',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/triphala-powder'
   },
@@ -114,7 +114,7 @@ const products = [
     img: assets.jamuseed,
     title: 'amun Seed Powder by Exotic Veda: Promote Wellness with Natural Antioxidants and Nutrients',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/jaamun-seed',
   },
@@ -125,7 +125,7 @@ const products = [
     img: assets.amla,
     title: 'Alum Bar Powder by Exotic Veda: Minimize Pores and Soothe Skin Naturally',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/alum-bar',
   },
@@ -135,7 +135,7 @@ const products = [
     img: assets.amla,
     title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/amla-powder',
   },
@@ -169,6 +169,7 @@ const Product = ({ assets }) => {
         </Link>
 
         <div className="card-body">
+          <div>
         <Link to={product.route}>
         <h2 className="card-title">{product.title}</h2>
    
@@ -183,6 +184,7 @@ const Product = ({ assets }) => {
           <a href={product.buyLink}>
             <button className="btn btn-primary">Buy Now</button>
           </a>
+          </div>
         </div>
       </div>
     ))}
@@ -192,10 +194,12 @@ const Product = ({ assets }) => {
       {/* Grid display for desktop view */}
       <div className="product-grid">
         {products.map((product) => (
-            <Link to={product.link}>
+    
           <div className="product-card" key={product.id}>
-      
-              <img src={product.img} alt={product.title} />
+           
+    <div>
+           <Link to={product.route} >  
+           <img src={product.img} alt={product.title} />
             
             <div className="card-body">
               <h2 className="card-title">{product.title}</h2>
@@ -204,12 +208,12 @@ const Product = ({ assets }) => {
                 <small className="text-muted">
                   <Link to={product.route}>{product.updateInfo}</Link>
                 </small>
-              </p>
+              </p></div></Link>
               <a href={product.buyLink}>
                 <button className="btn btn-primary">Buy Now</button>
               </a>
             </div>
-          </div></Link>
+          </div> 
         ))}
       </div>
 
