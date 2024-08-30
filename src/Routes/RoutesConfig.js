@@ -25,7 +25,7 @@ import Curryleafpowder  from "../Components/products/Product pages/Curryleafpowd
 import Moringaleafpowder from "../Components/products/Product pages/Moringaleafpowder";
 import Multanimitti from "../Components/products/Product pages/Multanimitti";
 import Lemongrass from "../Components/products/Product pages/Lemongrass";
-
+ 
 
 
 
@@ -34,6 +34,7 @@ const routes = [
     { path: '/aboutus', element: <Aboutus /> },
     { path: '/review', element: <ReviewPage /> },
     { path: '/products', element: <Product /> },
+   
     { path: '/contactus', element: <Contactus /> },
     { path: '/treatments&tips', element: <Treatment /> },
 

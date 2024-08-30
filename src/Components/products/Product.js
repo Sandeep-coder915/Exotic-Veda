@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel component
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the carousel styles
 import './producet.css';
-import { assets } from './Assets/prodimg/assets'; // Import assets
+
+import { assets } from './Assets/prodimg/assets';
 
 // Array of product objects
 const products = [
@@ -141,58 +142,86 @@ const products = [
 
 ];
 
-const ProductCard = React.memo(({ product }) => {
-  return (
-    <div className="product-card">
-      <Link to={product.route}>
-        <img src={product.img} alt={product.title} loading="lazy" />
-        <div className="card-body">
-          <h2 className="card-title">{product.title}</h2>
-          <p className="card-text" style={{ textAlign: 'center' }}>
-            <small className="text-muted">
-              <Link to={product.route}>{product.updateInfo}</Link>
-            </small>
-          </p>
-        </div>
-      </Link>
-      <a href={product.buyLink}>
-        <button className="btn btn-primary">Buy Now</button>
-      </a>
-    </div>
-  );
-});
-
-const Product = () => {
+const Product = ({ assets }) => {
   return (
     <div className="product-container">
       <h1>Explore Our Products</h1>
 
       {/* Carousel component for mobile view */}
-      <div className="mobile-carousel">
-        <Carousel
-          showArrows={true}
-          infiniteLoop={true}
-          showThumbs={true}
-          showStatus={true}
-          autoPlay={false}
-          swipeable={true}
-          emulateTouch={true}
-          interval={5000}
-        >
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </Carousel>
+
+
+<div className="mobile-carousel">
+  <Carousel
+    showArrows={true}
+    infiniteLoop={true}
+    showThumbs={true}
+    showStatus={true}
+    autoPlay={false}
+    swipeable={true}
+    emulateTouch={true}
+    interval={5000}
+  >
+    {products.map((product) => (
+      <div className="product-card" key={product.id}>
+
+        <Link to={product.link}>
+          <img src={product.img} alt={product.title} />
+        </Link>
+
+        <div className="card-body">
+          <div>
+        <Link to={product.route}>
+        <h2 className="card-title">{product.title}</h2>
+   
+
+          <p className="card-text">{product.description}</p>     </Link>
+
+          <p className="card-text" style={{ textAlign: 'center' }}>
+            <small className="text-muted">
+              <Link to={product.route}>{product.updateInfo}</Link>
+            </small>
+          </p>
+          <a href={product.buyLink}>
+            <button className="btn btn-primary">Buy Now</button>
+          </a>
+          </div>
+        </div>
       </div>
+    ))}
+  </Carousel>
+</div>
 
       {/* Grid display for desktop view */}
       <div className="product-grid">
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+    
+          <div className="product-card" key={product.id}>
+           
+    <div>
+           <Link to={product.route} >  
+           <img src={product.img} alt={product.title} />
+            
+            <div className="card-body">
+              <h2 className="card-title">{product.title}</h2>
+              {/* <p className="card-text">{product.description}</p> */}
+              <p className="card-text" style={{ textAlign: 'center' }}>
+                <small className="text-muted">
+                  <Link to={product.route}>{product.updateInfo}</Link>
+                </small>
+              </p></div></Link>
+              <a href={product.buyLink}>
+                <button className="btn btn-primary">Buy Now</button>
+              </a>
+            </div>
+          </div> 
         ))}
       </div>
+
+
     </div>
   );
 };
+
+
 
 export default Product;

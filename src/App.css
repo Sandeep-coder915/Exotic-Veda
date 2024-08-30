@@ -19,8 +19,6 @@ a:hover {
 
 }
 
-
-
 .carousel {
   position: relative;
   max-width: 100%;
@@ -170,16 +168,7 @@ a:hover {
 
 }
 
-
-/* =================Footer============= */
-
-
-
-/* ==============Footer End ============== */
-
-
-
-/* ==================SCrollBar ================= */
+ 
 
 body::-webkit-scrollbar {
   width: 12px;
