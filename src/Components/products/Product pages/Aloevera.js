@@ -233,7 +233,7 @@ const Aloevera = () => {
         'This mask repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
       image:assets.roswater ,
     },
-  ];
+ ];
 const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
 
   

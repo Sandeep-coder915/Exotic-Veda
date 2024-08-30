@@ -1,9 +1,9 @@
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 import Hamburger from 'hamburger-react'
 import { Link } from 'react-router-dom';
 import img3 from './Assets-Header/fevicon 48 by 48-01.png';
 import './header.css';
- 
+
 
 class Navbar extends Component {
   state = {
@@ -32,16 +32,16 @@ class Navbar extends Component {
           </div>
 
           <ul id='ulnav'>
-            <Link to='/'><li>Home</li></Link>
-            <Link to='/reciepe'><li>Recipe & Tips</li></Link>
-            <Link to='/products'><li>Products</li></Link>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/reciepe'>Treatment & Tips</Link></li>
+            <li><Link to='/products'>Products</Link></li>
           </ul>
 
           <div>
             <ul id='navbar1' className={this.state.clicked ? "active" : ""}>
               <Link to='/aboutus'><li>About Us</li></Link>
               <Link to='/contactus'><li>Contact Us</li></Link>
-              
+
               {/* Dropdown for "Shop by Categories" */}
               <li className="dropdown" onMouseEnter={this.handleDropdownToggle} onMouseLeave={this.handleDropdownToggle}>
                 Shop by Categories
