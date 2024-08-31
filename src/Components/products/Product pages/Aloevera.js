@@ -293,13 +293,13 @@ const Aloevera = () => {
           className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
           onClick={() => setActiveTab('skinCare')}
         >
-          Receipe For Skin Care
+        Tips  For Skin Care
         </button>
         <button
           className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
           onClick={() => setActiveTab('hairCare')}
         >
-          Receipe For Hair Care
+          Tips For Hair Care
         </button>
       </div>
 

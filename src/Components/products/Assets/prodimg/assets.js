@@ -1,10 +1,10 @@
 import aloe from './aloe250.png'
 import amla from './amla250.png'
 import beetroot from './Beetroot250.png'
-import  shikhakhai from './Shkiha250.png'
+import shikhakhai from './Shkiha250.png'
 import curryleaf from './curreleaf250.png'
 import henna from './Henna250.png'
-import  jamuseed from './jamunseed250.png'
+import jamuseed from './jamunseed250.png'
 import lemongrass from './lemongrass250.png'
 import multani from './Multanimitti250.png'
 import sandalwood from './sandalwood250.png'
@@ -13,7 +13,7 @@ import moringa from './moringa250.png'
 import sandal1 from './Sandalwood 2 banner (1).png'
 import multanibanner1 from './Multani mitti-01.png'
 import amlaposter from './AMLA POWEDER POSTERS BANNER_Vegan Circle Green.png'
-import curryleafposter from  './curry-leaf-banner-2.png'
+import curryleafposter from './curry-leaf-banner-2.png'
 import aloebanner1 from './aloe ver banner stretch_Vegan Circle Green copy (1).png'
 import aloebanner2 from './banner.png'
 import aloe3 from './81SiXSMhYIL._AC_SX679_.jpg'
@@ -33,37 +33,75 @@ import Amla4 from './Amla _05.jpg'
 import Amla5 from './Amla powder (1).png'
 import amlback from './Amla _Back.jpg'
 
-import beetback from  './Beetroot Back.jpg' 
-import beet1 from  './BP_02.jpg' 
+import Henna3 from "./Product With Ingredients.jpg"
+import Henna4 from "./Product Back.jpg"
+import Henna5 from "./300 into 300Hair Diy Heena .png"
+import Hennabanner1 from './heenna-powder-banner-3.png'
+import Hennabanner2 from './heenna-powefer-banner (1).png'
+
+import Currleaf1 from './curry-leaf-banner-2.png'
+import Currback from './Curry Leaf Powder Back.jpg'
+import Curryfront from './Curryingredient.jpg'
+import Curryleaf2 from './EveryDay Meal.jpg'
 
 
-export const assets={
+
+import beetback from './Beetroot Back.jpg'
+import beet1 from './BP_02.jpg'
+
+
+export const assets = {
+    // ====henna===
+    Curryleaf2,
+    Currback,Curryfront ,
+    Hennabanner1,
+    Hennabanner2,
+Henna3,Henna4,Henna5,
+    // ====Amla=====
     Amla1,
     Amla2,
-    Amla3,
-    Amla4,Amla5,amlback,beetback ,beet1,
-aloe,
-amla,
-beetroot,
-curryleaf,
-shikhakhai,
-lemongrass,
-multani,
-sandalwood,
-triphala,
-moringa,
-henna,
-jamuseed,
-sandal1,
-aloebanner1,
-aloebanner2,
-aloe3,
-aloe4,roswater,
-indheal,
-sandaal2img,
-sandaal3img ,
-sandalcertification,
+    Amla3, amla,
+    Amla4, Amla5, amlback, beetback, beet1,
 
-multanibanner1,curryleafposter ,amlaposter,
-multanipic2,multanipic, multaniposter 
+    // ====Curry Leaf====
+    curryleafposter,
+
+    beetroot,
+    curryleaf,
+    shikhakhai,
+    lemongrass,
+    multani,
+    // ==sandalwood  igm======
+    sandaal2img,
+    sandaal3img,
+    sandalwood,
+    sandal1,
+    sandalcertification,
+    // ===Triphala===
+
+
+    triphala,
+
+
+    // ===Moringa ====
+    moringa,
+    henna,
+    jamuseed,
+
+
+    // =====Aloevera====
+    aloe,
+    aloebanner1,
+    aloebanner2,
+    aloe3,
+    aloe4, roswater,
+    // ===Multani Mittti=====
+    indheal,
+    multanibanner1, amlaposter,
+    multanipic2, multanipic, multaniposter,
+
+
+
+    // =======Curry leaf =======
+    Currleaf1,
 }
