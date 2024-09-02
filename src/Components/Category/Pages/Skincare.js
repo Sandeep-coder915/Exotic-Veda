@@ -1,17 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import img111 from '../Assets/Aloe Vera  1 img  .png'
+import { assets } from '../../products/Assets/prodimg/assets'
 
 const Skincare = () => {
   return (
-    <div className='Container1' style={{marginTop:'4.9rem', }}>
+    <div className='Container1' style={{marginTop:'4.2rem', }}>
+      <Link to='/products/thriphala'>
+      <img src={assets.skincarebaner} alt='Skincare Use  ' style={{maxWidth:'100%'}} ></img></Link>
       <h1>Expolre Our Skin Care Categories</h1>
     <div className='row'>
    
     <div className='col-md-4'>
             <div className='card'>
-                <Link to='/products/thriphala'>
-                <img src={img111} alt='img'></img></Link>
+               
+                <img src={img111} alt='img'></img>
              
                 <div className='card-body'>
                    <h2 className='card-title' >Aloevera Powder for Men & Women</h2> 
@@ -22,7 +25,8 @@ const Skincare = () => {
     
             </div>
             </div>
-            </div></div>
+            </div>
+            </div>
   )
 }
 

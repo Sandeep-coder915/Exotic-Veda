@@ -3,6 +3,7 @@ import Aloevera from '../Assets/Aloe Vera  1 img  .png'
 import { Carousel } from 'react-responsive-carousel'; // Import the carousel component
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Link } from 'react-router-dom'
+import { assets } from '../../products/Assets/prodimg/assets';
  
 const Dietryuse = () => {
   const products = [
@@ -131,8 +132,16 @@ const Dietryuse = () => {
   ];
   
   return (
-    <div className="product-container">
+    <div className="product-container" style={{marginTop:'2.2rem'}}>
+      <img src={assets.Dietbanner} style={{maxWidth:'100%'}} alt='Dieatray use '></img>
     <h1>Explore Our Dietary Categorey</h1>
+    <div className='article'>
+      <p>
+<h1>Harness the Power of Nature with Exotic Veda: A Guide to Dietary Uses of Our Premium Natural Products</h1>
+
+In today's fast-paced world, maintaining a healthy diet is more important than ever. At Exotic Veda, we understand the need to nourish your body with wholesome, natural ingredients that are free from additives and chemicals. Our premium range of dietary products is carefully crafted to enhance your well-being and bring balance to your life. With a commitment to authenticity and quality, Exotic Veda offers a variety of natural powders that can easily be incorporated into your daily diet. From boosting your immune system to improving digestion, our products are designed to help you live a healthier, more vibrant life.</p>
+
+    </div>
     
     {/* Carousel component for mobile view */}
     

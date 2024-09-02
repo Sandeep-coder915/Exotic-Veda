@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
-.Aloevera{
+.Product-Page-Contanier {
   text-align: justify;
    margin-top: 4.2rem;
-   font-family: 'New Amsterdam', sans-serif;
+   /* font-family: 'New Amsterdam', sans-serif; */
 }
 .img-aloe{
  display: flex;
  
 }
 @media only screen and (max-width: 600px){
-    .Aloevera{
+    .Product-Page-Contanier {
         margin-top: 4.4rem;
      }
      .Aloevera-Description{

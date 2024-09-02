@@ -44,6 +44,7 @@ const Haircare = () => {
   ]
   return (
     <div className="product-container" style={{padding:'4.4rem'}}>
+      <img  src={assets.haircarebanner} style={{maxWidth:'100%'}} alt='Dieatary use '></img>
     <h1>Explore Our Products</h1>
     
     {/* Carousel component for mobile view */}

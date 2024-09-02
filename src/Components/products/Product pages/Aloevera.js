@@ -243,7 +243,7 @@ const Aloevera = () => {
 
   return (
     <>
-      <div className='Aloevera '>
+      <div className='Product-Page-Contanier '>
         <div >
           <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
             <img src={assets.aloebanner1} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>

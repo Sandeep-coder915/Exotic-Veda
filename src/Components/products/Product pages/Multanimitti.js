@@ -229,7 +229,7 @@ const Multanimitti = () => {
 
   return (
     <>
-      <div className='Aloevera '>
+      <div className='Product-Page-Contanier  '>
         <div style={{position:'relative' ,maxWidth:'100%'}}>
           <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
             <img src={assets.multanibanner1} alt='aloevera ' style={{ maxWidth: '100%' ,maxHeight:'100%',minHeight:'200px'}} />

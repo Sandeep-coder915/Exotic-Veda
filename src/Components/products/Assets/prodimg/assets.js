@@ -1,4 +1,8 @@
 import aloe from './aloe250.png'
+import  haircarebanner  from './HAIRE CARE BANNNER.png'
+
+import skincarebaner from './banner for skins care.png'
+import Dietbanner from './dietary use banner of exotic veda-01.png'
 import amla from './amla250.png'
 import beetroot from './Beetroot250.png'
 import shikhakhai from './Shkiha250.png'
@@ -52,6 +56,7 @@ import beet1 from './BP_02.jpg'
 
 export const assets = {
     // ====henna===
+    haircarebanner,
     Curryleaf2,
     Currback,Curryfront ,
     Hennabanner1,
@@ -104,4 +109,6 @@ Henna3,Henna4,Henna5,
 
     // =======Curry leaf =======
     Currleaf1,
+    skincarebaner,
+    Dietbanner,
 }

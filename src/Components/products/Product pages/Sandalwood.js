@@ -229,7 +229,7 @@ const Sandalwood = () => {
 
   return (
     <>
-    <div className='Aloevera '>
+    <div className='Product-Page-Contanier'>
       <div style={{position:'relative' ,maxWidth:'100%'}}>
         <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
           <img src={assets.sandal1} alt='aloevera ' style={{ maxWidth: '100%' ,maxHeight:'100%',minHeight:'200px'}} />
