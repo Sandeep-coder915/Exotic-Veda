@@ -1,208 +1,111 @@
 import React from 'react'
-import Aloevera from '../Assets/Aloe Vera  1 img  .png'
-import { Carousel } from 'react-responsive-carousel'; // Import the carousel component
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+    
 import { Link } from 'react-router-dom'
 import { assets } from '../../products/Assets/prodimg/assets';
- 
+import './skincare.css'
 const Dietryuse = () => {
   const products = [
     {
       id: 1,
-      link: '/products/thriphala',
-      img:  Aloevera,
-      title: 'Aloevera Powder for Men & Women',
+      link: '/products/aloevera-powder',
+      img: assets.aloe,
+      title: 'Pure Aloe Vera Powder by Exotic Veda: Your Natural Solution for Skin and Hair Care',
       description: 'Welcome To Exotic Veda',
-      updateInfo: 'Learn Our Recipes to Use For Different Purposes',
+      updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
       buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-      route: '/products/thriphala'
+      route: '/products/aloevera-powder',
     },
+     
     {
       id: 2,
-      link: '/products/sandalwood',
-      img:  Aloevera,
-      title: 'Aloevera Powder for Men & Women',
+      link: '/products/multani-mitti',
+      img: assets.multani,
+      title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
       description: 'Welcome To Exotic Veda',
-      updateInfo: 'Click me to See Recipes',
+            updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
       buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-      route: '/products/sandalwood'
+      route: '/products/multani-mitti',
     },
+  
+
     {
       id: 3,
-      link: '/products/thriphala',
-      img:  Aloevera,
-      title: 'Aloevera Powder for Men & Women',
+      link: '/products/beetroot-powder',
+      img: assets.beetroot,
+      title: 'Pure Beetroot Powder by Exotic Veda: Add Natural Color and Nutrients to Your Smoothies',
       description: 'Welcome To Exotic Veda',
-      updateInfo: 'Last updated 3 mins ago',
-      buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-      route: '/recipe-aloe-vera'
+            updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/beetroot-powder'
     },
-    // {
-    //   id: 4,
-    //   link: '/products/thriphala',
-    //   img: img111,
-    //   title: 'Aloevera Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    
-    // {
-    //   id: 5,
-    //   link: '/products/triphala',
-    //   img: img11,
-    //   title: 'Triphala Powder for Men & Women',
-    //   description: 'Welcome To Exotic Veda',
-    //   updateInfo: 'Last updated 3 mins ago',
-    //   buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-    //   route: '/recipe-aloe-vera'
-    // },
-    // More products here...
+    {
+      id: 4,
+      link: '/products/lemongras-powder',
+      img: assets.lemongrass,
+      title: 'Lemongrass Powder by Exotic Veda: Boost Your Recipes with Fresh, Zesty Taste',
+      description: 'Welcome To Exotic Veda',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/lemongras-powder'
+    },
+
+    {
+      id: 5,
+      link: '/products/amla-powder',
+      img: assets.amla,
+      title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
+      description: 'Welcome To Exotic Veda',
+            updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/amla-powder',
+    },
+    {
+      id:6,
+      link: '/products/jaamun-seed',
+      img: assets.jamuseed,
+      title: 'amun Seed Powder by Exotic Veda: Promote Wellness with Natural Antioxidants and Nutrients',
+      description: 'Welcome To Exotic Veda',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/jaamun-seed',
+    },
+
   ];
-  
   return (
-    <div className="product-container" style={{marginTop:'2.2rem'}}>
-      <img src={assets.Dietbanner} style={{maxWidth:'100%'}} alt='Dieatray use '></img>
-    <h1>Explore Our Dietary Categorey</h1>
-    <div className='article'>
-      <p>
-<h1>Harness the Power of Nature with Exotic Veda: A Guide to Dietary Uses of Our Premium Natural Products</h1>
 
-In today's fast-paced world, maintaining a healthy diet is more important than ever. At Exotic Veda, we understand the need to nourish your body with wholesome, natural ingredients that are free from additives and chemicals. Our premium range of dietary products is carefully crafted to enhance your well-being and bring balance to your life. With a commitment to authenticity and quality, Exotic Veda offers a variety of natural powders that can easily be incorporated into your daily diet. From boosting your immune system to improving digestion, our products are designed to help you live a healthier, more vibrant life.</p>
+    <div style={{ marginTop: '4.2rem' }}>
+      <img src={assets.Dietbanner} style={{ maxWidth: '100%' }} />
 
-    </div>
-    
-    {/* Carousel component for mobile view */}
-    
+      <h1 className="text-center mb-4">Explore Our Products</h1>
+      <div className="container mt-5">
 
-<div className="mobile-carousel">
-<Carousel
-  showArrows={true}
-  infiniteLoop={true}
-  showThumbs={true}
-  showStatus={true}
-  autoPlay={false}
-  swipeable={true}
-  emulateTouch={true}
-  interval={5000}
->
-  {products.map((product) => (
-    <div className="product-card" key={product.id}>
-      <Link to={product.link}>
-        <img src={product.img} alt={product.title} />
-      </Link>
-      <div className="card-body">
-        <h2 className="card-title">{product.title}</h2>
-        <p className="card-text">{product.description}</p>
-        <p className="card-text" style={{ textAlign: 'center' }}>
-          <small className="text-muted">
-            <Link to={product.route}>{product.updateInfo}</Link>
-          </small>
-        </p>
-        <a href={product.buyLink}>
-          <button className="btn btn-primary">Buy Now</button>
-        </a>
-      </div>
-    </div>
-  ))}
-</Carousel>
-</div>
-
-    {/* Grid display for desktop view */}
-    <div className="product-grid">
-      {products.map((product) => (
-        <div className="product-card" key={product.id}>
-          <Link to={product.link}>
-            <img src={product.img} alt={product.title} />
-          </Link>
-          <div className="card-body">
-            <h2 className="card-title">{product.title}</h2>
-            <p className="card-text">{product.description}</p>
-            <p className="card-text" style={{ textAlign: 'center' }}>
-              <small className="text-muted">
-                <Link to={product.route}>{product.updateInfo}</Link>
-              </small>
-            </p>
-            <a href={product.buyLink}>
-              <button className="btn btn-primary">Buy Now</button>
-            </a>
-          </div>
+        <div className="row">
+          {products.map((product) => (
+            <div key={product.id} className="col-md-4 col-sm-6 mb-4">
+              <div className="card h-100">
+                <Link to={product.link}>
+                  <img src={product.img} className="" alt={product.title} />
+                </Link>
+                <div className="card-body">
+                  <h5 className="card-title">{product.title}</h5>
+                  <p className="card-text">{product.description}</p>
+                  <p className="card-text">
+                    <small className="text-muted">
+                      <Link to={product.link}>{product.updateInfo}</Link>
+                    </small>
+                  </p>
+   <Link to={product.link}><button className='btn'>Buy Now</button></Link> 
+                 
+                    
+                  
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-  </div>
+      </div>
+      </div>
+
   )
 }
-
 export default Dietryuse

@@ -1,19 +1,19 @@
-import aloe from './aloe250.png'
+import aloe from './aloe400px.png'
 import  haircarebanner  from './HAIRE CARE BANNNER.png'
-
+import   alum from './alumbar400px.png'
 import skincarebaner from './banner for skins care.png'
 import Dietbanner from './dietary use banner of exotic veda-01.png'
-import amla from './amla250.png'
-import beetroot from './Beetroot250.png'
-import shikhakhai from './Shkiha250.png'
-import curryleaf from './curreleaf250.png'
-import henna from './Henna250.png'
-import jamuseed from './jamunseed250.png'
-import lemongrass from './lemongrass250.png'
-import multani from './Multanimitti250.png'
+import amla from './amal400px.png'
+import beetroot from './Beetroot400px.png'
+import shikhakhai from './Shikakai 400px.png'
+import curryleaf from './1.png'
+import henna from './Henna 400px.png'
+import jamuseed from './jamun400px.png'
+import lemongrass from './Lemongrass 400px.png'
+import multani from './MULTANIMITTTI400PX.png'
 import sandalwood from './sandalwood250.png'
-import triphala from './tripahla250.png'
-import moringa from './moringa250.png'
+import triphala from './TRIPHALA400PX.png'
+import moringa from './mORINGALEAF400PX.png'
 import sandal1 from './Sandalwood 2 banner (1).png'
 import multanibanner1 from './Multani mitti-01.png'
 import amlaposter from './AMLA POWEDER POSTERS BANNER_Vegan Circle Green.png'
@@ -36,6 +36,7 @@ import Amla3 from './Amla _06.jpg'
 import Amla4 from './Amla _05.jpg'
 import Amla5 from './Amla powder (1).png'
 import amlback from './Amla _Back.jpg'
+import ee from './Untitled design (73).png'
 
 import Henna3 from "./Product With Ingredients.jpg"
 import Henna4 from "./Product Back.jpg"
@@ -55,6 +56,7 @@ import beet1 from './BP_02.jpg'
 
 
 export const assets = {
+    ee,   alum ,
     // ====henna===
     haircarebanner,
     Curryleaf2,

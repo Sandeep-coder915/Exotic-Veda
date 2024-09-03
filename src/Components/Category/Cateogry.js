@@ -68,7 +68,7 @@ const Cateogry = () => {
                 </div>
           
                 <div>
-                  <img src={imglogo} style={{ maxWidth: '100%', marginTop: '10px', minWidth: '100%' }} alt="Logo" />
+                  <img src={imglogo} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Logo" />
                   <img src={img23} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 23" />
                   <img src={img22} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 22" />
                 </div>
