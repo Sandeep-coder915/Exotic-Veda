@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
- 
+import SkincareSection from './Transitiontext';  
 import './producet.css';
 
 import { assets } from './Assets/prodimg/assets';
@@ -148,7 +148,10 @@ const Product = ( ) => {
     {/* <img src={assets.} style={{ maxWidth: '100%' }} /> */}
 
     <h1 className="text-center mb-4">Explore Our Products</h1>
-    <div className="container mt-5">
+ {/* <div>
+  <SkincareSection/>
+ </div> */}
+    <div className="container2 mt-5">
 
       <div className="row">
         {products.map((product) => (
