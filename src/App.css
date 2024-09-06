@@ -64,7 +64,7 @@ a:hover {
 }
 
 .Container {
-  
+
   gap: 20px;
   display: flex;
   justify-content: center;
@@ -168,7 +168,7 @@ a:hover {
 
 }
 
- 
+
 
 body::-webkit-scrollbar {
   width: 12px;
@@ -204,7 +204,7 @@ body::-webkit-scrollbar-thumb {
     padding: 10px 40px;
     font-size: 18px;
   }
-  
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -237,7 +237,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
- 
+
 
 @media only screen and (max-width: 600px) {
 
@@ -298,7 +298,7 @@ body::-webkit-scrollbar-thumb {
        width: 100%;
      } */
 
-  
+
 
 
   .Container .row {
@@ -383,27 +383,29 @@ body::-webkit-scrollbar-thumb {
   padding: 1rem;
 
 }
+
 .footer {
   background-color: beige;
   padding: 2rem;
   margin-top: 5rem;
- 
+
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0)
-} 
+}
 
- .Social-media {
+.Social-media {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 30px;
   border-bottom: 4px solid gray;
-} 
+}
 
 .Footer-ul li {
   list-style: none;
-} 
+}
+
 .Footer-ul li a:hover {
   color: #D0A82A;
 }
@@ -482,7 +484,8 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0; /* Light background for the loader */
+  background-color: #f0f0f0;
+  /* Light background for the loader */
 }
 
 .spinner {
@@ -497,10 +500,11 @@ body::-webkit-scrollbar-thumb {
 
 @keyframes spin {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -527,7 +531,14 @@ p {
   padding: 20px;
 }
 
-.title, .intro, .subtitle, .description, .ingredients-list li, .cta-title, .cta-description, .cta-button {
+.title,
+.intro,
+.subtitle,
+.description,
+.ingredients-list li,
+.cta-title,
+.cta-description,
+.cta-button {
   opacity: 0;
   transform: translateX(-50%);
   animation: slideIn 0.5s forwards;
@@ -543,6 +554,7 @@ p {
     opacity: 0;
     transform: translateX(-50%);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -581,3 +593,4 @@ p {
 .cta-button:hover {
   background-color: #0056b3;
 }
+

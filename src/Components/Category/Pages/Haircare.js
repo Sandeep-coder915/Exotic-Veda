@@ -95,7 +95,7 @@ const Haircare = () => {{
                       <Link to={product.link}>{product.updateInfo}</Link>
                     </small>
                   </p>
-   <Link to={product.link}><button className='btn'>Buy Now</button></Link> 
+   <Link to={product.buyLink}><button className='btn'>Buy Now</button></Link> 
                  
                     
                   

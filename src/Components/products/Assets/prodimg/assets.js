@@ -3,7 +3,7 @@ import  haircarebanner  from './HAIRE CARE BANNNER.png'
 import   alum from './alumbar400px.png'
 import skincarebaner from './banner for skins care.png'
 import Dietbanner from './dietary use banner of exotic veda-01.png'
-import amla from './amal400px.png'
+import amla from './AmlaAseets/amal400px.png'
 import beetroot from './Beetroot400px.png'
 import shikhakhai from './Shikakai 400px.png'
 import curryleaf from './1.png'
@@ -16,7 +16,7 @@ import triphala from './TRIPHALA400PX.png'
 import moringa from './mORINGALEAF400PX.png'
 import sandal1 from './Sandalwood 2 banner (1).png'
 import multanibanner1 from './Multani mitti-01.png'
-import amlaposter from './AMLA POWEDER POSTERS BANNER_Vegan Circle Green.png'
+import amlaposter from './AmlaAseets/AMLA POWEDER POSTERS BANNER_Vegan Circle Green.png'
 import curryleafposter from './curry-leaf-banner-2.png'
 import aloebanner1 from './aloe ver banner stretch_Vegan Circle Green copy (1).png'
 import aloebanner2 from './banner.png'
@@ -30,12 +30,13 @@ import multaniposter from './Multani-mitti-banner.png'
 import sandaal2img from './sandal2img.jpg'
 import sandaal3img from './sandalwood.jpg'
 import sandalcertification from './sandalwwod-certifiation-banner.png'
-import Amla1 from './Amla _02.jpg'
-import Amla2 from './Amla _03.jpg'
-import Amla3 from './Amla _06.jpg'
-import Amla4 from './Amla _05.jpg'
-import Amla5 from './Amla powder (1).png'
-import amlback from './Amla _Back.jpg'
+// ====Amla powdder  imports =====
+import Amla1 from './AmlaAseets/Amla _02.jpg'
+import Amla2 from './AmlaAseets/Amla _03.jpg'
+import Amla3 from './AmlaAseets/Amla _06.jpg'
+import Amla4 from './AmlaAseets/Amla _05.jpg'
+import Amla5 from './AmlaAseets/Amla powder (1).png'
+import amlback from './AmlaAseets/Amla _Back.jpg'
 import ee from './Untitled design (73).png'
 
 import Henna3 from "./Product With Ingredients.jpg"
@@ -53,11 +54,18 @@ import Curryleaf2 from './EveryDay Meal.jpg'
 
 import beetback from './Beetroot Back.jpg'
 import beet1 from './BP_02.jpg'
+// ====Lemongradss===
+import lemonstrexh from  './Lemongrass/WhatsApp Image 2024-09-06 at 15.10.04_2f590f21.jpg'
+import lemonbanner1 from  './Lemongrass/Lemonbanner1.jpg'
+import lemonimg from  './Lemongrass/lemo 2nd.jpg'
 
 
 import certification from './CERTIFICATION BANNERS22-01.png'
 
 export const assets = {
+
+    // ====Lemingrass===
+    lemonstrexh , lemonbanner1,lemonimg,
 
 
     certification,
