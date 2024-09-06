@@ -55,7 +55,12 @@ import beetback from './Beetroot Back.jpg'
 import beet1 from './BP_02.jpg'
 
 
+import certification from './CERTIFICATION BANNERS22-01.png'
+
 export const assets = {
+
+
+    certification,
     ee,   alum ,
     // ====henna===
     haircarebanner,

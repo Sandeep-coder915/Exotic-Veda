@@ -508,3 +508,76 @@ p {
   font-size: 18px;
   color: #333;
 }
+
+
+
+
+
+
+
+/* =======Transtion ===== */
+.skincare-section {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title, .intro, .subtitle, .description, .ingredients-list li, .cta-title, .cta-description, .cta-button {
+  opacity: 0;
+  transform: translateX(-50%);
+  animation: slideIn 0.5s forwards;
+}
+
+.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ingredients-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ingredients-list li {
+  margin-bottom: 10px;
+  animation-delay: 0.2s;
+}
+
+.ingredients-list strong {
+  color: #007BFF;
+}
+
+.cta-button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  animation-delay: 1s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
