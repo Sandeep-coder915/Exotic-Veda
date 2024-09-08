@@ -33,8 +33,9 @@ class Navbar extends Component {
 
           <ul id='ulnav'>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/reciepe'>Treatment & Tips</Link></li>
+            <li><Link to='/reciepe'>Tips</Link></li>
             <li><Link to='/products'>Products</Link></li>
+            <li><Link to='/Search'>Search</Link></li>
           </ul>
 
           <div>

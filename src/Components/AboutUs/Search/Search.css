@@ -1,0 +1,133 @@
+
+
+/* =====Search Bar ====== */
+/* Base styling for the search bar container */
+.search-bar {
+    display: flex;
+    gap: 4px;
+    position: relative;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the input field */
+  .search-bar input {
+  
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-bar input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Styling for the search button */
+  .search-bar button {
+  
+  
+    padding: 15px 20px;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    /* padding: 10px 10px; */
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    /* font-size: 16px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the suggestions dropdown */
+  .suggestions-dropdown {
+   
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .suggestions-dropdown ul {
+    list-style: none;
+   
+  }
+  
+  .suggestions-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestions-dropdown li:hover,
+  .suggestions-dropdown li.active {
+    background-color: #f1f1f1;
+  }
+  
+  /* Styling for the search results */
+  .search-results {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   
+  }
+  
+  .search-results h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .search-results ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-results li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .search-results img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+  
+  .search-results p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .search-results a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-results a:hover {
+    color: #007BFF;
+  }

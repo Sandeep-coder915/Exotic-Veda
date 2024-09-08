@@ -406,7 +406,7 @@ const Amlapowder = () => {
 
           <div style={{ display: 'flex', maxWidth: '100%' }}>
             <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'>
-              <img src={assets.amlaposter} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+              <img src={assets.amlaposter} alt='aloevera ' style={{ maxWidth: '100%',minWidth:'100%', }} /></a>
 
           </div>
 

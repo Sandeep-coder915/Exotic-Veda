@@ -19,7 +19,8 @@ const Footer = () => {
     { to: '/FAQ', name: 'FAQ' },
     { to: '/terms', name: 'Terms' },
     { to: '/policy', name: 'Policy' },
-    { to: '/review', name: 'Review' }
+    { to: '/review', name: 'Review' },
+    { to: '/Search', name: 'Search' },
   ];
 
   return (

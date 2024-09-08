@@ -25,14 +25,14 @@ function App() {
         <BrowserRouter>
             <Header />
             {/* Show Loader if loading, otherwise show the main content */}
-            {isLoading ? (
-                <Loader />
-            ) : (
+            {/* {isLoading ? ( */}
+                {/* <Loader /> */}
+            {/* ) : ( */}
                 <>
                     <AppRoutes />
                     <Footer />
                 </>
-            )}
+            {/* )} */}
         </BrowserRouter>
     );
 }
