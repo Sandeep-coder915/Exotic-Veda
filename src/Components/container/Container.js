@@ -5,7 +5,7 @@ const Container = () => {
   return (
     <div className='rr2'>
       <div>
-        <img src={img} style={{maxWidth:'100%',minWidth:'100%'}} alt='exotic veda' ></img>
+        <img src={img} style={{ maxWidth: '100%', minWidth: '100%' }} alt='exotic veda' ></img>
       </div>
       <div className='Container-Section'  >
         <p >

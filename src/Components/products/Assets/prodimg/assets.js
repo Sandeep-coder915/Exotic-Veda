@@ -58,6 +58,7 @@ import beet1 from './BP_02.jpg'
 import lemonstrexh from  './Lemongrass/WhatsApp Image 2024-09-06 at 15.10.04_2f590f21.jpg'
 import lemonbanner1 from  './Lemongrass/Lemonbanner1.jpg'
 import lemonimg from  './Lemongrass/lemo 2nd.jpg'
+import lemonimg1 from  './Lemongrass/lemonfront.jpg'
 
 
 import certification from './CERTIFICATION BANNERS22-01.png'
@@ -65,7 +66,7 @@ import certification from './CERTIFICATION BANNERS22-01.png'
 export const assets = {
 
     // ====Lemingrass===
-    lemonstrexh , lemonbanner1,lemonimg,
+    lemonstrexh , lemonbanner1,lemonimg,lemonimg1,
 
 
     certification,

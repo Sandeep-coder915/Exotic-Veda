@@ -246,11 +246,11 @@ const Aloevera = () => {
       <div className='Product-Page-Contanier '>
         <div >
           <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-            <img src={assets.aloebanner1} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+            <img src={assets.aloebanner1} alt='aloevera ' style={{ maxWidth: '100%', minWidth: '100%' }} /></a>
         </div>
-        <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+        <div className='Aloevera-Description' style={{maxWidth: '100%', minWidth: '100%' ,display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
           <h1 style={{ textAlign: 'center' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
-
+        
 
           <div >
             <a href='https://revaais.com/products/pure-aloe-vera-powder?_pos=1&_psq=aloe&_ss=e&_v=1.0'>
@@ -269,7 +269,7 @@ const Aloevera = () => {
 
           <div style={{ display: 'flex', maxWidth: '100%' }}>
             <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
-              <img src={assets.aloebanner2} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+              <img src={assets.aloebanner2} alt='aloevera '   style={{ maxWidth: '100%', minWidth: '100%' }} /></a>
             {/* <img src={assets.aloe2} alt='aloevera ' style={{ maxWidth: '100%' }} /> */}
           </div>
 
