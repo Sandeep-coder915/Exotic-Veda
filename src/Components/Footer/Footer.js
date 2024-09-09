@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'; // Import social media icons
+import { FaFacebook, FaInstagram, FaYoutube, FaPhone } from 'react-icons/fa'; // Import social media icons
 import img3 from "./fevicon 48 by 48-01.png";
 import './footer.css';
 import linktrsvg from  './linktree-logo-icon.svg'
@@ -27,13 +27,13 @@ const Footer = () => {
   ];
 
   return (
-    <div className='footer' style={{ borderBottom: "4px solid grey" }}>
+    <footer className='footer' style={{ borderBottom: "4px solid grey" }}>
       {/* Social Media Section */}
       <div className='Social-media'>
-        <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
+        <ul style={{ display: "flex", gap: "20px", listStyle: "none", padding: 0 }}>
           {socialLinks.map((link, index) => (
             <a href={link.href} key={index} target="_blank" rel="noopener noreferrer">
-              <li style={{ fontSize: '24px' }}>{link.icon}</li> {/* Display the icon */}
+              <li style={{ fontSize: '24px', display: 'inline' }}>{link.icon}</li> {/* Display the icon */}
             </a>
           ))}
         </ul>
@@ -42,12 +42,19 @@ const Footer = () => {
             <img src={img3} style={{ height: "40px", width: "40px" }} alt="Logo" />
           </Link>
         </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '10px' }}>
+  <a href="tel:6239315288" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'inherit' }}>
+    <FaPhone style={{ fontSize: '24px' }} />
+    <span style={{ marginLeft: '5px' }}>Call: 623-931-5288</span>
+  </a>
+</div>
+
       </div>
 
       {/* Footer Links Section */}
       <div className='Footer-ul'>
         {Array.from({ length: 4 }).map((_, i) => (
-          <ul key={i}>
+          <ul key={i} style={{ padding: 0 }}>
             {footerLinks.map((link, index) => (
               <li key={index}>
                 <Link to={link.to}>{link.name}</Link>
@@ -62,7 +69,7 @@ const Footer = () => {
         <p style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold' }}>Copyright 2024,</p>
         <p style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold' }}>All Rights Reserved</p>
       </div>
-    </div>
+    </footer>
   );
 };
 

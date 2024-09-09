@@ -161,9 +161,16 @@ const Product = ( ) => {
                 <img src={product.img} className="" alt={product.title} />
               </Link>
               <div className="card-body">
-                <h5 className="card-title">{product.title}</h5>
-                <p className="card-text">{product.description}</p>
+
+                <Link to={product.link}>
+                <h5 className="card-title">{product.title}</h5
+                ></Link>
+                <Link to={product.link}>
                 <p className="card-text">
+                  {product.description}
+                 
+                </p></Link>
+                  <p className="card-text">
                   <small className="text-muted">
                     <Link to={product.link}>{product.updateInfo}</Link>
                   </small>
