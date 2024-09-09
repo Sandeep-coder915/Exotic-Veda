@@ -3,13 +3,16 @@ import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'; // Import social media icons
 import img3 from "./fevicon 48 by 48-01.png";
 import './footer.css';
+import linktrsvg from  './linktree-logo-icon.svg'
 
 const Footer = () => {
   // Array of social media links with icons
   const socialLinks = [
     { href: 'https://www.facebook.com/profile.php?id=61552173721446', icon: <FaFacebook />, name: 'Facebook' },
     { href: 'https://www.instagram.com/revaais_us/', icon: <FaInstagram />, name: 'Instagram' },
-    { href: 'https://www.youtube.com/@RevaaaisUS', icon: <FaYoutube />, name: 'YouTube' }
+    { href: 'https://www.youtube.com/@RevaaaisUS', icon: <FaYoutube  />, name: 'YouTube' },
+    { href: 'https://linktr.ee/Revaais_US', icon: <img src={linktrsvg} alt="Linktree" style={{ height: "24px", width: "24px" }} />, name: 'linktree' },
+
   ];
 
   // Array of footer links
@@ -34,7 +37,7 @@ const Footer = () => {
             </a>
           ))}
         </ul>
-        <div>
+        <div className='logo'>
           <Link to="/">
             <img src={img3} style={{ height: "40px", width: "40px" }} alt="Logo" />
           </Link>

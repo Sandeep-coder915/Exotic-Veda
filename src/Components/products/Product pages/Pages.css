@@ -29,11 +29,11 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  width: 20%;
+  width: 18%;
   height: 250px;
   position: absolute; /* Allows positioning relative to the parent div */
-  top:48%; /* Centers vertically */
-  right: 100px; /* Positions it 20px from the right side */
+  top:50%; /* Centers vertically */
+  right: 10px; /* Positions it 20px from the right side */
   transform: translateY(-50%); /* Adjusts the vertical alignment */
   background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
   padding: 20px; /* Adds some spacing inside the container */
@@ -56,6 +56,13 @@ button {
 .right-container button:hover {
   background-color: #0056b3; /* Button hover effect */
 }
+
+@media only screen and (max-width: 1024px){
+.right-container {
+ display: none;
+
+
+}}
 
 
 /* General Styles for the Product Description List */

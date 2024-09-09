@@ -6,6 +6,10 @@ import Dietbanner from './dietary use banner of exotic veda-01.png'
 import amla from './AmlaAseets/amal400px.png'
 import beetroot from './Beetroot400px.png'
 import shikhakhai from './Shikakai 400px.png'
+import  shikabannersttre from './WhatsApp Image 2024-09-09 at 13.42.59_799fa071.jpg'
+import  shikabanner from './shika970.png'
+
+
 import curryleaf from './1.png'
 import henna from './Henna 400px.png'
 import jamuseed from './jamun400px.png'
@@ -51,7 +55,6 @@ import Curryfront from './Curryingredient.jpg'
 import Curryleaf2 from './EveryDay Meal.jpg'
 
 
-
 import beetback from './Beetroot Back.jpg'
 import beet1 from './BP_02.jpg'
 // ====Lemongradss===
@@ -68,6 +71,10 @@ export const assets = {
     // ====Lemingrass===
     lemonstrexh , lemonbanner1,lemonimg,lemonimg1,
 
+
+    // ====Shikaki ====
+    shikabannersttre ,
+    shikabanner,
 
     certification,
     ee,   alum ,

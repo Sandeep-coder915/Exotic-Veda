@@ -149,7 +149,7 @@ nav{
   position: absolute; /* Position dropdown absolutely under parent */
   top: 100%; /* Align the dropdown below the parent */
   left: 0; /* Align to the left */
-  background-color: #fff; /* Background color */
+  background-color: transparent;/* Background color */
   padding: 10px 0; /* Padding for dropdown items */
   list-style: none; /* Remove default list styling */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
@@ -182,4 +182,23 @@ nav{
 
 .dropdown-menu a:hover {
   color: #ff5e62; /* Hover color for links */
+}
+
+@media screen and (max-width: 1024px){
+
+  .dropdown-menu {
+  
+    background-image: url('');
+    display: none; /* Initially hide the dropdown */
+    position: absolute; /* Position dropdown absolutely under parent */
+    top: 20%; /* Align the dropdown below the parent */
+    left: 170px; /* Align to the left */
+   background-color: transparent;
+    padding: 10px 0; /* Padding for dropdown items */
+    list-style: none; /* Remove default list styling */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
+    border-radius: 4px; /* Rounded corners */
+    z-index: 9999; /* Ensure dropdown is above other elements */
+    width: 200px; /* Set a fixed width for the dropdown */
+  }
 }

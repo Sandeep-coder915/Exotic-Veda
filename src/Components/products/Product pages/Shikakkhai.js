@@ -166,13 +166,9 @@ const Shikakkhai = () => {
     <>
       <div className='Product-Page-Container'>
         <div style={{ position: 'relative', maxWidth: '100%' }}>
-          <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
-            <img src={assets.sandal1} alt='Sandalwood' style={{ maxWidth: '100%', minHeight: '200px',minWidth:'100%' }} />
-            <div className='right-container'>
-              <h2>Don't Miss Out</h2>
-              <p style={{ textAlign: 'center' }}>Explore the opportunities</p>
-             <button>Buy Now</button> 
-            </div>
+          <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
+            <img src={assets.shikabannersttre } alt='Sandalwood' style={{ maxWidth: '100%', minWidth:'100%', marginTop:'4rem' }} />
+        
           </a>
         </div>
 
@@ -180,31 +176,32 @@ const Shikakkhai = () => {
           <h1 style={{ textAlign: 'center' }}>Pure Organic Shikakai Powder Natural Hair Cleanser and Conditioner, Non-GMO, Herbal Formula for Strong, Shiny Hair, 100g</h1>
 
           <div>
-            <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
+            <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
               <div className='img-shikakai'>
-                <img src='https://m.media-amazon.com/images/I/61CBHz2lv2L._SY355_.jpg' alt='Shikakai' style={{ maxWidth: '50%' }} />
-                <img src='https://m.media-amazon.com/images/I/61c5eu1zZ-L._SY355_.jpg' alt='Shikakai' style={{ maxWidth: '50%' }} />
+                <img src={assets.aloe4} alt='Shikakai' style={{ maxWidth: '50%' }} />
+                <img src={assets.aloe4} alt='Shikakai' style={{ maxWidth: '50%' }} />
+            
               </div>
             </a>
           </div>
-          <ul>
+          {/* <ul>
             <li>Organic Shikakai Powder For Hair: Step Up Your Hair Care Game With The Age-Old Remedy Of Shikakai. Our 100% Natural Shikakai Powder (Or Acacia Concinna) Strengthens Roots, Fights Dandruff, And Leaves Your Hair Smooth And Shiny. Follow A Hair Care Routine That's Not Only Sustainable But Transformative, Giving Your Hair The Nourishment It Craves And The Shine It Deserves.</li>
-          </ul>
+          </ul> */}
 
-          <div style={{ display: 'flex', maxWidth: '100%' }}>
-            <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
-              <img src={assets.sandalcertification} alt='Certification' style={{ maxWidth: '100%' }} />
+          {/* <div style={{ display: 'flex', maxWidth: '100%' }}>
+            <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
+              <img src={assets.shikabanner} alt='Certification' style={{ maxWidth: '100%' }} />
             </a>
-          </div>
+          </div> */}
 
-          <h2 style={{ textAlign: 'start' }}>About this item</h2>
+          {/* <h2 style={{ textAlign: 'start' }}>About this item</h2>
           <ul>
             <li>100% Natural, GMO-Free: We're All About Keeping Things Natural, Clean, And Super Effective. Our Product Is Sourced Directly From The Acacia Concinna Tree, Completely Non-GMO, And Crafted In A GMP-Compliant Facility. This Means You're Getting The Best, With No Nasty Surprises.</li>
             <li>Helps Prevent Hair Graying: Our Acacia Powder Is Here To Help Preserve Your Natural Hair Color And Fend Off Those Early Grays. The Saponins, Tannins, And Antioxidants In Shikakai Work To Protect And Nourish Your Hair From Root To Tip. It's Gentle, Effective, And All About Keeping Those Premature Grays At Bay.</li>
             <li>Prevents Split Ends, Dandruff: Don't Let Split Ends And Dandruff Dull Your Hair's Natural Shine! Shikakai Has Natural Compounds Like Antioxidants And Saponins, Which Help Target The Root Causes Of Hair Damage And Scalp Issues. It Helps Restore Your Hair's Vitality While Leaving The Scalp Flake-Free.</li>
             <li>SOOTHES, HEALS YOUR SKIN: Skin irritations, rashes, prickly heat – whatever your skin woe, our pure sandalwood powder is here to soothe, heal, and calm your skin. Think of it as your personal skin rescuer, always ready to comfort you when your skin feels irritated or just needs a little TLC.</li>
             <li>EASY TO USE: To make a nice face pack that de-tans, lightens, and brightens, mix 2 tablespoons of our Sandalwood Powder with 1 teaspoon of multani mitti powder and a little water to create a smooth paste. Apply evenly over your face and neck, leave for 15-20 minutes, then wash off to reveal glowing, spot-free skin.</li>
-          </ul>
+          </ul> */}
         </div>
 
         <div className="tabs">
