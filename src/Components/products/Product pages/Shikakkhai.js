@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { assets } from '../Assets/prodimg/assets';
-import { Link } from 'react-router-dom';
-
+ 
 const Shikakkhai = () => {
   const [activeTab, setActiveTab] = useState('hairCare'); // State to track the active tab
 

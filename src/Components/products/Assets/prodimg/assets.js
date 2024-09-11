@@ -9,6 +9,13 @@ import shikhakhai from './Shikakai 400px.png'
 import  shikabannersttre from './WhatsApp Image 2024-09-09 at 13.42.59_799fa071.jpg'
 import  shikabanner from './shika970.png'
 
+// ===Alium BAr  ===
+import  alum1 from  '../Alumbar/aftershave.jpg'
+import  alum2 from  '../Alumbar/banner2.jpg'
+import  alum3 from  '../Alumbar/deobanner.jpg'
+import  alum4 from  '../Alumbar/aftershave.jpg'
+import  alum5 from  '../Alumbar/aftershave.jpg'
+
 
 import curryleaf from './1.png'
 import henna from './Henna 400px.png'
@@ -67,6 +74,9 @@ import lemonimg1 from  './Lemongrass/lemonfront.jpg'
 import certification from './CERTIFICATION BANNERS22-01.png'
 
 export const assets = {
+
+
+    alum1,alum2,alum3,alum4,
 
     // ====Lemingrass===
     lemonstrexh , lemonbanner1,lemonimg,lemonimg1,
