@@ -416,20 +416,40 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+   
 
   .shikakai-contanienr ul {
     background-color: rgba(101, 35, 51, 255);
     font-family: "Alice", serif;
-    list-style: none;
-
-    display: grid;
     text-align: justify;
     grid-template-columns: 1fr;
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 30px 20px 10px;  
 
   }
+ .Tripahala-contanienr ul{ 
+    background-color:  rgba(246,203,160,255);
+    font-family: "Alice", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    grid-template-columns: 1fr;
+    color: black;
+    padding: 30px 20px 10px;  
+
+  }
+ .Lemongrass-contanienr ul{ 
+    background-color: rgba(181,207,116,255);
+    font-family: "Alice", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    grid-template-columns: 1fr;
+    color: black;
+    padding: 30px 20px 10px;  
+    font-size: large;
+    text-align: justify;
+
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -443,6 +463,10 @@ h1 {
     color: white;
     padding: 20px;
 
+
+  }
+  .Lemongrass-contanienr ul{ 
+    margin-right: 10px;
   }
 
 
@@ -525,7 +549,7 @@ h1 {
 .disclaimer {
   text-align: center;
   font-size: 20px;
-  color: rgb(184, 39, 39);
+  color:white;
 }
 
 .disclaimer span {
@@ -534,3 +558,36 @@ h1 {
   font-size: 22px;
 
 }
+
+.recipe-card .recipe-details .ingredients ul,.instructions ul{
+  padding: 30px;
+  list-style:disc;
+  text-align: start;
+}
+
+.recipe-card .recipe-details .ingredients1 ul,.instructions1 ul{
+  padding: 30px;
+  list-style:disc;
+  background-color: rgba(246,203,160,255);
+  text-align: start;
+  color: black;
+}
+.recipe-card .recipe-details .ingredients2 ul,.instructions2 ul{
+  padding: 30px;
+  list-style:disc;
+  background-color: rgba(181,207,116,255);
+  text-align: start;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

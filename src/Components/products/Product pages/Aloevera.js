@@ -256,7 +256,7 @@ const Aloevera = () => {
             <a href='https://revaais.com/products/pure-aloe-vera-powder?_pos=1&_psq=aloe&_ss=e&_v=1.0'>
 
               <div className='img-aloe'>
-                <img src={assets.aloe4} alt='hel' style={{ maxWidth: '50%' }} />
+                <img src={assets.aloe3} alt='hel' style={{ maxWidth: '50%' }} />
                 <img src={assets.aloe3} alt='hel' style={{ maxWidth: '50%' }} />
               </div>
             </a>

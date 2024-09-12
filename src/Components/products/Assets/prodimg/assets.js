@@ -43,7 +43,7 @@ import amlaposter from '../AmlaAseets/AMLA POWEDER POSTERS BANNER_Vegan Circle G
 import curryleafposter from './curry-leaf-banner-2.png'
 import aloebanner1 from './aloe ver banner stretch_Vegan Circle Green copy (1).png'
 import aloebanner2 from './banner.png'
-import aloe3 from './81SiXSMhYIL._AC_SX679_.jpg'
+import aloe3 from '../Beauty Product Instagram Post/Aloe vera  front.png'
 import aloe4 from './81GeyCtVdFL._AC_SX679_.jpg'
 import roswater from './81GeyCtVdFL._AC_SX679_.jpg'
 import indheal from './81N-NjFH-+L._SX466_.jpg'
@@ -79,13 +79,23 @@ import beet1 from './BP_02.jpg'
 // ====Lemongradss===
 import lemonstrexh from  '../Lemongrass/WhatsApp Image 2024-09-06 at 15.10.04_2f590f21.jpg'
 import lemonbanner1 from  '../Lemongrass/Lemonbanner1.jpg'
-import lemonimg from  '../Lemongrass/lemo 2nd.jpg'
+import lemonimg from  '../Lemongrass/Lemongrass how to use.png'
 import lemonimg1 from  '../Lemongrass/lemonfront.jpg'
 
 
 import certification from './CERTIFICATION BANNERS22-01.png'
 
+// ===Triphala Powder ====
+import triphala2  from  '../Beauty Product Instagram Post/Tripahal 2.png'
+import triphalabanner  from  '../Beauty Product Instagram Post/Tripahla banner  .jpg'
+import triphala1  from  '../Beauty Product Instagram Post/Tripahala Powder  1.png'
+
+
 export const assets = {
+
+
+    // =====Tripahla Powder =====
+    triphala2,triphalabanner,triphala1,
 
 
     alum1,alum2,alum3,alum4,
