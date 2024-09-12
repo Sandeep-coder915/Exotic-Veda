@@ -188,7 +188,7 @@ nav{
 
   .dropdown-menu {
   
-    background-image: url('');
+    /* background-image: url(''); */
     display: none; /* Initially hide the dropdown */
     position: absolute; /* Position dropdown absolutely under parent */
     top: 20%; /* Align the dropdown below the parent */

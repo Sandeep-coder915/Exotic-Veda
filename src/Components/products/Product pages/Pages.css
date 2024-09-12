@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
 .Product-Page-Contanier {
   text-align: justify;
-   margin-top: 4.2rem;
-   /* font-family: 'New Amsterdam', sans-serif; */
+  margin-top: 4.2rem;
+  /* font-family: 'New Amsterdam', sans-serif; */
 }
-.img-aloe{
- display: flex;
- 
+
+.img-aloe {
+  display: flex;
+
 }
-@media only screen and (max-width: 600px){
-    .Product-Page-Contanier {
-        margin-top: 4.4rem;
-     }
-     .Aloevera-Description{
-        font-size: 5px;
-     }
-     .Aloevera-Description ul li{
-        gap: 20px;
-        font-size: 14px;
-        text-align: justify;
-        padding-right: 30px;
-     }
-     
+
+@media only screen and (max-width: 600px) {
+  .Product-Page-Contanier {
+    margin-top: 4.4rem;
+  }
+
+  .Aloevera-Description {
+    font-size: 5px;
+  }
+
+  .Aloevera-Description ul li {
+    gap: 20px;
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 30px;
+  }
+
 }
 
 .right-container {
@@ -31,432 +36,501 @@
   border-radius: 10px;
   width: 18%;
   height: 250px;
-  position: absolute; /* Allows positioning relative to the parent div */
-  top:50%; /* Centers vertically */
-  right: 10px; /* Positions it 20px from the right side */
-  transform: translateY(-50%); /* Adjusts the vertical alignment */
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
-  padding: 20px; /* Adds some spacing inside the container */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for visual separation */
-  text-align: center; /* Centers the text inside the container */
+  position: absolute;
+  /* Allows positioning relative to the parent div */
+  top: 50%;
+  /* Centers vertically */
+  right: 10px;
+  /* Positions it 20px from the right side */
+  transform: translateY(-50%);
+  /* Adjusts the vertical alignment */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent background for better readability */
+  padding: 20px;
+  /* Adds some spacing inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Optional: adds a shadow for visual separation */
+  text-align: center;
+  /* Centers the text inside the container */
 }
 
 
-.right-container 
-button {
+.right-container button {
   border-radius: 10px;
-  padding: 10px 20px; /* Button padding */
-  font-size: 16px; /* Button text size */
-  background-color: #007BFF; /* Button background color */
-  color: white; /* Button text color */
-  border: none; /* Removes border */
-  cursor: pointer; /* Changes cursor on hover */
+  padding: 10px 20px;
+  /* Button padding */
+  font-size: 16px;
+  /* Button text size */
+  background-color: #007BFF;
+  /* Button background color */
+  color: white;
+  /* Button text color */
+  border: none;
+  /* Removes border */
+  cursor: pointer;
+  /* Changes cursor on hover */
 }
 
 .right-container button:hover {
-  background-color: #0056b3; /* Button hover effect */
+  background-color: #0056b3;
+  /* Button hover effect */
 }
 
-@media only screen and (max-width: 1024px){
-.right-container {
- display: none;
+@media only screen and (max-width: 1024px) {
+  .right-container {
+    display: none;
 
 
-}}
+  }
+}
 
 
 /* General Styles for the Product Description List */
 .Aloevera-Description ul {
-   list-style-type: none;
-   /* width: 80%; */
-   padding: 0;
-   margin: 0;
-   font-family: Arial, sans-serif;
-   font-size: 16px;
-   color: #333;
-   line-height: 1.6;
+  list-style-type: none;
+  /* width: 80%; */
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
 }
 
-.Aloevera-Description ul li{
-   background-color: #f9f9f9;
-   border: 1px solid #ddd;
-   padding: 15px;
-   margin-bottom: 10px;
-   border-radius: 8px;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   transition: transform 0.3s ease;
+.Aloevera-Description ul li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .Aloevera-Description ul li:hover {
-   transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Heading Styles */
 .Aloevera-Description ul li:first-child {
-   font-weight: bold;
-   background-color: #dff0d8;
-   border-color: #c3e6cb;
-   color: #3c763d;
+  font-weight: bold;
+  background-color: #dff0d8;
+  border-color: #c3e6cb;
+  color: #3c763d;
 }
 
 /* Media Query for Responsiveness */
 @media screen and (max-width: 768px) {
-   
-  .right-container  p{
+
+  .right-container p {
     font-size: 12px;
   }
+
   .right-container {
     width: 25%;
     height: 140px;
     border-radius: 10px;
-    position: absolute; /* Allows positioning relative to the parent div */
-    top:48%; /* Centers vertically */
-    right: 0px; /* Positions it 20px from the right side */
-    transform: translateY(-50%); /* Adjusts the vertical alignment */
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
-    padding: 20px; /* Adds some spacing inside the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for visual separation */
-    text-align: center; /* Centers the text inside the container */
+    position: absolute;
+    /* Allows positioning relative to the parent div */
+    top: 48%;
+    /* Centers vertically */
+    right: 0px;
+    /* Positions it 20px from the right side */
+    transform: translateY(-50%);
+    /* Adjusts the vertical alignment */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background for better readability */
+    padding: 20px;
+    /* Adds some spacing inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: adds a shadow for visual separation */
+    text-align: center;
+    /* Centers the text inside the container */
   }
-   .Aloevera-Description ul {
-       padding: 0 10px;
-   }
-   
-   .Aloevera-Description ul li {
-       padding: 10px;
-       font-size: 14px;
-   }
-   .Aloevera-btn{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-   }
+
+  .Aloevera-Description ul {
+    padding: 0 10px;
+  }
+
+  .Aloevera-Description ul li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .Aloevera-btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-   .Aloevera-Description ul li {
-       font-size: 12px;
-       padding: 8px;
-   }
+  .Aloevera-Description ul li {
+    font-size: 12px;
+    padding: 8px;
+  }
 }
-.btn2{
-   background-color: #311e1e;
-   color: wheat;
- margin-top: 20px;
-   font-size: 20px;
-   padding: 10px 80px;
-   border-radius: 40px;
+
+.btn2 {
+  background-color: #311e1e;
+  color: wheat;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 80px;
+  border-radius: 40px;
 }
-.btn2 a{
-   color:wheat;
- 
-   font-size: 20px;
-  
+
+.btn2 a {
+  color: wheat;
+
+  font-size: 20px;
+
 }
+
 .btn2:hover {
-   background-color: #f0f0f0;
-   color: black;
-   cursor: pointer;
-   
+  background-color: #f0f0f0;
+  color: black;
+  cursor: pointer;
+
 }
-.btn2:hover a{
- 
-   color: black;
-   
+
+.btn2:hover a {
+
+  color: black;
+
 }
 
 
 .product-detail-page {
-   padding: 20px;
-   max-width: 1200px;
-   margin: 0 auto;
- }
- 
- h1 {
-   text-align: center;
-   margin-bottom: 20px;
-   font-size: 2rem;
- }
- 
- .recipes-container {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
- 
-   justify-content: center;
- }
- 
- .recipe-card {
-min-width: 100%;
-   display: flex;
-   flex-direction: row;
-   background-color: #fff;
-   border: 1px solid #ddd;
-   border-radius: 8px;
-   padding: 20px;
-   /* Full width for now, adjust with media queries */
-   box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
- }
- 
- .recipe-image {
-   flex: 1;
-   margin-right: 20px;
- }
- 
- .recipe-image img {
-   width: 100%;
-   height: auto;
-   border-radius: 8px;
- }
- 
- .recipe-details {
-   flex: 2;
-   display: flex;
-   flex-direction: column;
- }
- 
- .recipe-card h2 {
-   font-size: 1.5rem;
-   margin-bottom: 10px;
-   color: #333;
- }
- 
- .recipe-card h4 {
-   font-size: 1.2rem;
-   margin-bottom: 10px;
-   color: #666;
- }
- 
- .ingredients,
- .instructions {
-   margin-bottom: 10px;
- }
- 
- .ingredients ul,
- .instructions ul {
-   padding-left: 20px;
- }
- 
- .recipe-card p {
-   font-size: 1rem;
-   color: #555;
-   margin-top: 10px;
- }
- 
- /* Media Queries for Responsiveness */
- @media (max-width: 768px) {
-   .recipe-card {
-     flex-direction: column;
-     width: calc(50% - 20px); /* Two cards per row */
-   }
- 
-   .recipe-image {
-     margin-right: 0;
-     margin-bottom: 20px;
-   }
- }
- 
- @media (max-width: 480px) {
-   .recipe-card {
-     width: 100%; /* Full width for mobile devices */
-   }
- 
-   h1 {
-     font-size: 1.5rem;
-   }
- 
-   .recipe-card h2 {
-     font-size: 1.3rem;
-   }
- 
-   .recipe-card h4 {
-     font-size: 1.1rem;
-   }
- 
-   .recipe-card p {
-     font-size: 0.9rem;
-   }
- }
-
-
-
-
-
- 
- /* ============HAir tips =========== */
-
- .hair-care-detail-page {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
- }
- 
- h1 {
-   text-align: center;
-   margin-bottom: 20px;
-   font-size: 2rem;
- }
- 
- .haircare-recipes-container {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
-   justify-content: center;
- }
- 
- .haircare-recipe-card {
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  justify-content: center;
+}
+
+.recipe-card {
   min-width: 100%;
-     display: flex;
-     flex-direction: row;
-     background-color: #fff;
-     border: 1px solid #ddd;
-     border-radius: 8px;
-     padding: 20px;
-     /* Full width for now, adjust with media queries */
-     box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);}
- 
- .haircare-recipe-image {
-   flex: 1;
-   margin-right: 20px;
- }
- 
- .haircare-recipe-image img {
-   width: 100%;
-   height: auto;
-   border-radius: 8px;
- }
- 
- .haircare-recipe-details {
-   flex: 2;
-   display: flex;
-   flex-direction: column;
- }
- 
- .haircare-recipe-card h2 {
-   font-size: 1.5rem;
-   margin-bottom: 10px;
-   color: #333;
- }
- 
- .haircare-recipe-card h4 {
-   font-size: 1.2rem;
-   margin-bottom: 10px;
-   color: #666;
- }
- 
- .ingredients,
- .instructions {
-   margin-bottom: 10px;
- }
- 
- .ingredients ul,
- .instructions ul {
-   padding-left: 20px;
- }
- 
- .haircare-recipe-card p {
-   font-size: 1rem;
-   color: #555;
-   margin-top: 10px;
- }
- 
- /* Media Queries for Responsiveness */
- @media (max-width: 768px) {
-   .haircare-recipe-card {
-     flex-direction: column;
-     width: 100%; /* Two cards per row */
-   }
-   
- 
-   .haircare-recipe-image {
-     margin-right: 0;
-     margin-bottom: 20px;
-   }
- }
- 
- @media (max-width: 480px) {
-   .haircare-recipe-card {
-     width: 100%; /* Full width for mobile devices */
-   }
- 
-   h1 {
-     font-size: 1.5rem;
-   }
- 
-   .haircare-recipe-card h2 {
-     font-size: 1.3rem;
-   }
- 
-   .haircare-recipe-card h4 {
-     font-size: 1.1rem;
-   }
- 
-   .haircare-recipe-card p {
-     font-size: 0.9rem;
-   }
- 
- }
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  /* Full width for now, adjust with media queries */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.recipe-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.ingredients,
+.instructions {
+  margin-bottom: 10px;
+}
+
+.ingredients ul,
+.instructions ul {
+  padding-left: 20px;
+}
+
+.recipe-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .recipe-card {
+    flex-direction: column;
+    width: calc(50% - 20px);
+    /* Two cards per row */
+  }
+
+  .recipe-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recipe-card {
+    width: 100%;
+    /* Full width for mobile devices */
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .recipe-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .recipe-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .recipe-card p {
+    font-size: 0.9rem;
+  }
+}
 
 
- /* ======tab switch -======== */
+
+
+
+
+/* ============HAir tips =========== */
+
+.hair-care-detail-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.haircare-recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.haircare-recipe-card {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  /* Full width for now, adjust with media queries */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.haircare-recipe-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.haircare-recipe-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.haircare-recipe-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.haircare-recipe-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.haircare-recipe-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.ingredients,
+.instructions {
+  margin-bottom: 10px;
+}
+
+.ingredients ul,
+.instructions ul {
+  padding-left: 20px;
+}
+
+.haircare-recipe-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+
+  .haircare-recipe-card {
+    flex-direction: column;
+    width: 100%;
+    /* Two cards per row */
+  }
+
+
+  .haircare-recipe-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .shikakai-contanienr ul {
+    background-color: rgba(101, 35, 51, 255);
+    font-family: "Alice", serif;
+    list-style: none;
+
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .shikakai-contanienr ul {
+    background-color: rgba(101, 35, 51, 255);
+    font-family: "Alice", serif;
+    /* list-style: none; */
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr;
+    color: white;
+    padding: 20px;
+
+  }
+
+
+  .haircare-recipe-card {
+    width: 100%;
+    /* Full width for mobile devices */
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .haircare-recipe-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .haircare-recipe-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .haircare-recipe-card p {
+    font-size: 0.9rem;
+  }
+
+}
+
+
+/* ======tab switch -======== */
 
 /* Tab Container */
 .tabs {
   display: grid;
-  grid-template-columns: 1fr 1fr;/* Set columns for the first two buttons */
+  grid-template-columns: 1fr 1fr;
+  /* Set columns for the first two buttons */
   gap: 10px;
 }
 
- 
 
 
- /* Tab Button */
- .tabs button {
- /* border:4px solid rgb(120, 161, 120); */
-   padding: 20px 20px;
-   /* border: none; */
-   cursor: pointer;
-   background-color: #f0f0f0;
-   background-color: #0056b3;
-   color: white;
-   border: none;
-   font-size: 1rem;
-   margin: 0 10px;
-   border-radius:10px; /* Only top-left and top-right corners are rounded */
-   /* transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; Smooth transition for background color, text color, and border-bottom */
-   /* No bottom border for inactive tabs */
- }
- 
- /* Active Tab Button */
- .tabs button.active {
-  background-color: #0056b3; /* Active tab background color */
-   color: white;
-   border-bottom: 4px solid green; /* Green bottom border for active tab */
-   border-radius: 5px 5px 0 0; /* Only top corners are rounded */
-   transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for active state */
- }
- 
- /* Hover Effect */
- .tabs button:hover {
-   background-color: #0056b3;
-   color: white;
-   border: none;
- }
+
+/* Tab Button */
+.tabs button {
+  /* border:4px solid rgb(120, 161, 120); */
+  padding: 20px 20px;
+  /* border: none; */
+  cursor: pointer;
+  background-color: #f0f0f0;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  margin: 0 10px;
+  border-radius: 10px;
+  /* Only top-left and top-right corners are rounded */
+  /* transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; Smooth transition for background color, text color, and border-bottom */
+  /* No bottom border for inactive tabs */
+}
+
+/* Active Tab Button */
+.tabs button.active {
+  background-color: #0056b3;
+  /* Active tab background color */
+  color: white;
+  border-bottom: 4px solid green;
+  /* Green bottom border for active tab */
+  border-radius: 5px 5px 0 0;
+  /* Only top corners are rounded */
+  transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+  /* Smooth transition for active state */
+}
+
+/* Hover Effect */
+.tabs button:hover {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+}
 
 
- .disclaimer {
+.disclaimer {
   text-align: center;
-  font-size:20px;
+  font-size: 20px;
   color: rgb(184, 39, 39);
- }
- .disclaimer span{
+}
+
+.disclaimer span {
   color: black;
   font-weight: 900;
   font-size: 22px;
-  
- }
 
-
-
- 
+}
