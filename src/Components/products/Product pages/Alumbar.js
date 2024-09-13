@@ -4,125 +4,35 @@ import { assets } from '../Assets/prodimg/assets';
 const Alumbar = () =>{
   const [activeTab, setActiveTab] = useState('hairCare'); // State to track the active tab
 
-  const hairCareRecipes = [
+  const alumBarUses = [
     {
       id: 1,
-      title: 'Shikakai and Lemon Juice Hair Pack',
-      hairType: 'Oily Hair and Scalp',
-      ingredients: [
-        '2 tablespoons shikakai powder',
-        '1 tablespoon lemon juice',
-        'Water to make a paste',
+      title: 'Using Alum Bar for Aftershave',
+      steps: [
+        'Wet the Alum Bar with cold water.',
+        'After shaving, rinse your face with cold water to close pores.',
+        'Gently rub the wet alum bar over the shaved areas of your face.',
+        'Leave it on for 1-2 minutes to allow the alum to soothe and disinfect the skin.',
+        'Rinse your face with cold water again and pat dry with a clean towel.',
+        'Apply a moisturizer or aftershave balm to keep your skin hydrated.'
       ],
-      instructions: [
-        'Mix shikakai powder with lemon juice and enough water to create a smooth paste.',
-        'Apply the paste to your scalp and hair, focusing on the roots where oil tends to accumulate.',
-        'Massage gently into the scalp for a few minutes.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse thoroughly with lukewarm water and follow with a mild shampoo if needed.',
-      ],
-      benefits:
-        'Removes excess oil, cleanses the scalp, and adds volume and freshness to oily hair.',
-      image: assets.alum4,
+      benefits: 'The alum bar acts as an antiseptic and helps to prevent razor burn, nicks, and cuts from getting infected.',
+      image: assets.alumAftershave,  // Replace 'path_to_image' with the correct image path or import
     },
     {
       id: 2,
-      title: 'Shikakai and Coconut Milk Hair Mask',
-      hairType: 'Dry and Frizzy Hair',
-      ingredients: [
-        '2 tablespoons shikakai powder',
-        '1/2 cup coconut milk',
-        '1 tablespoon honey',
+      title: 'Using Alum Bar as a Deodorant',
+      steps: [
+        'Wet the Alum Bar under cold water.',
+        'After showering, rub the wet alum bar gently on your underarms.',
+        'Let the alum air dry on your skin—no need to rinse off.',
+        'Store the alum bar in a dry place after use.'
       ],
-      instructions: [
-        'Mix shikakai powder with coconut milk and honey to form a smooth, consistent paste.',
-        'Apply the mixture to your scalp and hair, focusing on the ends where frizz is common.',
-        'Leave it on for 30-45 minutes.',
-        'Rinse thoroughly with lukewarm water and shampoo as usual.',
-      ],
-      benefits:
-        'Deeply conditions and nourishes dry, frizzy hair, making it softer and more manageable.',
-      image: assets.shikakaiDryHair,
-    },
-    {
-      id: 3,
-      title: 'Shikakai and Neem Powder Hair Pack',
-      hairType: 'Dandruff and Itchy Scalp',
-      ingredients: [
-        '2 tablespoons shikakai powder',
-        '1 tablespoon neem powder',
-        'Water to make a paste',
-      ],
-      instructions: [
-        'Mix shikakai powder with neem powder and enough water to form a paste.',
-        'Apply the paste to your scalp, focusing on areas with dandruff or itchiness.',
-        'Leave it on for 20-30 minutes.',
-        'Rinse thoroughly with lukewarm water and follow with a mild shampoo.',
-      ],
-      benefits:
-        'Reduces dandruff, soothes the scalp, and helps maintain a healthy scalp environment.',
-      image: assets.shikakaiDandruff,
-    },
-    {
-      id: 4,
-      title: 'Shikakai and Amla Hair Mask',
-      hairType: 'Hair Growth and Strengthening',
-      ingredients: [
-        '2 tablespoons shikakai powder',
-        '2 tablespoons amla (Indian gooseberry) powder',
-        'Water to make a paste',
-      ],
-      instructions: [
-        'Mix shikakai powder and amla powder with enough water to form a thick paste.',
-        'Apply the mixture to your scalp, focusing on the roots to stimulate hair follicles.',
-        'Massage gently for a few minutes to promote blood circulation.',
-        'Leave it on for 30-40 minutes.',
-        'Rinse thoroughly with lukewarm water and shampoo as usual if needed.',
-      ],
-      benefits:
-        'Strengthens hair from the roots, promotes hair growth, and reduces hair fall.',
-      image: assets.shikakaiHairGrowth,
-    },
-    {
-      id: 5,
-      title: 'Shikakai and Yogurt Hair Mask',
-      hairType: 'Dull and Damaged Hair',
-      ingredients: [
-        '2 tablespoons shikakai powder',
-        '2 tablespoons yogurt',
-        '1 tablespoon olive oil',
-      ],
-      instructions: [
-        'Mix shikakai powder with yogurt and olive oil to create a smooth paste.',
-        'Apply the mixture to your scalp and hair, focusing on damaged areas.',
-        'Leave it on for 30-40 minutes.',
-        'Rinse thoroughly with lukewarm water and shampoo as usual.',
-      ],
-      benefits:
-        'Repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-      image: assets.shikakaiDamagedHair,
-    },
-    {
-      id: 6,
-      title: 'Shikakai and Aloe Vera Hair Pack',
-      hairType: 'Normal Hair',
-      ingredients: [
-        '2 tablespoons shikakai powder',
-        '2 tablespoons aloe vera gel',
-        'Water to make a paste',
-      ],
-      instructions: [
-        'Mix shikakai powder with aloe vera gel and enough water to create a smooth paste.',
-        'Apply the mask evenly to your scalp and hair.',
-        'Leave it on for 20-30 minutes.',
-        'Rinse thoroughly with lukewarm water and shampoo as usual.',
-      ],
-      benefits:
-        'Cleanses and nourishes the hair, maintaining shine and softness.',
-      image: assets.shikakaiNormalHair,
-    },
+      benefits: 'Alum helps to eliminate bacteria, which are the main cause of body odor, and provides natural deodorizing without harmful chemicals.',
+      image: assets.alumDeodorant,  // Replace 'path_to_image' with the correct image path or import
+    }
   ];
-
+  
   const TabButton = ({ label, tabKey }) => (
     <button
       className={activeTab === tabKey ? 'active' : ''}
@@ -219,7 +129,7 @@ const Alumbar = () =>{
             <div className="hair-care-detail-page">
               <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Shikakai Powder Uses for Different Hair Types</h1>
               <div className="recipes-container">
-                {hairCareRecipes.map((recipe) => (
+                {alumBarUses.map((recipe) => (
                   <RecipeCard recipe={recipe} key={recipe.id} />
                 ))}
               </div>

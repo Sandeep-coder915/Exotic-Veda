@@ -26,7 +26,11 @@ const Navbar = () => {
       return 'header-triphala';
     } else if (currentPath.includes('/lemongras-powder')) {
       return 'header-lemongrass';
-    } else {
+    } 
+    else if(currentPath.includes('/shikhakhai-powder')){
+      return 'header-shika';
+    }
+    else {
       return ''; // Default class if needed
     }
   };

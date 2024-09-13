@@ -1,118 +1,9 @@
 import React, { useState } from 'react'
 import { assets } from '../Assets/prodimg/assets'
- 
+import { sandalwoodrecipes } from './Recepisdata'; 
 
 const Sandalwood = () => {
-  const recipes = [
-    {
-      id: 1,
-      title: 'Sandalwood and Lemon Oil-Control Face Pack',
-      skinType: 'Oily and Acne-Prone Skin',
-      ingredients: [
-        '2 tablespoons sandalwood powder',
-        '1 tablespoon rose water',
-        '1 teaspoon lemon juice',
-      ],
-      instructions: [
-        'Mix the sandalwood powder with rose water and lemon juice to form a smooth paste.',
-        'Apply the paste evenly to your face, focusing on areas prone to oil and acne.',
-        'Leave it on for 15-20 minutes or until it dries.',
-        'Rinse off with lukewarm water and pat your skin dry.',
-      ],
-      benefits: 'Controls excess oil, prevents acne, and tightens pores, leaving the skin feeling fresh and clean.',
-      img: assets.sandaal2img,
-    },
-    {
-      id: 2,
-      title: 'Sandalwood and Milk Hydrating Face Pack ',
-      skinType: 'Dry and Sensitive Skin',
-      ingredients: [
-        '2 tablespoons sandalwood powder',
-        '2-3 tablespoons milk',
-        '1 teaspoon honey',
-      ],
-      instructions: [
-        'Mix the sandalwood powder with milk and honey to create a smooth, creamy paste.',
-        'Apply the mixture to your face, avoiding the eye area.',
-        'Leave it on for 10-15 minutes, ensuring it doesn’t dry completely.',
-        'Rinse off with lukewarm water and gently pat dry.',
-      ],
-      benefits: 'Hydrates and soothes dry, sensitive skin, providing moisture and reducing irritation without over-drying.',
-      img: assets.sandaal2img,
-    },
-    {
-      id: 3,
-      title: 'Sandalwood and Aloe Vera Balancing Face Pack ',
-      skinType: 'Combination Skin',
-      ingredients: [
-        '2 tablespoons sandalwood powder',
-        '1 tablespoon aloe vera gel',
-        '1 tablespoon rose water',
-      ],
-      instructions: [
-        'Mix the sandalwood powder with aloe vera gel and rose water to form a smooth paste.',
-        'Apply the mask to your face, focusing on oily areas like the T-zone and avoiding drier areas.',
-        'Leave it on for 15-20 minutes until it starts to dry.',
-        'Rinse off with lukewarm water and pat dry.',
-      ],
-      benefits: 'Balances oil production, hydrates dry areas, and maintains an even complexion.',
-      img: assets.sandaal2img,
-    },
-    {
-      id: 4,
-      title: 'Sandalwood and Banana Anti-Aging Mask',
-      skinType: 'Aging Skin',
-      ingredients: [
-        '2 tablespoons sandalwood powder',
-        '1 tablespoon mashed ripe banana',
-        '1 teaspoon honey',
-      ],
-      instructions: [
-        'Mash the ripe banana and mix it with sandalwood powder and honey to create a smooth paste.',
-        'Apply the mask to your face, focusing on areas with fine lines and wrinkles.',
-        'Leave it on for 15-20 minutes until it begins to tighten.',
-        'Rinse off with lukewarm water and pat dry.',
-      ],
-      benefits: 'Reduces fine lines, tightens the skin, and improves elasticity, promoting a youthful appearance.',
-      img: assets.sandaal2img,
-    },
-    {
-      id: 5,
-      title: 'Sandalwood and Turmeric Brightening Mask',
-      skinType: 'Dull and Uneven Skin Tone',
-      ingredients: [
-        '2 tablespoons sandalwood powder',
-        '1 teaspoon turmeric powder',
-        '2-3 tablespoons yogurt',
-      ],
-      instructions: [
-        'Mix sandalwood powder with turmeric powder and yogurt to form a smooth paste.',
-        'Apply the mask to your face, focusing on areas that appear dull or have uneven skin tone.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse off with lukewarm water and gently pat dry.',
-      ],
-      benefits: 'Brightens the skin, reduces dark spots, and revitalizes dull, tired-looking skin.',
-      img: assets.sandaal2img,
-    },
-    {
-      id: 6,
-      title: 'Sandalwood and Rose Water Refreshing Face Pack ',
-      skinType: 'Normal Skin',
-      ingredients: [
-        '2 tablespoons sandalwood powder',
-        '1 tablespoon rose water',
-        '1 teaspoon honey (optional)',
-      ],
-      instructions: [
-        'Mix sandalwood powder with rose water (and honey, if desired) to create a smooth paste.',
-        'Apply the mask evenly to your face.',
-        'Leave it on for 15-20 minutes.',
-        'Rinse off with lukewarm water and gently pat dry.',
-      ],
-      benefits: 'Refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-      img: assets.sandaal2img,
-    },
-  ];
+
   
   // const hairCareRecipes = [
   //   {
@@ -311,7 +202,7 @@ const Sandalwood = () => {
         <div className="product-detail-page">
           <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Sandalwood  Powder Uses for Different Skin Types</h1>
           <div className="recipes-container">
-            {recipes.map((recipe) => (
+            {sandalwoodrecipes.map((recipe) => (
               <div className="recipe-card" key={recipe.id}>
                 <div className="recipe-image">
                   <img src={recipe.img} alt={recipe.title} style={{ maxWidth: '100%' }} />
@@ -343,41 +234,7 @@ const Sandalwood = () => {
         </div>
       )}
 
-      {/* {activeTab === 'hairCare' && (
-        <div className="hair-care-detail-page" >
-          <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Sandalwood  Powder Uses for Different-Diffrent Hair</h1>
-          <div className="haircare-recipes-container">
-            {hairCareRecipes.map((recipe) => (
-              <div className="haircare-recipe-card" key={recipe.id}>
-                <div className="haircare-recipe-image">
-                  <img src={recipe.img} alt={recipe.title} />
-                </div>
-                <div className="haircare-recipe-details">
-                  <h2 >{recipe.title}</h2>
-                  <h4>{recipe.hairType}</h4>
-                  <div className="ingredients">
-                    <h5>Ingredients:</h5>
-                    <ul>
-                      {recipe.ingredients.map((ingredient, index) => (
-                        <li key={index}>{ingredient}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="instructions">
-                    <h5>Instructions:</h5>
-                    <ul>
-                      {recipe.instructions.map((instruction, index) => (
-                        <li key={index}>{instruction}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p><strong>Benefits:</strong> {recipe.benefits}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )} */}
+ 
 
       <p className='disclaimer'><span>Disclaimer:</span>Use Sandalwood  Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
     </div>

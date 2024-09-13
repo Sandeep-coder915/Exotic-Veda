@@ -9,7 +9,7 @@ import beetroot from './Beetroot400px.png'
 // ==Shika kai images ====
 import  shika2 from '../Beauty Product Instagram Post/Shikakai  Powder  Frontn.png'
 import  shika1 from '../Beauty Product Instagram Post/skikhai.png'
-import shikhakhai from './Shikakai 400px.png'
+import shikhakhai from './alumbar400px (1).png'
 import  shikabannersttre from './WhatsApp Image 2024-09-09 at 13.42.59_799fa071.jpg'
 import  shikabanner from './shika970.png'
  
