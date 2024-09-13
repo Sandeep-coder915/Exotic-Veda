@@ -8,7 +8,7 @@ const JamunSeed = () => {
     <>
       <div style={{ marginTop: '4rem', backgroundColor: 'rgba(75,56,104,255)',  }} className='jamun-seed-powder-container'>
         <div style={{ display: 'flex', flexDirection: 'column', }} className='rr'>
-          <img src={assets.shikabannersttre} alt='Jamun Seed Powder' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          <img src={assets.jamunb1} alt='Jamun Seed Powder' style={{ maxWidth: '100%', minWidth: '100%' }} />
 
           <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
             <img src={assets.shika1} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
@@ -54,7 +54,7 @@ const JamunSeed = () => {
         {/* Content based on active tab */}
         <div className="tab-content" >
           <div className="hair-care-detail-page" style={{ minWidth: '50%' }}>
-            <h1 style={{color:'white'}} >Jamunsedd Powder use for  Diet </h1>
+            <h1 style={{color:'white'}} >Jamunseed Powder use for  Diet </h1>
             <div className="recipes-container">
               {jamunSeedPowderUses.map((recipe) => (
                 <Reciepicard recipe={recipe} key={recipe.id} />

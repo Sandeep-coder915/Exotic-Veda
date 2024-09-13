@@ -1460,7 +1460,13 @@ export const alumBarUses = [
   {
     id: 1,
     title: 'Using Alum Bar for Aftershave',
-    steps: [
+    ingredients: [
+      'Alum Bar',
+      'Cold water',
+      'Clean towel',
+      'Moisturizer or aftershave balm'
+    ],
+    instructions: [
       'Wet the Alum Bar with cold water.',
       'After shaving, rinse your face with cold water to close pores.',
       'Gently rub the wet alum bar over the shaved areas of your face.',
@@ -1469,23 +1475,27 @@ export const alumBarUses = [
       'Apply a moisturizer or aftershave balm to keep your skin hydrated.'
     ],
     benefits: 'The alum bar acts as an antiseptic and helps to prevent razor burn, nicks, and cuts from getting infected.',
-    image: assets.alumAftershave,  // Replace 'path_to_image' with the correct image path or import
+    image: assets.alum,  // Replace with correct image path
   },
   {
     id: 2,
     title: 'Using Alum Bar as a Deodorant',
-    steps: [
+    ingredients: [
+      'Alum Bar',
+      'Cold water'
+    ],
+    instructions: [
       'Wet the Alum Bar under cold water.',
       'After showering, rub the wet alum bar gently on your underarms.',
       'Let the alum air dry on your skin—no need to rinse off.',
       'Store the alum bar in a dry place after use.'
     ],
     benefits: 'Alum helps to eliminate bacteria, which are the main cause of body odor, and provides natural deodorizing without harmful chemicals.',
-    image: assets.alumDeodorant,  // Replace 'path_to_image' with the correct image path or import
+    image: assets.alum,   // Replace with correct image path
   }
 ];
 
-
+// ====================jamun seed -================
 export const jamunSeedPowderUses = [ 
   {
     id: 1,

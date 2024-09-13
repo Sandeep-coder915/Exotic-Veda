@@ -89,14 +89,16 @@ import certification from './CERTIFICATION BANNERS22-01.png'
 import triphala2  from  '../Beauty Product Instagram Post/Tripahal 2.png'
 import triphalabanner  from  '../Beauty Product Instagram Post/Tripahla banner  .jpg'
 import triphala1  from  '../Beauty Product Instagram Post/Tripahala Powder  1.png'
-
+// ======jamunsed import ''
+import  jamunb1 from './jamun.jpg'
 
 export const assets = {
 
 
     // =====Tripahla Powder =====
     triphala2,triphalabanner,triphala1,
-
+// ===jamunseend'======
+jamunb1 ,
 
     alum1,alum2,alum3,alum4,
 
