@@ -1484,3 +1484,105 @@ export const alumBarUses = [
     image: assets.alumDeodorant,  // Replace 'path_to_image' with the correct image path or import
   }
 ];
+
+
+export const jamunSeedPowderUses = [ 
+  {
+    id: 1,
+    title: 'Jamun Seed Powder with Warm Water',
+    ingredients: [
+      '1 teaspoon of Jamun seed powder',
+      '1 glass of lukewarm water'
+    ],
+    instructions: [
+      'Take 1 teaspoon of Jamun seed powder.',
+      'Mix it into a glass of lukewarm water.',
+      'Drink it once or twice daily, preferably on an empty stomach.'
+    ],
+    benefits: 'Helps manage blood sugar levels and aids in detoxifying the body.',
+    image: assets.jamuseed,  // Replace with correct image path
+  },
+  {
+    id: 2,
+    title: 'Jamun Seed Powder Smoothie',
+    ingredients: [
+      '1 teaspoon of Jamun seed powder',
+      '1 cup of almond or soy milk',
+      '1 banana or other fruit (optional)',
+      '1 tablespoon of honey (optional)'
+    ],
+    instructions: [
+      'Blend 1 teaspoon of Jamun seed powder with 1 cup of almond or soy milk.',
+      'Add 1 banana or other fruit for extra flavor (optional).',
+      'Add 1 tablespoon of honey if desired.',
+      'Blend all ingredients and enjoy as a smoothie in the morning.'
+    ],
+    benefits: 'Provides energy while promoting a healthy digestive system. Great for a low-calorie breakfast.',
+    image: assets.jamuseed,  // Replace with correct image path
+  },
+  {
+    id: 3,
+    title: 'Jamun Seed Powder in Yogurt',
+    ingredients: [
+      '1 teaspoon of Jamun seed powder',
+      '1 cup of plain or Greek yogurt',
+      'A pinch of cinnamon or honey (optional)'
+    ],
+    instructions: [
+      'Take 1 teaspoon of Jamun seed powder.',
+      'Mix it into 1 cup of plain or Greek yogurt.',
+      'Add a pinch of cinnamon or honey for extra taste, if desired.',
+      'Enjoy it as a snack or light meal.'
+    ],
+    benefits: 'Supports digestive health and provides a good source of probiotics.',
+    image: assets.jamuseed,  // Replace with correct image path
+  },
+  {
+    id: 4,
+    title: 'Jamun Seed Powder Tea',
+    ingredients: [
+      '1 teaspoon of Jamun seed powder',
+      '1 cup of hot water',
+      'A dash of lemon or honey (optional)'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of Jamun seed powder into 1 cup of hot water.',
+      'Stir well and add a dash of lemon or honey for flavor (optional).',
+      'Sip as an herbal tea.'
+    ],
+    benefits: 'Helps with detoxification and may assist in weight management.',
+    image: assets.jamuseed, // Replace with correct image path
+  },
+  {
+    id: 5,
+    title: 'Jamun Seed Powder with Honey',
+    ingredients: [
+      '1 teaspoon of Jamun seed powder',
+      '1 tablespoon of honey'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of Jamun seed powder with 1 tablespoon of honey.',
+      'Consume directly or mix it in a glass of warm water.',
+      'Take it once daily for best results.'
+    ],
+    benefits: 'Helps maintain healthy blood sugar levels and boosts immunity.',
+    image: assets.jamuseed,  // Replace with correct image path
+  },
+  {
+    id: 6,
+    title: 'Jamun Seed Powder in Detox Juice',
+    ingredients: [
+      '1 teaspoon of Jamun seed powder',
+      '1 cup of fresh vegetable juice (e.g., cucumber or spinach)',
+      '1 tablespoon of lemon juice'
+    ],
+    instructions: [
+      'Blend 1 teaspoon of Jamun seed powder with 1 cup of fresh vegetable juice (e.g., cucumber or spinach).',
+      'Add 1 tablespoon of lemon juice for flavor.',
+      'Drink it in the morning to cleanse your system.'
+    ],
+    benefits: 'Supports liver health and detoxification, aids digestion, and promotes weight management.',
+    image: assets.jamuseed,  // Replace with correct image path
+  },
+  
+];

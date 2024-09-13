@@ -3,7 +3,7 @@ import React from 'react';
 
 const RecipeCard = ({ recipe }) => {
   return (
-    <div className="recipe-card" key={recipe.id}>
+    <div className="recipe-card" key={recipe.id} >
       <div className="recipe-image">
         <img src={recipe.image} alt={recipe.title} style={{ maxWidth: '100%' }} />
       </div>

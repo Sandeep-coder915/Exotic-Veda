@@ -11,23 +11,7 @@
 
 }
 
-@media only screen and (max-width: 600px) {
-  .Product-Page-Contanier {
-    margin-top: 4.4rem;
-  }
 
-  .Aloevera-Description {
-    font-size: 5px;
-  }
-
-  .Aloevera-Description ul li {
-    gap: 20px;
-    font-size: 14px;
-    text-align: justify;
-    padding-right: 30px;
-  }
-
-}
 
 .right-container {
   display: flex;
@@ -76,13 +60,6 @@
   /* Button hover effect */
 }
 
-@media only screen and (max-width: 1024px) {
-  .right-container {
-    display: none;
-
-
-  }
-}
 
 
 /* General Styles for the Product Description List */
@@ -120,57 +97,7 @@
 }
 
 /* Media Query for Responsiveness */
-@media screen and (max-width: 768px) {
 
-  .right-container p {
-    font-size: 12px;
-  }
-
-  .right-container {
-    width: 25%;
-    height: 140px;
-    border-radius: 10px;
-    position: absolute;
-    /* Allows positioning relative to the parent div */
-    top: 48%;
-    /* Centers vertically */
-    right: 0px;
-    /* Positions it 20px from the right side */
-    transform: translateY(-50%);
-    /* Adjusts the vertical alignment */
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Semi-transparent background for better readability */
-    padding: 20px;
-    /* Adds some spacing inside the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Optional: adds a shadow for visual separation */
-    text-align: center;
-    /* Centers the text inside the container */
-  }
-
-  .Aloevera-Description ul {
-    padding: 0 10px;
-  }
-
-  .Aloevera-Description ul li {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .Aloevera-btn {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .Aloevera-Description ul li {
-    font-size: 12px;
-    padding: 8px;
-  }
-}
 
 .btn2 {
   background-color: #311e1e;
@@ -280,41 +207,6 @@ h1 {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  .recipe-card {
-    flex-direction: column;
-    width: calc(50% - 20px);
-    /* Two cards per row */
-  }
-
-  .recipe-image {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .recipe-card {
-    width: 100%;
-    /* Full width for mobile devices */
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .recipe-card h2 {
-    font-size: 1.3rem;
-  }
-
-  .recipe-card h4 {
-    font-size: 1.1rem;
-  }
-
-  .recipe-card p {
-    font-size: 0.9rem;
-  }
-}
 
 
 
@@ -400,101 +292,9 @@ h1 {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-
-  .haircare-recipe-card {
-    flex-direction: column;
-    width: 100%;
-    /* Two cards per row */
-  }
 
 
-  .haircare-recipe-image {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 1024px) {
-   
-
-  .shikakai-contanienr ul {
-    background-color: rgba(101, 35, 51, 255);
-    font-family: "Alice", serif;
-    text-align: justify;
-    grid-template-columns: 1fr;
-    color: white;
-    padding: 30px 20px 10px;  
-
-  }
- .Tripahala-contanienr ul{ 
-    background-color:  rgba(246,203,160,255);
-    font-family: "Alice", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    grid-template-columns: 1fr;
-    color: black;
-    padding: 30px 20px 10px;  
-
-  }
- .Lemongrass-contanienr ul{ 
-    background-color: rgba(181,207,116,255);
-    font-family: "Alice", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-    grid-template-columns: 1fr;
-    color: black;
-    padding: 30px 20px 10px;  
-    font-size: large;
-    text-align: justify;
-
-  }
-
-}
-
-@media (max-width: 480px) {
-  .shikakai-contanienr ul {
-    background-color: rgba(101, 35, 51, 255);
-    font-family: "Alice", serif;
-    /* list-style: none; */
-    display: grid;
-    text-align: justify;
-    grid-template-columns: 1fr;
-    color: white;
-    padding: 20px;
-
-
-  }
-  .Lemongrass-contanienr ul{ 
-    margin-right: 10px;
-  }
-
-
-  .haircare-recipe-card {
-    width: 100%;
-    /* Full width for mobile devices */
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .haircare-recipe-card h2 {
-    font-size: 1.3rem;
-  }
-
-  .haircare-recipe-card h4 {
-    font-size: 1.1rem;
-  }
-
-  .haircare-recipe-card p {
-    font-size: 0.9rem;
-  }
-
-}
-
-
-/* ======tab switch -======== */
+/* ======tab switch  start -======== */
 
 /* Tab Container */
 .tabs {
@@ -503,9 +303,6 @@ h1 {
   /* Set columns for the first two buttons */
   gap: 10px;
 }
-
-
-
 
 /* Tab Button */
 .tabs button {
@@ -546,10 +343,21 @@ h1 {
 }
 
 
+
+
+/* =====================tab swich end ================================== */
+
+
+
+
+
+
+/* ==================discalair cssss-==================== */
+
 .disclaimer {
   text-align: center;
   font-size: 20px;
-  color:white;
+  color: white;
 }
 
 .disclaimer span {
@@ -559,35 +367,57 @@ h1 {
 
 }
 
-.recipe-card .recipe-details .ingredients ul,.instructions ul{
+/* ===================end disclimer  ==================== */
+
+
+/* ===========receipe card  ingredent  ul for lemin shikak =================== */
+.recipe-card .recipe-details .ingredients ul,
+.instructions ul {
   padding: 30px;
-  list-style:disc;
+  list-style: disc;
   text-align: start;
 }
 
-.recipe-card .recipe-details .ingredients1 ul,.instructions1 ul{
+.recipe-card .recipe-details .ingredients1 ul,
+.instructions1 ul {
   padding: 30px;
-  list-style:disc;
-  background-color: rgba(246,203,160,255);
+  list-style: disc;
+  background-color: rgba(246, 203, 160, 255);
   text-align: start;
   color: black;
 }
-.recipe-card .recipe-details .ingredients2 ul,.instructions2 ul{
+
+.recipe-card .recipe-details .ingredients2 ul,
+.instructions2 ul {
   padding: 30px;
-  list-style:disc;
-  background-color: rgba(181,207,116,255);
+  list-style: disc;
+  background-color: rgba(181, 207, 116, 255);
   text-align: start;
   color: black;
 }
 
+/* ===================end===================== */
 
 
 
+/* =======AJmun seed recipie  ocntain=============== */
+.jamun-seed-powder-container .rr ul {
+  background-color: rgba(75, 56, 104, 255);
+  font-family: "Alice", serif;
+  /* list-style: none; */
+  display: grid;
+  text-align: justify;
+  grid-template-columns: 1fr;
+  color: white;
+  padding: 20px;
 
 
+}
 
+.jamun-seed-powder-container .recipe-card ul {
+  background-color: rgba(75, 56, 104, 255);
+  color: white;
+  border-radius: 10px;
+}
 
-
-
-
-
+/* ======end================= */

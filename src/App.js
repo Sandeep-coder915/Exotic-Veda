@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import AppRoutes from './Routes/AppRoutes';
 import Loader from './Components/loader/Loader';
+import './Components/Css/Mediaq.css'
 
 function App() {
     // State to manage loading

@@ -99,24 +99,7 @@ const Alumbar = () =>{
               </div>
             </a>
           </div>
-          {/* <ul>
-            <li>Organic Shikakai Powder For Hair: Step Up Your Hair Care Game With The Age-Old Remedy Of Shikakai. Our 100% Natural Shikakai Powder (Or Acacia Concinna) Strengthens Roots, Fights Dandruff, And Leaves Your Hair Smooth And Shiny. Follow A Hair Care Routine That's Not Only Sustainable But Transformative, Giving Your Hair The Nourishment It Craves And The Shine It Deserves.</li>
-          </ul> */}
-
-          {/* <div style={{ display: 'flex', maxWidth: '100%' }}>
-            <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
-              <img src={assets.shikabanner} alt='Certification' style={{ maxWidth: '100%' }} />
-            </a>
-          </div> */}
-
-          {/* <h2 style={{ textAlign: 'start' }}>About this item</h2>
-          <ul>
-            <li>100% Natural, GMO-Free: We're All About Keeping Things Natural, Clean, And Super Effective. Our Product Is Sourced Directly From The Acacia Concinna Tree, Completely Non-GMO, And Crafted In A GMP-Compliant Facility. This Means You're Getting The Best, With No Nasty Surprises.</li>
-            <li>Helps Prevent Hair Graying: Our Acacia Powder Is Here To Help Preserve Your Natural Hair Color And Fend Off Those Early Grays. The Saponins, Tannins, And Antioxidants In Shikakai Work To Protect And Nourish Your Hair From Root To Tip. It's Gentle, Effective, And All About Keeping Those Premature Grays At Bay.</li>
-            <li>Prevents Split Ends, Dandruff: Don't Let Split Ends And Dandruff Dull Your Hair's Natural Shine! Shikakai Has Natural Compounds Like Antioxidants And Saponins, Which Help Target The Root Causes Of Hair Damage And Scalp Issues. It Helps Restore Your Hair's Vitality While Leaving The Scalp Flake-Free.</li>
-            <li>SOOTHES, HEALS YOUR SKIN: Skin irritations, rashes, prickly heat – whatever your skin woe, our pure sandalwood powder is here to soothe, heal, and calm your skin. Think of it as your personal skin rescuer, always ready to comfort you when your skin feels irritated or just needs a little TLC.</li>
-            <li>EASY TO USE: To make a nice face pack that de-tans, lightens, and brightens, mix 2 tablespoons of our Sandalwood Powder with 1 teaspoon of multani mitti powder and a little water to create a smooth paste. Apply evenly over your face and neck, leave for 15-20 minutes, then wash off to reveal glowing, spot-free skin.</li>
-          </ul> */}
+         
         </div>
 
         <div className="tabs">
