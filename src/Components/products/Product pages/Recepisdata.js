@@ -1596,3 +1596,120 @@ export const jamunSeedPowderUses = [
   },
   
 ];
+
+
+
+// ===========Moring Leaf Powder ============
+export const moringaPowderUses = [
+  {
+    id: 1,
+    title: 'Moringa Smoothie',
+    ingredients: [
+      '1 banana',
+      '1 cup of almond milk (or your preferred milk)',
+      '1 tablespoon of Organic Moringa Powder',
+      '1 tablespoon of honey (optional)'
+    ],
+    instructions: [
+      'Blend all the ingredients together until smooth.',
+      'Enjoy this nutrient-packed smoothie as a breakfast or post-workout drink!'
+    ],
+    benefits: 'Provides a nutrient-dense, energizing smoothie packed with vitamins and minerals.',
+    image: assets.moringa2,  // Replace with correct image path
+  },
+  {
+    id: 2,
+    title: 'Moringa Tea',
+    ingredients: [
+      '1 tablespoon of Organic Moringa Powder',
+      '1 cup of warm water',
+      'Honey or lemon (optional)'
+    ],
+    instructions: [
+      'Stir Moringa powder into a cup of warm water.',
+      'Add honey or lemon to taste.',
+      'Drink this soothing tea in the morning or evening to boost your energy levels and aid digestion.'
+    ],
+    benefits: 'Boosts energy levels and supports digestion.',
+    image: assets.moringa2,  // Replace with correct image path
+  },
+  {
+    id: 3,
+    title: 'Moringa Yogurt Bowl',
+    ingredients: [
+      '1 cup of yogurt (Greek or regular)',
+      '1 teaspoon of Moringa Powder',
+      'Fresh fruits (berries, banana, or mango)',
+      'Granola or seeds for topping'
+    ],
+    instructions: [
+      'Mix Moringa powder into the yogurt.',
+      'Top with fresh fruits and granola for a quick, nutrient-dense snack or breakfast.'
+    ],
+    benefits: 'Provides a nutrient-dense snack rich in probiotics, vitamins, and antioxidants.',
+    image: assets.moringa2,  // Replace with correct image path
+  },
+  {
+    id: 4,
+    title: 'Moringa Salad Dressing',
+    ingredients: [
+      '2 tablespoons olive oil',
+      '1 tablespoon lemon juice',
+      '1 teaspoon Organic Moringa Powder',
+      'Salt and pepper to taste'
+    ],
+    instructions: [
+      'Whisk together olive oil, lemon juice, Moringa powder, salt, and pepper.',
+      'Drizzle this antioxidant-rich dressing over your salads for an added health boost.'
+    ],
+    benefits: 'A healthy, antioxidant-rich dressing to enhance your salads.',
+    image: assets.moringa2,  // Replace with correct image path
+  },
+  {
+    id: 5,
+    title: 'Moringa Power Shots',
+    ingredients: [
+      '1 tablespoon of Organic Moringa Powder',
+      '½ cup of water'
+    ],
+    instructions: [
+      'Mix Moringa powder with water and drink it as a quick power shot.',
+      'Take this on an empty stomach in the morning to energize your day.'
+    ],
+    benefits: 'A quick and potent energy boost in the morning.',
+    image: assets.moringa2, // Replace with correct image path
+  },
+  {
+    id: 6,
+    title: 'Moringa in Oatmeal',
+    ingredients: [
+      '½ cup of oats',
+      '1 tablespoon Moringa Powder',
+      '1 cup water or milk',
+      'Toppings: honey, nuts, or fruits'
+    ],
+    instructions: [
+      'Cook oats with water or milk and stir in Moringa powder.',
+      'Top with your favorite fruits, nuts, and a drizzle of honey.'
+    ],
+    benefits: 'A nutrient-packed breakfast that boosts energy and provides lasting fullness.',
+    image: assets.moringa2,  // Replace with correct image path
+  },
+  {
+    id: 7,
+    title: 'Moringa Energy Balls',
+    ingredients: [
+      '1 cup rolled oats',
+      '½ cup peanut butter or almond butter',
+      '1 tablespoon Moringa Powder',
+      '¼ cup honey',
+      'Chia seeds (optional)'
+    ],
+    instructions: [
+      'Mix all ingredients together, form into small balls, and refrigerate.',
+      'These Moringa energy balls make a perfect, nutrient-rich snack on the go!'
+    ],
+    benefits: 'A nutrient-dense snack that provides long-lasting energy.',
+    image: assets.moringa2,// Replace with correct image path
+  }
+];

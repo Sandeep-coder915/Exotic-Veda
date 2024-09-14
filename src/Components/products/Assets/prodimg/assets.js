@@ -92,6 +92,9 @@ import triphala1  from  '../Beauty Product Instagram Post/Tripahala Powder  1.pn
 // ======jamunsed import ''
 import  jamunb1 from './jamun.jpg'
 
+// ====moringa leaf=====/
+import moringa2 from  './Moringa Leaf  (1).png'
+
 export const assets = {
 
 
@@ -146,7 +149,10 @@ Henna3,Henna4,Henna5,
 
 
     // ===Moringa ====
-    moringa,
+    moringa,moringa2,
+
+
+    // ============
     henna,
     jamuseed,
 

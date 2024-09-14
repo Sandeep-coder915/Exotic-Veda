@@ -12,6 +12,14 @@
   padding: 0 20px;
 } */
 #ulnav{
+  
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale; 
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,6 +53,14 @@ nav{
 }
 
 #navbar1 li {
+  
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale; 
   padding: 0 20px;
   margin: 0 10px;
   list-style: none;
