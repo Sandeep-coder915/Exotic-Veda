@@ -69,8 +69,8 @@ import Hennabanner1 from './heenna-powder-banner-3.png'
 import Hennabanner2 from './heenna-powefer-banner (1).png'
 
 import Currleaf1 from './curry-leaf-banner-2.png'
-import Currback from './Curry Leaf Powder Back.jpg'
-import Curryfront from './Curryingredient.jpg'
+ 
+import Curryfront from './Curry Front.png'
 import Curryleaf2 from './EveryDay Meal.jpg'
 
 
@@ -118,7 +118,7 @@ jamunb1 ,
     // ====henna===
     haircarebanner,
     Curryleaf2,
-    Currback,Curryfront ,
+    Curryfront ,
     Hennabanner1,
     Hennabanner2,
 Henna3,Henna4,Henna5,

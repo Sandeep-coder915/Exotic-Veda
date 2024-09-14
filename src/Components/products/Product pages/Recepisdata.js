@@ -759,7 +759,7 @@ export const curryproductDetails = {
     title: "Organic Curry Leaf Powder | 100% Natural Hair Dye from Rajasthan India Lawsonia Inermis Non-GMO Deep Brown (100g)",
     bannerImg: assets.Hennabanner1,
     buyNowLink: 'https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r',
-    images: [assets.Curryfront, assets.Currback],
+    images: [assets.Curryfront, assets.Curryfront],
     descriptionPoints: [
       "100% NATURAL, NON-GMO: Say Hello To The Highest-Quality Curry Leaves Powder You Can Find. It Is 100% Natural, Non-GMO, And Produced In A GMP-Compliant Facility—We Tick All The Boxes. This Isn't Just About Adding Flavor To Your Food; It's About Adding Life To Your Years. Our Commitment To Purity And Quality Means You Get The Best In Every Spoonful."
       , "PROMOTES HAIR HEALTH, PREVENTS GRAYING: Curry Leaves Are A Rich Source Of Beta-Carotene, Antioxidants, And Proteins. These Essential Compounds Work Together To Prevent Premature Hair Graying, Strengthen Hair Follicles, And Ensure Your Tresses Stay Vibrant And Healthy. Plus, It's An All-Natural Remedy, Free From The Harsh Chemicals Found In Many Hair Care Products."
