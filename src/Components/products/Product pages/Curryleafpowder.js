@@ -13,7 +13,7 @@ const Curryleafpowder = () => {
  
   <div style={{ marginTop: '4rem',  }} className='CurryLeaf-Container'>
     
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', flexDirection: 'column' }} className='fo'>
       <a href={curryproductDetails.buyNowLink}>
         <img src={curryproductDetails.bannerImg} alt='Curry Leaf Powder Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
       </a>
