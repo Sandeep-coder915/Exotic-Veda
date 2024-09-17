@@ -71,8 +71,5 @@ h1 {
   border-radius: 5px;
 }
 
-.mobile-carousel {
-  display: none; /* Hide the carousel by default */
-}
-
+ 
 /* Media Queries for responsiveness */

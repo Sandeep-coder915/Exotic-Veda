@@ -45,7 +45,7 @@ const Amlapowder = () => {
 
               <div className='img-aloe'>
                 <img src={assets.Amla1} alt='hel' style={{ maxWidth: '50%' }} />
-                <img src={assets.amlback} alt='hel' style={{ maxWidth: '50%' }} />
+                <img src={assets.Amla1} alt='hel' style={{ maxWidth: '50%' }} />
               </div>
             </a>
 

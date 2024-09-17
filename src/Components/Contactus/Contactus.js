@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 const Contactus = () => {
+  const form = useRef();
+
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
@@ -25,6 +28,22 @@ const Contactus = () => {
     setMessage('');
   };
 
+  // Send email
+  const handleSendMessage = (e) => {
+    e.preventDefault();
+
+    // EmailJS configuration
+    emailjs.sendForm('service_wfm6n67', 'template_a2gv6jo', form.current, 'CB9Wj8ox-ZR8lsLKl')
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+        alert('Message sent successfully!');
+        handleClear(e);
+      }, (error) => {
+        console.log('Email sending error:', error.text);
+        alert('Failed to send message.');
+      });
+  };
+
   return (
     <div className="contact">
       <h1>Contact Us</h1>
@@ -37,14 +56,24 @@ const Contactus = () => {
         forward to hearing from you and assisting with anything you need!
       </p>
       <p className="catering_test">Address-1001 S MAIN ST STE 500 KALISPELL, MT 59901</p>
-      <form>
-        <input onChange={handleNameChange} value={name} placeholder="Name" />
-        <input onChange={handlePhoneChange} value={phone} placeholder="Phone Number" type="tel" />
-        <input onChange={handleEmailChange} value={email} placeholder="Email" type="email" />
-        <input onChange={handleReasonChange} value={reason} placeholder="Reason for Contact" />
-        <textarea onChange={handleMessageChange} value={message} placeholder="Message for Us" />
+      <form ref={form} onSubmit={handleSendMessage}>
+        <input onChange={handleNameChange} value={name} name="user_name" placeholder="Name" />
+        <input onChange={handlePhoneChange} value={phone} name="user_phone" placeholder="Phone Number" type="tel" />
+        <input onChange={handleEmailChange} value={email} name="user_email" placeholder="Email" type="email" />
+        
+        {/* Dropdown for Reason for Contact */}
+        <select onChange={handleReasonChange} value={reason} name="user_reason" className="form-control">
+          <option value="">Select Reason for Contact</option>
+          <option value="Product Inquiry">Product Inquiry</option>
+          <option value="Order Issue">Order Issue</option>
+          <option value="Feedback">Feedback</option>
+          <option value="General Question">General Question</option>
+          <option value="Other">Other</option>
+        </select>
+        
+        <textarea onChange={handleMessageChange} value={message} name="user_message" placeholder="Message for Us" />
         <div className="button">
-          <button className='btn'><span>SEND MESSAGE</span></button>
+          <button type="submit" className='btn'><span>SEND MESSAGE</span></button>
           <button onClick={handleClear} className='btn'><span>CLEAR MESSAGE</span></button>
         </div>
       </form>

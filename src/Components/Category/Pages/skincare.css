@@ -21,8 +21,8 @@
    */
 .mt-5 .row img{
     border-radius: 0;
- height:300px;
- width: 400px;
+ height:auto;
+ width: 100%;
    
   }
 .mt-5 .row1 img{
