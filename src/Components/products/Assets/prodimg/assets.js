@@ -65,9 +65,7 @@ import Amla5 from '../AmlaAseets/Amla powder (1).png'
 
 import amlback from '../AmlaAseets/Amla _Back.jpg'
 import ee from './Untitled design (73).png'
-
-import Henna3 from "./Product With Ingredients.jpg"
-import Henna4 from "./Product Back.jpg"
+  
 import Henna5 from "./300 into 300Hair Diy Heena .png"
 import Hennabanner1 from './heenna-powder-banner-3.png'
 import Hennabanner2 from './heenna-powefer-banner (1).png'
@@ -125,7 +123,7 @@ export const assets = {
     Curryfront,
     Hennabanner1,
     Hennabanner2,
-    Henna3, Henna4, Henna5,
+ Henna5,
     // ====Amla=====
     Amla1,
     Amla2,
