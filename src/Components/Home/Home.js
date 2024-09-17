@@ -1,7 +1,8 @@
 import React from "react";
-import Carousel from '../Carousel.js';
  
+import Carousel from '../Carousel.js';
 import img1 from './Home-Assets/Untitled design (61).png'
+import imglogo from './Home-Assets/logo-banner-3 (1).png'
 import img2 from './Home-Assets/Sandalwood 2 banner.png'
 import img3 from './Home-Assets/Exotic Veda (1).png'
 import img4 from './Home-Assets/Collage 2-01.png'
@@ -24,6 +25,8 @@ const Home = () => {
     return (
         <>
             {/* <Header /> */}
+            {/* <img src={imglogo} style={{ maxWidth: '100%', minWidth: '100%', marginTop:'4.3rem'}} alt="Logo" /> */}
+    
             <Carousel images={images} />
             <Cateogry />
 
