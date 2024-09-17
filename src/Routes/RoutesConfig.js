@@ -26,6 +26,7 @@ import Moringaleafpowder from "../Components/products/Product pages/Moringaleafp
 import Multanimitti from "../Components/products/Product pages/Multanimitti";
 import Lemongrass from "../Components/products/Product pages/Lemongrass";
 import SearchBar from "../Components/AboutUs/Search/Search";
+import ProductForm from "../Components/r";
  
  
 
@@ -40,6 +41,10 @@ const routes = [
    
     { path: '/contactus', element: <Contactus /> },
     { path: '/treatments&tips', element: <Treatment /> },
+
+
+
+    { path: '/template', element: <ProductForm /> },
  
 
 //    ======Product PAGES ROUTING ===========
