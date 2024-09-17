@@ -34,11 +34,15 @@
   .Container-Section {
     height: 400px;
     width: 100%;
+ 
     position: absolute;
   
   }
   .rr2 img{
-    height: 300px;
+   
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
 
   }
 
@@ -53,8 +57,10 @@
   .Container-Section p {
     font-size: 16px;
     font-weight: 900;
-    line-height: 2rem;
-   
+    line-height: 2.5rem;
+    max-width: 100%;
     padding: 0 1rem; /* Added padding for smaller screens */
   }
 }
+
+ 
