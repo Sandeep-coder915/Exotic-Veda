@@ -45,12 +45,12 @@ const Cateogry = () => {
             return (
               <div>
                 <h1 style={{ textAlign: "center" }}>Our Categories</h1>
-                <div className='Container'>
-                  <div className='row'>
+                <div className='Container' style={{width:'100%'}}>
+                  <div className='row' >
                     {categories.map(category => (
-                      <div className='col-md-4' key={category.id}>
+                      <div className='col-md-4' key={category.id}  >
                         <Link to={category.link}>
-                          <div className='card1' style={{ padding: '10px' }}>
+                          <div className='card1' style={{ padding: '10px'  }}>
                             <img src={category.img} style={{ borderRadius: "50%" }} alt={category.title} height={'200px'} />
                             <div className='card-body'>
                               <h5 className='card-title'>{category.title}</h5>
@@ -67,10 +67,9 @@ const Cateogry = () => {
                   </div>
                 </div>
           
-                <div>
-                  {/* <img src={imglogo} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Logo" /> */}
-                  <img src={img23} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 23" />
-                  <img src={img22} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 22" />
+                <div style={{display:'flex',gap:'0',flexDirection:'column'}}>
+                <img src={img22} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 22" /> 
+                <img src={img23} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 23" />
                 </div>
               </div>
          

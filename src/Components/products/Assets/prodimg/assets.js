@@ -4,6 +4,13 @@ import alum from './alumbar400px.png'
 import skincarebaner from './banner for skins care.png'
 import Dietbanner from './dietary use banner of exotic veda-01.png'
 import amla from '../AmlaAseets/amal400px.png'
+
+import moringabanner  from '../Beauty Product Instagram Post/mor.jpg' 
+import  beetbanner  from '../Beauty Product Instagram Post//betbanner1.jpg' 
+
+
+ 
+ 
 import beetroot from './Beetroot400px.png'
 
 // ==Shika kai images ====
@@ -98,7 +105,7 @@ import jamunf from './jamunf.jpg'
 import moringa2 from './Moringa Leaf  (1).png'
 
 export const assets = {
-    betroot,
+    betroot,beetbanner,moringabanner,
 
     // =====Tripahla Powder =====
     triphala2, triphalabanner, triphala1,

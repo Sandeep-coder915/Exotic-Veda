@@ -45,33 +45,33 @@ const Beetroortpowder = () => {
           <div className="hair-care-detail-page" style={{ minWidth: '50%' }}>
             <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Beetroot Powder Uses for Different Skin Types</h1>
 
-<div style={{display:'flex',flexDirection:'column',gap:'20px'}}>
-            <div className="tabs">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              <div className="tabs">
 
-              <button
-                className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
-                onClick={() => setActiveTab('skinCare')}
-              >
-                Tips For Skin Care
-              </button>
-              <button
-                className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
-                onClick={() => setActiveTab('hairCare')}
-              >
-                Tips For The Dietcare
-              </button>
-            </div>
-            <div className="recipes-container">
-              {activeTab === 'skinCare' ? (
-                beetrootSkinCareRecipes.map((recipe) => (
-                  <Reciepicard recipe={recipe} key={recipe.id} />
-                ))
-              ) : (
-                beetrootDietaryRecipes.map((recipe) => (
-                  <Reciepicard recipe={recipe} key={recipe.id} />
-                ))
-              )}
-            </div></div>
+                <button
+                  className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
+                  onClick={() => setActiveTab('skinCare')}
+                >
+                  Tips For Skin Care
+                </button>
+                <button
+                  className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
+                  onClick={() => setActiveTab('hairCare')}
+                >
+                  Tips For The Dietcare
+                </button>
+              </div>
+              <div className="recipes-container">
+                {activeTab === 'skinCare' ? (
+                  beetrootSkinCareRecipes.map((recipe) => (
+                    <Reciepicard recipe={recipe} key={recipe.id} />
+                  ))
+                ) : (
+                  beetrootDietaryRecipes.map((recipe) => (
+                    <Reciepicard recipe={recipe} key={recipe.id} />
+                  ))
+                )}
+              </div></div>
           </div>
 
           {/* Disclaimer */}

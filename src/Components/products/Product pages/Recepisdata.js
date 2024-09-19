@@ -3,6 +3,90 @@ import React from 'react';
 
 // recipesData.js
 // Update with the correct path to your images
+
+
+// ================Catehory data import  ===============
+export const skincategoryproducts = [
+
+  // =======Aloe Vera=======
+  {
+    id: 1,
+    link: '/products/aloevera-powder',
+    img: assets.aloe3,
+    title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
+    description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
+    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
+    route: '/products/aloevera-powder',
+  },
+// ====Multani i======
+{
+id: 3,
+link: '/products/multani-mitti',
+img: assets.multani,
+title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
+description: 'Naturally cleanse and refresh your skin with our Multani Mitti Powder. It helps absorb excess oil, reduce acne, and brighten your complexion.',
+updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
+route: '/products/multani-mitti',
+},
+  // ======Sandalwood powder =======
+  {
+    id: 3,
+    link: '/products/sandalwood-powder',
+    img: assets.sandalfront,
+    title: 'Pure Sandalwood Powder  Refresh,  Nourish Your Skin Naturally',
+    description: ' Elevate your skincare with our pure Sandalwood Powder, known for its soothing properties, reducing blemishes, and enhancing your skin’s natural radiance.',
+    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
+    route: '/products/sandalwood-powder',
+  },
+  // ====Curry Leaff Powder ====
+  {
+    id: 4,
+    link: '/products/curry-leaf-powder',
+    img: assets.Curryfront,
+    title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
+    description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/products/curry-leaf-powder'
+  },
+  {
+    id: 5,
+    link: '/products/amla-powder',
+    img: assets.Amla1,
+    title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
+    description: 'Welcome To Exotic Veda',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/products/amla-powder',
+  },
+  {
+    id: 6,
+    link: '/products/beetroot-powder',
+    img: assets.betroot,
+    title: 'Pure Beetroot Powder   Add Natural Color and Nutrients to Your Smoothies',
+    // description: 'nergize your body with our Beetroot Powder. Rich in nutrients, it supports stamina, enhances circulation, and adds a natural, vibrant color to your smoothies and dishes.',
+    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/products/beetroot-powder'
+  },
+//  =======Alum BAr =========
+{
+id: 7,
+link: '/products/alum-bar',
+img: assets.alum,
+title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
+description: 'Experience natural freshness with our Alum Bar, perfect for tightening pores, soothing skin, and acting as a gentle, chemical-free deodorant.',
+updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+route: '/products/alum-bar',
+},
+
+];
+
+
 // =====================CSSMathProduct.js data ==============
 export const products = [
   {
@@ -1988,7 +2072,7 @@ export const moringaPowderUses = [
 // ================Beetroot  pOWder ==================
 export const beetrootProductDetails = {
   title: "Organic Beetroot Powder | 100% Natural & Non-GMO, Rich in Antioxidants, Boosts Immunity, Vegan-Friendly (100g)",
-  bannerImg: assets.shikabannersttre,
+  bannerImg: assets.beetbanner,
   buyNowLink: 'https://revaais.com/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g?_pos=1&_sid=058eeb733&_ss=r',
   images: [assets.betroot, assets.betroot],
   descriptionPoints: [

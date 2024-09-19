@@ -30,6 +30,10 @@ const Navbar = () => {
     else if(currentPath.includes('/shikhakhai-powder')){
       return 'header-shika';
     }
+ 
+    else if(currentPath.includes('/jaamun-seed')){
+      return 'header-jamun';
+    }
     else {
       return ''; // Default class if needed
     }

@@ -459,12 +459,12 @@
 
 /* ============Category =============== */
 @media only screen and (max-width: 768px) {
-  .Container {
+  /* .Container {
     overflow-x: auto;
     /* Enable horizontal scrolling */
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     /* Smooth scrolling for iOS */
-  }
+  /* } */ 
 
   .row {
     display: flex;

@@ -8,7 +8,7 @@ const Moringaleafpowder = () => {
     <div style={{ marginTop: '4rem', backgroundColor: ' rgba(162,179,138,255)' }} className='  Lemongrass-contanienr'>
 
         <div style={{ display: 'flex', flexDirection: 'column', }}>
-          <img src={assets.lemonstrexh} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          <img src={assets.moringabanner} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
 
           {/* <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
             <img src={ assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />

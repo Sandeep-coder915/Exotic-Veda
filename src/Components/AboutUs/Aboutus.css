@@ -71,12 +71,12 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container img {
+/* .container img {
     height: 140px;
     width: 140px;
     border-radius: 50%;
     object-fit: cover;
-}
+} */
 
 h1, h2 {
     text-align: center;
