@@ -11,9 +11,9 @@ import { assets } from './Assets/prodimg/assets';
 const Product = () => {
   return (
     <div style={{ marginTop: '4.2rem' }}>
-
+<div style={{display:'flex',flexDirection:'column',gap:'0'}}>
       <h1 className="text-center mb-4">Explore Our Products</h1>
-
+      <img src={assets.collage } style={{maxWidth:'100%',minWidth:'100%'}}></img> 
       <div className="container2 mt-5">
 
         <div className="row">
@@ -45,7 +45,7 @@ const Product = () => {
           ))}
         </div>
       </div>
-    </div>
+    </div></div>
   );
 };
 

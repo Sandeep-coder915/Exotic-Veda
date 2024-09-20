@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { assets } from '../Assets/prodimg/assets'
+import ee from  './dd (1).png'
 import {AloeverahairCareRecipes,Aloeverarecipesskin } from './Recepisdata'; // Import the recipe data
 // import RecipeCard from './Reciepicard';
 
@@ -117,7 +118,7 @@ const Aloevera = () => {
               {AloeverahairCareRecipes.map((recipe) => (
                 <div className="haircare-recipe-card" key={recipe.id}>
                   <div className="haircare-recipe-image">
-                    <img src={recipe.image} alt={recipe.title} />
+                    <img src={ee} alt={recipe.title} />
                   </div>
                   <div className="haircare-recipe-details">
                     <h2>{recipe.title}</h2>

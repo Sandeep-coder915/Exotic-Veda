@@ -27,7 +27,7 @@ import Multanimitti from "../Components/products/Product pages/Multanimitti";
 import Lemongrass from "../Components/products/Product pages/Lemongrass";
 import SearchBar from "../Components/AboutUs/Search/Search";
 import ProductForm from "../Components/r";
- 
+import NewsletterSignup from  '../Components/Home/NewsLetter'
  
 
 
@@ -35,6 +35,7 @@ import ProductForm from "../Components/r";
 const routes = [
     { path: '/', element: <Home />, index: true },
     { path: '/aboutus', element: <Aboutus /> },
+    { path: '/newsletter', element: <NewsletterSignup/> },
     { path: '/review', element: <ReviewPage /> },
     { path: '/products', element: <Product /> },
     { path: '/Search', element: <SearchBar /> },
