@@ -30,7 +30,7 @@ const ProductForm = () => {
     frontImage: '',
     backImage: '',
     bulletPoints: ['', '', '', '', '', ''],
-    tips: '',
+    tips: '', 
   });
 
   const handleChange = (e) => {
@@ -99,8 +99,9 @@ const ProductForm = () => {
         <h2>Product Page Preview</h2>
         <img src={formData.banner} alt="Banner" style={styles.banner} />
         <h3>{formData.title}</h3>
-        <img src={formData.frontImage} alt="Front" style={styles.image} />
-        <img src={formData.backImage} alt="Back" style={styles.image} />
+        <div className="iii" style={{display:'flex' }}>
+        <img src={formData.frontImage} alt="Front" style={styles.image} s />
+        <img src={formData.backImage} alt="Back" style={styles.image} /></div>
         <ul style={styles.bulletPoints}>
           {formData.bulletPoints.map((point, index) => (
             <li key={index}>{point}</li>
