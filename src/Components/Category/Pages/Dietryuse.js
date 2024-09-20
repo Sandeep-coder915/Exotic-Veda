@@ -4,76 +4,72 @@ import { Link } from 'react-router-dom'
 import { assets } from '../../products/Assets/prodimg/assets';
 import './skincare.css'
 const Dietryuse = () => {
-  const products = [
+  const products = [ 
     {
       id: 1,
-      link: '/products/aloevera-powder',
-      img: assets.aloe,
-      title: 'Pure Aloe Vera Powder by Exotic Veda: Your Natural Solution for Skin and Hair Care',
-      description: 'Welcome To Exotic Veda',
-      updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
-      buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-      route: '/products/aloevera-powder',
-    },
-     
-    {
-      id: 2,
-      link: '/products/multani-mitti',
-      img: assets.multani,
-      title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
-      description: 'Welcome To Exotic Veda',
-            updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
-      buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-      route: '/products/multani-mitti',
-    },
-  
-
-    {
-      id: 3,
-      link: '/products/beetroot-powder',
-      img: assets.beetroot,
-      title: 'Pure Beetroot Powder by Exotic Veda: Add Natural Color and Nutrients to Your Smoothies',
-      description: 'Welcome To Exotic Veda',
-            updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
-      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-      route: '/products/beetroot-powder'
-    },
-    {
-      id: 4,
-      link: '/products/lemongras-powder',
-      img: assets.lemongrass,
-      title: 'Lemongrass Powder by Exotic Veda: Boost Your Recipes with Fresh, Zesty Taste',
-      description: 'Welcome To Exotic Veda',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
-      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-      route: '/products/lemongras-powder'
-    },
-
-    {
-      id: 5,
       link: '/products/amla-powder',
-      img: assets.amla,
+      img: assets.Amla1,
       title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
       description: 'Welcome To Exotic Veda',
-            updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/amla-powder',
     },
     {
-      id:6,
+      id: 2,
+      link: '/products/curry-leaf-powder',
+      img: assets.Curryfront,
+      title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
+      description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/curry-leaf-powder'
+    },
+    {
+      id: 3,
+      link: '/products/moringa-leaf-powder',
+      img: assets.moringa2,
+      title: 'Moringa Leaf Powder   Natural Detox and Wellness Support for Vibrant Health',
+      description: 'Supercharge your health with our Moringa Leaf Powder. Packed with vitamins and minerals, it boosts energy, supports immunity, and enhances overall wellness.',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/moringa-leaf-powder'
+    },
+    {
+      id: 4,
+      link: '/products/beetroot-powder',
+      img: assets.betroot,
+      title: 'Pure Beetroot Powder   Add Natural Color and Nutrients to Your Smoothies',
+      // description: 'nergize your body with our Beetroot Powder. Rich in nutrients, it supports stamina, enhances circulation, and adds a natural, vibrant color to your smoothies and dishes.',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/beetroot-powder'
+    },
+    {
+      id: 5,
+      link: '/products/triphala-powder',
+      img: assets.triphala2,
+      title: 'Triphala Powder   Natural Detox and Wellness Support for Vibrant Health',
+      description: 'Revitalize your health with our Triphala Powder, a traditional blend of three powerful fruits. It supports digestion, detoxifies the body, and promotes overall wellness.',
+      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      route: '/products/triphala-powder'
+    },  {
+      id: 6,
       link: '/products/jaamun-seed',
-      img: assets.jamuseed,
-      title: 'amun Seed Powder by Exotic Veda: Promote Wellness with Natural Antioxidants and Nutrients',
-      description: 'Welcome To Exotic Veda',
+      img: assets.jamunf,
+      title: 'jamun Seed Powder   Promote Wellness with Natural Antioxidants and Nutrients',
+      description: 'Support your health with our Jamun Seed Powder. Known for its antioxidant properties, it helps manage blood sugar levels and boosts digestion',
       updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/jaamun-seed',
     },
 
+
   ];
   return (
 
-    <div style={{ marginTop: '4.2rem' }}>
+    <div style={{ marginTop: '4.8rem' }}>
       <img src={assets.Dietbanner} style={{ maxWidth: '100%' }} />
 
       <h1 className="text-center mb-4">Explore Our Products</h1>

@@ -164,7 +164,7 @@ nav{
   position: absolute; /* Position dropdown absolutely under parent */
   top: 100%; /* Align the dropdown below the parent */
   left: 0; /* Align to the left */
-  background-color: transparent;/* Background color */
+  background-color:    rgb(236, 255, 247);/* Background color */
   padding: 10px 0; /* Padding for dropdown items */
   list-style: none; /* Remove default list styling */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
@@ -186,7 +186,7 @@ nav{
 }
 
 .dropdown-menu li:hover {
-  background-color: #f1f1f1; /* Change background on hover */
+  background-color:white; /* Change background on hover */
 }
 
 .dropdown-menu a {
