@@ -31,19 +31,18 @@ const Contactus = () => {
   // Send email
   const handleSendMessage = (e) => {
     e.preventDefault();
-
-    // EmailJS configuration
-    emailjs.sendForm('service_wfm6n67', 'template_a2gv6jo', form.current, 'CB9Wj8ox-ZR8lsLKl')
+  
+    emailjs.sendForm('service_2qgc2lp', 'template_peo6c8o', form.current, '77GhrP483V-tWB0LE')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
         alert('Message sent successfully!');
         handleClear(e);
       }, (error) => {
-        console.log('Email sending error:', error.text);
-        alert('Failed to send message.');
+        console.error('Email sending error:', error);
+        alert(`Failed to send message: ${error.text}`);
       });
   };
-
+  
   return (
     <div className="contact">
       <h1>Contact Us</h1>

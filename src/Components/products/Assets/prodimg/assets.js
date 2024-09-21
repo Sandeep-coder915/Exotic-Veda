@@ -1,14 +1,18 @@
 import aloe from './aloe400px.png'
 import haircarebanner from './HAIRE CARE BANNNER.png'
-import alum from './alumbar400px.png'
+import alum from './all.jpg'
 import skincarebaner from './banner for skins care.png'
 import Dietbanner from './dietary use banner of exotic veda-01.png'
 import amla from '../AmlaAseets/amal400px.png'
-
+import collage from './Collage 2-01.png'
 import moringabanner  from '../Beauty Product Instagram Post/mor.jpg' 
-import  beetbanner  from '../Beauty Product Instagram Post//betbanner1.jpg' 
+import  beetbanner  from '../Beauty Product Instagram Post//betbanner1.jpg'
 
-
+// =====home banner======
+import homebanner2 from './Skincare Beauty Product Features Banner Facebook Cover (2).png'
+import  homebanner1 from  './Skincare Beauty Product Features Banner Facebook Cover (6).png'
+import  homebanner3 from  './Skincare Beauty Product Features Banner Facebook Cover (4).png'
+import  homebanner4 from  './banner for amzon store.png'
  
  
 import beetroot from './Beetroot400px.png'
@@ -105,6 +109,12 @@ import jamunf from './jamunf.jpg'
 import moringa2 from './Moringa Leaf  (1).png'
 
 export const assets = {
+// ====Home banner =====
+homebanner1 ,homebanner2,homebanner3,
+
+
+
+
     betroot,beetbanner,moringabanner,
 
     // =====Tripahla Powder =====
@@ -185,4 +195,7 @@ export const assets = {
     Currleaf1,
     skincarebaner,
     Dietbanner,
+
+
+    collage ,
 }

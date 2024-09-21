@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Hamburger from 'hamburger-react';
-import img3 from './Assets-Header/fevicon 48 by 48-01.png';
+import img3 from './Assets-Header/logo.jpg';
 import './header.css';
 
 const Navbar = () => {
@@ -43,7 +43,7 @@ const Navbar = () => {
     <nav className={getHeaderClass()}>
       <div>
         <Link to='/'>
-          <img src={img3} style={{ borderRadius: '50%', height: '50px', width: '50px' }} alt="Logo" />
+          <img src={img3} style={{ borderRadius: '50%',   width:'70px'}} alt="Logo" />
         </Link>
       </div>
 

@@ -69,7 +69,7 @@ const Cateogry = () => {
           
                 <div style={{display:'flex',gap:'0',flexDirection:'column'}}>
                 <img src={img22} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 22" /> 
-                <img src={img23} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 23" />
+                {/* <img src={img23} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 23" /> */}
                 </div>
               </div>
          

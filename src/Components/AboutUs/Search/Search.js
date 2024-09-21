@@ -70,7 +70,7 @@ const products = [
     {
       id: 8,
       link: '/products/shikhakhai-powder',
-      img: assets.shikhakhai,
+      img: assets.shika1,
       title: 'Pure Shikakai Powder   Promote Hair Growth and Scalp Health Naturally',
        updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
@@ -79,7 +79,7 @@ const products = [
     {
       id: 9,
       link: '/products/lemongras-powder',
-      img: assets.lemongrass,
+      img: assets.lemonimg1,
       title: 'Lemongrass Powder   Boost Your Recipes with Fresh, Zesty Taste',
        updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
@@ -184,21 +184,7 @@ const SearchBar = () => {
       />
       <button onClick={handleSearch}>Search</button>
 </div>
-      {/* {showSuggestions && query && (
-        <div className="suggestions-dropdown">
-          <ul>
-            {filteredProducts.map((product, index) => (
-              <li
-                key={product.id}
-                onClick={() => handleSuggestionClick(product)}
-                className={index === activeSuggestionIndex ? 'active' : ''}
-              >
-                {product.title}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )} */}
+       
 
       {searchResults.length > 0 && (
         <div className="search-results">
