@@ -110,7 +110,7 @@ import moringa2 from './Moringa Leaf  (1).png'
 
 export const assets = {
 // ====Home banner =====
-homebanner1 ,homebanner2,homebanner3,
+homebanner1 ,homebanner2,homebanner3,homebanner4,
 
 
 
