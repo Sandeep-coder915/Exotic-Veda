@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaYoutube, FaPhone } from 'react-icons/fa'; // Import social media icons
-import img3 from "./fevicon 48 by 48-01.png";
+import img3 from "./logo.jpg";
 import './footer.css';
 import linktrsvg from  './linktree-logo-icon.svg'
 

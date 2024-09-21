@@ -1,8 +1,7 @@
 .contact {
-  /* border: 4px solid black; */
   padding: 4rem;
   margin: 0 auto;
-  max-width:100%;
+  max-width: 100%;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -21,7 +20,7 @@
   margin-bottom: 1rem;
   border-radius: 5px;
   font-size: 1rem;
-  resize: none; /* Prevent resizing of the textarea */
+  resize: none;
 }
 
 .contact textarea {
@@ -31,7 +30,7 @@
 .button {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; /* Make buttons wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 .button .btn {
@@ -58,28 +57,24 @@
   .contact {
     padding: 2rem;
   }
+
   .contact input, .contact textarea {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  #reason {
     width: 100%;
     padding: 1rem 0.5rem;
     border: 1px solid #ccc;
     margin-bottom: 1rem;
     border-radius: 5px;
     font-size: 1rem;
-    resize: none; /* Prevent resizing of the textarea */
   }
-  #reason{
-      width: 100%;
-      padding: 1rem 0.5rem;
-      border: 1px solid #ccc;
-      margin-bottom: 1rem;
-      border-radius: 5px;
-      font-size: 1rem;
-      resize: none; /* Prevent resizing of the textarea */
-  }
-  
 
   .button {
-    justify-content: center; /* Center buttons on smaller screens */
+    justify-content: center;
   }
 }
 
@@ -106,11 +101,6 @@
   }
 }
 
- 
-
-
-
-/* ======= */
 /* Common styling for input, textarea, and select */
 input, textarea, select {
   width: 70%;
@@ -135,7 +125,6 @@ textarea {
 }
 
 select.form-control {
-  /* Additional styling for the select dropdown to match input */
   appearance: none;
   background-color: white;
   cursor: pointer;
@@ -154,4 +143,41 @@ button.btn {
 
 button.btn:hover {
   background-color: #0056b3;
+}
+
+.error{
+  color: red;
+font-weight: 900;
+  font-size: medium;
+}
+
+
+/* Toast Container */
+.Toastify__toast-container {
+  z-index: 9999; /* Ensure it appears above other elements */
+}
+
+/* General Toast Style */
+.Toastify__toast {
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem; /* Padding inside the toast */
+  font-size: 16px; /* Font size */
+}
+
+/* Error Toast Style */
+.Toastify__toast--error {
+ /* Red background for errors */
+  color: black; /* White text color */
+}
+ 
+.Toastify__close-button {
+  color: white; /* Close button color */
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .Toastify__toast {
+    font-size: 14px; /* Smaller font size on mobile */
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Hamburger from 'hamburger-react';
-import img3 from './Assets-Header/logo.jpg';
+import img3 from './Assets-Header/./logo.jpg';
 import './header.css';
 
 const Navbar = () => {
