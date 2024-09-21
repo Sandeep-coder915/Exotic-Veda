@@ -16,7 +16,7 @@ import Treatment from "../Product treatments/Treatment.js";
  
 import { assets } from "../products/Assets/prodimg/assets.js";
 
-// import NewsletterSignup from "./NewsLetter.js";
+ 
 
 const Home = () => {
     const images = [
@@ -34,15 +34,14 @@ const Home = () => {
     
             <Carousel images={images} />
             <Cateogry />
-            {/* <div style={{display:'flex',flexDirection:'column',gap:'0'}}> */}
-<img src={assets.collage} style={{maxWidth:'100%',minWidth:'100%'}}></img>
-{/* <img src={assets.collage } style={{maxWidth:'100%',minWidth:'100%'}}></img></div> */}
+        
             <Product />
             <Container />
             <Treatment/>
-            {/* <NewsletterSignup/> */}
+         
             <Aboutus />
             <Contactus />
+            
 
 
         </>
