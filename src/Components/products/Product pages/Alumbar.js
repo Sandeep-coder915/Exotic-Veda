@@ -40,7 +40,7 @@ const Alumbar = () =>{
             <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
               <div className='img-shikakai'>
                 <img src={assets.alum} alt='Shikakai' style={{ maxWidth: '50%' }} />
-                <img src={assets.alum} alt='Shikakai' style={{ maxWidth: '50%' }} />
+                <img src={assets.alum} alt='Shikakeerreai' style={{ maxWidth: '50%' }} />
             
               </div>
             </a>
