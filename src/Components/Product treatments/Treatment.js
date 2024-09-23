@@ -1,5 +1,6 @@
 import React from 'react'
 import './Treat.css'
+import { Link } from 'react-router-dom'
 const Treatment = () => {
   return (
     <> 
@@ -15,7 +16,7 @@ const Treatment = () => {
 
       </div>
       <div style={{ textAlign: 'center' }}>
-        <button className=' btn' style={{ marginBottom: '30px' }}>Learn More</button>
+        <button className=' btn' style={{ marginBottom: '30px' }}><Link to='/'></Link>Learn More</button>
         </div>
     </>
   )

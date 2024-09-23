@@ -108,10 +108,11 @@ import jamunb1 from './jamun.jpg'
 import jamunf from './jamunf.jpg'
 // ====moringa leaf=====/
 import moringa2 from './Moringa Leaf  (1).png'
+import moring1 from './rr.jpg'
 
 export const assets = {
 // ====Home banner =====
-homebanner1 ,homebanner2,homebanner3,homebanner4,
+homebanner1 ,homebanner2,homebanner3,homebanner4,moring1,
 
 
 

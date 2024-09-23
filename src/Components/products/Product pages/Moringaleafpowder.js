@@ -15,13 +15,15 @@ const Moringaleafpowder = () => {
 
             <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
           </div> */}
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
+          <div style={{ marginBottom: '0', padding: '0' }}>
+{/* 
+            <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+            <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} /> */}
 
-            <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-            <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+            <img src={assets.moring1} style={{ maxWidth: '100%', marginBottom: '0', minWidth: '100%' }} ></img>
 
           </div>
-          <h1 >Moringa Leaf Powder </h1>
+      
           <ul>
   <li>Rich in essential nutrients, Moringa Leaf Powder contains high levels of vitamins A, C, and E, as well as calcium, potassium, and iron.</li>
   <li>Moringa is a great plant-based source of protein, making it ideal for vegans and vegetarians seeking to enhance their protein intake.</li>
@@ -44,7 +46,7 @@ const Moringaleafpowder = () => {
         {/* Content based on active tab */}
         <div className="tab-content" >
           <div className="hair-care-detail-page" style={{ minWidth: '50%' }}>
-            <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Lemongrass Powder use for  Diet </h1>
+            <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Moringa Leaf Powder use for  Diet </h1>
             <div className="recipes-container">
               {moringaPowderUses.map((recipe) => (
                 < Reciepicard recipe={recipe} key={recipe.id} />
@@ -53,7 +55,7 @@ const Moringaleafpowder = () => {
           </div>
 
           <img src={assets.lemonstrexh} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
-          <p className='disclaimer ' style={{ color: 'black' }}><span>Disclaimer:</span> Use Lemongrass Powder externally. Avoid contact with eyes, and discontinue use if irritation occurs.</p>
+          <p className='disclaimer ' style={{ color: 'black' }}><span>Disclaimer:</span> Use Moringa Leaf Powder externally. Avoid contact with eyes, and discontinue use if irritation occurs.</p>
         </div>
       </div>
   )

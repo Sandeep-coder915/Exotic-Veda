@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaYoutube, FaPhone } from 'react-icons/fa'; // Import social media icons
-import img3 from "./logo.jpg";
+import { FaFacebook, FaAmazonPay, FaInstagram, FaPhone,FaYoutube, FaPaypal, FaCcVisa, FaCcMastercard, FaApple, FaGooglePay } from 'react-icons/fa';
+// Import social media icons
+import img3 from "./fevicon 48 by 48-01.png";
 import './footer.css';
 import linktrsvg from  './linktree-logo-icon.svg'
 
@@ -16,15 +17,47 @@ const Footer = () => {
   ];
 
   // Array of footer links
-  const footerLinks = [
-    { to: '/aboutus', name: 'About' },
-    { to: '/contactus', name: 'Contact' },
-    { to: '/FAQ', name: 'FAQ' },
-    { to: '/terms', name: 'Terms' },
-    { to: '/policy', name: 'Policy' },
-    { to: '/review', name: 'Review' },
-    { to: '/Search', name: 'Search' },
+  const footerSections = [
+    {
+      title: 'Company Information',
+      links: [
+        { name: 'About Us', path: '/aboutus' },
+        { name: 'Adress-1001 S MAIN ST STE 500 KALISPELL, MT 59901', path: '/mission' },
+        { name: 'support@revaais.com', path: '/contactus' },
+        { name: 'Store Location', path: '/storelocation' }
+      ]
+    },
+    {
+      title: 'Customer Service',
+      links: [
+        { name: 'FAQ', path: '/faq' },
+        { name: 'Shipping & Returns', path: '/shipping' },
+        { name: 'Privacy Policy', path: '/privacypolicy' },
+        { name: 'Terms & Conditions', path: '/terms' }
+      ]
+    },
+    {
+      title: 'Categories',
+      links: [
+        { name: 'Skincare Products', path: '/category/skincare' },
+        { name: 'Haircare Products', path: '/category/haircare' },
+        { name: 'Dietary Use Products', path: '/category/dietary' },
+        { name: 'Special Offers', path: '/specialoffers' }
+      ]
+    },
+    {
+      title: 'Additionals',
+      links: [
+        { name: 'Our Shop', path: '/category/haircare' },
+        { name: 'Search', path: '/category/skincare' },
+     
+        { name: 'Contact Us', path: '/contactus' },
+        { name: 'Special Offers', path: '/specialoffers' }
+      ]
+    },
+ 
   ];
+  
 
   return (
     <footer className='footer' style={{ borderBottom: "4px solid grey" }}>
@@ -45,7 +78,7 @@ const Footer = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '10px' }}>
   <a href="tel:6239315288" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'inherit' }}>
     <FaPhone style={{ fontSize: '24px' }} />
-    <span style={{ marginLeft: '5px' }}>Call: 623-931-5288</span>
+    <span style={{ marginLeft: '5px' }}>Call:312667-9634</span>
   </a>
 </div>
 
@@ -53,18 +86,28 @@ const Footer = () => {
 
       {/* Footer Links Section */}
       <div className='Footer-ul'>
-        {Array.from({ length: 4 }).map((_, i) => (
-          <ul key={i} style={{ padding: 0 }}>
-            {footerLinks.map((link, index) => (
-              <li key={index}>
-                <Link to={link.to}>{link.name}</Link>
-              </li>
-            ))}
-          </ul>
-        ))}
-      </div>
+  {footerSections.map((section, sectionIndex) => (
+    <ul key={sectionIndex} style={{ padding: 0 }}>
+      <h3 style={{ textAlign: 'center' }}>{section.title}</h3> {/* Aligning the title in the center */}
+      {section.links.map((link, linkIndex) => (
+        <li key={linkIndex}>
+          <Link to={link.path}>{link.name}</Link>
+        </li>
+      ))}
+    </ul>
+  ))}
+</div>
 
-      {/* Copyright Section */}
+
+      <div className='payment-methods' style={{ textAlign: 'center', marginTop: '20px' }}>
+          <FaApple style={{ fontSize: '24px', margin: '0 10px', color: '#A2AAAD' }} />
+          <FaGooglePay style={{ fontSize: '24px', margin: '0 10px', color: '#4285F4' }} />
+          <FaAmazonPay style={{ fontSize: '24px', margin: '0 10px', color: '#FF9900' }} />
+          <FaPaypal style={{ fontSize: '24px', margin: '0 10px', color: '#00308F' }} />
+          <FaCcVisa style={{ fontSize: '24px', margin: '0 10px', color: '#1A1F71' }} />
+          <FaCcMastercard style={{ fontSize: '24px', margin: '0 10px', color: '#EB001B' }} />
+        </div>
+
       <div>
         <p style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold' }}>Copyright 2024,</p>
         <p style={{ fontSize: "14px", textAlign: 'center', fontWeight: 'bold' }}>All Rights Reserved</p>
