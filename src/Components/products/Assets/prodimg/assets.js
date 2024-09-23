@@ -10,7 +10,8 @@ import  beetbanner  from '../Beauty Product Instagram Post//betbanner1.jpg'
 
 // =====home banner======
 import homebanner2 from './Skincare Beauty Product Features Banner Facebook Cover (2).png'
-import  homebanner1 from  './Skincare Beauty Product Features Banner Facebook Cover (6).png'
+import  homebanner1 from  './Skincare Beauty Product Features Banner Facebook Cover (6).webp'
+// import  homebanner1 from  './Skincare Beauty Product Features Banner Facebook Cover (6).png'
 import  homebanner3 from  './Skincare Beauty Product Features Banner Facebook Cover (4).png'
 import  homebanner4 from  './banner for amzon store.png'
  
