@@ -43,7 +43,7 @@ const Navbar = () => {
     <nav className={getHeaderClass()}>
       <div>
         <Link to='/'>
-          <img src={img3} style={{ borderRadius: '50%',   width:'70px'}} alt="Logo" />
+          <img src={img3} style={{ borderRadius: '50%',   width:'70px',height:'70px'}} alt="Logo" />
         </Link>
       </div>
 
