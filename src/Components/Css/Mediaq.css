@@ -25,7 +25,8 @@
 @media (min-width: 1024px) {
      
   .about{
-    margin-left: 8%;
+    margin-left: 6%;
+    width: 80%;
   }
     .shikakai-contanienr ul {
       background-color: rgba(101, 35, 51, 255);

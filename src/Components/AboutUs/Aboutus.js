@@ -6,7 +6,7 @@ import video3  from './About-assets/WhatsApp Video 2024-08-07 at 16.07.54_c25b02
 const Aboutus = () => {
   return (<> 
   <Header/>
-    <div className='about' style={{background:"#ffff",width:'80%',display:'flex',alignContent:'center ',alignItems:'center'}}>
+    <div className='about' style={{background:"#ffff",display:'flex',alignContent:'center ',alignItems:'center'}}>
   <div style={{display:"flex", alignItems:"center",justifyContent:"center",  }}><img src={img} height={"200px"} width={"200px"} ></img></div>
         <p>Every part of the Exotic Veda logo tells a story of balance, unity, and the strong connection between people and nature. It reminds us of the sanctuary where the brand started, where ancient wisdom meets modern science to create products that nurture the body, mind, and soul.</p>
         <p>As Exotic Veda grows, the logo guides the brand's mission to share the benefits of holistic wellness with the world. It invites everyone to join in this journey, to embrace nature’s wisdom, and find harmony in today’s busy world.</p>
