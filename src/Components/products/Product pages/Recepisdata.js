@@ -157,7 +157,7 @@ export const products = [
     link: '/products/beetroot-powder',
     img: assets.betroot,
     title: 'Pure Beetroot Powder   Add Natural Color and Nutrients to Your Smoothies',
-    // description: 'nergize your body with our Beetroot Powder. Rich in nutrients, it supports stamina, enhances circulation, and adds a natural, vibrant color to your smoothies and dishes.',
+    description: ' Beetroot Powder boosts skin radiance and overall health, ideal for face masks, smoothies, and more. Nutrient-rich and versatile.',
     updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/beetroot-powder'
