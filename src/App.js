@@ -25,7 +25,7 @@ function App() {
     return (
         <BrowserRouter>
             <Header />
-            Show Loader if loading, otherwise show the main content
+       
             {isLoading ? (
                 <Loader />
              ) : ( 
