@@ -28,7 +28,7 @@ const Contactus = () => {
     setEmail('');
     setReason('');
     setMessage('');
-    toast.success('Message  Cleared successfully!');
+    // toast.success('Message  Cleared successfully!');
   };
 
   // Send email

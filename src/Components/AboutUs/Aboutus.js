@@ -6,13 +6,16 @@ import video3  from './About-assets/WhatsApp Video 2024-08-07 at 16.07.54_c25b02
 const Aboutus = () => {
   return (<> 
   <Header/>
-    <div className='about' style={{background:"#ffff"}}>
-  <div style={{display:"flex", alignItems:"center",justifyContent:"center"}}><img src={img} height={"200px"} width={"200px"} ></img></div>
+    <div className='about' style={{background:"#ffff",width:'80%',display:'flex',alignContent:'center ',alignItems:'center'}}>
+  <div style={{display:"flex", alignItems:"center",justifyContent:"center",  }}><img src={img} height={"200px"} width={"200px"} ></img></div>
+        <p>Every part of the Exotic Veda logo tells a story of balance, unity, and the strong connection between people and nature. It reminds us of the sanctuary where the brand started, where ancient wisdom meets modern science to create products that nurture the body, mind, and soul.</p>
+        <p>As Exotic Veda grows, the logo guides the brand's mission to share the benefits of holistic wellness with the world. It invites everyone to join in this journey, to embrace nature’s wisdom, and find harmony in today’s busy world.</p>
+   
         <h1>The Story Behind the Exotic Veda</h1>
         <p>In the heart of a vibrant forest, there was a secret place known only to the wisest nature guardians. This place, full of life and ancient knowledge, was where the Exotic Veda brand began. The logo of Exotic Veda captures the spirit and history of this magical place, showing a deep connection with nature and timeless wisdom for well-being.</p>
 
         <h2>The Birth of the Design</h2>
-        <video src={video3} autoPlay  ></video>
+        <video src={video3} autoPlay style={{maxWidth:'100%'}} ></video>
         <p>Long ago, a group of wise people found this special place while searching for a peaceful spot to meditate. They were amazed by the beauty and calm of the forest and were inspired by the patterns in nature. They created a symbol to represent the balance and unity of the natural world. Over time, this symbol became the logo of Exotic Veda.</p>
 
         <h2>Elements of the Logo</h2>
@@ -38,11 +41,7 @@ const Aboutus = () => {
                 <p>The gold color represents purity, richness, and the valuable wisdom passed down through time. It also shows the quality and luxury that Exotic Veda promises.</p>
             </div>
         </div>
-
-        <h2>The Legacy</h2>
-        <p>Every part of the Exotic Veda logo tells a story of balance, unity, and the strong connection between people and nature. It reminds us of the sanctuary where the brand started, where ancient wisdom meets modern science to create products that nurture the body, mind, and soul.</p>
-        <p>As Exotic Veda grows, the logo guides the brand's mission to share the benefits of holistic wellness with the world. It invites everyone to join in this journey, to embrace nature’s wisdom, and find harmony in today’s busy world.</p>
-    </div>
+ </div>
     </>
   )
 }

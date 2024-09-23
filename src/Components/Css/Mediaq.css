@@ -24,7 +24,9 @@
   
 @media (min-width: 1024px) {
      
-  
+  .about{
+    margin-left: 8%;
+  }
     .shikakai-contanienr ul {
       background-color: rgba(101, 35, 51, 255);
       font-family: "Alice", serif;
