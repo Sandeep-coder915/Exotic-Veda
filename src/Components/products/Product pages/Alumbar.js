@@ -16,18 +16,18 @@ const Alumbar = () =>{
     </button>
   );
 
- 
+
   return (
     <>
       <div className='Product-Page-Container'>
         <div style={{ position: 'relative', maxWidth: '100%' }}>
-          <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
+          <a href='https://revaais.com/products/revaais-pure-alum-block-for-shaving?_pos=1&_sid=91a91be85&_ss=r'>
             <img src={assets.alum3} alt='Sandalwood' style={{ maxWidth: '100%', minWidth:'100%', marginTop:'4rem' }} />
         
           </a>
         </div>
         <div style={{ position: 'relative', maxWidth: '100%' }}>
-          <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
+          <a href='https://revaais.com/products/revaais-pure-alum-block-for-shaving?_pos=1&_sid=91a91be85&_ss=r'>
             <img src={assets.alum1 } alt='Sandalwood' style={{ maxWidth: '100%', minWidth:'100%' }} />
         
           </a>
@@ -37,7 +37,7 @@ const Alumbar = () =>{
           <h1 style={{ textAlign: 'center' }}>Pure Organic Shikakai Powder Natural Hair Cleanser and Conditioner, Non-GMO, Herbal Formula for Strong, Shiny Hair, 100g</h1>
 
           <div>
-            <a href='https://revaais.com/products/organic-shikakai-powder?_pos=1&_psq=shika&_ss=e&_v=1.0'>
+            <a href='https://revaais.com/products/revaais-pure-alum-block-for-shaving?_pos=1&_sid=91a91be85&_ss=r'>
               <div className='img-shikakai'>
                 <img src={assets.alum} alt='Shikakai' style={{ maxWidth: '50%' }} />
                 <img src={assets.alum} alt='Shikakeerreai' style={{ maxWidth: '50%' }} />

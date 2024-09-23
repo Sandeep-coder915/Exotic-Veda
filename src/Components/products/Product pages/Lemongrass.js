@@ -15,7 +15,7 @@ const Lemongrass = () => {
           <img src={assets.lemonstrexh} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
 
           <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            <img src={assets.lemonimg1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+            <img src={assets.lemonimg1.buylink} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
 
             <img src={assets.lemonimg} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
           </div>

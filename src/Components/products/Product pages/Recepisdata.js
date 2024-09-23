@@ -344,7 +344,7 @@ export const hennahairCareRecipes = [
 export const hennaproductDetails = {
   title: "Organic Henna Powder | 100% Natural Hair Dye from Rajasthan India Lawsonia Inermis Non-GMO Deep Brown (100g)",
   bannerImg: assets.Hennabanner1,
-  buyNowLink: 'https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r',
+  buyNowLink: ' https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g?pr_prod_strat=pinned&pr_rec_id=6b80d5bde&pr_rec_pid=9603475800385&pr_ref_pid=9583822831937&pr_seq=uniform',
   images: [assets.henna, assets.henna],
   descriptionPoints: ["Natural Hair Dye: Exotic Veda Henna Powder Is A Natural Hair Dye That Offers A Chemical-Free Way To Color Your Hair. It Provides A Rich, Deep Shade Of Red-Brown That Enhances Your Hair's Natural Beauty. Suitable For All Hair Types, It Covers Grays Effectively And Leaves Hair Looking Vibrant And Healthy Without The Use Of Harmful Chemicals"
     , "Nourishes And Conditions Hair: This Henna Powder Is Rich In Tannins And Essential Nutrients That Nourish And Condition Your Hair. Regular Use Helps To Improve Hair Texture, Making It Softer, Shinier, And More Manageable. It Also Helps Repair Damaged Hair By Providing Deep Conditioning."
@@ -1111,7 +1111,7 @@ export const AmlaDietRecipes = [
 export const curryproductDetails = {
   title: "Organic Curry Leaf Powder | 100% Natural Hair Dye from Rajasthan India Lawsonia Inermis Non-GMO Deep Brown (100g)",
   bannerImg: assets.Hennabanner1,
-  buyNowLink: 'https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r',
+  buyNowLink: 'https://revaais.com/products/exotic-veda-curry-powder-organic-curry-powder?pr_prod_strat=pinned&pr_rec_id=6bef875ff&pr_rec_pid=9583822831937&pr_ref_pid=9583830532417&pr_seq=uniform?variant=48956856697153',
   images: [assets.Curryfront, assets.Curryfront],
   descriptionPoints: [
     "100% NATURAL, NON-GMO: Say Hello To The Highest-Quality Curry Leaves Powder You Can Find. It Is 100% Natural, Non-GMO, And Produced In A GMP-Compliant Facility—We Tick All The Boxes. This Isn't Just About Adding Flavor To Your Food; It's About Adding Life To Your Years. Our Commitment To Purity And Quality Means You Get The Best In Every Spoonful."
@@ -2297,4 +2297,134 @@ export const beetrootSkinCareRecipes = [
     benefits: 'Maintains overall skin health, hydrates, and adds a natural radiance.',
   image: assets.betroot // Replace with the correct image path or import
   }
+];
+
+
+
+export const triphalaDietRecipes = [
+  {
+    id: 1,
+    title: 'Triphala Water for Digestion and Detoxification',
+    ingredients: [
+      '1/2 to 1 teaspoon Triphala powder',
+      '1 glass of warm water',
+      '1 teaspoon honey or lemon juice (optional)'
+    ],
+    instructions: [
+      'Mix 1/2 to 1 teaspoon of Triphala powder in a glass of warm water.',
+      'Stir well and drink this mixture on an empty stomach in the morning or before bedtime.',
+      'Optionally, add honey or lemon juice for taste.'
+    ],
+    benefits: 'Helps stimulate digestive enzymes, promotes regular bowel movements, and detoxifies the body.',
+    image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 2,
+    title: 'Triphala for Weight Loss',
+    ingredients: [
+      '1 teaspoon Triphala powder',
+      '1 glass of warm water',
+      'A pinch of cinnamon (optional)'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of Triphala powder in a glass of warm water.',
+      'Drink this mixture 30 minutes before meals, twice a day (morning and evening).',
+      'Optionally, add a pinch of cinnamon for added metabolism-boosting effects.'
+    ],
+    benefits: 'Aids in reducing excess fat, supports healthy metabolism, and promotes overall weight management.',
+    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 3,
+    title: 'Triphala for Immune Support',
+    ingredients: [
+      '1 teaspoon Triphala powder',
+      '1 glass of water or herbal tea',
+      '1 teaspoon honey (optional)'
+    ],
+    instructions: [
+      'Add 1 teaspoon of Triphala powder to a glass of water or herbal tea.',
+      'Drink it once a day, preferably in the morning, to boost immunity.',
+      'Mix with honey for enhanced flavor and benefits if desired.'
+    ],
+    benefits: 'Supports the immune system, fights free radicals, and protects the body from infections.',
+    image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 4,
+    title: 'Triphala for Healthy Skin and Hair',
+    ingredients: [
+      '1 teaspoon Triphala powder',
+      '1 glass of warm water or coconut water',
+      'A splash of aloe vera juice or amla juice (optional)'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of Triphala powder in a glass of warm water or coconut water.',
+      'Drink it once a day, either in the morning or at night before bedtime.',
+      'Optionally, combine with aloe vera juice or amla juice for additional skin and hair benefits.'
+    ],
+    benefits: 'Purifies the blood, supports healthy skin, reduces acne, and promotes hair growth.',
+     image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 5,
+    title: 'Triphala for Blood Sugar Control',
+    ingredients: [
+      '1/2 teaspoon Triphala powder',
+      '1 glass of warm water',
+      '1 teaspoon fenugreek powder (optional)'
+    ],
+    instructions: [
+      'Mix 1/2 teaspoon of Triphala powder in a glass of warm water.',
+      'Drink it on an empty stomach in the morning and/or before bed.',
+      'Optionally, add a teaspoon of fenugreek powder for enhanced blood sugar regulation.'
+    ],
+    benefits: 'Regulates blood sugar levels, beneficial for individuals with diabetes or those at risk of developing it.',
+    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 6,
+    title: 'Triphala Mouth Rinse for Oral Health',
+    ingredients: [
+      '1 teaspoon Triphala powder',
+      '1 glass of warm water'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of Triphala powder in a glass of warm water.',
+      'Gargle with the mixture after brushing your teeth in the morning or evening.',
+      'Rinse your mouth thoroughly after gargling.'
+    ],
+    benefits: 'Maintains oral hygiene, reduces gum inflammation, and prevents bad breath.',
+    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 7,
+    title: 'Triphala for Sleep and Stress Relief',
+    ingredients: [
+      '1/2 teaspoon Triphala powder',
+      '1 glass of warm water or warm milk'
+    ],
+    instructions: [
+      'Mix 1/2 teaspoon of Triphala powder in a glass of warm water or warm milk.',
+      'Drink this mixture 30 minutes before bed to promote relaxation and restful sleep.'
+    ],
+    benefits: 'Has calming properties, helps reduce stress, and promotes better sleep quality.',
+    image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+  },
+  {
+    id: 8,
+    title: 'Triphala for Constipation Relief',
+    ingredients: [
+      '1 teaspoon Triphala powder',
+      '1 glass of warm water',
+      '1 teaspoon psyllium husk (optional)'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of Triphala powder in a glass of warm water.',
+      'Drink it before bedtime to stimulate bowel movements the next morning.',
+      'Optionally, add a teaspoon of psyllium husk to enhance its laxative effect.'
+    ],
+    benefits: 'Relieves constipation, promotes regular bowel movements, and improves gut health.',
+    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+  },
 ];
