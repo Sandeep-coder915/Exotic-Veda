@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { skincategoryproducts } from '../../products/Product pages/Recepisdata';
 import { assets } from '../../products/Assets/prodimg/assets';
+import { FaArrowRight } from 'react-icons/fa'; 
 
 const Skincare = () => {
   return (
-    <div style={{ marginTop: '4.9rem' ,textAlign:'justify' }}>
+    <div style={{ marginTop: '4.4rem' ,textAlign:'justify' }}>
       <img src={assets.skincarebaner} style={{ maxWidth: '100%' }} alt='skincarebanner' />
       <h2 className="text-center ">Embrace Natural Beauty with Exotic Veda</h2>
 
@@ -58,7 +59,7 @@ const Skincare = () => {
                   </Link>
                   <p className="card-text">
                     <small className="text-muted">
-                      <Link to={product.link}>{product.updateInfo}</Link>
+                      <Link to={product.link}>{product.updateInfo} <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
                     </small>
                   </p>
                   <Link to={product.buyLink}>

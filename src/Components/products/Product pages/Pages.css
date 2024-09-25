@@ -3,7 +3,7 @@
 .Product-Page-Contanier {
   text-align: justify;
   margin-top: 4.2rem;
-  /* font-family: 'New Amsterdam', sans-serif; */
+
 }
 
 .img-aloe {
@@ -21,51 +21,37 @@
   width: 18%;
   height: 250px;
   position: absolute;
-  /* Allows positioning relative to the parent div */
   top: 50%;
-  /* Centers vertically */
   right: 10px;
-  /* Positions it 20px from the right side */
   transform: translateY(-50%);
-  /* Adjusts the vertical alignment */
   background-color: rgba(255, 255, 255, 0.8);
-  /* Semi-transparent background for better readability */
   padding: 20px;
-  /* Adds some spacing inside the container */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  /* Optional: adds a shadow for visual separation */
   text-align: center;
-  /* Centers the text inside the container */
+
 }
 
 
 .right-container button {
   border-radius: 10px;
   padding: 10px 20px;
-  /* Button padding */
   font-size: 16px;
-  /* Button text size */
   background-color: #007BFF;
-  /* Button background color */
   color: white;
-  /* Button text color */
   border: none;
-  /* Removes border */
   cursor: pointer;
-  /* Changes cursor on hover */
+
 }
 
 .right-container button:hover {
   background-color: #0056b3;
-  /* Button hover effect */
+
 }
 
 
-
-/* General Styles for the Product Description List */
 .Aloevera-Description ul {
   list-style-type: none;
-  /* width: 80%; */
+
   padding: 0;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -88,7 +74,7 @@
   transform: translateY(-5px);
 }
 
-/* Heading Styles */
+
 .Aloevera-Description ul li:first-child {
   font-weight: bold;
   background-color: #dff0d8;
@@ -96,7 +82,7 @@
   color: #3c763d;
 }
 
-/* Media Query for Responsiveness */
+
 
 
 .btn2 {
@@ -148,28 +134,30 @@ h1 {
 
   justify-content: center;
 }
-.row{
-  
+
+.row {
+
 
   font-family: "Alice", serif;
   font-weight: 400;
   font-style: normal;
-  
+
   font-style: normal;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
 }
+
 .fo {
-  
+
 
   font-family: "Alice", serif;
   font-weight: 400;
   font-style: normal;
-  
+
   font-style: normal;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 
@@ -179,10 +167,10 @@ h1 {
   font-family: "Alice", serif;
   font-weight: 400;
   font-style: normal;
-  
+
   font-style: normal;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   min-width: 100%;
   display: flex;
@@ -191,7 +179,7 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  /* Full width for now, adjust with media queries */
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -240,7 +228,6 @@ h1 {
   margin-top: 10px;
 }
 
-/* Media Queries for Responsiveness */
 
 
 
@@ -276,7 +263,7 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  /* Full width for now, adjust with media queries */
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -325,7 +312,6 @@ h1 {
   margin-top: 10px;
 }
 
-/* Media Queries for Responsiveness */
 
 
 /* ======tab switch  start -======== */
@@ -340,7 +326,7 @@ h1 {
 
 /* Tab Button */
 .tabs button {
-  /* border:4px solid rgb(120, 161, 120); */
+
   padding: 20px 20px;
   /* border: none; */
   cursor: pointer;
@@ -351,22 +337,16 @@ h1 {
   font-size: 1rem;
   margin: 0 10px;
   border-radius: 10px;
-  /* Only top-left and top-right corners are rounded */
-  /* transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; Smooth transition for background color, text color, and border-bottom */
-  /* No bottom border for inactive tabs */
+
 }
 
 /* Active Tab Button */
 .tabs button.active {
   background-color: #0056b3;
-  /* Active tab background color */
   color: white;
-  border-bottom: 4px solid green;
-  /* Green bottom border for active tab */
   border-radius: 5px 5px 0 0;
-  /* Only top corners are rounded */
   transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
-  /* Smooth transition for active state */
+
 }
 
 /* Hover Effect */
@@ -378,8 +358,6 @@ h1 {
 
 
 
-
-/* =====================tab swich end ================================== */
 
 
 
@@ -453,5 +431,4 @@ h1 {
   color: white;
   border-radius: 10px;
 }
-
-/* ======end================= */
+ 

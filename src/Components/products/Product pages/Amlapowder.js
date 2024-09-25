@@ -51,34 +51,42 @@ const Amlapowder = () => {
     <>
       <div className='Aloevera' style={{ marginTop: '4rem' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-          <img src={assets.aloebanner1} alt='Aloe Vera Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
-          <img src={assets.amlaposter} alt='Amla Poster' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          <img src={assets.amlabannn} alt='Aloe Vera Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          <div>
+            <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'>
+              <div className='img-aloe'>
+                <img src={assets.amlabann} style={{ minWidth: '100%', maxWidth: '100%' }} alt='Amla Buy Now' />
+              </div>
+            </a>
+          </div>
+         
         </div>
       </div>
 
-      <div className="tabs">
-        <button
-          className={activeTab === 'skinCare' ? 'active' : ''}
-          onClick={() => handleTabChange('skinCare')}
-          aria-label="Skin Care Tips"
-        >
-          Tips For Skin Care
-        </button>
-        <button
-          className={activeTab === 'hairCare' ? 'active' : ''}
-          onClick={() => handleTabChange('hairCare')}
-          aria-label="Hair Care Tips"
-        >
-          Tips For Hair Care
-        </button>
-        <button
-          className={activeTab === 'diet' ? 'active' : ''}
-          onClick={() => handleTabChange('diet')}
-          aria-label="Dietary Use Tips"
-        >
-          Tips For Dietary Use
-        </button>
-      </div>
+    <div className="tabs" style={{ marginTop: '10px', display: 'flex', justifyContent: 'center', gap: '10px' }}>
+  <button
+    className={activeTab === 'skinCare' ? 'active' : ''}
+    onClick={() => handleTabChange('skinCare')}
+    aria-label="Skin Care Tips"
+  >
+    Tips For Skin Care
+  </button>
+  <button
+    className={activeTab === 'hairCare' ? 'active' : ''}
+    onClick={() => handleTabChange('hairCare')}
+    aria-label="Hair Care Tips"
+  >
+    Tips For Hair Care
+  </button>
+  <button
+    className={activeTab === 'diet' ? 'active' : ''}
+    onClick={() => handleTabChange('diet')}
+    aria-label="Dietary Use Tips"
+  >
+    Tips For Dietary Use
+  </button>
+</div>
+
 
       {/* Show Loader or Content */}
       
@@ -115,7 +123,7 @@ const Amlapowder = () => {
           <div>
             <a href='https://revaais.com/fr/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=bc10fc7c3&_ss=r'>
               <div className='img-aloe'>
-                <img src={assets.amlabann} style={{ minWidth: '100%', maxWidth: '100%' }} alt='Amla Buy Now' />
+              <img src={assets.amlaposter} alt='Amla Poster' style={{ maxWidth: '100%', minWidth: '100%' }} />
               </div>
             </a>
           </div>

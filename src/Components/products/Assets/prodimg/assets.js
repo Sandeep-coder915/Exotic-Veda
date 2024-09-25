@@ -47,7 +47,7 @@ import jamuseed from './jamunf.jpg'
 
 import multani from './32.png'
 import sandal1 from './Sandalwood 2 banner (1).png'
-
+import  amlabannn from './WhatsApp Image 2024-09-25 at 13.35.57_eed9d8b7.jpg'
 import multanibanner1 from './Multani mitti-01.png'
 import amlaposter from '../AmlaAseets/AMLA POWEDER POSTERS BANNER_Vegan Circle Green.png'
 import curryleafposter from './curry-leaf-banner-2.png'
@@ -112,7 +112,7 @@ export const assets = {
     // ====Home banner =====
     homebanner1, homebanner2, homebanner3, homebanner4, moring1, beetbann,
 
-
+    amlabannn,
     aloeuse1,
     aloeuse2,
 
