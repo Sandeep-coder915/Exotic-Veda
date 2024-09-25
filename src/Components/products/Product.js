@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { products } from './Product pages/Recepisdata.js'
 import './producet.css';
-
+import { FaArrowRight } from 'react-icons/fa'; 
 import { assets } from './Assets/prodimg/assets';
 
 // Array of product objects
@@ -35,7 +35,7 @@ const Product = () => {
                       </p></Link>
                     <p className="card-text">
                       <small className="text-muted">
-                        <Link to={product.link}>{product.updateInfo}</Link>
+                        <Link to={product.link}>{product.updateInfo}  <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
                       </small>
                     </p>
                     <Link to={product.buyLink}><button className='btn'>Buy Now</button></Link>

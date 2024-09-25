@@ -22,8 +22,8 @@ const Footer = () => {
       title: 'Company Information',
       links: [
         { name: 'About Us', path: '/aboutus' },
-        { name: 'Adress-1001 S MAIN ST STE 500 KALISPELL, MT 59901', path: '/mission' },
-        { name: 'support@revaais.com', path: '/contactus' },
+        { name: 'Address-1001 S MAIN ST STE 500 KALISPELL, MT 59901', path: 'https://maps.app.goo.gl/vqpQwQxJdm5aj3nV6 ' },
+        { name: 'support@revaais.com', path: 'mailto:support@revaais.com' },
         { name: 'Store Location', path: '/storelocation' }
       ]
     },
@@ -48,8 +48,8 @@ const Footer = () => {
     {
       title: 'Additionals',
       links: [
-        { name: 'Our Shop', path: '/category/haircare' },
-        { name: 'Search', path: '/category/skincare' },
+        { name: 'Our Shop', path: 'https://revaais.com/' },
+        { name: 'Search', path: '/Search' },
      
         { name: 'Contact Us', path: '/contactus' },
         { name: 'Special Offers', path: '/specialoffers' }
