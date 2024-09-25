@@ -118,7 +118,7 @@ const Aloevera = () => {
               {AloeverahairCareRecipes.map((recipe) => (
                 <div className="haircare-recipe-card" key={recipe.id}>
                   <div className="haircare-recipe-image">
-                    <img src={ee} alt={recipe.title} />
+                    <img src={recipe.img} alt={recipe.title} />
                   </div>
                   <div className="haircare-recipe-details">
                     <h2>{recipe.title}</h2>

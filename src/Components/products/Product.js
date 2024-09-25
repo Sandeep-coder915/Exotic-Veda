@@ -34,8 +34,8 @@ const Product = () => {
 
                       </p></Link>
                     <p className="card-text">
-                      <small className="text-muted">
-                        <Link to={product.link}>{product.updateInfo}  <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
+                      <small className="text-muted" style={{fontSize:'14px'}}>
+                        <Link to={product.link}>{product.updateInfo }  <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
                       </small>
                     </p>
                     <Link to={product.buyLink}><button className='btn'>Buy Now</button></Link>

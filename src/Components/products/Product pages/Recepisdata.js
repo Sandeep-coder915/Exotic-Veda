@@ -15,7 +15,7 @@ export const skincategoryproducts = [
     img: assets.aloe3,
     title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
     description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
-    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/aloevera-powder',
   },
@@ -26,7 +26,7 @@ link: '/products/multani-mitti',
 img: assets.multani,
 title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
 description: 'Naturally cleanse and refresh your skin with our Multani Mitti Powder. It helps absorb excess oil, reduce acne, and brighten your complexion.',
-updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+updateInfo: 'Click here to Learn Our  Tips ',
 buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
 route: '/products/multani-mitti',
 },
@@ -37,7 +37,7 @@ route: '/products/multani-mitti',
     img: assets.sandalfront,
     title: 'Pure Sandalwood Powder  Refresh,  Nourish Your Skin Naturally',
     description: ' Elevate your skincare with our pure Sandalwood Powder, known for its soothing properties, reducing blemishes, and enhancing your skin’s natural radiance.',
-    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/sandalwood-powder',
   },
@@ -48,7 +48,7 @@ route: '/products/multani-mitti',
     img: assets.Curryfront,
     title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
     description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/curry-leaf-powder'
   },
@@ -58,7 +58,7 @@ route: '/products/multani-mitti',
     img: assets.Amla1,
     title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
     description: 'Welcome To Exotic Veda',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/amla-powder',
   },
@@ -68,7 +68,7 @@ route: '/products/multani-mitti',
     img: assets.betroot,
     title: 'Pure Beetroot Powder   Add Natural Color and Nutrients to Your Smoothies',
     // description: 'nergize your body with our Beetroot Powder. Rich in nutrients, it supports stamina, enhances circulation, and adds a natural, vibrant color to your smoothies and dishes.',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/beetroot-powder'
   },
@@ -79,7 +79,7 @@ link: '/products/alum-bar',
 img: assets.alum,
 title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
 description: 'Experience natural freshness with our Alum Bar, perfect for tightening pores, soothing skin, and acting as a gentle, chemical-free deodorant.',
-updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+updateInfo: ' Click here to Learn Our  Tips  ',
 buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
 route: '/products/alum-bar',
 },
@@ -95,7 +95,7 @@ export const products = [
     img: assets.aloe3,
     title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
     description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
-    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    updateInfo: ' Click Here to Learn Our Tips  ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/aloevera-powder',
   },
@@ -106,7 +106,7 @@ export const products = [
     img: assets.Amla1,
     title: 'Amla Powder: Natural Solution for Healthy Hair, Skin & Diet',
     description: 'Boost your skin and hair care with pure Amla Powder, rich in Vitamin C. Ideal for enhancing natural radiance and promoting healthy hair growth',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/amla-powder',
   },
@@ -116,7 +116,7 @@ export const products = [
     img: assets.Curryfront,
     title: 'Curry Leaf Powder:for Hair, Skin & Digestive Health',
     description: 'Boost your hair, skin, and health with our Curry Leaf Powder. It reduces hair fall, promotes growth, brightens skin, and supports digestion for overall wellness',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/curry-leaf-powder'
   },
@@ -128,7 +128,7 @@ export const products = [
     img: assets.henna,
     title: 'Pure Henna Powder   Nourish, Strengthen, and Color Your Hair  ',
     description: 'Enhance your hair and skin with Henna Powder. Perfect for temporary tattoos and DIY hair care, it nourishes strands, adds shine, and offers vibrant color',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/henna-powder',
   },
@@ -138,7 +138,7 @@ export const products = [
     img: assets.lemonimg1,
     title: 'Lemongrass Powder: Natural Boost for Digestive Health & Wellness',
     description: 'Enhance your dishes with Lemongrass Powder. Known for its refreshing flavor, it aids digestion, supports detoxification, and boosts overall wellness',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/lemongras-powder'
   },
@@ -148,7 +148,7 @@ export const products = [
     img: assets.moringa2,
     title: 'Moringa Leaf Powder: Nutrient-Packed Superfood for Optimal Health',
     description: 'Moringa Leaf Powder is a nutrient-dense superfood that boosts energy, supports immunity, and promotes healthy skin, hair, and digestion naturally',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/moringa-leaf-powder'
   },
@@ -158,7 +158,7 @@ export const products = [
     img: assets.betroot,
     title: 'Beetroot Powder: Delicious Superfood for Glowing Skin & Diet Support',
     description: ' Beetroot Powder enhances skin health and vitality. Rich in antioxidants, it supports a healthy diet, boosts energy, and promotes natural glow.',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/beetroot-powder'
   },
@@ -168,7 +168,7 @@ export const products = [
     img: assets.shika2,
     title: 'Pure Shikakai Powder   Promote Hair Growth and Scalp Health Naturally',
     description: 'Shikakai Powder is a natural hair cleanser that strengthens roots, promotes growth, and adds shine while gently nourishing your scalp and hair',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/recipe-aloe-vera'
   },
@@ -178,7 +178,7 @@ export const products = [
     img: assets.multani,
     title: 'Multani Mitti: Gentle Treatment for All Skin Types & Clear Complexion',
     description: 'Multani Mitti is a natural clay perfect for all skin types. It cleanses, exfoliates, and rejuvenates, leaving your skin fresh, clear, and glowing.',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/multani-mitti',
   },
@@ -188,7 +188,7 @@ export const products = [
     img: assets.triphala2,
     title: 'Triphala Powder: Powerful Ayurvedic Dietary Blend for Health',
     description: 'Triphala Powder is a potent dietary supplement that aids digestion, detoxifies the body, and supports overall wellness with its natural ingredients.',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/triphala-powder'
   },
@@ -198,7 +198,7 @@ export const products = [
     img: assets.jamunf,
     title: 'Jamun Seed Powder: Nutritional Booster for Healthy Diet & Wellness',
     description: 'Jamun Seed Powder is a nutritious dietary aid that supports healthy blood sugar levels, boosts digestion, and promotes overall wellness naturally',
-    updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/jaamun-seed',
   },
@@ -208,7 +208,7 @@ export const products = [
     img: assets.sandalfront,
     title: 'Sandalwood Powder: Luxurious Skin Treatment for Glowing Complexion',
     description: ' Sandalwood Powder offers soothing properties for the skin, reducing irritation and blemishes while promoting a youthful, radiant complexion. ',
-    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/sandalwood-powder',
   },
@@ -219,7 +219,7 @@ export const products = [
     img: assets.alum,
     title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
     description: 'Experience natural freshness with our Alum Bar, perfect for tightening pores, soothing skin, and acting as a gentle, chemical-free deodorant.',
-    updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+    updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/alum-bar',
   },
@@ -535,7 +535,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This face pack helps control excess oil, reduce acne, and soothe inflammation, thanks to the anti-inflammatory and antibacterial properties of aloe vera and tea tree oil.',
-    img: assets.roswater,
+    img:assets.aloeuse1,
   },
   {
     id: 2,
@@ -554,7 +554,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
-    img: assets.aloe4,
+      img:assets.aloeuse2,
   },
   {
     id: 3,
@@ -573,7 +573,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask helps balance the skin, providing hydration to dry areas while cooling and soothing oily parts.',
-    img: assets.aloe4,
+      img:assets.aloe3,
   },
   {
     id: 4,
@@ -592,7 +592,7 @@ export const Aloeverarecipesskin = [
       'Rinse off with lukewarm water and pat dry.',
     ],
     benefits:
-      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.', img: assets.aloe4
+      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.',   img:assets.aloe3,
   },
   {
     id: 5,
@@ -611,7 +611,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask brightens the skin, reduces the appearance of dark spots, and revitalizes tired-looking skin.',
-    img: assets.aloe4,
+      img:assets.aloe3,
   },
   {
     id: 6,
@@ -630,7 +630,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-    img: assets.aloe4,
+      img:assets.aloe3,
   },
 ];
 
@@ -652,7 +652,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask deeply moisturizes and nourishes dry, frizzy hair, leaving it soft, smooth, and manageable.',
-    image: assets.roswater,
+      img:assets.aloe3,
   },
   {
     id: 2,
@@ -671,7 +671,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This hair pack helps control excess oil, cleanses the scalp, and adds volume to oily hair.',
-    image: assets.roswater,
+      img:assets.aloe3,
   },
   {
     id: 3,
@@ -690,7 +690,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask helps reduce dandruff, soothes an itchy scalp, and promotes a healthier scalp environment.',
-    image: assets.roswater,
+      img:assets.aloe3,
   },
   {
     id: 4,
@@ -710,7 +710,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask strengthens hair roots, reduces hair fall, and promotes healthy hair growth.',
-    image: assets.roswater,
+      img:assets.aloe3,
   },
   {
     id: 5,
@@ -729,7 +729,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-    image: assets.roswater,
+      img:assets.aloe3,
   },
   {
     id: 6,
@@ -748,7 +748,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-    image: assets.roswater,
+      img:assets.aloe3,
   },
 ];
 // ===========End==============
@@ -2074,7 +2074,7 @@ export const beetrootProductDetails = {
   title: "Organic Beetroot Powder | 100% Natural & Non-GMO, Rich in Antioxidants, Boosts Immunity, Vegan-Friendly (100g)",
   bannerImg: assets.beetbanner,
   buyNowLink: 'https://revaais.com/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g?_pos=1&_sid=058eeb733&_ss=r',
-  images: [assets.betroot, assets.betroot],
+  images: [ assets.beete,  assets.beete, ],
   descriptionPoints: [
     "100% NATURAL & NON-GMO: Discover the powerful benefits of beetroot with our 100% natural, non-GMO Beetroot Powder. Packed with essential nutrients, this powder is made from premium-quality beets to ensure that you receive the maximum health benefits in every serving. No additives, preservatives, or artificial colors—just pure beetroot goodness.",
     "RICH IN ANTIOXIDANTS & NITRATES: Beetroot is known for being high in antioxidants and nitrates, which can help improve blood circulation, support healthy blood pressure levels, and enhance athletic performance. Whether you're looking to boost your workout recovery or improve overall wellness, beetroot powder is a nutrient powerhouse.",

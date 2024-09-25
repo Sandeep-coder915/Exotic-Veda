@@ -11,26 +11,19 @@ const Beetroortpowder = () => {
       {/* Main container for Beetroot Powder product page */}
       <div style={{ marginTop: '4rem' }} className='Beetroot-Container'>
 
-      <div  style={{ display: 'flex', flexDirection: 'column',gap:'0' }}> {/* Product banner section */}
-        <div style={{ display: 'flex', flexDirection: 'column' }} className='fo'>
+      <div  > {/* Product banner section */}
+        <div style={{ display: 'flex', flexDirection: 'column',gap:'0px'  }} className='fo'>
           <a href={beetrootProductDetails.buyNowLink}>
             <img src={beetrootProductDetails.bannerImg} alt='Beetroot Powder Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
           </a>
+          <img src={assets.beetbann } alt='beetroot  powder ' style={{maxWidth:'100%',minWidth:'100%'}}></img>
+    </div>
 
-          {/* Product images */}
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            {/* {beetrootProductDetails.images.slice(0, 2).map((imgSrc, index) => (
-              <img src={imgSrc} alt={`Beetroot Powder ${index + 1}`} style={{ maxWidth: '50%', minWidth: '50%' }} key={index} />
-            ))} */}
-            <img src={assets.beetbann } alt='beetroot  powder ' style={{maxWidth:'100%',minWidth:'100%'}}></img>
-          </div>
-       </div>
-
-          <div style={{ display: 'flex' }}>
+          {/* <div style={{ display: 'flex' }}>
             {beetrootProductDetails.images.slice(2, 4).map((imgSrc, index) => (
               <img src={imgSrc} alt={`Beetroot Powder ${index + 1}`} style={{ maxWidth: '50%', minWidth: '50%' }} key={index} />
             ))}
-          </div>
+          </div> */}
 
           {/* Product description */}
           <h1>Organic Beetroot Powder - Perfect for Skin & Dietary Uses</h1>
