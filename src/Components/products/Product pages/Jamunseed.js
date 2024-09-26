@@ -6,7 +6,7 @@ import Reciepicard from './Reciepicard';
 const JamunSeed = () => {
   return (
     <>
-      <div style={{ marginTop: '4rem', backgroundColor: 'rgba(75,56,104,255)',  }} className='jamun-seed-powder-container'>
+      <div style={{ marginTop: '4rem', backgroundColor: 'rgba(75,56,104,255)', }} className='jamun-seed-powder-container'>
         <div style={{ display: 'flex', flexDirection: 'column', }} className='rr'>
           <img src={assets.jamunb1} alt='Jamun Seed Powder' style={{ maxWidth: '100%', minWidth: '100%' }} />
 
@@ -17,13 +17,13 @@ const JamunSeed = () => {
           </div>
 
           <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-          
+
             <img src={assets.shika2} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
             <img src={assets.shika1} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
 
           </div>
 
-          <h1 style={{color:'white'}}>Natural Jamun Seed Powder for Health and Wellness</h1>
+          <h1 style={{ color: 'white' }}>Natural Jamun Seed Powder for Health and Wellness</h1>
 
           <ul>
             <li>
@@ -54,7 +54,7 @@ const JamunSeed = () => {
         {/* Content based on active tab */}
         <div className="tab-content" >
           <div className="hair-care-detail-page" style={{ minWidth: '50%' }}>
-            <h1 style={{color:'white'}} >Jamunseed Powder use for  Diet </h1>
+            <h1 style={{ color: 'white' }} >Jamunseed Powder use for  Diet </h1>
             <div className="recipes-container">
               {jamunSeedPowderUses.map((recipe) => (
                 <Reciepicard recipe={recipe} key={recipe.id} />
@@ -62,7 +62,7 @@ const JamunSeed = () => {
             </div>
           </div>
 
-          <img src={assets.lemonstrexh} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          <img src={assets.jamunb1} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
           <p className='disclaimer ' style={{ color: 'black' }}><span>Disclaimer:</span> Use Jamunseed Powder externally. Avoid contact with eyes, and discontinue use if irritation occurs.</p>
         </div>
       </div>
