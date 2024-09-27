@@ -5,8 +5,8 @@ import NotFoundPage from './NotFoundPage'; // Import your 404 component
 
 const AppRoutes = () => (
     <Routes>
-        {routes.map(({ path, element, index }) => (
-            <Route key={path} path={path} element={element} index={index} />
+        {routes.map(({ path, element }) => (
+            <Route key={path} path={path} element={element}  />
         ))}
         {/* Fallback route for undefined paths */}
         <Route path="*" element={<NotFoundPage />} />

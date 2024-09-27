@@ -33,7 +33,8 @@ import  NewsletterSignup from '../Components/Home/NewsLetter'
 
 
 const routes = [
-    { path: '/', element: <Home />, index: true },
+    // index: true 
+    { path: '/', element: <Home />},
     { path: '/aboutus', element: <Aboutus /> },
     { path: '/newsletter', element: <NewsletterSignup/> },
     { path: '/review', element: <ReviewPage /> },
