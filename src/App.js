@@ -26,14 +26,14 @@ function App() {
         <BrowserRouter>
             <Header />
  
-            {isLoading ? (
-                <Loader />
-             ) : ( 
+            {/* {isLoading ? ( */}
+                {/* <Loader /> */}
+             {/* ) : (  */}
                 <>
                     <AppRoutes />
                     <Footer />
                 </>
-             )} 
+             {/* )}  */}
         </BrowserRouter>
     );
 }
