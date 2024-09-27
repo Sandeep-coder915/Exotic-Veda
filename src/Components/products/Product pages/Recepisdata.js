@@ -214,7 +214,7 @@ export const products = [
   },
 
   {
-    id: 3,
+    id: 13,
     link: '/products/alum-bar',
     img: assets.alum,
     title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
@@ -223,7 +223,47 @@ export const products = [
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/alum-bar',
   },
+  {
+    id: 14,
+    link: '/',
+    img: assets.diya1,
+    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
+    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/',
+  },
+  {
+    id: 15,
+    link: '/',
+    img: assets.wick,
+    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
+    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/',
+  },  {
+    id: 16,
+    link: '/',
+    img: assets.cottonwicklong ,
+    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
+    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/',
+  },
+  {
+    id: 17,
+    link: '/',
+    img: assets.poojancaly ,
+    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
+    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/',
+  },
 
+ 
 ];
 
 
@@ -2428,3 +2468,6 @@ export const triphalaDietRecipes = [
     image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
   },
 ];
+
+
+

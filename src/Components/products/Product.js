@@ -4,8 +4,7 @@ import { products } from './Product pages/Recepisdata.js'
 import './producet.css';
 import { FaArrowRight } from 'react-icons/fa'; 
 import { assets } from './Assets/prodimg/assets';
-
-// Array of product objects
+ 
 
 
 const Product = () => {

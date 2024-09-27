@@ -81,7 +81,7 @@ import Hennabanner2 from './heenna-powefer-banner (1).png'
 import Currleaf1 from './curry-leaf-banner-2.png'
 
 import Curryfront from './Curry Front.png'
-import Curryleaf2 from './EveryDay Meal.jpg'
+ 
 
 
 import beetback from './Beetroot Back.jpg'
@@ -108,7 +108,26 @@ import moringa2 from './Moringa Leaf  (1).png'
 import moring1 from './rr.jpg'
 import beetbann from './beetee.jpg'
 
+
+
+// =================Cow ghee diys ==============
+import  diya1 from './Cow ghee diya.jpg'
+import  wick from './Wick.jpg'
+import  poojancaly from './product shoot images (6) (1).png'
+import cottonwicklong from './cotton-wick-long.jpg'
+
+
+
 export const assets = {
+
+
+// ===========cow ghee diya ===========
+diya1,wick,poojancaly ,cottonwicklong ,
+
+
+
+
+
     // ====Home banner =====
     homebanner1, homebanner2, homebanner3, homebanner4, moring1, beetbann,
 
@@ -137,7 +156,7 @@ export const assets = {
      alum,
     // ====henna===
     haircarebanner,
-    Curryleaf2,
+  
     Curryfront,
     Hennabanner1,
     Hennabanner2,

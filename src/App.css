@@ -399,38 +399,12 @@ p {
 /* ===================not Found Pagecss ================= */
 
 
-.not-found-link {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #ffffff;
-
-  border-radius: 4px;
-  text-decoration: none;
-}
-
  
-/* Container for the entire 404 page */
-.not-found-container {
-  position: relative;
-  margin-top: 4.2rem;
-  text-align: center; /* Center-align the content horizontally */
-}
-
-/* Style for the image */
- 
-
-/* Style for the content inside the container */
-.not-found-content {
-  position: relative;
-  display: inline-block; /* Adjust this to center content or align as needed */
-}
-
-/* Style for the "Go to Homepage" link */
 .not-found-link {
   position: absolute;
-  right: 20px; /* Adjust spacing from the right edge */
-  top: 50%; /* Center vertically */
+  right: 20px;
+  right: 35%; /* Adjust spacing from the right edge */
+  top: 60%; /* Center vertically */
   transform: translateY(-50%); /* Center vertically */
   padding: 10px 20px;
   background-color: #ff6f61; /* Semi-transparent background */
