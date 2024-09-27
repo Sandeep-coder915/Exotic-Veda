@@ -16,7 +16,7 @@ const products = [
     {
       id: 2,
       link: '/products/sandalwood-powder',
-      img: assets.ee,
+      img: assets.sandalfront,
       title: 'Pure Sandalwood Powder  Refresh,  Nourish Your Skin Naturally',
              updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
       buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
