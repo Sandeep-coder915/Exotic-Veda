@@ -20,7 +20,7 @@ const Moringaleafpowder = () => {
             <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
             <img src={assets.moringa2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} /> */}
 
-            <img src={assets.moring1} style={{ maxWidth: '100%', marginBottom: '0', minWidth: '100%' }} ></img>
+            <img src={assets.moring1} alt='Moringa-leaf-powder' style={{ maxWidth: '100%', marginBottom: '0', minWidth: '100%' }} ></img>
 
           </div>
       

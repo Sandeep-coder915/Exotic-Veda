@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { assets } from '../Assets/prodimg/assets';
 import { curryproductDetails, curryhairCareRecipes, currySkinCareRecipes } from './Recepisdata'; // Import the recipe data
 import Reciepicard from './Reciepicard'
 const Curryleafpowder = () => {

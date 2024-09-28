@@ -70,7 +70,7 @@ const Dietryuse = () => {
   return (
 
     <div style={{  marginTop: '4.4rem',  }}>
-      <img src={assets.Dietbanner} style={{ maxWidth: '100%' }} />
+      <img src={assets.Dietbanner} alt='exotic veda ' style={{ maxWidth: '100%' }} />
 
       <h1 className="text-center mb-4">Explore Our Products</h1>
       <div className="container mt-5">

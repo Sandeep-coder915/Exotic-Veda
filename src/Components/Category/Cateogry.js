@@ -3,7 +3,7 @@ import skincare from './Assets/Untitled design (65).png'
 // import img2 from './Assets/Untitled design (65).png'
  
 import  img22 from './Assets/BANNER FOR MENU BEST SELLERS EXOTIC VEDA.png'
-import  img23 from './Assets/banner for amzon store.png'
+ 
 import diet from './Assets/Diet.jpg'
 import hair from './Assets/Haircare.jpg'
 import { Link } from 'react-router-dom'
@@ -68,7 +68,7 @@ const Cateogry = () => {
                 </div>
           
                 <div style={{display:'flex',gap:'0',flexDirection:'column'}}>
-                <img src={img22} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 22" /> 
+                <img src={img22} style={{ maxWidth: '100%', minWidth: '100%' }} alt="exotic-veda" /> 
                 {/* <img src={img23} style={{ maxWidth: '100%', minWidth: '100%' }} alt="Image 23" /> */}
                 </div>
               </div>

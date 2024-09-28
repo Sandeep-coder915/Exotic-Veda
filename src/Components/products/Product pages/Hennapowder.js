@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { assets } from '../Assets/prodimg/assets';
+ 
 import { hennahairCareRecipes, hennaproductDetails } from './Recepisdata'; // Importing the recipe data
 import Reciepicard from './Reciepicard';
 

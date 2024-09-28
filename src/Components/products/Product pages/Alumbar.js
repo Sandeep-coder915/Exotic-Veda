@@ -1,22 +1,8 @@
-import React, { useState } from 'react';
+ 
 import { assets } from '../Assets/prodimg/assets';
 import { alumBarUses } from './Recepisdata'; // Import the recipe data
 import Reciepicard from './Reciepicard';
 const Alumbar = () =>{
-  const [activeTab, setActiveTab] = useState('hairCare'); // State to track the active tab
-
-  
-  
-  const TabButton = ({ label, tabKey }) => (
-    <button
-      className={activeTab === tabKey ? 'active' : ''}
-      onClick={() => setActiveTab(tabKey)}
-    >
-      {label}
-    </button>
-  );
-
-
   return (
     <>
       <div className='Product-Page-Container'>
@@ -51,7 +37,7 @@ const Alumbar = () =>{
 
       
         <div className="tab-content">
-          {activeTab === 'hairCare' && (
+         
             <div className="hair-care-detail-page">
               <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Shikakai Powder Uses for Different Hair Types</h1>
               <div className="recipes-container">
@@ -60,7 +46,7 @@ const Alumbar = () =>{
                 ))}
               </div>
             </div>
-          )}
+     
           <p className='disclaimer'><span>Disclaimer:</span> Use Shikakai Powder externally. Avoid contact with eyes, and discontinue use if irritation occurs.</p>
         </div>
       </div>

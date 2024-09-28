@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React  from 'react';
 import { assets } from '../Assets/prodimg/assets';
 import { triphalaDietRecipes } from './Recepisdata';
 const Triphalapowder = () => {

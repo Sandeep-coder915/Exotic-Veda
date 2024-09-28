@@ -1,6 +1,6 @@
 import { assets } from '../Assets/prodimg/assets';
-import { useState, useEffect, useCallback } from 'react';
-import Loader from '../../loader/Loader';
+import { useState,  useCallback } from 'react';
+ 
 import { Amlaskinrecipes, AmlaDietRecipes, AmlahairCareRecipes } from './Recepisdata';
 
 const RecipeCard = ({ recipe }) => (
@@ -33,18 +33,16 @@ const RecipeCard = ({ recipe }) => (
 );
 
 const Amlapowder = () => {
-  const [isLoading, setIsLoading] = useState(true);
+ 
   const [activeTab, setActiveTab] = useState('skinCare');
 
   // Simulate content loading with useEffect
   const handleTabChange = useCallback((tab) => {
-    setIsLoading(true); // Show loader
+   
     setActiveTab(tab); // Set active tab
 
     // Simulate a delay (e.g., fetching content for the tab)
-    setTimeout(() => {
-      setIsLoading(false); // Hide loader after content is "loaded"
-    }, 1000); // Adjust the delay as needed (1000ms = 1 second)
+  // Adjust the delay as needed (1000ms = 1 second)
   }, []);
 
   return (

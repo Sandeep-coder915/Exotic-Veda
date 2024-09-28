@@ -5,7 +5,7 @@ import { assets } from '../../products/Assets/prodimg/assets';
 import './skincare.css'
 
 const Haircare = () => {
-  {
+   
     const products = [
       {
         id: 1,
@@ -64,10 +64,10 @@ const Haircare = () => {
     return (
 
       <div style={{ marginTop: '4.4rem', textAlign: 'justify' }}>
-        <img src={assets.haircarebanner} style={{ maxWidth: '100%' }} />
+        <img src={assets.haircarebanner} alt='exotic veda,orgainic,revaais, natural 'style={{ maxWidth: '100%' }} />
         <div className="blog-container">
           <h1 className="blog-title">Unlocking Nature's Secrets: A Guide to Hair Care with Exotic Veda</h1>
-          <img src={assets.homebanner1} style={{ maxWidth: '100%' }} />
+          <img src={assets.homebanner1} alt='exotic veda,orgainic,revaais, natural ' style={{ maxWidth: '100%' }} />
 
           <p className="blog-intro">
             In a world where hair care often involves a plethora of products filled with chemicals, the journey to healthy hair can seem daunting. However, the ancient wisdom of Ayurveda offers a refreshing alternative. Exotic Veda, a brand inspired by the richness of Ayurvedic traditions, provides a range of hair care products that are both natural and effective. In this blog, we’ll explore the benefits of using Exotic Veda's hair care line and how to incorporate these powerful ingredients into your routine for vibrant, healthy hair.
@@ -146,6 +146,6 @@ const Haircare = () => {
 
     )
   }
-}
+ 
 
 export default Haircare

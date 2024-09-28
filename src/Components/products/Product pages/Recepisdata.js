@@ -1,6 +1,5 @@
 import { assets } from '../Assets/prodimg/assets';
-import React from 'react';
-
+ 
 // recipesData.js
 // Update with the correct path to your images
 
