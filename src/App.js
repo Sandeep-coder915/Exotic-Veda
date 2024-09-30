@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import Header from './Components/Header/Header';
+import Navbar from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import AppRoutes from './Routes/AppRoutes';
 import Loader from './Components/loader/Loader';
 import './Components/Css/Mediaq.css'
 
 function App() {
+    
+ 
+
+
+
+
+
     // State to manage loading
     const [isLoading, setIsLoading] = useState(true);
 
@@ -24,7 +31,7 @@ function App() {
 
     return (
         <BrowserRouter>
-            <Header />
+            <Navbar   />
             {/* Show Loader if loading, otherwise show the main content */}
             {/* {isLoading ? ( */}
                 {/* <Loader /> */}
