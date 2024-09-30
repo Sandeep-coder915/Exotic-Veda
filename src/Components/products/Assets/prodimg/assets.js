@@ -73,7 +73,6 @@ import aloeback from '../Aloe/Amazon.png'
 import aloe33 from '../Aloe/aloePowder.png'
 import aloebene from '../Aloe/aloebenifts.png'
 import aloehair from '../Aloe/haircareimg.webp'
-import aloehair5 from '../Aloe/DALL·E 2024-09-30 10.21.55 - A person applying a homemade hair mask made from aloe vera powder, hibiscus powder, and water or yogurt. The mask appears as a smooth paste, and the p.webp'
 
 
 
@@ -186,7 +185,7 @@ export const assets = {
     aloe3,
     aloeuse1,
     aloeuse2, aloeback,
-    aloehair5,
+
     aloe33,
     aloebene
     , aloehair,
