@@ -28,9 +28,7 @@ import Lemongrass from "../Components/products/Product pages/Lemongrass";
 import SearchBar from "../Components/AboutUs/Search/Search";
 import ProductForm from "../Components/../Routes/template";
 import  NewsletterSignup from '../Components/Home/NewsLetter'
- 
-
-
+import CottonWicks from "../Components/products/Product pages/Cowgheediy";
 
 const routes = [
     { path: '/', element: <Home />, index: true },
@@ -58,6 +56,7 @@ const routes = [
     { path: '/products/shikhakhai-powder', element: <Shikakkhai/> },
     { path: '/products/lemongras-powder', element: <Lemongrass/> },
     { path: '/products/triphala-powder', element: <Triphalapowder/> },
+    { path: '/products/Cow-ghee-batti', element: <CottonWicks/> },
  
     { path: '/products/jaamun-seed', element: <Jamunseed /> },
     { path: '/products/amla-powder', element: <Amlapowder /> },

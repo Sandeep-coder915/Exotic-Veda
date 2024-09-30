@@ -7,7 +7,7 @@ const products = [
   {
     id: 1,
     link: '/products/aloevera-powder',
-    img: assets.aloe,
+    img: assets.aloe3,
     title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
   //   description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
     updateInfo: '  Click Here to Learn Our Tips ',

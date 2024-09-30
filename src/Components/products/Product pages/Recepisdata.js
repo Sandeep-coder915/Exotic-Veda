@@ -1,5 +1,5 @@
 import { assets } from '../Assets/prodimg/assets';
- 
+
 // recipesData.js
 // Update with the correct path to your images
 
@@ -18,17 +18,17 @@ export const skincategoryproducts = [
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/aloevera-powder',
   },
-// ====Multani i======
-{
-id: 3,
-link: '/products/multani-mitti',
-img: assets.multani,
-title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
-description: 'Naturally cleanse and refresh your skin with our Multani Mitti Powder. It helps absorb excess oil, reduce acne, and brighten your complexion.',
-updateInfo: 'Click here to Learn Our  Tips ',
-buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-route: '/products/multani-mitti',
-},
+  // ====Multani i======
+  {
+    id: 3,
+    link: '/products/multani-mitti',
+    img: assets.multani,
+    title: 'Pure Multani Mitti by Exotic Veda: Detoxify, Purify, and Brighten Oily Skin',
+    description: 'Naturally cleanse and refresh your skin with our Multani Mitti Powder. It helps absorb excess oil, reduce acne, and brighten your complexion.',
+    updateInfo: 'Click here to Learn Our  Tips ',
+    buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
+    route: '/products/multani-mitti',
+  },
   // ======Sandalwood powder =======
   {
     id: 3,
@@ -71,17 +71,17 @@ route: '/products/multani-mitti',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/beetroot-powder'
   },
-//  =======Alum BAr =========
-{
-id: 7,
-link: '/products/alum-bar',
-img: assets.alum,
-title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
-description: 'Experience natural freshness with our Alum Bar, perfect for tightening pores, soothing skin, and acting as a gentle, chemical-free deodorant.',
-updateInfo: ' Click here to Learn Our  Tips  ',
-buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
-route: '/products/alum-bar',
-},
+  //  =======Alum BAr =========
+  {
+    id: 7,
+    link: '/products/alum-bar',
+    img: assets.alum,
+    title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
+    description: 'Experience natural freshness with our Alum Bar, perfect for tightening pores, soothing skin, and acting as a gentle, chemical-free deodorant.',
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/products/alum-bar',
+  },
 
 ];
 
@@ -241,10 +241,10 @@ export const products = [
     updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/',
-  },  {
+  }, {
     id: 16,
     link: '/',
-    img: assets.cottonwicklong ,
+    img: assets.cottonwicklong,
     title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
     description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
     updateInfo: ' Click here to Learn Our  Tips  ',
@@ -254,7 +254,7 @@ export const products = [
   {
     id: 17,
     link: '/',
-    img: assets.poojancaly ,
+    img: assets.poojancaly,
     title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
     description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
     updateInfo: ' Click here to Learn Our  Tips  ',
@@ -262,12 +262,12 @@ export const products = [
     route: '/',
   },
 
- 
+
 ];
 
 
 // ==================henna  Powder ====================
- 
+
 export const hennahairCareRecipes = [
   {
     id: 1,
@@ -286,7 +286,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Deeply conditions and nourishes dry hair, reducing frizz and adding softness and shine.',
-    image: assets.Henna5 // Replace with the correct image path or import
+    image: assets.henna // Replace with the correct image path or import
   },
   {
     id: 2,
@@ -304,7 +304,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and follow with a mild shampoo.'
     ],
     benefits: 'Controls oil production, cleanses the scalp, and adds volume to oily hair.',
-    image: assets.Henna5// Replace with the correct image path or import
+    image: assets.henna// Replace with the correct image path or import
   },
   {
     id: 3,
@@ -322,7 +322,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Reduces dandruff, soothes itchy scalp, and promotes a healthier scalp environment.',
-    image: assets.Henna5// Replace with the correct image path or import
+    image: assets.henna// Replace with the correct image path or import
   },
   {
     id: 4,
@@ -340,7 +340,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Strengthens hair roots, promotes hair growth, and reduces hair fall.',
-    image: assets.Henna5// Replace with the correct image path or import
+    image: assets.henna// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -358,7 +358,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Repairs damage, restores moisture, and brings back shine and vitality to dull hair.',
-    image: assets.Henna5 // Replace with the correct image path or import
+    image: assets.henna // Replace with the correct image path or import
   },
   {
     id: 6,
@@ -376,7 +376,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-    image: assets.Henna5 // Replace with the correct image path or import
+    image: assets.henna // Replace with the correct image path or import
   }
 ];
 
@@ -574,7 +574,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This face pack helps control excess oil, reduce acne, and soothe inflammation, thanks to the anti-inflammatory and antibacterial properties of aloe vera and tea tree oil.',
-    img:assets.aloeuse1,
+    img: assets.aloeuse1,
   },
   {
     id: 2,
@@ -593,7 +593,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
-      img:assets.aloeuse2,
+    img: assets.aloeuse2,
   },
   {
     id: 3,
@@ -612,7 +612,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask helps balance the skin, providing hydration to dry areas while cooling and soothing oily parts.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
   {
     id: 4,
@@ -631,7 +631,7 @@ export const Aloeverarecipesskin = [
       'Rinse off with lukewarm water and pat dry.',
     ],
     benefits:
-      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.',   img:assets.aloe3,
+      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.', img: assets.aloe3,
   },
   {
     id: 5,
@@ -650,7 +650,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask brightens the skin, reduces the appearance of dark spots, and revitalizes tired-looking skin.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
   {
     id: 6,
@@ -669,7 +669,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
 ];
 
@@ -691,7 +691,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask deeply moisturizes and nourishes dry, frizzy hair, leaving it soft, smooth, and manageable.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
   {
     id: 2,
@@ -710,7 +710,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This hair pack helps control excess oil, cleanses the scalp, and adds volume to oily hair.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
   {
     id: 3,
@@ -729,7 +729,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask helps reduce dandruff, soothes an itchy scalp, and promotes a healthier scalp environment.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
   {
     id: 4,
@@ -749,7 +749,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask strengthens hair roots, reduces hair fall, and promotes healthy hair growth.',
-      img:assets.aloe3,
+    img: assets.aloe3,
   },
   {
     id: 5,
@@ -768,7 +768,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-      img:assets.aloe3,
+    img: assets.aloehair5,
   },
   {
     id: 6,
@@ -787,7 +787,7 @@ export const AloeverahairCareRecipes = [
     ],
     benefits:
       'This mask repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-      img:assets.aloe3,
+    img: assets.aloehair,
   },
 ];
 // ===========End==============
@@ -2113,13 +2113,8 @@ export const beetrootProductDetails = {
   title: "Organic Beetroot Powder | 100% Natural & Non-GMO, Rich in Antioxidants, Boosts Immunity, Vegan-Friendly (100g)",
   bannerImg: assets.beetbanner,
   buyNowLink: 'https://revaais.com/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g?_pos=1&_sid=058eeb733&_ss=r',
-  images: [ assets.beete,  assets.beete, ],
-  descriptionPoints: [
-    "100% NATURAL & NON-GMO: Discover the powerful benefits of beetroot with our 100% natural, non-GMO Beetroot Powder. Packed with essential nutrients, this powder is made from premium-quality beets to ensure that you receive the maximum health benefits in every serving. No additives, preservatives, or artificial colors—just pure beetroot goodness.",
-    "RICH IN ANTIOXIDANTS & NITRATES: Beetroot is known for being high in antioxidants and nitrates, which can help improve blood circulation, support healthy blood pressure levels, and enhance athletic performance. Whether you're looking to boost your workout recovery or improve overall wellness, beetroot powder is a nutrient powerhouse.",
-    "BOOSTS IMMUNITY & DETOXIFIES: With its high levels of Vitamin C, beetroot powder aids in strengthening the immune system and promoting detoxification. Regular consumption helps in flushing out toxins, improving skin health, and providing a natural glow. It's a great addition to your daily health and beauty routine.",
-    "EASY TO USE: Add a tablespoon of beetroot powder to smoothies, juices, or baked goods for a nutritious boost. You can also mix it with yogurt for a face mask to brighten the skin, or with water and apply it to your scalp to promote healthy hair growth. Its versatility makes it a must-have in your kitchen and beauty routine."
-  ]
+  images: [assets.beete, assets.beete,],
+ 
 };
 
 export const beetrootDietaryRecipes = [
@@ -2140,7 +2135,7 @@ export const beetrootDietaryRecipes = [
       'Pour into a glass and enjoy a nutrient-packed start to your day.'
     ],
     benefits: 'Provides a natural energy boost, rich in vitamins and minerals.',
-  image: assets.betroot// Replace with the correct image path or import
+    image: assets.betroot// Replace with the correct image path or import
   },
   {
     id: 2,
@@ -2156,7 +2151,7 @@ export const beetrootDietaryRecipes = [
       'Drink as a quick detoxifying and refreshing beverage.'
     ],
     benefits: 'Acts as a detoxifying drink, supports heart health, and improves blood flow.',
-  image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   },
   {
     id: 3,
@@ -2173,7 +2168,7 @@ export const beetrootDietaryRecipes = [
       'Pour into a cup and enjoy as a nutritious, caffeine-free latte.'
     ],
     benefits: 'Provides a comforting drink that supports cardiovascular health and energy.',
-  image: assets.betroot// Replace with the correct image path or import
+    image: assets.betroot// Replace with the correct image path or import
   },
   {
     id: 4,
@@ -2191,7 +2186,7 @@ export const beetrootDietaryRecipes = [
       'Drizzle over your favorite salad and toss to coat.'
     ],
     benefits: 'Adds natural sweetness and a pop of color to salads while providing fiber and nutrients.',
-  image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   },
   {
     id: 5,
@@ -2211,7 +2206,7 @@ export const beetrootDietaryRecipes = [
       'Store in the refrigerator for a quick and healthy snack.'
     ],
     benefits: 'Increases nutritional value of snacks, offering natural energy and antioxidants.',
-  image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   },
   {
     id: 6,
@@ -2230,7 +2225,7 @@ export const beetrootDietaryRecipes = [
       'Serve warm for a nutritious and vibrant meal.'
     ],
     benefits: 'Adds nutrients like iron and folate to warm, comforting dishes.',
-  image: assets.betroot// Replace with the correct image path or import
+    image: assets.betroot// Replace with the correct image path or import
   }
 ];
 
@@ -2268,7 +2263,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with cool water.'
     ],
     benefits: 'Controls excess oil, detoxifies the skin, and adds a natural glow.',
-  image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   },
   {
     id: 3,
@@ -2285,7 +2280,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with cool water.'
     ],
     benefits: 'Soothes irritation, reduces redness, and provides gentle nourishment.',
-  image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   },
   {
     id: 4,
@@ -2302,7 +2297,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with lukewarm water while massaging in circular motions.'
     ],
     benefits: 'Balances the skin by hydrating dry areas and controlling oil in the T-zone.',
-  image: assets.betroot// Replace with the correct image path or import
+    image: assets.betroot// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -2318,7 +2313,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse with cool water.'
     ],
     benefits: 'Tightens the skin, reduces dullness, and promotes a youthful glow.',
- image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   },
   {
     id: 6,
@@ -2334,7 +2329,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse with lukewarm water.'
     ],
     benefits: 'Maintains overall skin health, hydrates, and adds a natural radiance.',
-  image: assets.betroot // Replace with the correct image path or import
+    image: assets.betroot // Replace with the correct image path or import
   }
 ];
 
@@ -2355,7 +2350,7 @@ export const triphalaDietRecipes = [
       'Optionally, add honey or lemon juice for taste.'
     ],
     benefits: 'Helps stimulate digestive enzymes, promotes regular bowel movements, and detoxifies the body.',
-    image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 2,
@@ -2371,7 +2366,7 @@ export const triphalaDietRecipes = [
       'Optionally, add a pinch of cinnamon for added metabolism-boosting effects.'
     ],
     benefits: 'Aids in reducing excess fat, supports healthy metabolism, and promotes overall weight management.',
-    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2, // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 3,
@@ -2387,7 +2382,7 @@ export const triphalaDietRecipes = [
       'Mix with honey for enhanced flavor and benefits if desired.'
     ],
     benefits: 'Supports the immune system, fights free radicals, and protects the body from infections.',
-    image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 4,
@@ -2403,7 +2398,7 @@ export const triphalaDietRecipes = [
       'Optionally, combine with aloe vera juice or amla juice for additional skin and hair benefits.'
     ],
     benefits: 'Purifies the blood, supports healthy skin, reduces acne, and promotes hair growth.',
-     image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 5,
@@ -2419,7 +2414,7 @@ export const triphalaDietRecipes = [
       'Optionally, add a teaspoon of fenugreek powder for enhanced blood sugar regulation.'
     ],
     benefits: 'Regulates blood sugar levels, beneficial for individuals with diabetes or those at risk of developing it.',
-    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2, // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 6,
@@ -2434,7 +2429,7 @@ export const triphalaDietRecipes = [
       'Rinse your mouth thoroughly after gargling.'
     ],
     benefits: 'Maintains oral hygiene, reduces gum inflammation, and prevents bad breath.',
-    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2, // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 7,
@@ -2448,7 +2443,7 @@ export const triphalaDietRecipes = [
       'Drink this mixture 30 minutes before bed to promote relaxation and restful sleep.'
     ],
     benefits: 'Has calming properties, helps reduce stress, and promotes better sleep quality.',
-    image:assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2,  // Replace 'path_to_image' with the correct image path or import
   },
   {
     id: 8,
@@ -2464,7 +2459,7 @@ export const triphalaDietRecipes = [
       'Optionally, add a teaspoon of psyllium husk to enhance its laxative effect.'
     ],
     benefits: 'Relieves constipation, promotes regular bowel movements, and improves gut health.',
-    image:assets.triphala2, // Replace 'path_to_image' with the correct image path or import
+    image: assets.triphala2, // Replace 'path_to_image' with the correct image path or import
   },
 ];
 
