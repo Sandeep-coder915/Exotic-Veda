@@ -4,7 +4,7 @@ import { beetrootProductDetails, beetrootDietaryRecipes, beetrootSkinCareRecipes
 import Reciepicard from './Reciepicard';
 
 const Beetroortpowder = () => {
-  const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
+  const [activeTab, setActiveTab] = useState('skinCare'); 
   const images = [
     assets.betroot,
     assets.beetrrotuse1,
