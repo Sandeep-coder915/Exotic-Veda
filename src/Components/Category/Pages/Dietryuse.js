@@ -1,5 +1,5 @@
 import React from 'react'
-    
+import { FaArrowRight } from 'react-icons/fa';  
 import { Link } from 'react-router-dom'
 import { assets } from '../../products/Assets/prodimg/assets';
 import './skincare.css'
@@ -11,7 +11,7 @@ const Dietryuse = () => {
       img: assets.Amla1,
       title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
       description: 'Welcome To Exotic Veda',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/amla-powder',
     },
@@ -21,7 +21,7 @@ const Dietryuse = () => {
       img: assets.Curryfront,
       title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
       description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/curry-leaf-powder'
     },
@@ -31,7 +31,7 @@ const Dietryuse = () => {
       img: assets.moringa2,
       title: 'Moringa Leaf Powder   Natural Detox and Wellness Support for Vibrant Health',
       description: 'Supercharge your health with our Moringa Leaf Powder. Packed with vitamins and minerals, it boosts energy, supports immunity, and enhances overall wellness.',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/moringa-leaf-powder'
     },
@@ -41,7 +41,7 @@ const Dietryuse = () => {
       img: assets.betroot,
       title: 'Pure Beetroot Powder   Add Natural Color and Nutrients to Your Smoothies',
       // description: 'nergize your body with our Beetroot Powder. Rich in nutrients, it supports stamina, enhances circulation, and adds a natural, vibrant color to your smoothies and dishes.',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/beetroot-powder'
     },
@@ -51,7 +51,7 @@ const Dietryuse = () => {
       img: assets.triphala2,
       title: 'Triphala Powder   Natural Detox and Wellness Support for Vibrant Health',
       description: 'Revitalize your health with our Triphala Powder, a traditional blend of three powerful fruits. It supports digestion, detoxifies the body, and promotes overall wellness.',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/triphala-powder'
     },  {
@@ -60,7 +60,7 @@ const Dietryuse = () => {
       img: assets.jamunf,
       title: 'jamun Seed Powder   Promote Wellness with Natural Antioxidants and Nutrients',
       description: 'Support your health with our Jamun Seed Powder. Known for its antioxidant properties, it helps manage blood sugar levels and boosts digestion',
-      updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+      updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/jaamun-seed',
     },
@@ -69,8 +69,8 @@ const Dietryuse = () => {
   ];
   return (
 
-    <div style={{ marginTop: '4.8rem' }}>
-      <img src={assets.Dietbanner} style={{ maxWidth: '100%' }} />
+    <div style={{  marginTop: '4.4rem',  }}>
+      <img src={assets.Dietbanner} alt='exotic veda ' style={{ maxWidth: '100%' }} />
 
       <h1 className="text-center mb-4">Explore Our Products</h1>
       <div className="container mt-5">
@@ -87,7 +87,7 @@ const Dietryuse = () => {
                   <p className="card-text">{product.description}</p>
                   <p className="card-text">
                     <small className="text-muted">
-                      <Link to={product.link}>{product.updateInfo}</Link>
+                      <Link to={product.link}>{product.updateInfo} <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
                     </small>
                   </p>
    <Link to={product.buyLink}><button className='btn'>Buy Now</button></Link> 

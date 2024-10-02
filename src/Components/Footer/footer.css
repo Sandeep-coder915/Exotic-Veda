@@ -1,65 +1,103 @@
- 
-  .footer {
-    
+.footer {
+
 
   font-family: "Alice", serif;
   font-weight: 400;
   font-style: normal;
-  
-  font-style: normal;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale; 
+ 
+  background-color: beige;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0)
+}
 
-    background-color: beige;
-    /* padding: 2rem;
-    margin-top: 5rem; */
-   
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0)
-  } 
-  
-   .Social-media {
-    display: flex;
+
+.Social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid gray;
+}
+
+.Social-media ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+
+}
+
+.Footer-ul ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.Footer-ul h3 {
+  margin: 10px 0;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.payment-methods svg {
+  margin: 0 10px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .Social-media {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Footer-ul {
     flex-direction: row;
     justify-content: space-around;
+    width: 80%;
+    margin: auto;
+  }
+
+  .Footer-ul ul {
+    flex: 1;
+  }
+
+  .Footer-ul h3 {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .Social-media {
+    flex-direction: column;
     align-items: center;
-    gap: 30px;
-    /* border-bottom: 4px solid gray; */
-  } 
-  
-  .Footer-ul li {
-    list-style: none;
-  } 
-  .Footer-ul li a:hover {
-    color: #D0A82A;
   }
 
-
-  .Social-media a:nth-child(1) li:hover {
-    transform: scale(1.2);  /* Slightly larger */
-    color: #4267B2;         /* Facebook's blue color */
-  }
-  
-  /* Hover effect for Instagram (second icon) */
-  .Social-media a:nth-child(2) li:hover {
-    transform: rotate(10deg) scale(1.2); /* Slight rotation and scale */
-    color: #C13584;                      /* Instagram's gradient pink color */
-  }
-  
-  /* Hover effect for YouTube (third icon) */
-  .Social-media a:nth-child(3) li:hover {
-    transform: scale(1.2);  /* Slightly larger */
-    color: #FF0000;         /* YouTube's red color */
-  }
-  
-  /* Hover effect for Linktree (fourth icon) */
-  .Social-media a:nth-child(4) li:hover {
-    transform: scale(1.2);  /* Slightly larger */
-    color: #39e09b;         /* Linktree's green color */
+  .Footer-ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
   }
 
-
-  .iii img{
-    max-width: 50%;
-    min-width: 50%;
+  .Footer-ul h3 {
+    text-align: center;
   }
+}
+
+
+
+.text-muted {
+  display: flex;
+  align-items: 'center';
+  justify-content: center;
+}

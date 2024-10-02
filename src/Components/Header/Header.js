@@ -39,13 +39,13 @@ const Navbar = () => {
     <nav>
       <div>
         <Link to='/'>
-          <img src={img3} style={{ borderRadius: '50%', width: '70px' }} alt="Logo" />
+          <img src={img3} style={{ borderRadius: '50%',   width:'70px'}} alt="Logo" />
         </Link>
       </div>
 
       <ul id='ulnav'>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/reciepe'>Tips</Link></li>
+        {/* <li><Link to='/reciepe'>Tips</Link></li> */}
         <li><Link to='/products'>Products</Link></li>
         <li><Link to='/Search'>Search</Link></li>
       </ul>

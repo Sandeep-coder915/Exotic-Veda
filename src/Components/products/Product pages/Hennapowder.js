@@ -5,39 +5,100 @@ import Reciepicard from './Reciepicard';
 
 const Hennapowder = () => {
   const [activeTab, setActiveTab] = useState('hairCare'); // State to track the active tab
+  const images = [
+    assets.henna, 
+    assets.hennaback,
+    assets.hennause,
+    assets.hennabowl,
+    assets.hennadiy,
+  ];
 
+  // State to keep track of the currently displayed image
+  const [currentImage, setCurrentImage] = useState(images[0]);
+
+  // Function to change the main image when clicking a side image
+  const handleImageClick = (image) => {
+    setCurrentImage(image);
+  };
   return (
     <>
-      {/* Main container for Henna Powder product page */}
-      <div style={{ marginTop: '4rem' }} className='Henna-Container'>
+      <div className="product-page1"   >
+
+        <div className="image-gallery">
+          {/* Side images */}
+          <div className="thumbnail-container">
+            {images.map((image, index) => (
+              <img
+                // style={{maxWidth:'50%',minWidth:'50%'}}
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)
+
+                }
+              />
+            ))}
+          </div>
+
+          {/* Main image with hover effect */}
+          <div className="main-image-container">
+            <img
+              src={currentImage}
+              alt="Main product"
+              className="main-image"
+            />
+          </div>
+        </div>
+
+        {/* Product details */}
+        <div className="product-details">
+          <h1 style={{ textAlign: 'justify', fontSize: '18px' }}>
+            Henna Powder For Body Art Work - Create Stunning Heena Body Tattoos, Mehndi Body Designs & Elegant Mehndi Art For Occasions - Perfect Tattoo Gun Alternative - Hair Dye Solution  </h1>
+
+          <h2>About this item</h2>
+          <ul style={{ textAlign: 'justify', fontSize: '14px' }}>
+
+            <li>Versatile Body Art: Create Stunning Body Art With Our Premium Henna Powder. Perfect For Heena Body Art, Mehndi Body Designs, And Temporary Tattoos For Adults. Safe For All Skin Types And Easy To Use.
+            </li>
+            <li>
+              Rich, Natural Color: Our Henna Powder Provides A Deep, Rich Color For Traditional Mehndi And Creative Body Art. Whether For Festivals Or Special Occasions, Achieve Long-Lasting, Elegant Body Mehndi Designs.
+
+            </li>
+            <li>
+              Easy Application: Enjoy Hassle-Free Application With Our Finely Ground Henna Powder. Ideal For Intricate Mehndi Art On Body, Ensuring Smooth, Even Designs.
+            </li>
+            <li>
+              Safe & Natural: Made From 100% Natural Ingredients, Our Henna Powder Is Free From Harmful Chemicals. Suitable For Sensitive Skin And Ideal For Temporary Tattoos, Eyebrow Tint, And Root Touch Up Hair Color.
+
+            </li>
+            <li>
+              Perfect For Celebrations: Enhance Your Festivals, Weddings, And Celebrations With Our Henna Powder. Create Unique Mehndi Body Art, Heena Body Designs, And Temporary Tattoos For Adults. Includes Tattoo Supplies And Henna Stencils.
+            </li>
+            <li>Strengthens Hair Strands: Henna Powder Contains A Potent Compound Called Lawsone, Which Binds With The Natural Keratin Protein In Your Hair Strands To Form A Protective Layer. This Gives Your Hair A Natural Tint, Making It Strong And Less Prone To Breakage. So, While You're Rocking That Awesome Henna Color, Your Hair Is Getting A Strength Boost, Making It Healthier And More Resilient.</li>
+
+          </ul>
+        </div>
+
+      </div >
+      <button className='pppp'>Buy Now</button>
+
+
+
+
+      <div style={{ marginTop: '1rem' }} className='Henna-Container'>
 
         {/* Product banner section */}
         <div style={{ display: 'flex', flexDirection: 'column' }} className='fo'>
-          <a href={hennaproductDetails.buyNowLink}>
-            <img src={hennaproductDetails.bannerImg} alt='Henna Powder Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
-          </a>
 
-          {/* Product images */}
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            {hennaproductDetails.images.slice(0, 2).map((imgSrc, index) => (
-              <img src={imgSrc} alt={`Henna Powder ${index + 1}`} style={{ maxWidth: '50%', minWidth: '50%' }} key={index} />
-            ))}
-          </div>
-
-          <div style={{ display: 'flex' }}>
-            {hennaproductDetails.images.slice(2, 4).map((imgSrc, index) => (
-              <img src={imgSrc} alt={`Henna Powder ${index + 1}`} style={{ maxWidth: '50%', minWidth: '50%' }} key={index} />
-            ))}
-          </div>
+          <img src={hennaproductDetails.bannerImg} alt='Henna Powder Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          <img src={assets.hennabanner}></img>
+ 
+         
 
           {/* Product description */}
           <h1>Organic Henna Powder - Perfect for Hair Care & Natural Dye</h1>
-          <ul>
-            <li>ORGANIC HENNA POWDER: Experience the natural benefits of Henna with our 100% pure Henna Powder, perfect for strengthening hair and natural hair dyeing.</li>
-            {hennaproductDetails.descriptionPoints.map((point, index) => (
-              <li key={index}>{point}</li>
-            ))}
-          </ul>
+        
         </div>
 
         {/* Content based on active tab */}

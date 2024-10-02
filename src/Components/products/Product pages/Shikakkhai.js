@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { assets } from '../Assets/prodimg/assets';
 import { ShikaahairCareRecipes } from './Recepisdata'; // Import the recipe data
 import Reciepicard from './Reciepicard'

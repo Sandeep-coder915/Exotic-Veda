@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { FaArrowRight } from 'react-icons/fa'; 
 import { assets } from '../../products/Assets/prodimg/assets';
 import './skincare.css'
 
 const Haircare = () => {
-  {
+   
     const products = [
       {
         id: 1,
@@ -23,7 +23,7 @@ const Haircare = () => {
         img: assets.Amla1,
         title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
         description: 'Welcome To Exotic Veda',
-        updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+        updateInfo: 'Click here to Learn Our  Tips ',
         buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
         route: '/products/amla-powder',
       },
@@ -33,7 +33,7 @@ const Haircare = () => {
         img: assets.Curryfront,
         title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
         description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
-        updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+        updateInfo: 'Click here to Learn Our  Tips ',
         buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
         route: '/products/curry-leaf-powder'
       },
@@ -45,7 +45,7 @@ const Haircare = () => {
         img: assets.henna,
         title: 'Pure Henna Powder   Nourish, Strengthen, and Color Your Hair Naturally',
         description: 'Enhance your hair’s health and color with our pure Henna Powder. It provides a natural tint, conditions hair, and promotes a healthy scalp',
-        updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+        updateInfo: 'Click here to Learn Our  Tips ',
         buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
         route: '/products/henna-powder',
       }, {
@@ -54,7 +54,7 @@ const Haircare = () => {
         img: assets.shika2,
         title: 'Pure Shikakai Powder   Promote Hair Growth and Scalp Health Naturally',
         description: 'Welcome To Exotic Veda',
-        updateInfo: 'Click here to Learn Our  Tips  to Use For Different Purposes',
+        updateInfo: 'Click here to Learn Our  Tips ',
         buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
         route: '/recipe-aloe-vera'
       },
@@ -63,11 +63,11 @@ const Haircare = () => {
     ];
     return (
 
-      <div style={{ marginTop: '4.8rem', textAlign: 'justify' }}>
-        <img src={assets.haircarebanner} style={{ maxWidth: '100%' }} />
+      <div style={{ marginTop: '4.4rem', textAlign: 'justify' }}>
+        <img src={assets.haircarebanner} alt='exotic veda,orgainic,revaais, natural 'style={{ maxWidth: '100%' }} />
         <div className="blog-container">
           <h1 className="blog-title">Unlocking Nature's Secrets: A Guide to Hair Care with Exotic Veda</h1>
-          <img src={assets.homebanner1} style={{ maxWidth: '100%' }} />
+          <img src={assets.homebanner1} alt='exotic veda,orgainic,revaais, natural ' style={{ maxWidth: '100%' }} />
 
           <p className="blog-intro">
             In a world where hair care often involves a plethora of products filled with chemicals, the journey to healthy hair can seem daunting. However, the ancient wisdom of Ayurveda offers a refreshing alternative. Exotic Veda, a brand inspired by the richness of Ayurvedic traditions, provides a range of hair care products that are both natural and effective. In this blog, we’ll explore the benefits of using Exotic Veda's hair care line and how to incorporate these powerful ingredients into your routine for vibrant, healthy hair.
@@ -129,7 +129,7 @@ const Haircare = () => {
                     <p className="card-text">{product.description}</p>
                     <p className="card-text">
                       <small className="text-muted">
-                        <Link to={product.link}>{product.updateInfo}</Link>
+                        <Link to={product.link}>{product.updateInfo} <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
                       </small>
                     </p>
                     <Link to={product.buyLink}><button className='btn'>Buy Now</button></Link>
@@ -146,6 +146,6 @@ const Haircare = () => {
 
     )
   }
-}
+ 
 
 export default Haircare

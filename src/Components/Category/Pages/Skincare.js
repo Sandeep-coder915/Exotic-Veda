@@ -2,14 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { skincategoryproducts } from '../../products/Product pages/Recepisdata';
 import { assets } from '../../products/Assets/prodimg/assets';
+import { FaArrowRight } from 'react-icons/fa'; 
 
 const Skincare = () => {
   return (
-    <div style={{ marginTop: '4.9rem' ,textAlign:'justify' }}>
-      <img src={assets.skincarebaner} style={{ maxWidth: '100%' }} alt='skincarebanner' />
+    <div style={{ marginTop: '4.4rem' ,textAlign:'justify' }}>
+      <img src={assets.skincarebaner} style={{ maxWidth: '100%' }}alt='exotic veda,orgainic,revaais, natural ' />
       <h2 className="text-center ">Embrace Natural Beauty with Exotic Veda</h2>
 
-        <img src={assets.homebanner1 } style={{ maxWidth: '100%' }} alt='skincarebanner' />
+        <img src={assets.homebanner1 } style={{ maxWidth: '100%' }}alt='exotic veda,orgainic,revaais, natural ' />
         <p>
           In today's fast-paced world, the quest for healthy, glowing skin often leads us to a myriad of skincare products filled with chemicals and synthetic ingredients. However, the wisdom of ancient practices offers a refreshing alternative. Exotic Veda, a brand rooted in Ayurvedic traditions, brings you a range of skincare products harnessing the power of nature's finest ingredients. 
         </p>
@@ -58,7 +59,7 @@ const Skincare = () => {
                   </Link>
                   <p className="card-text">
                     <small className="text-muted">
-                      <Link to={product.link}>{product.updateInfo}</Link>
+                      <Link to={product.link}>{product.updateInfo} <FaArrowRight size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></Link>
                     </small>
                   </p>
                   <Link to={product.buyLink}>
@@ -70,7 +71,7 @@ const Skincare = () => {
           ))}
         </div>
       </div>
-      {/* <img src={assets.skincarebaner} style={{ maxWidth: '100%' }} alt='skincarebanner' /> */}
+      {/* <img src={assets.skincarebaner} style={{ maxWidth: '100%' }}alt='exotic veda,orgainic,revaais, natural ' /> */}
    
     </div>
   );
