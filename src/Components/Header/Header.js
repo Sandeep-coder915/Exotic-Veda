@@ -10,8 +10,7 @@ const Navbar = () => {
  
   const location = useLocation();
   const currentPath = location.pathname;
-
-  // Toggle the dark mode state
+ 
  
  
   const handleClick = () => {
