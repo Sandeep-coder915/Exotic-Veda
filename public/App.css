@@ -84,9 +84,7 @@
 }
 .row{
  
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   text-align: center;
 }
 .col-md-4{

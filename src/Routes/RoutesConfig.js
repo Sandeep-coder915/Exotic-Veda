@@ -28,7 +28,12 @@ import Lemongrass from "../Components/products/Product pages/Lemongrass";
 import SearchBar from "../Components/AboutUs/Search/Search";
 import ProductForm from "../Components/../Routes/template";
 import  NewsletterSignup from '../Components/Home/NewsLetter'
-import CottonWicks from "../Components/products/Product pages/Cowgheediy";
+ 
+import PoojaItmes from "../Components/Category/Pages/PoojaItmes";
+import Cowgheediya from "../Components/products/Product pages/Cowgheediya";
+import Roundcottonwick from "../Components/products/Product pages/Roundcottonwick";
+import Longcottonwick from "../Components/products/Product pages/Longcottonwick";
+import Pujanclaygheediys from "../Components/products/Product pages/Pujanclaygheediys";
 
 const routes = [
     { path: '/', element: <Home />, index: true },
@@ -56,17 +61,23 @@ const routes = [
     { path: '/products/shikhakhai-powder', element: <Shikakkhai/> },
     { path: '/products/lemongras-powder', element: <Lemongrass/> },
     { path: '/products/triphala-powder', element: <Triphalapowder/> },
-    { path: '/products/Cow-ghee-batti', element: <CottonWicks/> },
+ 
  
     { path: '/products/jaamun-seed', element: <Jamunseed /> },
     { path: '/products/amla-powder', element: <Amlapowder /> },
     { path: '/products/alum-bar', element: <Alumbar/> },
+    { path: '/products/cow-ghee-diya', element: <Cowgheediya/> },
+    { path: '/products/round-cotton-wick', element: <Roundcottonwick/> },
+    { path: '/products/long-cotton-wick', element: <Longcottonwick/> },
+    { path: '/products/pujan-clay-ghee-diya', element: <Pujanclaygheediys/> },
+
+
  
     { path: '/products/sandalwood-powder', element: <Sandalwood /> },
     { path: '/category/skincare', element: <Skincare /> },
     { path: '/category/haircare', element: <Haircare /> },
     { path: '/category/dietary', element: <Dietryuse /> },
-    { path: '/category/sandalwood', element: <Sandalwood /> },
+    {path:'/category/puja-items',element:<PoojaItmes/>},
     { path: '/terms', element: <TermsAndConditions /> },
     { path: '/faq', element: <FAQ /> },
     { path: '/reciepe', element: <Recepie /> },

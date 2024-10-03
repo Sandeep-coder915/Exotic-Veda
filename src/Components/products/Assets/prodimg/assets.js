@@ -1,3 +1,10 @@
+// ===========cottonwick ==============
+// import homebanner5 from '../Homebanner/handcraftted  round cotton wick.png'
+// import homebanner6 from '../Homebanner/poojan clay ghee diya .png'
+// import homebanner7 from '../Homebanner/handrolled  longcotton wick.png'
+// import homebanner8 from '../Homebanner/Cowgheediysbatti.png'
+// ============end==================
+
 
 import haircarebanner from './HAIRE CARE BANNNER.png'
 
@@ -12,6 +19,7 @@ import homebanner1 from './Skincare Beauty Product Features Banner Facebook Cove
 // import  homebanner1 from  './Skincare Beauty Product Features Banner Facebook Cover (6).png'
 import homebanner3 from './Skincare Beauty Product Features Banner Facebook Cover (4).png'
 import homebanner4 from './banner for amzon store.png'
+
 
 
 
@@ -73,7 +81,6 @@ import aloeback from '../Aloe/Amazon.png'
 import aloe33 from '../Aloe/aloePowder.png'
 import aloebene from '../Aloe/aloebenifts.png'
 import aloehair from '../Aloe/haircareimg.webp'
-import aloehair5 from '../Aloe/DALL·E 2024-09-30 10.21.55 - A person applying a homemade hair mask made from aloe vera powder, hibiscus powder, and water or yogurt. The mask appears as a smooth paste, and the p.webp'
 
 
 
@@ -131,9 +138,9 @@ import jamunf from './jamunf.jpg'
 import moringa2 from '../Moringa/Moringa Leaf  (1).png'
 import moring1 from '../Moringa/rr.jpg'
 import moringabanner from '../Moringa/mor.jpg'
-import  moringause from  '../Moringa/moringahowtouse.jpg'
-import  moringabowl from  '../Moringa/moringabowl.jpg'
-import moringaback from  '../Moringa/moringaback.png'
+import moringause from '../Moringa/moringahowtouse.jpg'
+import moringabowl from '../Moringa/moringabowl.jpg'
+import moringaback from '../Moringa/moringaback.png'
 
 
 
@@ -142,25 +149,52 @@ import moringaback from  '../Moringa/moringaback.png'
 import beetbanner from '../Beauty Product Instagram Post//betbanner1.jpg'
 import beetbann from './beetee.jpg'
 import betroot from './34.png'
-import  beetrootbenefits from '../beetroot/beetrootbenfits .png'
-import  beetrrotuse1 from '../beetroot/products (2).png'
-import  beetrrotuse2 from '../beetroot/use1beet.jpg'
+import beetrootbenefits from '../beetroot/beetrootbenfits .png'
+import beetrrotuse1 from '../beetroot/products (2).png'
+import beetrrotuse2 from '../beetroot/use1beet.jpg'
 import beetrootuse3 from '../beetroot/sdsd (2).png'
 
 // =================Cow ghee diys ==============
-import diya1 from './Cow ghee diya.jpg'
-import wick from './Wick.jpg'
+
+
+// =====Round  cotton wick[========]
+import wick from '../Round/Roundwick1.jpg'
+import wick2 from '../Round/Roundwick2.jpg'
+import wick3 from '../Round/Roundwick3.jpg'
+import wick4 from '../Round/Roundwick4.jpg'
+import wick5 from '../Round/Roundwick5.jpg'
+
+
+
+
+// =========Cow ghee diya ==============
+import diya1 from '../cow/Cow ghee diya.jpg'
+import cowghee1 from '../cow/cow gheediya 2.jpg'
+import cowghee2 from '../cow/cowghee  diya 4.png'
+import cowghee3 from '../cow/cow ghee diya 5.jpg'
+import cowghee4 from '../cow/cow ghee diya4.png'
+
+// ============Pojjan clay===========
 import poojancaly from './product shoot images (6) (1).png'
-import cottonwicklong from './cotton-wick-long.jpg'
+import pojjaclay2 from '../poojan clay/pujan-clayb-back.jpg'
+import pojjaclay3 from '../poojan clay/pujan-clay3.jpg'
+import pojjaclay4 from '../poojan clay/puj7.jpg'
+import pojjaclay5 from '../poojan clay/puj6.jpg'
+
+// ====long  cotton wick=======
+import cottonwicklong from '../long/long-cotton-wick1.jpg'
+import cottonwicklong2 from '../long/71uSuT5qaAL._AC_SL1280_.jpg'
+import cottonwicklong3 from '../long/81opaDRnW3L._AC_SL1500_.jpg'
+import cottonwicklong4 from '../long/81B5T2hZmtL._AC_SL1500_.jpg'
+import cottonwicklong5 from '../long/long-cotton-wick2.jpg'
 
 
 
 export const assets = {
 
 
-
     // ===Moringa ====
-    moring1, moringa2, moringabanner,moringaback,moringabowl,moringause,
+    moring1, moringa2, moringabanner, moringaback, moringabowl, moringause,
 
 
 
@@ -170,9 +204,13 @@ export const assets = {
     // ==========alum end===========
 
     // ===========cow ghee diya ===========
-    diya1, wick, poojancaly, cottonwicklong,
-
-
+    diya1, wick,wick2,wick3,wick4,wick5,
+    // =====Long  cotton wock ============
+    cottonwicklong, cottonwicklong2, cottonwicklong3, cottonwicklong4, cottonwicklong5,
+    // =============Cowgheediya  inports  =======
+    cowghee4, cowghee3, cowghee2, cowghee1,
+    // ====pojjan clay-========
+    poojancaly, pojjaclay2, pojjaclay3, pojjaclay4, pojjaclay5,
 
 
     // ====Home banner =====
@@ -186,14 +224,14 @@ export const assets = {
     aloe3,
     aloeuse1,
     aloeuse2, aloeback,
-    aloehair5,
+
     aloe33,
     aloebene
     , aloehair,
     // ======Aloe vera Improt  --====
 
-// =====beetroot  powder=============
-    betroot, beetbanner, beetbann,beetrootbenefits,beetrrotuse1,beetrrotuse2,beetrootuse3,
+    // =====beetroot  powder=============
+    betroot, beetbanner, beetbann, beetrootbenefits, beetrrotuse1, beetrrotuse2, beetrootuse3,
 
 
 

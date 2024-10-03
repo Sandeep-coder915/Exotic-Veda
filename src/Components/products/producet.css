@@ -1,40 +1,44 @@
 /* ====================Product images and  description   csss  ======================= */
 
 
-
 .product-page1 {
   display: flex;
-  margin-top: 3rem;
-  flex-direction: column; /* Stacks the content on top of each other for smaller screens */
+  margin-top: 2rem;
+  flex-direction: column;
   padding: 20px;
+ 
+  /* For larger screens */
 }
-.pppp{
-  background-color:#f0f0f0;
+
+.pppp {
+  background-color: #f0f0f0;
   color: black;
-  font-size: 20px;;
+  font-size: 20px;
   padding: 10px 80px;
   border-radius: 40px;
   margin-left: 60%;
 }
-
+ 
 .image-gallery {
   display: flex;
-  /* For smaller screens, the images stack vertically */
-  /* align-items: center; */
-  margin-top: 100px;
-  width: 100%;
+ margin-top: 100px;
+  width: 50%;
+  position: sticky; /* Keeps the gallery static */
+  top: 0; /* Adjust as per the layout */
+  align-self: flex-start; /* Aligns the gallery to the top */
+  margin-right: 2rem;
 }
 
 .thumbnail-container {
   display: flex;
-  /* justify-content: center; */
+  flex-direction: column;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .thumbnail {
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -42,12 +46,12 @@
 .main-image-container {
   position: relative;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .main-image {
   width: 100%;
-  max-width: 400px; /* Restricts the image size on larger screens */
+  max-width: 460px;
   height: auto;
   transition: transform 0.2s ease;
 }
@@ -57,12 +61,12 @@
 }
 
 .product-details {
-  width: 100%; /* Full width for smaller screens */
-  margin-top: 20px; /* Spacing between image and details */
+  width: 100%;
+  margin-top: 20px;
 }
 
 h1, h2 {
-  font-size: 1rem; /* Slightly smaller font for mobile */
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
@@ -75,57 +79,45 @@ ul {
 @media (min-width: 769px) {
   .product-page1 {
     margin-top: 2rem;
-    flex-direction: row; /* Side by side layout on larger screens */
+    flex-direction: row;
     justify-content: space-between;
   }
 
-  .image-gallery {
-
-    width: 50%; /* Half width for the image gallery */
-   /* Adds space between thumbnails and main image */
-  }
-
-  .thumbnail-container {
-    flex-direction: column;
-    margin-right: 20px;
-  }
-
-  .thumbnail {
-    width: 60px;
-    height: 60px; /* Larger thumbnails for desktops */
-  }
-
-  .main-image {
-    max-width: 400px;
-  }
-
   .product-details {
-    width: 45%; /* Adjusts product details width on desktop */
+    width: 45%;
   }
 
   h1, h2 {
-    font-size: 1rem; /* Larger headings for desktop */
+    font-size: 1rem;
   }
+  
+.thumbnail {
+  width: 60px;
+  height: 60px;
+ 
+}
+.image-gallery{
+  margin-top: 30px;
+}
 }
 
 /* Media Queries for Mobile Screens */
 @media (max-width: 768px) {
+ 
   .image-gallery {
-    display: grid;
+    margin-top: 40px;
+    position: static; /* Disable sticky positioning for mobile */
     width: 100%;
-
   }
 
   .thumbnail {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 5px;
-
   }
 
   .main-image {
     width: 100%;
-    height: auto;
   }
 
   .product-details {
@@ -135,167 +127,15 @@ ul {
   h1, h2 {
     font-size: 1.2rem;
   }
-  .pppp{
+
+  .pppp {
     margin-left: 90px;
   }
-  .product-page1{
-    margin-top:0px;
-  }
-}
-
-/* =============================End============================== */
-
-
 
   .product-page1 {
-    display: flex;
-    margin-top: 3rem;
-    flex-direction: column; /* Stacks the content on top of each other for smaller screens */
-    padding: 20px;
+    margin-top: 0px;
   }
-  .pppp{
-    background-color:#f0f0f0;
-    color: black;
-    font-size: 20px;;
-    padding: 10px 80px;
-    border-radius: 40px;
-    margin-left: 60%;
-  }
- 
-  .image-gallery {
-    display: flex;
-    /* For smaller screens, the images stack vertically */
-    /* align-items: center; */
-    margin-top: 100px;
-    width: 100%;
-  }
-  
-  .thumbnail-container {
-    display: flex;
-    /* justify-content: center; */
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .thumbnail {
-  
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .main-image-container {
-    position: relative;
-    overflow: hidden;
-    margin-top: 10px;
-  }
-  
-  .main-image-container  img{
- 
- max-width: 600px;
- min-width: ;
-  }
-  
-  .main-image {
-    width: 100%;
-    max-width: 400px; /* Restricts the image size on larger screens */
-    height: auto;
-    transition: transform 0.2s ease;
-  }
-  
-  .main-image:hover {
-    transform: scale(1.5); /* Zoom in on hover */
-  }
-  
-  .product-details {
-    width: 100%; /* Full width for smaller screens */
-    margin-top: 20px; /* Spacing between image and details */
-  }
-  
-  h1, h2 {
-    font-size: 1rem; /* Slightly smaller font for mobile */
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  
-  /* Media Queries for Tablets and Desktops */
-  @media (min-width: 769px) {
-    .product-page1 {
-      margin-top: 2rem;
-      flex-direction: row; /* Side by side layout on larger screens */
-      justify-content: space-between;
-    }
-  
-    .image-gallery {
- 
-      width: 50%; /* Half width for the image gallery */
-     /* Adds space between thumbnails and main image */
-    }
-  
-    .thumbnail-container {
-      flex-direction: column;
-      margin-right: 20px;
-    }
-  
-    .thumbnail {
-      width: 60px;
-      height: 60px; /* Larger thumbnails for desktops */
-    }
-  
-    .main-image {
-      max-width: 400px;
-    }
-  
-    .product-details {
-      width: 45%; /* Adjusts product details width on desktop */
-    }
-  
-    h1, h2 {
-      font-size: 1rem; /* Larger headings for desktop */
-    }
-  }
-  
-  /* Media Queries for Mobile Screens */
-  @media (max-width: 768px) {
-    .image-gallery {
-      display: grid;
-      width: 100%;
-  
-    }
-  
-    .thumbnail {
-      width: 70px;
-      height: 70px;
-      margin-bottom: 5px;
- 
-    }
-  
-    .main-image {
-      width: 100%;
-      height: auto;
-    }
-  
-    .product-details {
-      width: 100%;
-    }
-  
-    h1, h2 {
-      font-size: 1.2rem;
-    }
-    .pppp{
-      margin-left: 90px;
-    }
-    .product-page1{
-      margin-top:0px;
-    }
-  }
-  
-
+}
 
 
 

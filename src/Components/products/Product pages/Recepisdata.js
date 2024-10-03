@@ -224,7 +224,7 @@ export const products = [
   },
   {
     id: 14,
-    link: '/',
+    link: '/products/cow-ghee-diya',
     img: assets.diya1,
     title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
     description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
@@ -234,31 +234,32 @@ export const products = [
   },
   {
     id: 15,
-    link: '/',
+    link: '/products/round-cotton-wick',
     img: assets.wick,
-    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
-    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    title: ' Cotton Wicks and Brass Holders for Diyas, 500 Pack',
+    description: 'Round cotton wicks paired with brass holders, designed for a smooth, steady burn in diyas and oil lamps.',
     updateInfo: ' Click here to Learn Our  Tips  ',
-    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    buyLink: ' ',
     route: '/',
-  }, {
+  },
+  {
     id: 16,
-    link: '/',
+    link: '/products/long-cotton-wick',
     img: assets.cottonwicklong,
-    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
-    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    title: ' Cotton Wicks with Brass Holders for Pooja Thali',
+    description: 'Luxury cotton wicks with brass holders, designed for smooth burning in puja thalis, perfect for pooja ceremonies',
     updateInfo: ' Click here to Learn Our  Tips  ',
-    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    buyLink: '',
     route: '/',
   },
   {
     id: 17,
-    link: '/',
+    link: '/products/pujan-clay-ghee-diya',
     img: assets.poojancaly,
-    title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
-    description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
+    title: ' Eco-Friendly Clay Diya Set with Premium Ghee Wicks',
+    description: 'Bring sacred light to your space with our cow ghee diya, perfect for puja, festivals, and uplifting ambiance.',
     updateInfo: ' Click here to Learn Our  Tips  ',
-    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    buyLink: '',
     route: '/',
   },
 
@@ -2114,7 +2115,7 @@ export const beetrootProductDetails = {
   bannerImg: assets.beetbanner,
   buyNowLink: 'https://revaais.com/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g?_pos=1&_sid=058eeb733&_ss=r',
   images: [assets.beete, assets.beete,],
- 
+
 };
 
 export const beetrootDietaryRecipes = [
