@@ -19,7 +19,7 @@ import homebanner1 from './Skincare Beauty Product Features Banner Facebook Cove
 // import  homebanner1 from  './Skincare Beauty Product Features Banner Facebook Cover (6).png'
 import homebanner3 from './Skincare Beauty Product Features Banner Facebook Cover (4).png'
 import homebanner4 from './banner for amzon store.png'
-
+import homebanner5 from './Exotic veda Alum Bar (1).png'
 
 
 
@@ -214,7 +214,7 @@ export const assets = {
 
 
     // ====Home banner =====
-    homebanner1, homebanner2, homebanner3, homebanner4,
+    homebanner1, homebanner2, homebanner3, homebanner4,homebanner5,
 
 
 
