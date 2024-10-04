@@ -6,7 +6,7 @@ import Reciepicard from './Reciepicard';
 const Hennapowder = () => {
   const [activeTab, setActiveTab] = useState('hairCare'); // State to track the active tab
   const images = [
-    assets.henna, 
+    assets.henna,
     assets.hennaback,
     assets.hennause,
     assets.hennabowl,
@@ -93,12 +93,12 @@ const Hennapowder = () => {
 
           <img src={hennaproductDetails.bannerImg} alt='Henna Powder Banner' style={{ maxWidth: '100%', minWidth: '100%' }} />
           <img src={assets.hennabanner}></img>
- 
-         
+
+
 
           {/* Product description */}
           <h1>Organic Henna Powder - Perfect for Hair Care & Natural Dye</h1>
-        
+
         </div>
 
         {/* Content based on active tab */}

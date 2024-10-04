@@ -1,31 +1,64 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { assets } from '../Assets/prodimg/assets';
 import { jamunSeedPowderUses } from './Recepisdata'; // Import the recipe data
 import Reciepicard from './Reciepicard';
 
 const JamunSeed = () => {
+  const [activeTab, setActiveTab] = useState('hairCare'); // State to track the active tab
+  const images = [
+    assets.jamunf,
+    assets.jamunb2,
+    assets.jamunb3,
+    // assets.hennabowl,
+    // assets.hennadiy,
+  ];
+
+  // State to keep track of the currently displayed image
+  const [currentImage, setCurrentImage] = useState(images[0]);
+
+  // Function to change the main image when clicking a side image
+  const handleImageClick = (image) => {
+    setCurrentImage(image);
+  };
   return (
     <>
-      <div style={{ marginTop: '4rem', backgroundColor: 'rgba(75,56,104,255)', }} className='jamun-seed-powder-container'>
-        <div style={{ display: 'flex', flexDirection: 'column', }} className='rr'>
-          <img src={assets.jamunb1} alt='Jamun Seed Powder' style={{ maxWidth: '100%', minWidth: '100%' }} />
 
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            <img src={assets.shika1} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+      <div className="product-page1"   >
 
-            <img src={assets.shika2} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+        <div className="image-gallery">
+          {/* Side images */}
+          <div className="thumbnail-container">
+            {images.map((image, index) => (
+              <img
+                // style={{maxWidth:'50%',minWidth:'50%'}}
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)
+
+                }
+              />
+            ))}
           </div>
 
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-
-            <img src={assets.shika2} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-            <img src={assets.shika1} alt='Jamun Seed Powder' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-
+          {/* Main image with hover effect */}
+          <div className="main-image-container">
+            <img
+              src={currentImage}
+              alt="Main product"
+              className="main-image"
+            />
           </div>
+        </div>
 
-          <h1 style={{ color: 'white' }}>Natural Jamun Seed Powder for Health and Wellness</h1>
+        {/* Product details */}
+        <div className="product-details">
+        <h1 >Natural Jamun Seed Powder for Health and Wellness</h1>
+          <h2>About this item</h2>
+          <ul style={{ textAlign: 'justify', fontSize: '14px' }}>
 
-          <ul>
+          
             <li>
               Jamun seed powder mixed with warm water supports blood sugar management and detoxification. Consuming it daily helps in maintaining a healthy metabolism.
             </li>
@@ -48,13 +81,29 @@ const JamunSeed = () => {
               Jamun seed powder capsules are a convenient way to incorporate this supplement into your routine. Follow dosage instructions for effective use.
             </li>
           </ul>
+        </div>
+
+      </div >
+      <button className='pppp'>Buy Now</button>
+
+
+      <div style={{ marginTop: '4rem' , }} className='jamun-seed-powder-container'>
+        <div style={{ display: 'flex', flexDirection: 'column', }} className='rr'>
+
+       
+       
+      
+   <img src={assets.jamunb1} alt='Jamun Seed Powder' style={{ maxWidth: '100%', minWidth: '100%' }} />
+ 
+
+        
 
         </div>
 
         {/* Content based on active tab */}
         <div className="tab-content" >
           <div className="hair-care-detail-page" style={{ minWidth: '50%' }}>
-            <h1 style={{ color: 'white' }} >Jamunseed Powder use for  Diet </h1>
+            <h1  >Jamunseed Powder use for  Diet </h1>
             <div className="recipes-container">
               {jamunSeedPowderUses.map((recipe) => (
                 <Reciepicard recipe={recipe} key={recipe.id} />

@@ -13,7 +13,7 @@ const Multanimitti = () => {
             <img src={assets.multanibanner1} alt='aloevera ' style={{ maxWidth: '100%' ,maxHeight:'100%',minHeight:'200px'}} />
             <div className='right-container'>
               <h2>Dont miss Out </h2>
-        <p style={{textAlign:'center'}}>Explor  the oppurtuniites</p>
+        <p style={{textAlign:'center'}}>Explore  the oppurtuniites</p>
               <button>Buy Now</button>
             </div>
             

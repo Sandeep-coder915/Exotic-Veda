@@ -62,7 +62,7 @@ import amalpowderbowl from '../AmlaAseets/amla owder.png'
 // ======Amla End  =============
 
 
-import jamuseed from './jamunf.jpg'
+import jamuseed from '../jamunseed/jamunf.jpg'
 
 import multani from './32.png'
 import sandal1 from './Sandalwood 2 banner (1).png'
@@ -106,9 +106,9 @@ import curryback from '../curryleaf/curryback.png'
 
 
 // ======henna  Powder ==============
-import Hennabanner1 from './heenna-powder-banner-3.png'
-import Hennabanner2 from './heenna-powefer-banner (1).png'
-import henna from './33.png'
+import Hennabanner1 from '../hennapowder/heenna-powder-banner-3.png'
+import Hennabanner2 from '../hennapowder/heenna-powefer-banner (1).png'
+import henna from '../hennapowder/33.png'
 import hennabanner from '../hennapowder/henna.jpeg'
 import hennaback from '../hennapowder/hennaback.png'
 import hennause from '../hennapowder/Henna HowTo use .png'
@@ -132,8 +132,13 @@ import triphala2 from '../Beauty Product Instagram Post/Tripahal 2.png'
 import triphalabanner from '../Beauty Product Instagram Post/Tripahla banner  .jpg'
 import triphala1 from '../Beauty Product Instagram Post/Tripahala Powder  1.png'
 // ======jamunsed import ''
-import jamunb1 from './jamun.jpg'
-import jamunf from './jamunf.jpg'
+import jamunb1 from '../jamunseed/jamun.jpg'
+import jamunf from '../jamunseed/jamunf.jpg'
+import jamunb2 from '../jamunseed/jamun2.png'
+import jamunb3 from '../jamunseed/jamun3.png'
+
+
+
 // ====moringa leaf=====/
 import moringa2 from '../Moringa/Moringa Leaf  (1).png'
 import moring1 from '../Moringa/rr.jpg'
@@ -148,7 +153,7 @@ import moringaback from '../Moringa/moringaback.png'
 
 import beetbanner from '../Beauty Product Instagram Post//betbanner1.jpg'
 import beetbann from './beetee.jpg'
-import betroot from './34.png'
+import betroot from '../beetroot/34.png'
 import beetrootbenefits from '../beetroot/beetrootbenfits .png'
 import beetrrotuse1 from '../beetroot/products (2).png'
 import beetrrotuse2 from '../beetroot/use1beet.jpg'
@@ -238,7 +243,7 @@ export const assets = {
     // =====Tripahla Powder =====
     triphala2, triphalabanner, triphala1,
     // ===jamunseend'======
-    jamunb1, jamunf,
+    jamunb1, jamunf,jamunb2,jamunb3,
 
 
 
