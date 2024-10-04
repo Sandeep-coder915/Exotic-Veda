@@ -6,11 +6,11 @@ import './skincare.css'
 const Dietryuse = () => {
   const products = [ 
     {
-      id: 1,
+      id: 2,
       link: '/products/amla-powder',
       img: assets.Amla1,
-      title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
-      description: 'Welcome To Exotic Veda',
+      title: 'Amla Powder: Natural Solution for Healthy Hair, Skin & Diet',
+      description: 'Boost your skin and hair care with pure Amla Powder, rich in Vitamin C. Ideal for enhancing natural radiance and promoting healthy hair growth',
       updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/amla-powder',
@@ -36,11 +36,11 @@ const Dietryuse = () => {
       route: '/products/moringa-leaf-powder'
     },
     {
-      id: 4,
+      id: 7,
       link: '/products/beetroot-powder',
       img: assets.betroot,
-      title: 'Pure Beetroot Powder   Add Natural Color and Nutrients to Your Smoothies',
-      // description: 'nergize your body with our Beetroot Powder. Rich in nutrients, it supports stamina, enhances circulation, and adds a natural, vibrant color to your smoothies and dishes.',
+      title: 'Beetroot Powder: Delicious Superfood for Glowing Skin & Diet Support',
+      description: ' Beetroot Powder enhances skin health and vitality. Rich in antioxidants, it supports a healthy diet, boosts energy, and promotes natural glow.',
       updateInfo: 'Click here to Learn Our  Tips ',
       buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
       route: '/products/beetroot-powder'

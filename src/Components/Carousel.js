@@ -38,6 +38,7 @@ const Carousel = ({ images }) => {
       </button>
       <img
         src={images[activeIndex]}
+        
         alt={`Slide ${activeIndex}`}
         className="carousel__img"
       />

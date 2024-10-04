@@ -182,7 +182,7 @@ import pojjaclay4 from '../poojan clay/puj7.jpg'
 import pojjaclay5 from '../poojan clay/puj6.jpg'
 
 // ====long  cotton wick=======
-import cottonwicklong from '../long/long-cotton-wick1.jpg'
+import cottonwicklong from '../long/long.png'
 import cottonwicklong2 from '../long/71uSuT5qaAL._AC_SL1280_.jpg'
 import cottonwicklong3 from '../long/81opaDRnW3L._AC_SL1500_.jpg'
 import cottonwicklong4 from '../long/81B5T2hZmtL._AC_SL1500_.jpg'
