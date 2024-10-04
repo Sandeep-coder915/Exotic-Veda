@@ -106,12 +106,16 @@ ul {
 }
 @media (min-width: 1024px) {
   .image-gallery {
-    margin-left: 12%;
+    margin-left: 8%;
+  }
+  .product-details{
+    margin-right: 8%;
   }
 }
 
 /* Media Queries for Mobile Screens */
 @media (max-width: 768px) {
+ 
  
   .image-gallery {
   

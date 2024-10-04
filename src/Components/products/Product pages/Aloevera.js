@@ -87,7 +87,7 @@ const Aloevera = () => {
         </div>
 
         {/* Product details */}
-        <div className="product-details" style={{marginRight:"12%"}}>
+        <div className="product-details"  >
           <h1 style={{ textAlign: 'center', fontSize: '18px' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
 
  
