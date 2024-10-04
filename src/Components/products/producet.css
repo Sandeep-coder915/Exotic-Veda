@@ -20,6 +20,7 @@
 }
  
 .image-gallery {
+
   display: flex;
  margin-top: 100px;
   width: 50%;
@@ -92,25 +93,35 @@ ul {
   }
   
 .thumbnail {
+ 
   width: 60px;
   height: 60px;
  
 }
 .image-gallery{
+  
+ 
   margin-top: 30px;
 }
+}
+@media (min-width: 1024px) {
+  .image-gallery {
+    margin-left: 12%;
+  }
 }
 
 /* Media Queries for Mobile Screens */
 @media (max-width: 768px) {
  
   .image-gallery {
+  
     margin-top: 40px;
     position: static; /* Disable sticky positioning for mobile */
     width: 100%;
+    
   }
 
-  .thumbnail {
+  .thumbnail {  
     width: 60px;
     height: 60px;
     margin-bottom: 5px;

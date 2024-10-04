@@ -58,7 +58,8 @@ const Aloevera = () => {
 
       <div className="product-page1"   >
 
-        <div className="image-gallery">
+
+        <div className="image-gallery"  >
           {/* Side images */}
           <div className="thumbnail-container">
             {images.map((image, index) => (
@@ -86,7 +87,7 @@ const Aloevera = () => {
         </div>
 
         {/* Product details */}
-        <div className="product-details">
+        <div className="product-details" style={{marginRight:"12%"}}>
           <h1 style={{ textAlign: 'center', fontSize: '18px' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
 
  
