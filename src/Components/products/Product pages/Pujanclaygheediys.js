@@ -18,6 +18,7 @@ const Pujanclaygheediys = () => {
     setCurrentImage(image);
   };
 
+  
   return (
     <>
       <div className="product-page1"   >

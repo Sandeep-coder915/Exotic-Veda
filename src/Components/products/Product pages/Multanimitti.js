@@ -1,52 +1,62 @@
 import React, { useState } from 'react'
 import { assets } from '../Assets/prodimg/assets'
-import {multanihairCareRecipes , multanirecipes } from './Recepisdata'; // Import the recipe data
+import { multanihairCareRecipes, multanirecipes } from './Recepisdata'; // Import the recipe data
 const Multanimitti = () => {
+  const images = [
+    assets.multani,
+    assets.multani33,
+    assets.multanimitti45,
+    assets.multanimitti343,
+    assets.multanimitti4,
+  ];
 
+  // State to keep track of the currently displayed image
+  const [currentImage, setCurrentImage] = useState(images[0]);
+
+  // Function to change the main image when clicking a side image
+  const handleImageClick = (image) => {
+    setCurrentImage(image);
+  };
   const [activeTab, setActiveTab] = useState('skinCare'); // State to track the active tab
 
   return (
     <>
-      <div className='Product-Page-Contanier  '>
-        <div style={{position:'relative' ,maxWidth:'100%'}}>
-          <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
-            <img src={assets.multanibanner1} alt='aloevera ' style={{ maxWidth: '100%' ,maxHeight:'100%',minHeight:'200px'}} />
-            <div className='right-container'>
-              <h2>Dont miss Out </h2>
-        <p style={{textAlign:'center'}}>Explore  the oppurtuniites</p>
-              <button>Buy Now</button>
-            </div>
-            
-            </a>
+
+      <div className="product-page1"   >
+        <div className="image-gallery">
+          {/* Side images */}
+          <div className="thumbnail-container">
+            {images.map((image, index) => (
+              <img
+                // style={{maxWidth:'50%',minWidth:'50%'}}
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)
+
+                }
+              />
+            ))}
+          </div>
+
+          {/* Main image with hover effect */}
+          <div className="main-image-container">
+            <img
+              src={currentImage}
+              alt="Main product"
+              className="main-image"
+            />
+          </div>
         </div>
-        <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-          <h1 style={{ textAlign: 'center' }}> 
-            Multani Mitti Powder Fullers Earth Clay - 100% Pure Natural Indian Clay for Skin Cleansing - Suitable for All Skin Ideal for Face Masks and Body Scrubs | 100% Natural, Non-GMO (100g)</h1>
 
-          <div >
-            <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
+        {/* Product details */}
+        <div className="product-details">
+          <h2 style={{ textAlign: 'justify' }}>
+            Multani Mitti Powder Fullers Earth Clay - 100% Pure Natural Indian Clay for Skin Cleansing - Suitable for All Skin Ideal for Face Masks and Body Scrubs | 100% Natural, Non-GMO (100g)</h2>
+          <h2>About this item</h2>
 
-            <div className='img-aloe'>
-              <img src={assets.multanipic} alt='hel' style={{ maxWidth: '50%' }} />
-              <img src={assets.multanipic2} alt='hel' style={{ maxWidth: '50%' }} />
-              </div> 
-              </a>
-
-          </div>
-          <ul>
-            <li>
-            ORGANIC BENTONITE CLAY POWDER: Imagine a clay so potent that it can pull impurities from your skin like a magnet. That's Organic Bentonite Clay Powder (Multani Mitti / Indian Healing Clay / Fullers Earth) for you—nature's very own detoxifier. From oil control to soothing inflamed skin and preventing acne, its rich composition of minerals helps bring out your skin's best glow.
-            </li>
-          </ul>
-
-          <div style={{ display: 'flex', maxWidth: '100%' }}>
-            <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
-              <img src={assets.multaniposter } alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
-         
-          </div>
-
-          <h2 style={{ textAlign: 'start' }}>About this item</h2>
-          <ul>
+          <ul style={{ textAlign: 'justify' }}>
             <li> 100% NATURAL, GMO-FREE: Sourced directly from the fertile lands, our Multani Mitti (or Fuller's Earth), is a testament to what true organic skincare should be. Completely natural and steadfastly GMO-Free, our product isn't just good for your skin; it's a commitment to ethical, sustainable beauty practices that honor the earth and its bounty.</li>
             <li> HELPS EXFOLIATE, TIGHTEN SKIN PORES: Bentonite clay is rich in montmorillonite, a mineral that gently exfoliates, removes impurities, and minimizes enlarged pores. On the other hand, silica boosts collagen production to improve skin elasticity and firmness. Calcium steps up next to help maintain your skin's moisture balance while tightening pores for a refined, youthful appearance</li>
             <li> KEEPS SKIN SOFT & SUPPLE: Discover the dual action of our Natural Aloe Vera Powder. While its polysaccharides and amino acids lock in moisture to make your skin soft and supple, its anti-inflammatory compounds like gibberellins and auxins soothe irritation to fight skin dryness, sunburns, rashes, and cuts.</li>
@@ -55,30 +65,56 @@ const Multanimitti = () => {
 
           </ul>
         </div>
-        {
-        
-        /* <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
-        <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785'> <button className='btn2'  > Buy Now</button></a> 
-        <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
-        </div> */
-        
-        }
+
+      </div >
+      <button className='pppp'>Buy Now</button>
+
+
+
+
+
+      <div className='Product-Page-Contanier  '>
+        <div style={{ position: 'relative', maxWidth: '100%' }}>
+          <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
+            <img src={assets.multanibanner1} alt='aloevera ' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+            <div className='right-container'>
+              <h2>Dont miss Out </h2>
+              <p style={{ textAlign: 'center' }}>Explore  the oppurtuniites</p>
+              <button>Buy Now</button>
+            </div>
+
+          </a>
+        </div>
+        <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+
+
+
+
+          <div style={{ display: 'flex', maxWidth: '100%' }}>
+            <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=e64ced6fd&_ss=r'>
+              <img src={assets.multaniposter} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+
+          </div>
+
+
+
+        </div>
 
       </div>
 
-      <div className="tabs">
+      <div className="tabs" style={{ marginTop: '20px' }}>
 
         <button
           className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
           onClick={() => setActiveTab('skinCare')}
         >
-        Tips For Skin Care
+          Tips For Skin Care
         </button>
         <button
           className={setActiveTab & activeTab === 'hairCare' ? 'active' : ''}
           onClick={() => setActiveTab('hairCare')}
         >
-        Tips For Hair Care
+          Tips For Hair Care
         </button>
       </div>
 
@@ -86,7 +122,7 @@ const Multanimitti = () => {
       <div className="tab-content">
         {activeTab === 'skinCare' && (
           <div className="product-detail-page">
-            <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Multani Mitti Powder Uses for Different Skin Types</h1>
+            <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Multani Mitti Powder Uses for Different Skin Types</h1>
             <div className="recipes-container">
               {multanirecipes.map((recipe) => (
                 <div className="recipe-card" key={recipe.id}>
@@ -122,7 +158,7 @@ const Multanimitti = () => {
 
         {activeTab === 'hairCare' && (
           <div className="hair-care-detail-page" >
-            <h1 style={{fontFamily:'New Amsterdam, sans-serif'}}>Multani Mitti Powder Uses for Different-Diffrent Hair</h1>
+            <h1 style={{ fontFamily: 'New Amsterdam, sans-serif' }}>Multani Mitti Powder Uses for Different-Diffrent Hair</h1>
             <div className="haircare-recipes-container">
               {multanihairCareRecipes.map((recipe) => (
                 <div className="haircare-recipe-card" key={recipe.id}>
@@ -156,10 +192,10 @@ const Multanimitti = () => {
           </div>
         )}
 
-        <p className='disclaimer'><span>Disclaimer:</span>Use Multani Mitti Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
-         <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
-        <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=f298fe79f&_ss=r?variant=48956872098113'> <button className='btn2'  > Buy Now</button></a> 
-        <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
+        <p className='disclaimer' style={{color:'black'}}><span>Disclaimer:</span>Use Multani Mitti Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
+        <div className='Aloevera-btn' style={{ display: 'flex', justifyContent: 'center', gap: '10px' }} >
+          <a href='https://revaais.com/products/multani-mitti-powder-fullers-earth-clay?_pos=1&_sid=f298fe79f&_ss=r?variant=48956872098113'> <button className='btn2'  > Buy Now</button></a>
+          <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a>
         </div>
       </div>
 

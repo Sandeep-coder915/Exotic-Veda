@@ -1,11 +1,24 @@
-
-import React  from 'react';
-import { assets } from '../Assets/prodimg/assets';
+import React, { useState } from 'react'
+import { assets } from '../Assets/prodimg/assets'
 import { triphalaDietRecipes } from './Recepisdata';
 const Triphalapowder = () => {
 
 
+  const images = [
+    assets.triphala2,
+    assets.triphala1,
+    assets.triphala3,
+    assets.triphala4,
+    assets.triphala5,
+  ];
 
+  // State to keep track of the currently displayed image
+  const [currentImage, setCurrentImage] = useState(images[0]);
+
+  // Function to change the main image when clicking a side image
+  const handleImageClick = (image) => {
+    setCurrentImage(image);
+  };
   const RecipeCard = ({ recipe }) => (
     <div className="recipe-card" key={recipe.id} >
       <div className="recipe-image">
@@ -38,23 +51,37 @@ const Triphalapowder = () => {
   return (
     <>
 
-      <div style={{ marginTop: '4rem', backgroundColor: 'rgba(249,225,199,255)' }} className='Tripahala-contanienr'>
+      <div className="product-page1"   >
+        <div className="image-gallery">
+          {/* Side images */}
+          <div className="thumbnail-container">
+            {images.map((image, index) => (
+              <img
+                // style={{maxWidth:'50%',minWidth:'50%'}}
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)
 
-        <div style={{ display: 'flex', flexDirection: 'column', }}>
-          <img src={assets.triphalabanner} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
-
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            <img src={assets.triphala2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-
-            <img src={assets.triphala1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+                }
+              />
+            ))}
           </div>
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
 
-            <img src={assets.triphala1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-            <img src={assets.triphala2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-
+          {/* Main image with hover effect */}
+          <div className="main-image-container">
+            <img
+              src={currentImage}
+              alt="Main product"
+              className="main-image"
+            />
           </div>
-          <h1 st> Natural hair cleanser that promotes healthy, shiny hair.</h1>
+        </div>
+
+        {/* Product details */}
+        <div className="product-details">
+          <h2 > Organic Triphala Powder - Detox Cleanse for Lung, Liver, Colon, and Gut Health - Herbal Skin Care and Fiber Powder - Detox Cleanse with Triphala Ghrita and Triphala Organic India - 100g</h2>
           <ul>
             <li>
               Made from a blend of three powerful fruits – Amla, Haritaki, and Bibhitaki, Triphala powder offers an all-natural solution for hair care and overall wellness.
@@ -82,6 +109,33 @@ const Triphalapowder = () => {
             </li>
           </ul>
 
+
+        </div>
+
+      </div >
+      <button className='pppp'>Buy Now</button>
+
+
+
+
+
+      <div style={{ marginTop: '4rem', backgroundColor: 'rgba(249,225,199,255)' }} className='Tripahala-contanienr'>
+
+        <div style={{ display: 'flex', flexDirection: 'column', }}>
+          <img src={assets.triphalabanner} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
+          {/* 
+          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
+            <img src={assets.triphala2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+
+            <img src={assets.triphala1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+          </div>
+          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
+
+            <img src={assets.triphala1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+            <img src={assets.triphala2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+
+          </div>
+      */}
 
 
         </div>

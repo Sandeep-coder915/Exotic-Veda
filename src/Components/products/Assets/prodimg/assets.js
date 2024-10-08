@@ -4,15 +4,10 @@
 // import homebanner7 from '../Homebanner/handrolled  longcotton wick.png'
 // import homebanner8 from '../Homebanner/Cowgheediysbatti.png'
 // ============end==================
-
-
 import haircarebanner from './HAIRE CARE BANNNER.png'
-
 import skincarebaner from './banner for skins care.png'
 import Dietbanner from './dietary use banner of exotic veda-01.png'
-
 import collage from './Collage 2-01.png'
-
 // =====home banner======
 import homebanner2 from './Skincare Beauty Product Features Banner Facebook Cover (2).png'
 import homebanner1 from './Skincare Beauty Product Features Banner Facebook Cover (6).webp'
@@ -21,24 +16,16 @@ import homebanner3 from './Skincare Beauty Product Features Banner Facebook Cove
 import homebanner4 from './banner for amzon store.png'
 import homebanner5 from './Exotic veda Alum Bar (1).png'
 
-
-
-
 // ==Shika kai images ====
-import shika2 from '../Beauty Product Instagram Post/Shikakai  Powder  Frontn.png'
-import shika1 from '../Beauty Product Instagram Post/skikhai.png'
-
-import shikabannersttre from './WhatsApp Image 2024-09-09 at 13.42.59_799fa071.jpg'
-import shikabanner from './shika970.png'
-
+import shika2 from '../shikakipowder/Shikakai  Powder  Frontn.png'
+import shika1 from '../shikakipowder/skikhai.png'
+import  shika3 from '../shikakipowder/shikakai.png'
+import  shika4 from '../shikakipowder/shikaaipowder.jpg'
+import  shika5 from '../shikakipowder/shikakai powdder.jpg'
+import shikabannersttre from '../shikakipowder/WhatsApp Image 2024-09-09 at 13.42.59_799fa071.jpg'
+import shikabanner from '../shikakipowder/shika970.png'
 // =====end of shikaa ====
-
-
 import sandalfront from '../prodimg/sandalwood Fornt.png'
-
-
-
-
 // ===Alium BAr  ===
 import alum1 from '../Alumbar/aftershave.jpg'
 import alum2 from '../Alumbar/banner2.jpg'
@@ -60,17 +47,7 @@ import amlaben from '../AmlaAseets/benefit  of amla.png'
 import amlafetures from '../AmlaAseets/amlfet.png'
 import amalpowderbowl from '../AmlaAseets/amla owder.png'
 // ======Amla End  =============
-
-
 import jamuseed from '../jamunseed/jamunf.jpg'
-
-import multani from './32.png'
-import sandal1 from './Sandalwood 2 banner (1).png'
-
-import multanibanner1 from './Multani mitti-01.png'
-
-
-
 // ================Aloe vera pictures  ====================
 import aloebanner1 from '../Aloe/aloe ver banner stretch_Vegan Circle Green copy (1).png'
 import aloebanner2 from './banner.png'
@@ -81,15 +58,22 @@ import aloeback from '../Aloe/Amazon.png'
 import aloe33 from '../Aloe/aloePowder.png'
 import aloebene from '../Aloe/aloebenifts.png'
 import aloehair from '../Aloe/haircareimg.webp'
-
-
-
 // ================Aloe vera picturesend  ====================
 
-import multaniposter from './Multani-mitti-banner.png'
 
+// ======multani mittiii==============
+
+import multaniposter from './Multani-mitti-banner.png'
+import multani from './32.png'
+import  multani33 from './multani.jpg'
+import  multanimitti45 from './multani Mitti  Exotic VEda .png'
+import  multanimitti4 from './frr.jpg'
+import  multanimitti343 from './ghjgj.jpg'
+import sandal1 from './Sandalwood 2 banner (1).png'
+import multanibanner1 from './Multani mitti-01.png'
 import sandalcertification from './sandalwwod-certifiation-banner.png'
 
+// ====multani end  =============
 
 
 // =======Curry leaf  powder =======
@@ -100,11 +84,7 @@ import Currybenefits from '../curryleaf/Curry Benfits.png'
 import curryuse from '../curryleaf/usecurry.jpg'
 import curryback from '../curryleaf/curryback.png'
 // import Curryfront from './Curry Front.png'
-
-
 // =======Curry leaf  powder end =======
-
-
 // ======henna  Powder ==============
 import Hennabanner1 from '../hennapowder/heenna-powder-banner-3.png'
 import Hennabanner2 from '../hennapowder/heenna-powefer-banner (1).png'
@@ -128,9 +108,13 @@ import lemonbowl from '../Lemongrass/lemonbowl.jpg'
 import certification from './CERTIFICATION BANNERS22-01.png'
 
 // ===Triphala Powder ====
-import triphala2 from '../Beauty Product Instagram Post/Tripahal 2.png'
-import triphalabanner from '../Beauty Product Instagram Post/Tripahla banner  .jpg'
-import triphala1 from '../Beauty Product Instagram Post/Tripahala Powder  1.png'
+import triphala2 from '../triphala/Tripahal 2 copy.png'
+import triphalabanner from '../triphala/Tripahla banner  .jpg'
+import triphala1 from '../triphala/Tripahala Powder  1.png'
+import triphala3 from  '../triphala/Direction if Thripahala.png'
+import triphala4 from  '../triphala/Tripahal 2.png'
+import triphala5 from  '../triphala/Tripahala Powder  1.png'
+
 // ======jamunsed import ''
 import jamunb1 from '../jamunseed/jamun.jpg'
 import jamunf from '../jamunseed/jamunf.jpg'
@@ -241,7 +225,7 @@ export const assets = {
 
 
     // =====Tripahla Powder =====
-    triphala2, triphalabanner, triphala1,
+    triphala2, triphalabanner, triphala1,triphala3,triphala4,triphala5,
     // ===jamunseend'======
     jamunb1, jamunf,jamunb2,jamunb3,
 
@@ -253,7 +237,7 @@ export const assets = {
 
     // ====Shikaki ====
     shikabannersttre, shika2,
-    shikabanner, shika1,
+    shikabanner, shika1,shika4,shika3,shika5,
 
     certification,
 
@@ -278,7 +262,6 @@ export const assets = {
 
 
 
-    multani,
     // ==sandalwood  igm======
 
 
@@ -304,6 +287,7 @@ export const assets = {
 
     // ===Multani Mittti=====
 
+    multani,  multani33, multanimitti45,  multanimitti343,  multanimitti4,
     multanibanner1,
     multaniposter,
     skincarebaner,

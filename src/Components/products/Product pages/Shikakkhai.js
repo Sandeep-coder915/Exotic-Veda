@@ -1,29 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { assets } from '../Assets/prodimg/assets';
 import { ShikaahairCareRecipes } from './Recepisdata'; // Import the recipe data
 import Reciepicard from './Reciepicard'
 const Shikakkhai = () => {
+  const images = [
+    assets.shika1,
+    assets.shika2,
+    assets.shika3,
+    assets.shika5,
+    assets.shika4,
+  ];
+
+  // State to keep track of the currently displayed image
+  const [currentImage, setCurrentImage] = useState(images[0]);
+
+  // Function to change the main image when clicking a side image
+  const handleImageClick = (image) => {
+    setCurrentImage(image);
+  };
   return (
     <>
+      <div className="product-page1"   >
+        <div className="image-gallery">
+          {/* Side images */}
+          <div className="thumbnail-container">
+            {images.map((image, index) => (
+              <img
+                // style={{maxWidth:'50%',minWidth:'50%'}}
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className="thumbnail"
+                onClick={() => handleImageClick(image)
 
-      <div style={{ marginTop: '4rem', backgroundColor: 'rgba(244,120,171,255)' }} className='shikakai-contanienr'>
-
-        <div style={{ display: 'flex', flexDirection: 'column', }}>
-          <img src={assets.shikabannersttre} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
-
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            <img src={assets.shika2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-
-            <img src={assets.shika1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
+                }
+              />
+            ))}
           </div>
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            <img src={assets.shika1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-            <img src={assets.shika2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
 
-
+          {/* Main image with hover effect */}
+          <div className="main-image-container">
+            <img
+              src={currentImage}
+              alt="Main product"
+              className="main-image"
+            />
           </div>
-          <h1 st> Natural hair cleanser that promotes healthy, shiny hair.</h1>
+        </div>
 
+        {/* Product details */}
+        <div className="product-details">
+          <h1 style={{ textAlign: 'justify', fontSize: '18px' }}>
+            Organic Shikakai Powder Natural Hair Cleanser and Conditioner, Non-GMO, Herbal Formula for Strong, Shiny Hair, 100g</h1>
+          <h2>About this item</h2>
           <ul  >
             <li>
               Crafted from pure and organic shikakai pods, our shikakai powder offers a natural and gentle solution for hair care.
@@ -49,13 +78,18 @@ const Shikakkhai = () => {
             <li>100% pure and chemical-free, ideal for DIY hair care routines and suitable for all hair types.</li>
 
           </ul>
-
-
-
-
-
         </div>
 
+      </div >
+      <button className='pppp'>Buy Now</button>
+
+
+
+
+      <div style={{ marginTop: '4rem', }} className='shikakai-contanienr'>
+        <div style={{ display: 'flex', flexDirection: 'column', }}>
+          <img src={assets.shikabannersttre} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
+        </div>
         {/* Content based on active tab */}
         <div className="tab-content" >
           <div className="hair-care-detail-page" style={{ minWidth: '50%' }}>
@@ -66,7 +100,6 @@ const Shikakkhai = () => {
               ))}
             </div>
           </div>
-
           <p className='disclaimer'><span>Disclaimer:</span> Use Shikakai Powder externally. Avoid contact with eyes, and discontinue use if irritation occurs.</p>
         </div>
       </div>

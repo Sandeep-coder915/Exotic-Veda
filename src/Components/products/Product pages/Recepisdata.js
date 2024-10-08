@@ -1,5 +1,5 @@
 import { assets } from '../Assets/prodimg/assets';
- 
+
 
 // recipesData.js
 // Update with the correct path to your images
@@ -1641,7 +1641,7 @@ export const multanirecipes = [
       'Rinse off with lukewarm water and pat your skin dry.',
     ],
     benefits: 'Controls excess oil, reduces acne, tightens pores, and deeply cleanses the skin.',
-    img: assets.sandaal3img,
+    img: assets.multani,
   },
   {
     id: 2,
@@ -1659,7 +1659,7 @@ export const multanirecipes = [
       'Rinse off with lukewarm water and gently pat dry.',
     ],
     benefits: 'Hydrates and nourishes dry skin, providing moisture and soothing irritation without over-drying.',
-    img: assets.indheal,
+    img: assets.multani,
   },
   {
     id: 3,
@@ -1695,7 +1695,7 @@ export const multanirecipes = [
       'Rinse off with lukewarm water and pat dry.',
     ],
     benefits: 'Reduces fine lines, tightens the skin, and improves elasticity for a youthful appearance.',
-    img: assets.indheal,
+    img: assets.multani,
   },
   {
     id: 5,
@@ -1713,7 +1713,7 @@ export const multanirecipes = [
       'Rinse off with lukewarm water and gently pat dry.',
     ],
     benefits: 'Brightens the skin, reduces dark spots, and revitalizes dull, tired-looking skin.',
-    img: assets.indheal,
+    img: assets.multani,
   },
   {
     id: 6,
@@ -1731,7 +1731,7 @@ export const multanirecipes = [
       'Rinse off with lukewarm water and gently pat dry.',
     ],
     benefits: 'Cleanses and refreshes the skin, maintaining a natural balance and smooth texture.',
-    img: assets.indheal,
+    img: assets.multani,
   },
 ];
 
@@ -1752,7 +1752,7 @@ export const multanihairCareRecipes = [
       'Rinse thoroughly with lukewarm water and follow with a mild shampoo.',
     ],
     benefits: 'Absorbs excess oil, cleanses the scalp, and leaves hair feeling fresh and light.',
-    image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    image: assets.multani,  // Replace 'assets.indheal' with the correct image path or import
   },
   {
     id: 2,
@@ -1771,7 +1771,7 @@ export const multanihairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.',
     ],
     benefits: 'Hydrates and nourishes dry hair, making it softer, smoother, and more manageable.',
-    image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    image: assets.multani,  // Replace 'assets.indheal' with the correct image path or import
   },
   {
     id: 3,
@@ -1789,7 +1789,7 @@ export const multanihairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.',
     ],
     benefits: 'Reduces dandruff, soothes the scalp, and promotes a healthier scalp environment.',
-    image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    image: assets.multani,  // Replace 'assets.indheal' with the correct image path or import
   },
   {
     id: 4,
@@ -1808,7 +1808,7 @@ export const multanihairCareRecipes = [
       'Rinse thoroughly with cold or lukewarm water (not hot, to avoid cooking the egg) and shampoo as usual.',
     ],
     benefits: 'Strengthens hair roots, promotes hair growth, and adds volume and shine to your hair.',
-    image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    image: assets.multani, // Replace 'assets.indheal' with the correct image path or import
   },
   {
     id: 5,
@@ -1827,7 +1827,7 @@ export const multanihairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.',
     ],
     benefits: 'Repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-    image: assets.indheal,  // Replace 'assets.indheal' with the correct image path or import
+    image: assets.multani,  // Replace 'assets.indheal' with the correct image path or import
   },
   {
     id: 6,
@@ -1845,7 +1845,7 @@ export const multanihairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.',
     ],
     benefits: 'Cleanses the scalp, balances oil production, and keeps hair soft and manageable.',
-    image: assets.indheal,  // Replace 'roswater' with the correct image path or import
+    image: assets.multani,  // Replace 'roswater' with the correct image path or import
   },
 ];
 
