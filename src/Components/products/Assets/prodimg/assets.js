@@ -60,7 +60,7 @@ import jamuseed from '../jamunseed/jamunf.jpg'
 // ================Aloe vera pictures  ====================
 import aloebanner1 from '../Aloe/aloe ver banner stretch_Vegan Circle Green copy (1).png'
 import aloebanner2 from './banner.png'
-import aloe3 from '../Beauty Product Instagram Post/Aloe vera  front.png'
+import aloe3 from '../Aloe/Aloe vera  front.png'
 import aloeuse1 from '../Aloe/aloeuse1.jpg'
 import aloeuse2 from '../Aloe/close-up-woman-wearing-face-mask.jpg'
 import aloeback from '../Aloe/Amazon.png'
@@ -72,14 +72,14 @@ import aloehair from '../Aloe/haircareimg.webp'
 
 // ======multani mittiii==============
 
-import multaniposter from './Multani-mitti-banner.png'
-import multani from './32.png'
-import  multani33 from './multani.jpg'
-import  multanimitti45 from './multani Mitti  Exotic VEda .png'
+import multaniposter from '../multani/Multani-mitti-banner.png'
+import multani from '../multani/32.png'
+import  multani33 from '../multani/multani.jpg'
+import  multanimitti45 from '../multani/multani Mitti  Exotic VEda .png'
 import  multanimitti4 from './frr.jpg'
 import  multanimitti343 from './ghjgj.jpg'
 
-import multanibanner1 from './Multani mitti-01.png'
+import multanibanner1 from '../multani/Multani mitti-01.png'
 
 
 // ====multani end  =============
@@ -144,8 +144,8 @@ import moringaback from '../Moringa/moringaback.png'
 
 // ===beetroot ======
 
-import beetbanner from '../Beauty Product Instagram Post//betbanner1.jpg'
-import beetbann from './beetee.jpg'
+import beetbanner from '../beetroot/betbanner1.jpg'
+import beetbann from '../beetroot/beetee.jpg'
 import betroot from '../beetroot/34.png'
 import beetrootbenefits from '../beetroot/beetrootbenfits .png'
 import beetrrotuse1 from '../beetroot/products (2).png'
