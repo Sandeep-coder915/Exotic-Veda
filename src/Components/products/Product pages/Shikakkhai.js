@@ -53,7 +53,7 @@ const Shikakkhai = () => {
           <h1 style={{ textAlign: 'justify', fontSize: '18px' }}>
             Organic Shikakai Powder Natural Hair Cleanser and Conditioner, Non-GMO, Herbal Formula for Strong, Shiny Hair, 100g</h1>
           <h2>About this item</h2>
-          <ul  >
+          <ul style={{ textAlign: 'justify', }} >
             <li>
               Crafted from pure and organic shikakai pods, our shikakai powder offers a natural and gentle solution for hair care.
               Known for its rich nutrients, shikakai has been used in Ayurveda for centuries to promote hair growth, reduce dandruff,

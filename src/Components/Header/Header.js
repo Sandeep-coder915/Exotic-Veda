@@ -63,6 +63,7 @@ const Navbar = () => {
                 <Link to='/category/haircare'><li>Hair Care</li></Link>
                 <Link to='/category/skincare'><li>Skin Care</li></Link>
                 <Link to='/category/dietary'><li>Dietary</li></Link>
+                <Link to='/category/puja-items'><li>Puja Essential</li></Link>
               </ul>
             )}
           </li>

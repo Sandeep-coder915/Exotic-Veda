@@ -80,9 +80,9 @@ const Triphalapowder = () => {
         </div>
 
         {/* Product details */}
-        <div className="product-details">
-          <h2 > Organic Triphala Powder - Detox Cleanse for Lung, Liver, Colon, and Gut Health - Herbal Skin Care and Fiber Powder - Detox Cleanse with Triphala Ghrita and Triphala Organic India - 100g</h2>
-          <ul>
+        <div className="product-details" style={{textAlign:'justify'}}>
+          <h2 style={{textAlign:'justify'}} > Organic Triphala Powder - Detox Cleanse for Lung, Liver, Colon, and Gut Health - Herbal Skin Care and Fiber Powder - Detox Cleanse with Triphala Ghrita and Triphala Organic India - 100g</h2>
+          <ul >
             <li>
               Made from a blend of three powerful fruits – Amla, Haritaki, and Bibhitaki, Triphala powder offers an all-natural solution for hair care and overall wellness.
             </li>
@@ -110,6 +110,7 @@ const Triphalapowder = () => {
           </ul>
 
 
+
         </div>
 
       </div >
@@ -123,19 +124,7 @@ const Triphalapowder = () => {
 
         <div style={{ display: 'flex', flexDirection: 'column', }}>
           <img src={assets.triphalabanner} alt='Sandalwood' style={{ maxWidth: '100%', minWidth: '100%' }} />
-          {/* 
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-            <img src={assets.triphala2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-
-            <img src={assets.triphala1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-          </div>
-          <div style={{ display: 'flex', marginBottom: '0', padding: '0' }}>
-
-            <img src={assets.triphala1} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-            <img src={assets.triphala2} alt='Shikakai' style={{ maxWidth: '50%', marginBottom: '0', minWidth: '50%' }} />
-
-          </div>
-      */}
+         
 
 
         </div>

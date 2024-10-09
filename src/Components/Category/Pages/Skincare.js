@@ -15,23 +15,23 @@ const Skincare = () => {
           In today's fast-paced world, the quest for healthy, glowing skin often leads us to a myriad of skincare products filled with chemicals and synthetic ingredients. However, the wisdom of ancient practices offers a refreshing alternative. Exotic Veda, a brand rooted in Ayurvedic traditions, brings you a range of skincare products harnessing the power of nature's finest ingredients. 
         </p>
         <h3>Key Ingredients That Make a Difference</h3>
-        <ul>
+        <ul style={{padding:'50px'}}>
           <li><strong>Amla:</strong> A powerhouse of vitamin C, Amla helps combat free radicals, promotes collagen production, and enhances skin elasticity.</li>
-          <li><strong>Hyaluronic Acid:</strong> A natural humectant that keeps your skin hydrated and plump.</li>
+          {/* <li><strong>Hyaluronic Acid:</strong> A natural humectant that keeps your skin hydrated and plump.</li> */}
           <li><strong>Sandalwood Powder:</strong> Known for its anti-inflammatory and antiseptic properties, sandalwood soothes irritated skin and reduces blemishes.</li>
           <li><strong>Turmeric:</strong> A skin brightener with anti-inflammatory and antibacterial properties, turmeric evens out skin tone.</li>
           <li><strong>Moringa Leaf Powder:</strong> Rich in vitamins and minerals, moringa nourishes the skin and fights signs of aging.</li>
         </ul>
-        <h3>Creating Your Skincare Ritual</h3>
-        <p>To truly experience the transformative effects of Exotic Veda, it's essential to adopt a dedicated skincare routine. Here’s a step-by-step guide:</p>
-        <ol>
+        <h3 >Creating Your Skincare Ritual</h3>
+        <p s >To truly experience the transformative effects of Exotic Veda, it's essential to adopt a dedicated skincare routine. Here’s a step-by-step guide:</p>
+        <ul>
           <li><strong>Cleanse:</strong> Start with a gentle cleanser.</li>
           <li><strong>Exfoliate:</strong> Use an exfoliating mask or scrub once or twice a week.</li>
           <li><strong>Tone:</strong> Apply a toner to balance your skin’s pH levels.</li>
           <li><strong>Treat:</strong> Use serums or oils that address specific skin concerns.</li>
           <li><strong>Moisturize:</strong> Lock in moisture with a nourishing moisturizer.</li>
           <li><strong>Sun Protection:</strong> Never skip sunscreen!</li>
-        </ol>
+      </ul>
         <h3>DIY Recipes with Exotic Veda Products</h3>
         <p>Enhance your skincare routine with simple DIY recipes:</p>
         <ul>

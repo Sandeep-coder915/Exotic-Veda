@@ -13,7 +13,7 @@ const Haircare = () => {
         img: assets.aloe3,
         title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
         description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
-        updateInfo: ' Click Here to Learn Our Tips For Diffrent-diffrent Pupose ',
+        updateInfo: 'Click here to Learn Our  Tips ',
         buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
         route: '/products/aloevera-powder',
       },
@@ -21,10 +21,10 @@ const Haircare = () => {
         id: 2,
         link: '/products/amla-powder',
         img: assets.Amla1,
-        title: 'Exotic Veda Amla Powder: Natural Solution for Healthy Hair, Scalp, and Skin',
-        description: 'Welcome To Exotic Veda',
+        title: 'Amla Powder: Natural Solution for Healthy Hair, Skin & Diet',
+        description: 'Boost your skin and hair care with pure Amla Powder, rich in Vitamin C. Ideal for enhancing natural radiance and promoting healthy hair growth',
         updateInfo: 'Click here to Learn Our  Tips ',
-        buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+        buyLink: 'https://revaais.com/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=5edfdd030&_ss=r',
         route: '/products/amla-powder',
       },
       {
@@ -34,7 +34,7 @@ const Haircare = () => {
         title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
         description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
         updateInfo: 'Click here to Learn Our  Tips ',
-        buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+        buyLink: 'https://revaais.com/products/exotic-veda-curry-powder-organic-curry-powder?_pos=3&_sid=5edfdd030&_ss=r',
         route: '/products/curry-leaf-powder'
       },
 
@@ -46,16 +46,17 @@ const Haircare = () => {
         title: 'Pure Henna Powder   Nourish, Strengthen, and Color Your Hair Naturally',
         description: 'Enhance your hair’s health and color with our pure Henna Powder. It provides a natural tint, conditions hair, and promotes a healthy scalp',
         updateInfo: 'Click here to Learn Our  Tips ',
-        buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
+        buyLink: 'https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g?_pos=11&_sid=5edfdd030&_ss=r',
         route: '/products/henna-powder',
-      }, {
+      }, 
+      {
         id: 5,
         link: '/products/shikhakhai-powder',
         img: assets.shika2,
         title: 'Pure Shikakai Powder   Promote Hair Growth and Scalp Health Naturally',
-        description: 'Welcome To Exotic Veda',
+        description: 'Shikakai Powder is a natural hair cleanser that strengthens roots, promotes growth, and adds shine while gently nourishing your scalp and hair',
         updateInfo: 'Click here to Learn Our  Tips ',
-        buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+        buyLink: 'https://revaais.com/products/organic-shikakai-powder?_pos=10&_sid=5edfdd030&_ss=r',
         route: '/recipe-aloe-vera'
       },
 

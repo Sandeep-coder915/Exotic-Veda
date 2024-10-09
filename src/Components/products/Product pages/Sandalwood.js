@@ -5,11 +5,11 @@ import { sandalwoodrecipes } from './Recepisdata';
 const Sandalwood = () => {
 
   const images = [
-    assets.henna,
-    assets.hennaback,
-    assets.hennause,
-    assets.hennabowl,
-    assets.hennadiy,
+    assets.sandalfront,
+    assets.sandaluse2,
+    assets.sandaluse,
+    assets.sandaluse4,
+    assets.sandaluse3,
   ];
 
   // State to keep track of the currently displayed image
@@ -102,22 +102,8 @@ const Sandalwood = () => {
         </div>
 
         <div className='Aloevera-Description' style={{ maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-          <h1 style={{ textAlign: 'center' }}> Pure, Organic Sandalwood Powder for Men & Women Face Pack to Help Detan, Lighten, and Brighten | 100% Natural, Non-GMO (100g)</h1>
-
-          <div >
-            <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
-
-              <div className='img-aloe'>
-                <img src={assets.sandaal2img} alt='hel' style={{ maxWidth: '50%' }} />
-                <img src={assets.sandaal3img} alt='hel' style={{ maxWidth: '50%' }} />
-              </div>
-            </a>
-
-          </div>
-          <ul>
-            <li>
-              ORGANIC SANDALWOOD POWDER: Picture your skin that’s smooth, spot-free, young, radiant, and glowing? That’s the results you will be able to achieve when you regularly use our Natural Sandalwood Powder on your face. It is not any ordinary powder, it is your new way to have a natural de-tanning, lightening, and brightening without using any harmful chemicals.          </li>
-          </ul>
+          
+         
 
           <div style={{ display: 'flex', maxWidth: '100%' }}>
             <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
@@ -125,30 +111,14 @@ const Sandalwood = () => {
 
           </div>
 
-          <h2 style={{ textAlign: 'start' }}>About this item</h2>
-          <ul>
-            <li> 100% NATURAL, GMO-FREE: Trust in the purity of our natural sandalwood powder. Free from GMOs and adhering to GMP quality standards, our product is crafted with your health and well-being in mind. Follow a skincare routine that respects your body and the environment.</li>
-            <li> HELPS FIGHT ACNE: Tired of blemishes and pimples playing peek-a-boo? Let's put an end to that. Our Sandalwood Powder is your natural warrior against these unwelcome visitors, helping you achieve that clear, spotless look you’ve been dreaming of. Also, it’s an excellent natural exfoliator. It gently removes dead skin cells, giving you a fresh canvas every day.</li>
-
-            <li> PREVENTS AGING SIGNS: Who says you can't pause aging? Sandalwood has anti-aging properties and is more like a time machine, which helps slow down those fine lines and wrinkles. Use it regularly, and watch your skin retain its youthful bounce and vitality.</li>
-
-            <li> SOOTHES, HEALS YOUR SKIN: Skin irritations, rashes, prickly heat – whatever your skin woe, our pure sandalwood powder is here to soothe, heal, and calm your skin. Think of it as your personal skin rescuer, always ready to comfort you when your skin feels irritated or just needs a little TLC.</li>
-            <li>EASY TO USE: To make a nice face pack that de-tans, lightens, and brightens, mix 2 tablespoons of our Sandalwood Powder with 1 teaspoon of multani mitti powder and a little water to create a smooth paste. Apply evenly over your face and neck, leave for 15-20 minutes, then wash off to reveal glowing, spot-free skin.</li>
-
-          </ul>
+       
+        
         </div>
-        {
-
-          /* <div className='Aloevera-btn'  style={{display:'flex',justifyContent:'center',gap:'10px'}} >
-          <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785'> <button className='btn2'  > Buy Now</button></a> 
-          <a href='https://www.revaais.shop/'><button className='btn2'  > Vist Our Store</button></a> 
-          </div> */
-
-        }
+      
 
       </div>
 
-      <div className="tabs" style={{ display: 'flex', justifyContent: 'center' }}>
+      <div className="tabs" style={{ display: 'flex', justifyContent: 'center', marginTop:'20px' }}>
 
         <button
           className={setActiveTab & activeTab === 'skinCare' ? 'active' : ''}
@@ -200,7 +170,7 @@ const Sandalwood = () => {
 
 
 
-        <p className='disclaimer'><span>Disclaimer:</span>Use Sandalwood  Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
+        <p className='disclaimer' style={{color:'black'}}><span>Disclaimer:</span>Use Sandalwood  Powder externally.Avoid contact with eyes, and discontinue use if irritation occurs</p>
       </div>
 
 

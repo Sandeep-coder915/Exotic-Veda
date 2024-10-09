@@ -25,7 +25,16 @@ import  shika5 from '../shikakipowder/shikakai powdder.jpg'
 import shikabannersttre from '../shikakipowder/WhatsApp Image 2024-09-09 at 13.42.59_799fa071.jpg'
 import shikabanner from '../shikakipowder/shika970.png'
 // =====end of shikaa ====
-import sandalfront from '../prodimg/sandalwood Fornt.png'
+
+// ======sandalwood powder ======
+import sandalfront from  '../sabdalwood/sandalwood Fornt.png'
+import sandaluse from  '../sabdalwood/sandal how to  use.png'
+import sandaluse2 from  '../sabdalwood/sandalwood powder.png'
+import sandaluse3 from  '../sabdalwood/san.jpg'
+import sandaluse4 from  '../sabdalwood/sande.jpg'
+import sandal1 from '../sabdalwood/Sandalwood 2 banner (1).png'
+import sandalcertification from '../sabdalwood/sandalwwod-certifiation-banner.png'
+
 // ===Alium BAr  ===
 import alum1 from '../Alumbar/aftershave.jpg'
 import alum2 from '../Alumbar/banner2.jpg'
@@ -69,9 +78,9 @@ import  multani33 from './multani.jpg'
 import  multanimitti45 from './multani Mitti  Exotic VEda .png'
 import  multanimitti4 from './frr.jpg'
 import  multanimitti343 from './ghjgj.jpg'
-import sandal1 from './Sandalwood 2 banner (1).png'
+
 import multanibanner1 from './Multani mitti-01.png'
-import sandalcertification from './sandalwwod-certifiation-banner.png'
+
 
 // ====multani end  =============
 
@@ -266,7 +275,7 @@ export const assets = {
 
 
     sandal1,
-    sandalfront,
+    sandalfront,sandaluse,sandaluse2,sandaluse3,sandaluse4,
     sandalcertification,
     // ===Triphala===
 

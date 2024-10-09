@@ -12,7 +12,7 @@ const PoojaItmes = () => {
       title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
       description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
       updateInfo: ' Click here to Learn Our  Tips  ',
-      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      buyLink: 'https://revaais.com/products/cow-ghee-batti-cotton-wick-organic-handcrafted-non-toxic-puja-items-ghee-wicks-for-pooja-long-lasting-aromatic-ghee-diya-wicks-for-pooja-eco-conscious-clean-burning-pack-of-50?_pos=15&_sid=5edfdd030&_ss=r',
       route: '/',
     },
     {
@@ -22,7 +22,7 @@ const PoojaItmes = () => {
       title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
       description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
       updateInfo: ' Click here to Learn Our  Tips  ',
-      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      buyLink: 'https://revaais.com/products/round-cotton-wick-with-brass-wick-holder-traditional-brass-diya-wick-holder-with-cotton-wick-perfect-cotton-wick-with-brass-holder-for-oil-lamps-diyas-pack-of-500?_pos=17&_sid=5edfdd030&_ss=r',
       route: '/',
     }, 
     {
@@ -32,7 +32,7 @@ const PoojaItmes = () => {
       title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
       description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
       updateInfo: ' Click here to Learn Our  Tips  ',
-      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      buyLink: 'https://revaais.com/products/premium-long-cotton-wick-with-two-brass-wick-holder-for-pooja-items-luxury-organic-cotton-wicks-for-puja-thali-pooja-wick-set-200-pieces-decorative-and-clean-burning?_pos=14&_sid=5edfdd030&_ss=r',
       route: '/',
     },
     {
@@ -42,14 +42,14 @@ const PoojaItmes = () => {
       title: ' Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
       description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere',
       updateInfo: ' Click here to Learn Our  Tips  ',
-      buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+      buyLink: 'https://revaais.com/products/handcrafted-pujan-clay-diya-set-of-15-eco-friendly-homemade-diya-with-premium-cow-ghee-wick-for-spiritual-rituals-and-religious-ceremonies-meditation?_pos=19&_sid=5edfdd030&_ss=r',
       route: '/',
     },
 
   ];
   return (
     <div style={{ marginTop: '4.4rem', textAlign: 'justify' }}>
-      <img src={assets.haircarebanner} alt='exotic veda,orgainic,revaais, natural ' style={{ maxWidth: '100%' }} />
+      {/* <img src={assets.haircarebanner} alt='exotic veda,orgainic,revaais, natural ' style={{ maxWidth: '100%' }} /> */}
       {/* <div className="blog-container">
       <h1 className="blog-title">Unlocking Nature's Secrets: A Guide to Hair Care with Exotic Veda</h1>
       <img src={assets.homebanner1} alt='exotic veda,orgainic,revaais, natural ' style={{ maxWidth: '100%' }} />
