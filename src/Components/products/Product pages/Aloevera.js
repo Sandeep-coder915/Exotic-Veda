@@ -67,7 +67,7 @@ const Aloevera = () => {
                 // style={{maxWidth:'50%',minWidth:'50%'}}
                 key={index}
                 src={image}
-                alt={`Thumbnail ${index + 1}`}
+                alt='Aloe-vera Powder  exotic veda  by revaais -100% natural and  organic   '
                 className="thumbnail"
                 onClick={() => handleImageClick(image)
 
@@ -90,13 +90,13 @@ const Aloevera = () => {
         <div className="product-details"  >
           <h1 style={{ textAlign: 'center', fontSize: '18px' }}>Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)</h1>
 
- 
+
 
           <h2>About this item</h2>
           <ul style={{ textAlign: 'justify', fontSize: '14px' }}>
 
-          <li>100% Natural, GMO Free: Our Product Is 100% Natural, Organic, GMO-Free, And Manufactured Under GMP-Compliant Facilities. Sourced From The Finest Aloe Vera Plants From Organic Farms, You're Receiving A Package Of Unadulterated Aloe Vera Powder.</li>
-           <li>Skin-Nourishing Aloe Vera : Drink Our Organic Aloe Vera To Nourish Your Skin From Within. It's A Great Addition To Your Skincare Set, Complementing Products Like Face Oil And Vitamin C Powder For A Holistic Approach To Skin Care.</li>
+            <li>100% Natural, GMO Free: Our Product Is 100% Natural, Organic, GMO-Free, And Manufactured Under GMP-Compliant Facilities. Sourced From The Finest Aloe Vera Plants From Organic Farms, You're Receiving A Package Of Unadulterated Aloe Vera Powder.</li>
+            <li>Skin-Nourishing Aloe Vera : Drink Our Organic Aloe Vera To Nourish Your Skin From Within. It's A Great Addition To Your Skincare Set, Complementing Products Like Face Oil And Vitamin C Powder For A Holistic Approach To Skin Care.</li>
             <li>Nutrient-Rich Superfood That Supports Hair Growth, Improves Skin Health, And Enhances Immunity.</li>
             <li>Promotes Hair Growth: Aloe Vera Is Packed With A Whole Bunch Of Goodness—Proteolytic Enzymes, Vitamins, Minerals, Polysaccharides, Amino Acids, Antioxidants, And More! They Work Synergistically To Help Nourish The Scalp, Boost Growth, Strengthen The Hair Follicles, And Condition Them. The Results? Your Hair Won't Just Grow; It'll Be Softer, Silkier, And Healthier!</li>
             <li>DIY Aloe Hair Pack: Mix The Powder With Fresh Onion Juice To Make A Smooth Paste. Apply The Paste To Your Hair And Roots While Gently Massaging It. Make Sure To Cover Every Strand. Let It Sit For 30 Minutes For Those Powerful Nutrients To Soak In, Then Rinse It With Water. With Regular Use, You Will Get Silky, Nourished Locks.</li>
@@ -111,19 +111,19 @@ const Aloevera = () => {
 
 
       <div className='Product-Page-Contanier'>
-     
+
         <div>
           <a href='https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=20ea192d5&_ss=r'>
             <img src={assets.aloebanner1} alt='aloevera' style={{ width: '100%' }} />
           </a>
         </div>
         <div style={{ display: 'flex', width: '100%' }}>
-            <img src={assets.aloebanner2} alt='aloevera' style={{ width: '100%' }} />
+          <img src={assets.aloebanner2} alt='aloevera' style={{ width: '100%' }} />
 
-          </div>
-        
+        </div>
+
         <div className='Aloevera-Description' style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-{/* 
+          {/* 
           <div>
             <a href='https://revaais.com/products/pure-aloe-vera-powder?_pos=1&_psq=aloe&_ss=e&_v=1.0'>
               <div className='img-aloe'>
@@ -133,7 +133,7 @@ const Aloevera = () => {
             </a>
           </div> */}
 
-       
+
 
 
 

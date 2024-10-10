@@ -91,7 +91,7 @@ const Sandalwood = () => {
       <div className='Product-Page-Contanier'>
         <div style={{ position: 'relative', maxWidth: '100%' }}>
           <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
-            <img src={assets.sandal1} alt='aloevera ' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+            <img src={assets.sandal1} alt='Organic Pure Sandalwood Powder for Face and Skin | Natural Skincare Sandalwood Scent | Anti-inflammatory Chandan Powder | Aromatic Sandalwood Powder Organic | Scented Body Powder  ' style={{ maxWidth: '100%', maxHeight: '100%' }} />
             <div className='right-container'>
               <h2>Dont miss Out </h2>
               <p style={{ textAlign: 'center' }}>Explor  the oppurtuniites</p>
@@ -107,7 +107,7 @@ const Sandalwood = () => {
 
           <div style={{ display: 'flex', maxWidth: '100%' }}>
             <a href='https://revaais.com/products/exotic-veda-pure-organic-sandalwood-powder-for-men-women-100-natural-non-gmo-100g?_pos=1&_sid=3b47693c2&_ss=r'>
-              <img src={assets.sandalcertification} alt='aloevera ' style={{ maxWidth: '100%' }} /></a>
+              <img src={assets.sandalcertification} alt='Organic Pure Sandalwood Powder for Face and Skin | Natural Skincare Sandalwood Scent | Anti-inflammatory Chandan Powder | Aromatic Sandalwood Powder Organic | Scented Body Powder ' style={{ maxWidth: '100%' }} /></a>
 
           </div>
 
@@ -139,7 +139,7 @@ const Sandalwood = () => {
               {sandalwoodrecipes.map((recipe) => (
                 <div className="recipe-card" key={recipe.id}>
                   <div className="recipe-image">
-                    <img src={recipe.img} alt={recipe.title} style={{ maxWidth: '100%' }} />
+                    <img src={recipe.img} alt='Organic Pure Sandalwood Powder for Face and Skin | Natural Skincare Sandalwood Scent | Anti-inflammatory Chandan Powder | Aromatic Sandalwood Powder Organic | Scented Body Powder' style={{ maxWidth: '100%' }} />
                   </div>
                   <div className="recipe-details">
                     <h2>{recipe.title}</h2>
